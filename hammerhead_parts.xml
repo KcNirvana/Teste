@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+	<Tab>
+		<Name>App mod</Name><!-- name of tag -->
+		<IconNum>0</IconNum><!-- the icon -->
+		<Element>
+			<Name>Big rom 1</Name><!-- element name -->
+			<Desc>Theme1</Desc><!-- element description -->
+			<Url>http://aaa.zip</Url> <!-- the direct link -->
+			<ExternalLink>1</ExternalLink><!-- Open the broser for download the file from <url> tag. Usefull for host like rapidshare, fileshare,ecc, delete tag if don't need -->
+			<Version>1.0.0</Version> <!-- version ( only in format x.x.x not v x.x.x) -->
+			<CheckMD5>0</CheckMD5><!-- check for md5 1=true 0=false -->
+			<MD5Url>http://aaa.md5sum</MD5Url>   <!-- url where download the md5 of file, delete tag if don't use -->
+			<MD5>12345678901234567890123456789012</MD5> <!-- the md5 of file, delete tag if don't use -->
+			<RebootRecovery>0</RebootRecovery><!-- reboot on recovery after download the file 1=true 0=false -->
+			<Wipe>0</Wipe><!-- show a message for inform that full wipe is raccomandate, and if auto install on recovery, auto full wipe -->
+			<Dest>/system/app/</Dest><!-- move on directory leave blank or delete for no move -->
+			<DestChmod>0755</DestChmod> <!-- Chmod value for dest. Default is 0644 -->
+			<LaunchApp>0</LaunchApp><!-- launche the application after donwloaded 1=true 0=false -->
+			<Filter>transformer</Filter> <!--Filter for decide if element is show for this rom,if you don't need not insert this line-->
+			<ThumbnailUrl>http://www.vikispot.com/z/images/vikispot/android-w.png</ThumbnailUrl> <!-- Url for little image see on the left of element,if you don't need not insert this line -->
+			<ImageUrl>http://eeepc901.altervista.org/blog/wp-content/uploads/2010/04/android-64.png</ImageUrl> <!-- Image show when click on gallery icon in the element,if you don't need not insert this line -->
+			<ImageUrl>http://www.androidquery.com/z/images/androidquery/github.png</ImageUrl><!-- More then one image ;D,if you don't need not insert this line -->
+    </Element>
+  </Tab>
+  <Tab>
+		<Name>App mod2</Name>
+    <IconNum>2</IconNum>
+		<Element>
+			<Name>Applicazione 2</Name>
+			<Desc>Theme1</Desc>
+			<Url>http://aaa.zip</Url>
+			<Version>1.0.0</Version>
+			<CheckMD5>0</CheckMD5>
+			<RebootRecovery>0</RebootRecovery>
+			<LaunchApp>0</LaunchApp>
+		</Element>
+    <Element>
+			<Name>Applicazione 3</Name>
+			<Desc>Install</Desc>
+			<Url>http://aaa.zip</Url>
+			<Version>1.0.0</Version>
+			<CheckMD5>0</CheckMD5>
+			<RebootRecovery>0</RebootRecovery>
+			<LaunchApp>1</LaunchApp>
+		</Element>
+  </Tab>
+	<Kernels>
+		<Kernel>
+			<Name>Guevor</Name>
+			<Desc>Gueveor test 4 kernel no md5 no recovery</Desc>
+			<Url>http://goo.im/apps/Indirect/Nook_tablet/NookUnrooter.apk</Url>
+			<Version>1.0.0</Version>
+			<CheckMD5>0</CheckMD5>
+			<RebootRecovery>0</RebootRecovery>
+		</Kernel>
+		<Kernel>
+			<Name>Stock</Name>
+			<Desc>Kernel stock della rom a</Desc>
+			<Url>http://goo.im/apps/longcat/E4GT_Stock_GPSConfig_Signed-Naerok.zip</Url>
+			<Version>1.0.0</Version>
+			<CheckMD5>1</CheckMD5>
+			<RebootRecovery>1</RebootRecovery>
+			
+		</Kernel>
+		<Kernel>
+			<Name>Test sourceforge</Name>
+			<Desc>Test</Desc>
+			<Url>http://sourceforge.net/projects/microzip/files/src.7z/download</Url>
+			<Version>1.0.0</Version>
+			<CheckMD5>0</CheckMD5>
+			<RebootRecovery>0</RebootRecovery>
+			
+		</Kernel>
+		<Kernel>
+			<Name>Test sourceforge Big rom</Name>
+			<Desc>Test</Desc>
+			<Url>http://sourceforge.net/projects/fastdontlie/files/Sweet%20Child%20of%20Mine%20v3.5.zip/download</Url>
+			<Version>1.0.0</Version>
+			<CheckMD5>0</CheckMD5>
+			<RebootRecovery>0</RebootRecovery>
+			
+		</Kernel>
+		
+	</Kernels>
+	<Plugins>
+		<Plugin>
+			<Name>Plug1</Name>
+			<Desc>Plug1</Desc>
+			<Url>http://goo.im/apps/Indirect/Nook_tablet/NookUnrooter.apk</Url>
+			<Version>1.0.0</Version>
+			<CheckMD5>1</CheckMD5>
+			<RebootRecovery>1</RebootRecovery>
+			
+		</Plugin>
+		<Plugin>
+			<Name>Plug2</Name>
+			<Desc>Plug2</Desc>
+			<Url>http://www.xdafileserver.nl/Home/ASUS/Asus%20Transformer%20(TF101)/ROMS/Megatron/Gapps/gapps-ics-20120317-signed.zip</Url>
+			<Version>1.0.0</Version>
+			<CheckMD5>1</CheckMD5>
+			<RebootRecovery>1</RebootRecovery>
+			
+		</Plugin>
+	</Plugins>
+	<Themes>
+		<Theme>
+			<Name>Theme1</Name>
+			<Desc>Theme1</Desc>
+			<Url>http://www.xdafileserver.nl/Home/TF101/CM9%20by%20ricardopvz/Normal/29%20Mar/update-cm-9.0.0-RC0-tf101-KANG-29Mar-signed.zip/Kernel/Guevor/test4/guevor-test4.zip</Url>
+			<Version>1.0.0</Version>
+			<CheckMD5>1</CheckMD5>
+			<RebootRecovery>1</RebootRecovery>
+			
+		</Theme>
+		<Theme>
+			<Name>Theme2</Name>
+			<Desc>Theme2</Desc>
+			<Url>http://www.xdafileserver.nl/Home/TF101/CM9%20by%20ricardopvz/Kernel/Stock/Stock_Kernel.zip</Url>
+			<Version>1.0.0</Version>
+			<CheckMD5>1</CheckMD5>
+			<RebootRecovery>1</RebootRecovery>
+			
+		</Theme>
+	</Themes>
+	<Apps>
+		<App>
+			<Name>Applicazione 1</Name>
+			<Desc>Theme1</Desc>
+			<Url>http://dl.dropbox.com/u/3681387/UpdateMe_1_0_3_beta1.apk</Url>
+			<Version>1.0.0</Version>
+			<CheckMD5>0</CheckMD5>
+			<RebootRecovery>0</RebootRecovery>
+		</App>
+		<App>
+			<Name>App2</Name>
+			<Desc>Theme2</Desc>
+			<Url>http://dl.dropbox.com/u/3681387/UpdateMeSmartphone_beta3.apk</Url>
+			<Version>1.0.0</Version>
+			<CheckMD5>1</CheckMD5>
+			<RebootRecovery>0</RebootRecovery>
+			
+		</App>
+	</Apps>
+</Elements>
