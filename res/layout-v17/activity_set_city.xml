@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.miui.weather2.view.WeatherDynamicListView android:id="@id/act_set_city_define" android:scrollbars="none" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/act_set_city_divider_height" android:listSelector="@android:color/transparent" android:dividerHeight="@dimen/act_set_city_divider_height" android:layout_marginStart="@dimen/act_set_city_listview_horizontal_margin" android:layout_marginEnd="@dimen/act_set_city_listview_horizontal_margin" />
-    <FrameLayout android:id="@id/icon" android:paddingBottom="15.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:paddingEnd="15.0dip" android:layout_alignParentEnd="true">
-        <ImageView android:id="@id/act_set_city_add_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/action_button_main_new_light" />
-    </FrameLayout>
-</RelativeLayout>

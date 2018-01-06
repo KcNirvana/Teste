@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <ImageView android:gravity="center" android:layout_gravity="left" android:id="@id/v5_up" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/action_bar_back_light" />
-        <TextView android:textSize="@dimen/activity_set_city_action_bar_title_text_size" android:textColor="#ffffffff" android:gravity="center" android:id="@id/activity_set_city_action_bar_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/edit_city" />
-    </LinearLayout>
-    <ImageView android:layout_gravity="end|center" android:id="@id/btn_edit" android:background="@drawable/edit_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-</FrameLayout>

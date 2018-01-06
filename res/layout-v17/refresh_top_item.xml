@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="horizontal" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/refresh_cloud" android:background="@drawable/refresh_cloud_shape_0" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-    <TextView android:textSize="@dimen/refresh_time_text_size" android:textColor="@android:color/white" android:id="@id/refresh_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5.5dip" />
-</LinearLayout>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/grid_item_find_city_layout" android:background="@drawable/act_set_city_item_bg" android:layout_width="wrap_content" android:layout_height="@dimen/act_find_city_hot_city_item_height" android:paddingStart="@dimen/act_find_city_hot_city_item_padding_horizontal" android:paddingEnd="@dimen/act_find_city_hot_city_item_padding_horizontal"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/act_find_city_hot_city_item_text_size" android:textColor="#e6000000" android:gravity="center" android:id="@id/grid_item_find_city_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-    <ImageView android:id="@id/hot_city_already_have" android:background="#00000000" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/hot_city_icon_location" android:paddingStart="3.0dip" />
-</LinearLayout>

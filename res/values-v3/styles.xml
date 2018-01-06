@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <style name="WeatherMainTheme" parent="@miui:style/Theme.Dark.NoTitle">
-        <item name="android:windowBackground">@android:color/transparent</item>
-        <item name="android:windowDisablePreview">true</item>
-        <item name="miui:immersionMenuEnabled">true</item>
-        <item name="miui:windowTranslucentStatus">transparentDark</item>
-    </style>
-</resources>

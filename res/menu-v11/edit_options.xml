@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:icon="@miui:drawable/action_button_new_light" android:id="@id/menu_add_city" android:background="#ffffffff" android:title="@string/add_city" android:showAsAction="always|withText" />
-</menu>

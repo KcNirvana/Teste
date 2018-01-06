@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@miui:style/Widget.ListView.Item.SingleLine"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="start|center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
-        <TextView android:id="@id/result_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@miui:style/TextAppearance.Widget.List.Primary" />
-        <TextView android:layout_gravity="start" android:id="@id/en_belonings" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@miui:style/TextAppearance.Widget.List.Secondary" />
-    </LinearLayout>
-    <TextView android:gravity="center" android:id="@id/already_have" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/act_weather_find_city_added" style="@miui:style/TextAppearance.Widget.List.Secondary" />
-</LinearLayout>

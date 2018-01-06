@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <View android:background="@drawable/card_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    <TextView android:textSize="12.0sp" android:textColor="#80000000" android:gravity="start|center" android:id="@id/unit_manager_title" android:background="@drawable/list_medium_top_item_background_normal" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="@string/unit" android:singleLine="true" style="@miui:style/TextAppearance.Widget.List.Primary" />
-    <include android:id="@id/unit_temperature" layout="@layout/unit_manager_item" />
-    <include android:id="@id/unit_wind" layout="@layout/unit_manager_item" />
-</LinearLayout>

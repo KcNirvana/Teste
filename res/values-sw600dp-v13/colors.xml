@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="find_city_gridview_item_background">#ffffffff</color>
-    <color name="hourly_forecast_bottom_text_color">#80000000</color>
-    <color name="hourly_forecast_text_color">#a6000000</color>
-    <color name="realtime_cityname_color">#ccffffff</color>
-    <color name="weather_default_bg_color">#ff83a8eb</color>
-</resources>
