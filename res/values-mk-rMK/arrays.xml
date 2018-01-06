@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="moon_desc">
+        <item>Нова месечина</item>
+        <item>Првиот квартал</item>
+        <item>Првиот квартал</item>
+        <item>Првиот квартал</item>
+        <item>Полна месечина</item>
+        <item>Првиот квартал</item>
+        <item>Последниот квартал</item>
+        <item>Последниот квартал</item>
+        <item>Темна месечина</item>
+    </string-array>
+</resources>

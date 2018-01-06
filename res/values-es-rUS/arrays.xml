@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="aqi_detail_title">
+        <item>Bueno</item>
+        <item>Moderado</item>
+        <item>Insalubre para los grupos sensibles</item>
+        <item>Insalubre</item>
+        <item>Muy insalubre</item>
+        <item>Tóxico</item>
+    </string-array>
+    <string-array name="aqi_title">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </string-array>
+    <string-array name="aqi_title_append">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </string-array>
+    <string-array name="aqi_title_prefix">
+        <item>ICA %1$s</item>
+        <item>ICA %1$s</item>
+        <item>ICA %1$s</item>
+        <item>ICA %1$s</item>
+        <item>ICA %1$s</item>
+        <item>ICA %1$s</item>
+    </string-array>
+    <string-array name="aqi_value">
+        <item>Bueno</item>
+        <item>Aceptable</item>
+        <item>Moderadamente contaminado</item>
+        <item>Malo</item>
+        <item>Muy malo</item>
+        <item>Grave</item>
+        <item>Excede el índice</item>
+    </string-array>
+    <string-array name="breeze">
+        <item>y Fuerza 2</item>
+        <item>&lt;6.0km/h</item>
+        <item>&lt;1.7m/s</item>
+        <item>&lt;3.7mph</item>
+        <item>&lt;3.2nd</item>
+    </string-array>
+    <string-array name="hot_city">
+        <item>Beijing</item>
+        <item>Shanghái</item>
+        <item>Hong Kong</item>
+        <item>Taipéi</item>
+        <item>Jakarta</item>
+        <item>Delhi</item>
+        <item>Bombay</item>
+        <item>Moscú</item>
+        <item>Hyderabad</item>
+        <item>Chennai</item>
+        <item>Estambul</item>
+        <item>Río de Janeiro</item>
+        <item>Singapur</item>
+        <item>Berlín</item>
+        <item>Rome</item>
+        <item>Nueva York</item>
+        <item>Los Ángeles</item>
+        <item>Chicago</item>
+        <item>Tokio</item>
+        <item>París</item>
+        <item>Bangkok</item>
+        <item>Seúl</item>
+        <item>Kuala Lumpur</item>
+    </string-array>
+    <string-array name="indices_car_wash">
+        <item>Adecuado</item>
+        <item>Inadecuado</item>
+    </string-array>
+    <string-array name="indices_sport">
+        <item>Adecuado</item>
+        <item>Inadecuado</item>
+    </string-array>
+    <string-array name="indices_uv_level">
+        <item>Bajo</item>
+        <item>Moderado</item>
+        <item>Alto</item>
+    </string-array>
+    <string-array name="minute_rain_array">
+        <item>Fuerte</item>
+        <item>Moderada</item>
+        <item>Poca</item>
+    </string-array>
+    <string-array name="pollution_level_desc_arr">
+        <item>Excelente</item>
+        <item>Bueno</item>
+        <item>Levemente contaminado</item>
+        <item>Moderadamente contaminado</item>
+        <item>Muy contaminado</item>
+        <item>Seriamente contaminado</item>
+        <item>Excede el índice</item>
+    </string-array>
+    <string-array name="weather_type">
+        <item>Despejado</item>
+        <item>Nublado</item>
+        <item>Cubierto</item>
+        <item>Niebla</item>
+        <item>Tormentas de lluvia fuerte</item>
+        <item>Aguacero</item>
+        <item>Tormentas de lluvia</item>
+        <item>Tormenta eléctrica</item>
+        <item>Lluvia</item>
+        <item>Diluvio</item>
+        <item>Lluvia moderada</item>
+        <item>Llovizna</item>
+        <item>Aguanieve</item>
+        <item>Ventisca</item>
+        <item>Nieve</item>
+        <item>Nevada intensa</item>
+        <item>Nevada moderada</item>
+        <item>Nieve ligera</item>
+        <item>Tormenta de arena fuerte</item>
+        <item>Tormenta de arena</item>
+        <item>Arena</item>
+        <item>Viento</item>
+        <item>Granizo</item>
+        <item>Polvo</item>
+        <item>Neblina</item>
+        <item>Lluvia helada</item>
+        <item></item>
+    </string-array>
+    <string-array name="wind_direction">
+        <item>Norte</item>
+        <item>Noreste</item>
+        <item>Este</item>
+        <item>Sureste</item>
+        <item>Sur</item>
+        <item>Suroeste</item>
+        <item>Oeste</item>
+        <item>Noroeste</item>
+    </string-array>
+    <string-array name="wind_direction_simple">
+        <item>N</item>
+        <item>NE</item>
+        <item>E</item>
+        <item>SE</item>
+        <item>S</item>
+        <item>SO</item>
+        <item>O</item>
+        <item>NO</item>
+    </string-array>
+    <string-array name="wind_power">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="wind_unit_detail">
+        <item>Escala beaufort</item>
+        <item>Kilómetros por hora (km/h)</item>
+        <item>Metros por segundo (m/s)</item>
+        <item>Millas por hora (mph)</item>
+        <item>Nudos (nd)</item>
+    </string-array>
+    <string-array name="wind_unit_replace">
+        <item>Fuerza %1$s</item>
+        <item>%1$skm/h</item>
+        <item>%1$sm/s</item>
+        <item>%1$smph</item>
+        <item>%1$snd</item>
+    </string-array>
+    <string-array name="wind_unit_simple">
+        <item>Escala Beaufort</item>
+        <item>km/h</item>
+        <item>m/s</item>
+        <item>mph</item>
+        <item>nd</item>
+    </string-array>
+</resources>

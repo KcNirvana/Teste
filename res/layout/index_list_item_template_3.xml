@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:padding="13.329987dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="16.0sp" android:textColor="#e6000000" android:ellipsize="end" android:id="@id/index_list_item_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
+                <TextView android:textSize="12.0sp" android:textColor="#80000000" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/index_list_item_tertiary_text" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/close" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/button_close" />
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:layout_width="108.0dip" android:layout_height="72.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <ImageView android:id="@id/index_list_item_image" android:background="@drawable/image_loading_style2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:cropToPadding="true" />
+            <ImageView android:background="@drawable/right_angle_mask" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:cropToPadding="true" />
+        </FrameLayout>
+    </LinearLayout>
+    <View android:background="@drawable/card_divider_slimly" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

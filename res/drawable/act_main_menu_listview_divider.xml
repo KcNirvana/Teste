@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:drawable="@drawable/card_internal_horizontal_divider" android:insetLeft="26.699982dip" android:insetRight="26.699982dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

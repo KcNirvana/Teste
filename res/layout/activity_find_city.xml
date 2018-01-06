@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/activity_find_city_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:weather="http://schemas.android.com/apk/res-auto">
+    <com.miui.weather2.view.FixedHeightListView android:id="@id/result_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/act_hot_city_part" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/act_hot_city_part_margin_top">
+        <TextView android:textSize="@dimen/act_find_city_hot_title_text_size" android:textColor="#e6000000" android:id="@id/act_find_city_hot_city_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/act_find_city_hot_title_margin_bottom" android:text="@string/act_find_city_hot_city_title" />
+        <com.miui.weather2.view.LineWrapLayout android:id="@id/act_find_city_hot_city_line_wrap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/act_hot_city_part_margin_bottom" weather:gap="@dimen/act_find_city_hot_city_item_gap" />
+        <TextView android:textSize="@dimen/act_find_city_hot_title_text_size" android:textColor="#e6000000" android:id="@id/act_find_city_hot_attractions_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/act_find_city_hot_title_margin_bottom" android:text="@string/act_find_city_hot_attractions_title" />
+        <com.miui.weather2.view.LineWrapLayout android:id="@id/act_find_city_hot_attractions_line_wrap" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" weather:gap="@dimen/act_find_city_hot_city_item_gap" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/act_find_city_information_part" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/search_result_text_size" android:textColor="#ff808080" android:id="@id/search_result" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/search_result_retry_text_size" android:textColor="#ff808080" android:gravity="center" android:id="@id/search_result_retry" android:background="@drawable/btn_retry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/act_weather_find_city_click_retry" />
+    </LinearLayout>
+</FrameLayout>

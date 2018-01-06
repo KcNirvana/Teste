@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.miui.weather2" platformBuildVersionCode="25" platformBuildVersionName="7.1.1">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.miui.weather2.permission.WRITE_DB"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="miui.permission.EXTRA_NETWORK"/>
+    <uses-permission android:name="miui.permission.USE_INTERNAL_GENERAL_API"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="com.miui.weather2.permission.MIPUSH_RECEIVE"/>
+    <permission android:name="com.miui.weather2.permission.MIPUSH_RECEIVE" android:protectionLevel="signature"/>
+    <permission android:name="com.miui.weather2.permission.WRITE_DB" android:protectionLevel="signatureOrSystem"/>
+    <compatible-screens>
+        <screen android:screenDensity="xxhdpi" android:screenSize="small"/>
+        <screen android:screenDensity="xxhdpi" android:screenSize="normal"/>
+        <screen android:screenDensity="xxhdpi" android:screenSize="large"/>
+        <screen android:screenDensity="xxhdpi" android:screenSize="xlarge"/>
+    </compatible-screens>
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:name="com.miui.weather2.WeatherApplication" android:supportsRtl="true" android:uiOptions="splitActionBarWhenNarrow">
+        <activity android:label="@string/app_name" android:launchMode="singleTask" android:name="com.miui.weather2.ActivityWeatherMain" android:screenOrientation="portrait" android:theme="@style/WeatherMainTheme" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="com.miui.weather.widget_weather_detail"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="" android:launchMode="singleTask" android:name="com.miui.weather2.ActivitySetCity" android:screenOrientation="portrait" android:theme="@style/WeatherSetCityTheme">
+            <intent-filter>
+                <action android:name="com.miui.weather.widget_city_manager"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="" android:launchMode="singleTask" android:name="com.miui.weather2.ActivityFindCity" android:screenOrientation="portrait" android:theme="@style/WeatherFindCityTheme"/>
+        <activity android:launchMode="singleTask" android:name="com.miui.weather2.ActivityAlertDetail" android:screenOrientation="portrait" android:theme="@style/WeatherAlertManagerTheme"/>
+        <activity android:launchMode="singleTask" android:name="com.miui.weather2.ActivityDailyForecastDetail" android:screenOrientation="portrait" android:theme="@miui:style/Theme.Light.NoTitle"/>
+        <activity android:label="@string/set" android:launchMode="singleTask" android:name="com.miui.weather2.ActivitySet" android:screenOrientation="portrait" android:theme="@style/WeatherAlertManagerTheme"/>
+        <activity android:label="@string/empty" android:launchMode="singleTop" android:name="com.miui.weather2.WebViewActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Dark.Immersion"/>
+        <activity android:label="@string/app_name" android:launchMode="singleTop" android:name="com.miui.weather2.WeatherIndexActivity" android:screenOrientation="portrait" android:theme="@style/WeatherIndexTheme"/>
+        <activity android:label="@string/app_name" android:launchMode="singleTop" android:name="com.miui.weather2.ActivityMinuteRain" android:screenOrientation="portrait" android:theme="@style/WeatherMinuteRainTheme"/>
+        <activity android:label="@string/app_name" android:launchMode="singleTask" android:name="com.miui.weather2.ActivityAqiDetail" android:screenOrientation="portrait" android:theme="@style/WeatherMinuteRainTheme"/>
+        <activity android:alwaysRetainTaskState="true" android:launchMode="singleTask" android:name="com.miui.weather2.ParseDeepLinkActivity" android:noHistory="true" android:theme="@style/WeatherIndexTheme">
+            <intent-filter android:priority="50">
+                <data android:host="details" android:scheme="weather"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <service android:name="com.amap.api.location.APSService"/>
+        <service android:name="com.miui.weather2.service.ScheduleCheckService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:name="com.miui.weather2.service.UpdateService"/>
+        <service android:name="com.miui.weather2.service.TranslateService"/>
+        <service android:enabled="true" android:name="com.xiaomi.push.service.XMPushService" android:process=":pushservice"/>
+        <service android:enabled="true" android:exported="false" android:name="com.xiaomi.push.service.XMJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":pushservice"/>
+        <service android:enabled="true" android:exported="true" android:name="com.xiaomi.mipush.sdk.PushMessageHandler"/>
+        <service android:enabled="true" android:name="com.xiaomi.mipush.sdk.MessageHandleService"/>
+        <service android:exported="true" android:name="com.miui.weather2.cloudbackup.WeatherCloudBackupService" android:permission="android.permission.BACKUP">
+            <intent-filter>
+                <action android:name="miui.action.CLOUD_BACKUP_SETTINGS"/>
+                <action android:name="miui.action.CLOUD_RESTORE_SETTINGS"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="com.miui.weather2.receiver.ReceiverUpdateWeather">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.REBOOT"/>
+                <action android:name="com.miui.weather2.BACKGROUND_WEATHER_UPDATE_COMPLETED"/>
+                <action android:name="com.miui.weather2.BACKGROUND_LOCATION_UPDATE_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.miui.weather2.receiver.TranslateReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.xiaomi.push.service.receivers.NetworkStatusReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.xiaomi.push.service.receivers.PingReceiver" android:process=":pushservice">
+            <intent-filter>
+                <action android:name="com.xiaomi.push.PING_TIMER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.miui.weather2.push.WeatherPushReceiver">
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.RECEIVE_MESSAGE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.MESSAGE_ARRIVED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.ERROR"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="weather;weatherinfo" android:exported="true" android:name="com.miui.weather2.providers.WeatherProvider" android:writePermission="com.miui.weather2.permission.WRITE_DB"/>
+        <meta-data android:name="com.amap.api.v2.apikey" android:value="83ea6e379109576efcbac735827a5dff"/>
+        <meta-data android:name="app_description_title" android:resource="@string/xiaomi_weather_description_title"/>
+        <meta-data android:name="app_description_content" android:resource="@string/xiaomi_weather_description_content"/>
+        <meta-data android:name="android.max_aspect" android:value="2.2"/>
+        <meta-data android:name="com.miui.weather2.model.SimpleGlideModule" android:value="GlideModule"/>
+    </application>
+</manifest>

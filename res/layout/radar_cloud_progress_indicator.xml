@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/radar_cloud_progress_indicator_margin_bottom" android:layout_alignBottom="@id/map">
+        <FrameLayout android:layout_gravity="bottom" android:id="@id/radar_cloud_play_or_pause_button" android:background="@drawable/white_background_button_first_bg_selector" android:layout_width="@dimen/white_background_button_size" android:layout_height="@dimen/white_background_button_size">
+            <ImageView android:layout_gravity="center" android:id="@id/radar_cloud_play_or_pause_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/radar_cloud_button_play" />
+        </FrameLayout>
+        <View android:layout_gravity="bottom" android:background="@drawable/white_background_button_middle_bg_selector" android:layout_height="@dimen/radar_cloud_progress_indicator_height" style="@style/radar_cloud_progress_indicator_split_line_style" />
+        <com.miui.weather2.view.RadarCloudImageProgressIndicator android:id="@id/radar_cloud_image_progress_parent_indicator" android:layout_width="wrap_content" android:layout_height="@dimen/radar_cloud_progress_indicator_container_height">
+            <LinearLayout android:id="@id/radar_cloud_image_progress_indicator" android:layout_width="wrap_content" android:layout_alignParentBottom="true" style="@style/radar_cloud_progress_indicator_style">
+                <TextView android:id="@id/time_indicator_first" style="@style/radar_cloud_progress_indicator_text_style" />
+                <View style="@style/radar_cloud_progress_indicator_split_line_style" />
+                <TextView android:id="@id/time_indicator_second" style="@style/radar_cloud_progress_indicator_text_style" />
+                <View style="@style/radar_cloud_progress_indicator_split_line_style" />
+                <TextView android:id="@id/time_indicator_thirdly" style="@style/radar_cloud_progress_indicator_text_style" />
+                <View style="@style/radar_cloud_progress_indicator_split_line_style" />
+                <TextView android:id="@id/time_indicator_fourth" style="@style/radar_cloud_progress_indicator_text_style" />
+                <View style="@style/radar_cloud_progress_indicator_split_line_style" />
+                <TextView android:id="@id/time_indicator_fifth" style="@style/radar_cloud_progress_indicator_text_style" />
+            </LinearLayout>
+            <View android:id="@id/progress_indicator_mask" android:background="@color/radar_cloud_progress_indicator_color" android:layout_width="1.0dip" android:layout_height="@dimen/radar_cloud_progress_indicator_height" android:layout_alignParentBottom="true" />
+        </com.miui.weather2.view.RadarCloudImageProgressIndicator>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/radar_cloud_progress_indicator_location_button_margin_bottom" android:layout_alignBottom="@id/map">
+        <RelativeLayout android:id="@id/enlarge_button" android:background="@drawable/white_background_vertical_button_without_shadow_first_bg_selector" style="@style/white_background_button_style">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aqi_quality_map_enlarge" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/narrow_button" android:background="@drawable/white_background_vertical_button_without_shadow_last_bg_selector" style="@style/white_background_button_style">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aqi_quality_map_narrow" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/location_button" android:layout_marginTop="@dimen/aqi_quality_fourth_part_map_view_location_icon_margin_top" style="@style/white_background_button_style">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/radar_cloud_button_location" />
+        </RelativeLayout>
+    </LinearLayout>
+</merge>

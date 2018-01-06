@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:visible="true" android:drawable="@color/indices_line_color" android:insetLeft="13.299988dip" android:insetRight="13.299988dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

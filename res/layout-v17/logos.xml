@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/logo_container" android:background="@color/logo_container_bg_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/logo_power_by_text_size" android:textColor="@color/logo_power_by_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/data_provided_by" android:paddingEnd="3.0dip" />
+    <ImageView android:id="@id/logo_accu_or_weatherchina_or_twc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/logo_power_by_icon_height" android:scaleType="fitCenter" />
+    <ImageView android:id="@id/logo_caiyun" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/logo_power_by_icon_height" android:scaleType="fitCenter" />
+</LinearLayout>

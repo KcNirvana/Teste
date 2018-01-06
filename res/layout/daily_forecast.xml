@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.weather2.view.onOnePage.DailyForecast android:orientation="vertical" android:id="@id/daily_forecast" android:background="@color/default_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/daily_forecast_margin_top"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/daily_forecast_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/daily_forecast_info_part" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/daily_forecast_info_list1" layout="@layout/daily_forecast_item" />
+            <include android:id="@id/daily_forecast_info_list2" layout="@layout/daily_forecast_item" />
+            <include android:id="@id/daily_forecast_info_list3" layout="@layout/daily_forecast_item" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/daily_forecast_more_text_size" android:textColor="#bf000000" android:gravity="center" android:id="@id/daily_forecast_more" android:background="@drawable/daily_forecast_more_text_view" android:layout_width="fill_parent" android:layout_height="@dimen/daily_forecast_more_height" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/daily_forecast_more_text_size" android:textColor="#99000000" android:gravity="center" android:id="@id/daily_forecast_no_data" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="287.32812dip" android:text="@string/daily_forecast_no_data" />
+</com.miui.weather2.view.onOnePage.DailyForecast>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.weather2.view.onOnePage.MinuteRainFallContainerIndex android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/minute_rainfall_container_index" android:background="@drawable/index_container_frame" android:paddingBottom="@dimen/minute_rain_fall_container_index_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/minute_rain_fall_title_margin_top_index">
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@id/weather_icon" android:layout_width="@dimen/minute_rain_fall_weather_icon_size" android:layout_height="@dimen/minute_rain_fall_weather_icon_size" />
+            <TextView android:textSize="@dimen/minute_rain_fall_title_text_size_index" android:textColor="@color/default_text_color" android:ellipsize="end" android:id="@id/minute_rain_fall_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/minute_rain_no_data" android:lines="1" android:layout_marginStart="@dimen/minute_rain_fall_title_margin_margin_start" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/minute_rain_fall_update_time_text_size" android:textColor="@color/radar_cloud_gray_color" android:id="@id/minute_rain_fall_update_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/minute_rain_fall_update_time_margin_top" android:layout_marginEnd="@dimen/minute_rain_fall_update_time_margin_End" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/minute_rain_fall_sub_title_text_size_index" android:textColor="@color/radar_cloud_gray_color" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/minute_rain_fall_sub_title" android:layout_width="@dimen/minute_rain_fall_title_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/minute_rain_fall_sub_title_margin_top_index" android:lines="2" />
+    <FrameLayout android:layout_width="@dimen/minute_rain_fall_illustration_width" android:layout_height="@dimen/minute_rain_fall_illustration_height" android:layout_marginTop="@dimen/minute_rain_fall_illustration_margin_top_index">
+        <com.miui.weather2.view.onOnePage.MinuteRainIllustration android:id="@id/minute_rain_fall_illustration" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.miui.weather2.view.onOnePage.IllustrationBackground android:id="@id/minute_rain_fall_background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <RelativeLayout android:layout_width="@dimen/minute_rain_fall_illustration_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/minute_rain_fall_bottom_schedule_margin_top">
+        <TextView android:textSize="@dimen/minute_rain_fall_bottom_schedule_text_size" android:textColor="@color/minute_rain_fall_bottom_schedule_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/minute_rain_now" android:layout_alignParentStart="true" />
+        <TextView android:textSize="@dimen/minute_rain_fall_bottom_schedule_text_size" android:textColor="@color/minute_rain_fall_bottom_schedule_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/minute_rain_after_an_hour" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/minute_rain_fall_bottom_schedule_text_size" android:textColor="@color/minute_rain_fall_bottom_schedule_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/minute_rain_after_two_hour" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</com.miui.weather2.view.onOnePage.MinuteRainFallContainerIndex>

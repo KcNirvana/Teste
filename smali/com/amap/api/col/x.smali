@@ -1,0 +1,30 @@
+.class Lcom/amap/api/col/x;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# instance fields
+.field final synthetic a:Lcom/amap/api/col/w;
+
+
+# direct methods
+.method constructor <init>(Lcom/amap/api/col/w;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/amap/api/col/x;->a:Lcom/amap/api/col/w;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onClick(Landroid/view/View;)V
+    .locals 0
+
+    return-void
+.end method

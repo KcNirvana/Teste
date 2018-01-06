@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="WeatherFindCityTheme" parent="@miui:style/Theme.Light">
+        <item name="miui:windowTranslucentStatus">transparentDark</item>
+    </style>
+    <style name="WeatherSetCityTheme" parent="@miui:style/Theme.Light">
+        <item name="miui:actionModeCancelButtonStyle">@style/activity_set_actionmode_cancel_button_style</item>
+        <item name="miui:actionModeSelectButtonStyle">@style/activity_set_actionmode_confirm_button_style</item>
+        <item name="miui:windowTranslucentStatus">transparentDark</item>
+    </style>
+    <style name="activity_set_actionmode_cancel_button_style" parent="@miui:style/Widget.Dark.ActionMode.Button">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="activity_set_actionmode_confirm_button_style" parent="@miui:style/Widget.Dark.ActionMode.Button.Default">
+        <item name="android:textColor">#80000000</item>
+    </style>
+    <style name="activity_set_actionmode_style" parent="@miui:style/Widget.ActionMode" />
+    <style name="PopupAnimation" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/popup_exit</item>
+    </style>
+    <style name="ShareDialog_Button">
+        <item name="android:textSize">@dimen/sharedialog_button_text_size</item>
+        <item name="android:textColor">@color/default_gray_color</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">0.0</item>
+        <item name="android:shadowRadius">0.0</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="StyleProgressBar" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:layout_width">@dimen/aqi_pollution_item_progress_bar_width</item>
+        <item name="android:layout_height">@dimen/aqi_pollution_item_progress_bar_height</item>
+        <item name="android:layout_marginTop">@dimen/aqi_pollution_item_progress_bar_layout_margin_top</item>
+        <item name="android:max">100</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>
+        <item name="android:progressDrawable">@drawable/shape_progressbar_good</item>
+    </style>
+    <style name="Theme.Dark.Immersion" parent="@miui:style/Theme.Dark">
+        <item name="miui:immersionMenuEnabled">true</item>
+    </style>
+    <style name="WeatherAlertManagerTheme" parent="@miui:style/Theme.Light">
+        <item name="miui:windowTranslucentStatus">transparentDark</item>
+    </style>
+    <style name="WeatherIndexTheme" parent="@miui:style/Theme.Dark.NoTitle">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="miui:immersionMenuEnabled">true</item>
+    </style>
+    <style name="WeatherMainTheme" parent="@miui:style/Theme.Dark.NoTitle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="miui:immersionMenuEnabled">true</item>
+        <item name="miui:windowTranslucentStatus">transparentDark</item>
+    </style>
+    <style name="WeatherMinuteRainTheme" parent="@miui:style/Theme.Light">
+        <item name="miui:windowTranslucentStatus">transparentDark</item>
+    </style>
+    <style name="action_cancel_buttonStyle" parent="@miui:style/Widget.ActionMode.Button">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="action_confirm_buttonStyle" parent="@miui:style/Widget.ActionMode.Button.Default">
+        <item name="android:textColor">@color/weather_default_bg_color</item>
+        <item name="android:background">#ffffffff</item>
+    </style>
+    <style name="actionbar_title_text" parent="@miui:style/TextAppearance.WindowTitle">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="aqi_pollution_item_desc_text_style">
+        <item name="android:textSize">@dimen/aqi_pollution_item_text_size</item>
+        <item name="android:textColor">#80000000</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">2.0px</item>
+    </style>
+    <style name="aqi_pollution_item_numeric_text_style">
+        <item name="android:textSize">@dimen/aqi_pollution_item_numeric_text_size</item>
+        <item name="android:textColor">#66000000</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="aqi_pollution_item_title_text_style">
+        <item name="android:textSize">@dimen/aqi_pollution_item_text_size</item>
+        <item name="android:textColor">#80000000</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="card_title">
+        <item name="android:textSize">@dimen/card_title_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#cc000000</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/card_title_height</item>
+    </style>
+    <style name="commercial_common_padding">
+        <item name="android:paddingLeft">@dimen/commerical_padding_left_right</item>
+        <item name="android:paddingRight">@dimen/commerical_padding_left_right</item>
+    </style>
+    <style name="commercial_footer_text">
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:textColor">@color/commercial_secondary_text_color</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="commercial_item_close">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/button_close</item>
+    </style>
+    <style name="commercial_item_desc">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#e6ffffff</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="commercial_item_title">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/commercial_primary_text_color</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="current_condition_click">
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:textColor">@color/realtime_bracket_default_color</item>
+        <item name="android:paddingLeft">5.0dip</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/activity_main_clickable</item>
+    </style>
+    <style name="indices_box">
+        <item name="android:gravity">bottom|center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingBottom">30.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/indices_item_height</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="radar_cloud_indicator_text_style">
+        <item name="android:textSize">@dimen/radar_cloud_indicator_text_size</item>
+        <item name="android:textColor">@color/radar_cloud_gray_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/precipitation_degree_one</item>
+        <item name="android:lines">1</item>
+    </style>
+    <style name="radar_cloud_progress_indicator_split_line_style">
+        <item name="android:background">#33000000</item>
+        <item name="android:layout_width">1.0px</item>
+        <item name="android:layout_height">@dimen/radar_cloud_progress_indicator_split_line_height</item>
+    </style>
+    <style name="radar_cloud_progress_indicator_style">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/white_background_button_last_bg_selector</item>
+        <item name="android:layout_height">@dimen/radar_cloud_progress_indicator_height</item>
+    </style>
+    <style name="radar_cloud_progress_indicator_text_style">
+        <item name="android:textSize">@dimen/radar_cloud_progress_indicator_text_size</item>
+        <item name="android:textColor">#99000000</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_width">@dimen/radar_cloud_progress_indicator_text_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/minute_rain_progress_indicator_original_time</item>
+    </style>
+    <style name="realtime_cityname_weather">
+        <item name="android:textSize">@dimen/realtime_cityname_weather_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/realtime_cityname_color</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="weather_feedback_dialog_describe_style">
+        <item name="android:textSize">@dimen/weather_feedback_dialog_describe_text_size</item>
+        <item name="android:textColor">#ff706f6f</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/weather_feedback_dialog_describe_margin_top</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="weather_feedback_dialog_icon_style">
+        <item name="android:background">@drawable/weather_feedback_icon_background_selector</item>
+        <item name="android:padding">@dimen/weather_feedback_dialog_icon_padding</item>
+        <item name="android:layout_width">@dimen/weather_feedback_dialog_icon_size</item>
+        <item name="android:layout_height">@dimen/weather_feedback_dialog_icon_size</item>
+    </style>
+    <style name="weather_feedback_dialog_space_style">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="white_background_button_style">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/white_background_button_bg_selector</item>
+        <item name="android:layout_width">@dimen/white_background_button_size</item>
+        <item name="android:layout_height">@dimen/white_background_button_size</item>
+    </style>
+</resources>

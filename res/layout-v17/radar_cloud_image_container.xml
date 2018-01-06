@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.weather2.view.RadarCloudImageContainer android:id="@id/radar_cloud_image_container" android:background="@drawable/index_container_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/index_card_margin_top" android:paddingStart="@dimen/radar_cloud_image_container_padding_start_and_end" android:paddingEnd="@dimen/radar_cloud_image_container_padding_start_and_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/radar_cloud_image_title_text_size" android:textStyle="bold" android:textColor="@color/radar_cloud_title_color" android:id="@id/radar_cloud_image_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/radar_cloud_image_title_text_margin_top" android:text="@string/radar_cloud_image_title" />
+    <com.amap.api.maps2d.MapView android:id="@id/map" android:background="@drawable/container_map_frame" android:padding="1.0px" android:layout_width="@dimen/radar_cloud_image_map_view_width" android:layout_height="@dimen/radar_cloud_image_map_view_height" android:layout_marginTop="@dimen/radar_cloud_image_map_view_margin_top" android:layout_below="@id/radar_cloud_image_title" />
+    <View android:id="@id/avoid_touch_by_mistake_view" android:layout_width="fill_parent" android:layout_height="@dimen/radar_cloud_image_avoid_touch_by_mistake_view_height" android:layout_alignBottom="@id/map" />
+    <include layout="@layout/radar_cloud_progress_indicator" />
+    <include layout="@layout/radar_cloud_minute_rain_color_indicator" />
+</com.miui.weather2.view.RadarCloudImageContainer>

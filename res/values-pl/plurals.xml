@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="activity_main_update_time_in_one_day">
+        <item quantity="other">%d godz. temu</item>
+        <item quantity="one">%d godzinę temu</item>
+    </plurals>
+    <plurals name="activity_main_update_time_in_one_hour">
+        <item quantity="other">%d min temu</item>
+        <item quantity="one">%d minutę temu</item>
+    </plurals>
+    <plurals name="activity_main_update_time_one_day_ago">
+        <item quantity="other">%d dni temu</item>
+        <item quantity="one">%d dzień temu</item>
+    </plurals>
+    <plurals name="daily_forcast_drawer_on_top">
+        <item quantity="other">%1$s-dniowa prognoza</item>
+        <item quantity="one">Prognoza na %1$s dzień</item>
+    </plurals>
+    <plurals name="feedback_result_interval_time_too_short">
+        <item quantity="other">%1$s seconds after the feedback</item>
+        <item quantity="one">%1$s second after the feedback</item>
+    </plurals>
+    <plurals name="view_realtime_clear">
+        <item quantity="other">Pogodnie</item>
+        <item quantity="one">Pogodnie</item>
+    </plurals>
+</resources>

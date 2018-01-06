@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<misearch
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <items>
+        <item>
+            <id>0</id>
+            <title>search_weather</title>
+            <class>com.miui.weather2.ActivityWeatherMain</class>
+            <keywords>search_weather_keywords</keywords>
+        </item>
+    </items>
+</misearch>

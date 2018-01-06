@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="activity_main_update_time_in_one_day">
+        <item quantity="other">%d г. таму</item>
+        <item quantity="one">%d г. таму</item>
+    </plurals>
+    <plurals name="activity_main_update_time_in_one_hour">
+        <item quantity="other">%d хв. таму</item>
+        <item quantity="one">%d хв. таму</item>
+    </plurals>
+    <plurals name="activity_main_update_time_one_day_ago">
+        <item quantity="other">%d дз. таму</item>
+        <item quantity="one">%d дз. таму</item>
+    </plurals>
+    <plurals name="daily_forcast_drawer_on_top">
+        <item quantity="other">Прагноз на %1$s дзён</item>
+        <item quantity="one">Прагноз на %1$s дзень</item>
+        <item quantity="few">Прагноз на %1$s дні</item>
+    </plurals>
+    <plurals name="feedback_result_interval_time_too_short">
+        <item quantity="other">Прайшло %1$s секунд пасля адпраўкі справаздачы</item>
+        <item quantity="one">Прайшла %1$s секунда пасля адпраўкі справаздачы</item>
+        <item quantity="few">Прайшло %1$s секунды пасля адпраўкі справаздачы</item>
+    </plurals>
+    <plurals name="no_vote_num">
+        <item quantity="other">%1$s карыстальнікаў | </item>
+        <item quantity="one">%1$s карыстальнік | </item>
+        <item quantity="few">%1$s карыстальніка | </item>
+        <item quantity="many">"%1$s карыстальнікаў | "</item>
+    </plurals>
+    <plurals name="total_voted_num_text">
+        <item quantity="other">Прагаласавала %1$s карыстальнікаў</item>
+        <item quantity="one">Прагаласаваў %1$s карыстальнік</item>
+        <item quantity="few">Прагаласавала %1$s карыстальніка</item>
+        <item quantity="many">Прагаласавала %1$s карыстальнікаў</item>
+    </plurals>
+    <plurals name="view_realtime_clear">
+        <item quantity="other">Ясна</item>
+        <item quantity="one">Сонечна</item>
+    </plurals>
+    <plurals name="yes_vote_num">
+        <item quantity="other"> | %1$s карыстальнікаў</item>
+        <item quantity="one"> | %1$s карыстальнік</item>
+        <item quantity="few"> | %1$s карыстальніка</item>
+        <item quantity="many"> | %1$s карыстальнікаў</item>
+    </plurals>
+</resources>

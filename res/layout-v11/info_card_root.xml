@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/card_root" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/card_root_height" android:divider="@drawable/card_internal_vertical_divider" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/card_root_left" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/card_text_size" android:textColor="@color/card_root_text_color" android:gravity="center" android:id="@id/card_root_left_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" />
+        <ImageView android:id="@id/card_root_left_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" android:contentDescription="@null" />
+        <ImageView android:layout_gravity="center|right" android:id="@id/card_root_left_advertisment_icon" android:padding="@dimen/advertisment_icon_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/advertisement_icon" android:scaleType="centerInside" android:contentDescription="@null" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/card_root_right" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/card_text_size" android:textColor="@color/card_root_text_color" android:gravity="center" android:id="@id/card_root_right_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" />
+        <ImageView android:id="@id/card_root_right_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" android:contentDescription="@null" />
+        <ImageView android:layout_gravity="center|right" android:id="@id/card_root_right_advertisment_icon" android:padding="@dimen/advertisment_icon_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/advertisement_icon" android:scaleType="centerInside" android:contentDescription="@null" />
+    </FrameLayout>
+</LinearLayout>

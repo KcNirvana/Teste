@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.weather2.view.onOnePage.VerticalCarousel android:gravity="center_vertical" android:id="@id/carcouse_container" android:background="@color/default_background_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/alert_container_height" android:layout_marginTop="@dimen/carcouse_container_margin_top"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/alert_container_first" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/image_arrow" android:layout_centerVertical="true">
+        <ImageView android:id="@id/alert_icon_first" android:layout_width="@dimen/alert_container_icon_size" android:layout_height="@dimen/alert_container_icon_size" />
+        <TextView android:textSize="@dimen/activity_alert_size" android:textColor="@color/activity_alert_size_text_color" android:ellipsize="end" android:id="@id/alert_text_first" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/alert_container_second" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/image_arrow" android:layout_centerVertical="true">
+        <ImageView android:id="@id/alert_icon_second" android:layout_width="@dimen/alert_container_icon_size" android:layout_height="@dimen/alert_container_icon_size" />
+        <TextView android:textSize="@dimen/activity_alert_size" android:textColor="@color/activity_alert_size_text_color" android:ellipsize="end" android:id="@id/alert_text_second" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <ImageView android:id="@id/image_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/alert_container_margin_right" android:src="@drawable/arrow_right_normal" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</com.miui.weather2.view.onOnePage.VerticalCarousel>

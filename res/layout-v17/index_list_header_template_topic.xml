@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.299988sp" android:textColor="#b3000000" android:gravity="center_vertical" android:id="@id/index_topic_title" android:paddingTop="2.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="13.299988dip" android:paddingEnd="13.299988dip" />
+    <View android:id="@id/index_topic_divider" android:background="@drawable/card_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

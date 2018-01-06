@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/daily_forecast_ad_icon_width" android:layout_height="@dimen/daily_forecast_ad_icon_height" android:src="@drawable/advertisement_icon" android:scaleType="centerCrop" android:contentDescription="@null" />
+    <TextView android:textSize="@dimen/daily_forecast_ad_text_size" android:textColor="@color/indices_default_text_color" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/daily_forecast_ad_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/daily_forecast_ad_text_content_width" android:singleLine="true" android:layout_marginStart="@dimen/daily_forecast_ad_text_content_margin_start" />
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/daily_forecast_ad_close" android:layout_width="@dimen/daily_forecast_ad_close_btn_parent_size" android:layout_height="@dimen/daily_forecast_ad_close_btn_parent_size">
+        <ImageView android:layout_gravity="center" android:layout_width="@dimen/daily_forecast_ad_close_btn_size" android:layout_height="@dimen/daily_forecast_ad_close_btn_size" android:src="@drawable/index_button_close" android:scaleType="centerCrop" android:contentDescription="@null" />
+    </FrameLayout>
+</LinearLayout>

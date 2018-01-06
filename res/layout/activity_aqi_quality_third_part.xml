@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.weather2.view.AqiQualityThirdPart android:orientation="vertical" android:id="@id/aqi_quality_third_part" android:background="@drawable/index_container_frame" android:layout_width="fill_parent" android:layout_height="@dimen/aqi_quality_third_part_height" android:layout_marginTop="@dimen/index_card_margin_top"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:orientation="horizontal" android:id="@id/aqi_detail_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aqi_quality_third_part_first_item_margin_top">
+        <RadioButton android:textSize="@dimen/aqi_quality_third_part_radio_button_text_size" android:textColor="@color/aqi_new_detail_hours_color" android:gravity="center" android:id="@id/hours" android:background="@drawable/radio_btn_left_selector" android:layout_width="0.0dip" android:layout_height="wrap_content" android:checked="true" android:button="@null" android:text="@string/aqi_quality_detail_48_hours" android:layout_weight="1.0" />
+        <RadioButton android:textSize="@dimen/aqi_quality_third_part_radio_button_text_size" android:textColor="@color/aqi_new_detail_days_color" android:gravity="center" android:id="@id/days" android:background="@drawable/radio_btn_right_selector" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@null" android:text="@string/aqi_quality_detail_15_days" android:layout_weight="1.0" />
+    </RadioGroup>
+    <HorizontalScrollView android:id="@id/scroll_view" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="@dimen/aqi_quality_third_part_forecast_table_view_height">
+        <com.miui.weather2.view.onOnePage.AqiQualityForecastTable android:orientation="horizontal" android:id="@id/aqi_quality_forecast_table" android:background="@color/color_white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </HorizontalScrollView>
+</com.miui.weather2.view.AqiQualityThirdPart>

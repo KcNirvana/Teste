@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/radar_color_indicator" android:layout_width="fill_parent" android:layout_height="@dimen/radar_cloud_image_indicator_height" android:layout_marginTop="@dimen/radar_cloud_image_indicator_margin_top" android:src="@drawable/radar_cloud_color_indicator" android:layout_below="@id/map" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/radar_text_indicator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/radar_cloud_text_indicator_margin_top" android:layout_below="@id/radar_color_indicator">
+        <RelativeLayout android:layout_width="@dimen/radar_cloud_text_indicator_degree_one_width" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:maxWidth="@dimen/radar_cloud_text_indicator_degree_one_width" android:minWidth="@dimen/radar_cloud_text_indicator_degree_single_width" android:text="@string/precipitation_degree_one" style="@style/radar_cloud_indicator_text_style" />
+        </RelativeLayout>
+        <TextView android:layout_width="@dimen/radar_cloud_text_indicator_degree_two_width" android:text="@string/precipitation_degree_two" style="@style/radar_cloud_indicator_text_style" />
+        <TextView android:layout_width="@dimen/radar_cloud_text_indicator_degree_three_width" android:text="@string/precipitation_degree_three" style="@style/radar_cloud_indicator_text_style" />
+        <TextView android:layout_width="@dimen/radar_cloud_text_indicator_degree_four_width" android:text="@string/precipitation_degree_four" style="@style/radar_cloud_indicator_text_style" />
+        <RelativeLayout android:gravity="end" android:layout_width="@dimen/radar_cloud_text_indicator_degree_five_width" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:maxWidth="@dimen/radar_cloud_text_indicator_degree_five_width" android:minWidth="@dimen/radar_cloud_text_indicator_degree_single_width" android:text="@string/precipitation_degree_five" style="@style/radar_cloud_indicator_text_style" />
+        </RelativeLayout>
+    </LinearLayout>
+</merge>

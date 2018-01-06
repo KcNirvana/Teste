@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.miui.weather2.view.RefreshableView android:orientation="vertical" android:id="@id/activity_main_refresh_root" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/activity_main_title_bar_root" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.miui.weather2.view.WeatherScreenView android:id="@id/activity_main_all_cities" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <include android:id="@id/activity_main_title_bar" layout="@layout/activity_main_title_bar_layout" />
+            <ViewStub android:id="@id/show_locate_err_stub_id" android:layout="@layout/show_locate_err_stub_layout" android:inflatedId="@id/show_locate_err_stub_inflated_id" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+    </com.miui.weather2.view.RefreshableView>
+    <include android:id="@id/activity_main_refresh_item" layout="@layout/refresh_top_item" />
+    <include android:id="@id/activity_main_bottom_bar" layout="@layout/activity_main_bottom_bar_layout" />
+    <ViewStub android:id="@id/share_wait_cover_stub_id" android:layout="@layout/share_wait_cover_stub_layout" android:inflatedId="@id/share_wait_cover_stub_inflated_id" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

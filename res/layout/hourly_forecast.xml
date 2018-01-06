@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.weather2.view.onOnePage.HourlyForecast android:orientation="vertical" android:id="@id/hourly_forecast" android:background="@color/default_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/hourly_forecast_description_text_size" android:textColor="@color/hourly_forecast_description_text_color" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/hourly_forecast_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hourly_forecast_description_margin_top" android:singleLine="true" />
+    <com.miui.weather2.view.onOnePage.HourlyForecastScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.miui.weather2.view.onOnePage.HourlyForecastTable android:orientation="horizontal" android:id="@id/data_part" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.miui.weather2.view.onOnePage.HourlyForecastScrollView>
+</com.miui.weather2.view.onOnePage.HourlyForecast>

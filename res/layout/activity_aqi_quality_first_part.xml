@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.weather2.view.AqiQualityFirstPart android:id="@id/aqi_quality_first_part" android:background="@drawable/index_container_frame" android:layout_width="fill_parent" android:layout_height="@dimen/aqi_quality_first_part_height"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:weather="http://schemas.android.com/apk/res/com.miui.weather2">
+    <com.miui.weather2.view.RingTable android:layout_gravity="center_horizontal" android:id="@id/aqi_table" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="@dimen/aqi_quality_first_part_ring_table_margin_top" weather:outer_radius="@dimen/aqi_quality_first_part_ring_table_outer_radius" weather:inner_radius="@dimen/aqi_quality_first_part_ring_table_inner_radius" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/aqi_quality_first_part_aqi_desc_text_size" android:id="@id/aqi_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/aqi_quality_first_part_update_time_text_size" android:textColor="@color/aqi_update_time_color" android:id="@id/update_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aqi_quality_first_part_update_time_margin_top" />
+        <TextView android:textSize="@dimen/aqi_quality_first_part_aqi_suggested_text_size" android:textColor="@color/aqi_suggested_color" android:ellipsize="end" android:id="@id/aqi_suggested" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aqi_quality_first_part_aqi_suggested_margin_tip" android:lines="3" />
+    </LinearLayout>
+</com.miui.weather2.view.AqiQualityFirstPart>

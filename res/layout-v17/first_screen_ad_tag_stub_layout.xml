@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:background="@drawable/first_screen_ad_tag_image_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/ad_tag_desc_layout_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/first_screen_ad_tag_margin_top">
+        <ImageView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/first_screen_ad_tag_white_point" />
+        <TextView android:textSize="@dimen/first_screen_ad_tag_desc_text_size" android:textColor="@color/first_screen_ad_tag_desc_text_color" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/ad_tag_desc_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxEms="10" android:singleLine="true" android:layout_marginStart="@dimen/first_screen_ad_tag_white_point_to_ad_desc_margin_start" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/first_screen_ad_tag_more_desc_text_size" android:textColor="@color/first_screen_ad_tag_more_desc_text_color" android:ellipsize="end" android:id="@id/ad_tag_more_desc_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/first_screen_ad_tag_margin_bottom" android:maxEms="10" android:singleLine="true" android:layout_marginStart="@dimen/first_screen_ad_tag_ad_more_desc_margin_start" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.weather2.view.onOnePage.RealTimeDetailCard android:orientation="vertical" android:id="@id/sun_rise_and_set_card" android:background="@color/default_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.miui.weather2.view.onOnePage.SunRiseAndSetView android:id="@id/sun_rise_and_set_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="34.149994dip" android:layout_marginStart="18.089996dip" android:layout_marginEnd="18.089996dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="29.0dip">
+        <include android:id="@id/wind" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/real_time_detail_item" />
+        <View android:background="@color/real_time_detail_item_split_color" android:layout_width="1.0px" android:layout_height="@dimen/real_time_detail_item_split_height" />
+        <include android:id="@id/humidity" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/real_time_detail_item" />
+        <View android:background="@color/real_time_detail_item_split_color" android:layout_width="1.0px" android:layout_height="@dimen/real_time_detail_item_split_height" />
+        <include android:id="@id/feel_temperature" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/real_time_detail_item" />
+        <View android:background="@color/real_time_detail_item_split_color" android:layout_width="1.0px" android:layout_height="@dimen/real_time_detail_item_split_height" />
+        <include android:id="@id/pressure" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/real_time_detail_item" />
+    </LinearLayout>
+</com.miui.weather2.view.onOnePage.RealTimeDetailCard>

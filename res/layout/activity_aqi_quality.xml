@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/index_refresh_top_item" />
+    <com.miui.weather2.view.IndexRefreshableView android:orientation="vertical" android:id="@id/activity_aqi_detail_refresh_root" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.miui.weather2.view.EnableListenScrollView android:id="@id/scrollview" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include layout="@layout/activity_aqi_quality_first_part" />
+                <include layout="@layout/activity_aqi_quality_second_part" />
+                <include layout="@layout/activity_aqi_quality_third_part" />
+                <include layout="@layout/activity_aqi_quality_fourth_part" />
+            </LinearLayout>
+        </com.miui.weather2.view.EnableListenScrollView>
+    </com.miui.weather2.view.IndexRefreshableView>
+</merge>

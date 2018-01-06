@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.weather2.view.WeatherScrollView android:id="@id/activity_main_weather_scroll" android:background="#ffffffff" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/activity_main_weather_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@drawable/card_divider">
+            <include layout="@layout/realtime" />
+            <include layout="@layout/vertical_carousel" />
+            <include layout="@layout/minute_rain_fall_container" />
+            <include layout="@layout/daily_forecast" />
+            <include layout="@layout/hourly_forecast" />
+            <include layout="@layout/real_time_detail_card" />
+            <ViewStub android:id="@id/aqi_quality_index_for_pad_stub_id" android:layout="@layout/aqi_quality_index_for_pad" android:inflatedId="@id/aqi_quality_index_for_pad_stub_inflated_id" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/international_details_stub_id" android:layout="@layout/international_details" android:inflatedId="@id/international_details_stub_inflated_id" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <include layout="@layout/commercial_area" />
+        <include layout="@layout/logos" />
+        <View android:id="@id/activity_main_bottom_bar_covered_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/main_bottom_bar_height" />
+    </LinearLayout>
+</com.miui.weather2.view.WeatherScrollView>
