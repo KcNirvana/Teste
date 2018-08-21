@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/grid_item_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/list_padding_horizontal" android:layout_marginEnd="@dimen/list_padding_horizontal">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/lyt_commercial_loan_amount" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textAppearance="@style/CalTextAppearance.Widget.List.Primary" android:textSize="@dimen/text_pretax_bonuse_siz" android:textColor="@color/tax_credit_text_pretax_bonus_color" android:layout_gravity="start|center" android:id="@id/tax_amount_of_money" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.miui.calculator.common.widget.SuffixNumberInput android:id="@id/sni_amount_of_money" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/edit_text_margin_top" android:layout_marginBottom="@dimen/edit_text_margin_bottom" />
+                <View style="@style/CalWidget.Divider" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/lyt_found_loan_amount" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/edit_input_margin_left">
+                <TextView android:textAppearance="@style/CalTextAppearance.Widget.List.Primary" android:textSize="@dimen/text_pretax_bonuse_siz" android:textColor="@color/tax_credit_text_pretax_bonus_color" android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loan_edittext_title_fund_combined" />
+                <com.miui.calculator.common.widget.SuffixNumberInput android:id="@id/sni_last_salary_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/edit_text_margin_top" android:layout_marginBottom="@dimen/edit_text_margin_bottom" />
+                <View style="@style/CalWidget.Divider" />
+            </LinearLayout>
+        </LinearLayout>
+        <RadioGroup android:orientation="horizontal" android:id="@id/radio_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/radio_group_margin_top" android:layout_marginBottom="@dimen/radio_group_margin_bottom">
+            <RadioButton android:id="@id/radio_button_first" android:text="@string/tax_credit_monthly_salary" style="@style/radio_button_style" />
+            <RadioButton android:id="@id/radio_button_second" android:text="@string/tax_income_type_annual_bonus" style="@style/radio_button_style" />
+            <RadioButton android:id="@id/radio_button_third" android:visibility="invisible" android:text="@string/combine_loan" style="@style/radio_button_style" />
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/lyt_params" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.miui.calculator.common.widget.OptionItemView android:id="@id/oiv_city_or_repayment" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.miui.calculator.common.widget.OptionItemView android:id="@id/oiv_threshold_or_mortgage_years" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.miui.calculator.common.widget.OptionItemView android:id="@id/miv_start_time" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.miui.calculator.common.widget.OptionItemView android:id="@id/oiv_commercial_loan_rate" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.miui.calculator.common.widget.OptionItemView android:id="@id/oiv_accumulation_fund_loan_rate" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include android:id="@id/lyt_oiv_commercial_loan_global_rate" layout="@layout/mortgage_global_commercial_rate_view" />
+        <com.miui.calculator.tax.SiExtendableView android:id="@id/extend_view_insurance_and_fund" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

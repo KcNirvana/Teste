@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/grid_item_bg" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/list_padding_horizontal" android:paddingEnd="@dimen/list_padding_horizontal">
+                <LinearLayout android:layout_gravity="center" android:id="@id/lyt_tab_tax_and_mortgage" android:paddingTop="@dimen/tab_margin_top" android:paddingBottom="@dimen/tab_margin_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:ellipsize="end" android:id="@id/txv_tab_personal_income_tax" android:text="@string/tax_credit_personal_income_tax" android:lines="1" style="@style/CalWidget.TabView" />
+                    <TextView android:ellipsize="end" android:id="@id/txv_tab_mortgage" android:text="@string/tax_credit_mortgage" android:lines="1" style="@style/CalWidget.TabView" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.miui.calculator.tax.TaxAndMortgageView android:id="@id/tax_taxview" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="1.0px" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/currency_update_time" android:textColor="@color/update_time_tax" android:layout_gravity="center_horizontal" android:id="@id/txv_updatetime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/update_time_margin_top" android:layout_marginBottom="@dimen/update_time_margin_top" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:id="@id/div_divider" style="@style/CalWidget.Divider" />
+            <TextView android:textSize="@dimen/currency_update_time" android:textColor="@color/update_time_tax" android:layout_gravity="center_horizontal" android:id="@id/txv_updatetime_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <Button android:textSize="@dimen/button_calculate_text_size" android:textColor="@android:color/white" android:layout_gravity="bottom|center" android:id="@id/btn_calculate" android:background="@drawable/btn_calculate" android:layout_width="@dimen/button_calculate_width" android:layout_height="@dimen/button_calculate_height" android:layout_marginBottom="@dimen/calculate_margin_bottom" android:text="@string/mortgage_calculate" />
+</LinearLayout>

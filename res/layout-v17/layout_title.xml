@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?miui:actionBarBackground" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/actionbar_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/imv_home_menu" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="center" android:contentDescription="@string/menuDesc" android:layout_alignParentStart="true" />
+        <TextView android:textAppearance="@miui:style/TextAppearance.WindowTitle" android:id="@id/txv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/img_scan" android:visibility="gone" android:contentDescription="@string/scannerDesc" android:layout_marginEnd="@dimen/title_item_margin_right" android:layout_toStartOf="@id/img_switch" style="@style/title_item_style" />
+        <ImageView android:id="@id/img_switch" android:visibility="gone" android:contentDescription="@string/switchDesc" android:layout_marginEnd="@dimen/title_item_margin_end" android:layout_alignParentEnd="true" style="@style/title_item_style" />
+    </RelativeLayout>
+</LinearLayout>

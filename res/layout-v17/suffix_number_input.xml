@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textAppearance="@style/CalTextAppearance.Widget.List.Primary" android:textSize="@dimen/edit_text_size" android:textColor="@color/tax_credit_edit_text_color" android:textColorHint="@color/tax_credit_edit_text_hint_color" android:gravity="start|center" android:layout_gravity="center_vertical" android:id="@id/edt_text" android:background="@null" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLength="11" android:layout_weight="1.0" android:inputType="numberDecimal" android:labelFor="@id/edt_text" />
+    <TextView android:textAppearance="@miui:style/TextAppearance.Widget.List.Secondary" android:layout_gravity="center_vertical" android:id="@id/txv_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

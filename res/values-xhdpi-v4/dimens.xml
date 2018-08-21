@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_fun_size">29.0dip</dimen>
+    <dimen name="button_normal_size">26.0dip</dimen>
+    <dimen name="display_text_size">41.0dip</dimen>
+    <dimen name="display_history_margin_result">0.0dip</dimen>
+    <dimen name="history_display_off_set">10.0dip</dimen>
+    <dimen name="history_text_size">16.0dip</dimen>
+    <dimen name="screen_display_margin_bottom">25.0dip</dimen>
+    <dimen name="screen_text_margin_border">27.0dip</dimen>
+    <dimen name="suffix_number_input_text_size">15.5sp</dimen>
+    <dimen name="title_menu_margin_left">18.0dip</dimen>
+    <dimen name="button_scien_fun_size">16.0dip</dimen>
+    <dimen name="screen_top_history_margin_top">31.0dip</dimen>
+    <dimen name="button_fun_scientific_size">24.0dip</dimen>
+    <dimen name="button_normal_scientific_pad_size">20.0dip</dimen>
+    <dimen name="screen_switch_btn_margin_border">27.0dip</dimen>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom|center|right" android:orientation="vertical" android:id="@id/lyt_scientific" android:background="@color/calvertical_view_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/lyt_pad_top_symbol" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="3.0">
+        <ViewStub android:id="@id/viewstub_scientific_operation" android:layout="@layout/number_pad_scientific_operation" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:weightSum="5.0" android:layout_weight="7.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/lyt_pad_column_first" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ViewStub android:id="@id/viewstub_scientific_operation_left" android:layout="@layout/number_pad_scientific_operation_left" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="bottom|center|right" android:orientation="horizontal" android:id="@id/lyt_nbp_simple" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="4.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/btn_c_s" android:src="@drawable/btn_pad_c" android:scaleType="center" android:contentDescription="@string/clearDesc" style="@style/CalWidget.Button.Pad.V" />
+                <TextView android:id="@id/btn_7_s" android:text="@string/digit7" style="@style/CalWidget.Button.Pad.V" />
+                <TextView android:id="@id/btn_4_s" android:text="@string/digit4" style="@style/CalWidget.Button.Pad.V" />
+                <TextView android:id="@id/btn_1_s" android:text="@string/digit1" style="@style/CalWidget.Button.Pad.V" />
+                <LinearLayout style="@style/CalWidget.Button.Pad.V">
+                    <TextView android:textSize="@dimen/btn_pad_symbol_outer" android:gravity="center" android:id="@id/btn_e" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/e" android:contentDescription="@string/eDesc" />
+                    <ImageView android:id="@id/btn_switch" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/frame_animation_btn_switch" android:scaleType="center" android:contentDescription="@string/switchDesc" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/btn_del_s" android:src="@drawable/btn_pad_del" android:scaleType="center" android:contentDescription="@string/deleteDesc" style="@style/CalWidget.Button.Pad.V" />
+                <TextView android:id="@id/btn_8_s" android:text="@string/digit8" style="@style/CalWidget.Button.Pad.V" />
+                <TextView android:id="@id/btn_5_s" android:text="@string/digit5" style="@style/CalWidget.Button.Pad.V" />
+                <TextView android:id="@id/btn_2_s" android:text="@string/digit2" style="@style/CalWidget.Button.Pad.V" />
+                <TextView android:id="@id/btn_0_s" android:text="@string/digit0" style="@style/CalWidget.Button.Pad.V" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/btn_percent_s" android:src="@drawable/btn_pad_percent" android:scaleType="center" android:contentDescription="@string/percentDesc" style="@style/CalWidget.Button.Pad.V" />
+                <TextView android:id="@id/btn_9_s" android:text="@string/digit9" style="@style/CalWidget.Button.Pad.V" />
+                <TextView android:id="@id/btn_6_s" android:text="@string/digit6" style="@style/CalWidget.Button.Pad.V" />
+                <TextView android:id="@id/btn_3_s" android:text="@string/digit3" style="@style/CalWidget.Button.Pad.V" />
+                <TextView android:id="@id/btn_dot_s" android:text="@string/dot" android:contentDescription="@string/dotDesc" style="@style/CalWidget.Button.Pad.V" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/btn_div_s" android:src="@drawable/btn_pad_div" android:scaleType="center" android:contentDescription="@string/divDesc" style="@style/CalWidget.Button.Pad.V" />
+                <ImageView android:id="@id/btn_mul_s" android:src="@drawable/btn_pad_mul" android:scaleType="center" android:contentDescription="@string/mulDesc" style="@style/CalWidget.Button.Pad.V" />
+                <ImageView android:id="@id/btn_minus_s" android:src="@drawable/btn_pad_minus" android:scaleType="center" android:contentDescription="@string/minusDesc" style="@style/CalWidget.Button.Pad.V" />
+                <ImageView android:id="@id/btn_plus_s" android:src="@drawable/btn_pad_plus" android:scaleType="center" android:contentDescription="@string/plusDesc" style="@style/CalWidget.Button.Pad.V" />
+                <ImageView android:id="@id/btn_equal_s" android:background="@drawable/btn_pad_equal_bg" android:src="@drawable/btn_pad_equal" android:scaleType="center" android:contentDescription="@string/equalDesc" style="@style/CalWidget.Button.Pad.V" />
+                <TextView android:textSize="@dimen/btn_pad_ok" android:textColor="@android:color/white" android:id="@id/btn_ok_s" android:background="@drawable/btn_pad_ok_last_bg" android:visibility="gone" android:clickable="true" android:text="@android:string/ok" style="@style/CalWidget.Button.Pad.V" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

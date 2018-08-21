@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/lyt_calculator" android:background="?miui:actionBarBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/lyt_calculator_view" android:background="@color/calvertical_view_background" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="@integer/scientific_view_weight">
+        <include android:id="@id/lyt_scienticic_view" layout="@layout/calculator_activity" />
+        <com.miui.calculator.cal.CalVerticalView android:id="@id/cvv_cal_vertical_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="bottom" android:id="@id/lyt_nbp" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="@integer/scientific_number_pad_weight">
+        <com.miui.calculator.common.widget.NumberPad android:layout_gravity="bottom" android:id="@id/nbp_pad" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</LinearLayout>

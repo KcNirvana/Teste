@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/btn_sqrt" android:src="@drawable/btn_sqrt" android:scaleType="center" android:contentDescription="@string/sqrtDesc" style="@style/CalWidget.Button.Pad.Outer.Left" />
+    <LinearLayout android:id="@id/btn_fac" android:contentDescription="@string/factorialDesc" style="@style/CalWidget.Button.Pad.Outer.Left">
+        <TextView android:textSize="@dimen/btn_pad_pow_base_num_text_size" android:textColor="@color/btn_pad_symbol" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/power_base_number" />
+        <TextView android:textSize="@dimen/btn_pad_factorcial_text_size" android:textColor="@color/btn_pad_symbol" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/factorial" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/btn_pad_reciprocal_font_size" android:id="@id/btn_reciprocal" android:text="@string/reciprocal" android:contentDescription="@string/reciprocalDesc" style="@style/CalWidget.Button.Pad.Outer.Left" />
+    <TextView android:id="@id/btn_pi" android:text="@string/pi" android:contentDescription="@string/piDesc" style="@style/CalWidget.Button.Pad.Outer.Left" />
+    <ImageView android:id="@id/btn_switch_s" android:src="@drawable/frame_animation_btn_switch" android:scaleType="center" android:contentDescription="@string/switchDesc" style="@style/CalWidget.Button.Pad.Outer.Left" />
+</LinearLayout>

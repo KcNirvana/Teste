@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/CalWidget.ListItem"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:SuffixNumberInput="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:textAppearance="@style/CalTextAppearance.Widget.List.Primary" android:textSize="@dimen/text_pretax_bonuse_siz" android:textColor="@color/tax_credit_text_pretax_bonus_color" android:layout_gravity="center_vertical" android:id="@id/tx_oiv_commercial_loan_global_rate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loan_interest_rate" />
+        <com.miui.calculator.common.widget.SuffixNumberInput android:id="@id/oiv_commercial_loan_global_rate" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/edit_text_margin_top" android:layout_marginBottom="@dimen/edit_text_margin_bottom" SuffixNumberInput:editTextLength="@integer/global_rate_suffixnumberinput_max_length" SuffixNumberInput:editTextMaxValue="@integer/extendable_suffixnumberinput_max_value" />
+    </LinearLayout>
+    <View style="@style/CalWidget.Divider" />
+</LinearLayout>

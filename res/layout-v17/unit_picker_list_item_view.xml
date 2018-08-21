@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/lyt_unit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="50.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/unit_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" android:layout_marginEnd="10.0dip" />
+        <TextView android:textAppearance="@style/CalTextAppearance.Alert.List.Primary" android:layout_gravity="center_vertical" android:id="@id/unit_display" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="10.0dip" />
+    </LinearLayout>
+    <View style="@style/CalWidget.Divider.Alert" />
+</FrameLayout>

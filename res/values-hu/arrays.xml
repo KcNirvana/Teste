@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mortgage_repayment">
+        <item>Egyenlő részletben</item>
+        <item>Csökkenő részletekben</item>
+    </string-array>
+    <string-array name="unit_data_order_currency_">
+        <item>USD</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>HUF</item>
+        <item>CNY</item>
+    </string-array>
+    <string-array name="unit_data_order_time_">
+        <item>év</item>
+        <item>hét</item>
+        <item>nap</item>
+        <item>ó</item>
+        <item>p</item>
+        <item>mp</item>
+        <item>ms</item>
+        <item>us</item>
+        <item>ps</item>
+    </string-array>
+</resources>

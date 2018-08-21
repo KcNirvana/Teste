@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/conversion_layout" android:background="@color/actionbar_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/lyt_convert_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="8.5">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.miui.calculator.convert.UnitView android:id="@id/unv_1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <View style="@style/CalWidget.Divider" />
+            <com.miui.calculator.convert.UnitView android:id="@id/unv_2" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <View android:id="@id/unit3_divider" style="@style/CalWidget.Divider" />
+            <com.miui.calculator.convert.UnitView android:id="@id/unv_3" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/currency_update_time" android:textColor="@color/update_time_currency" android:gravity="bottom|center" android:id="@id/txv_updatetime" android:paddingBottom="@dimen/currency_update_time_margin_bottom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.miui.calculator.common.widget.NumberPad android:id="@id/nbp_pad" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="10.0" />
+</LinearLayout>
