@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <PreferenceCategory android:key="turn_and_change_password">
-        <Preference android:persistent="false" android:title="@string/turn_on_keyguard_password" android:key="turn_off_security_lock" />
-        <ListPreference android:entries="@array/change_security_lock_picker" android:title="@string/change_password" android:key="change_password" android:entryValues="@array/change_security_lock_picker_key" />
-    </PreferenceCategory>
-    <PreferenceCategory android:title="@string/advanced_settings" android:key="lock_screen_common_options" />
-</PreferenceScreen>

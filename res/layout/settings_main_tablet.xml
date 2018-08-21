@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<miui.widget.NavigationLayout android:id="@id/navigation_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <FrameLayout android:id="@miui:id/content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <FrameLayout android:id="@miui:id/navigation" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <ListView android:id="@android:id/list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-</miui.widget.NavigationLayout>

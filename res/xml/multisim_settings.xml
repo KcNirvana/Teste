@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:provision="http://schemas.android.com/apk/res/com.android.provision">
-    <com.android.provision.widget.MultiSimListPreference android:title="@string/pref_title_voice_slot" android:key="pref_key_voice_slot" provision:withNoPrefferd="true" />
-    <com.android.provision.widget.MultiSimListPreference android:title="@string/pref_title_data_slot" android:key="pref_key_data_slot" provision:withNoPrefferd="false" />
-</PreferenceScreen>

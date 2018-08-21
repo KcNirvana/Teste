@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:layout_marginStart="28.199982dip" android:layout_marginEnd="28.199982dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textColor="@drawable/keyguard_setup_btn_text_color_normal" android:id="@id/btn_back" android:clickable="true" android:text="@string/setup_password_back" android:layout_alignParentStart="true" style="@style/ProvisionStepTextStyle" />
-    <TextView android:textColor="@drawable/keyguard_setup_btn_text_color_low_light" android:id="@id/btn_skip" android:visibility="invisible" android:clickable="true" android:text="@string/lockpattern_retry_button_text" android:layout_centerHorizontal="true" style="@style/ProvisionStepTextStyle" />
-    <TextView android:textColor="@drawable/keyguard_setup_btn_text_color_high_light" android:id="@id/btn_next" android:clickable="true" android:text="@string/setup_password_confirm" android:layout_alignParentEnd="true" style="@style/ProvisionStepTextStyle" />
-</RelativeLayout>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="@miui:style/Widget.ListView.Item.DoubleLine"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <ImageView android:id="@id/icon" android:layout_width="@android:dimen/app_icon_size" android:layout_height="@android:dimen/app_icon_size" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
-        <TextView android:textAppearance="@miui:style/TextAppearance.List.Primary" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginStart="15.0dip" android:layout_marginEnd="40.0dip" android:layout_toEndOf="@id/icon" />
-        <miui.widget.SlidingButton android:id="@id/sliding_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
-    </RelativeLayout>
-</RelativeLayout>

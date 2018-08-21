@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<miui.widget.NestedHeaderLayout android:layout_width="fill_parent" android:layout_height="fill_parent" miui:rangeOffset="1.0px" style="@miui:style/Widget.NestedHeaderLayout"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:miui="http://schemas.android.com/apk/res/miui">
-    <include android:id="@miui:id/header_view" layout="@miui:layout/search_stub" />
-    <ListView android:id="@android:id/list" android:fadingEdgeLength="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <ListView android:id="@id/search_history" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/settings_search_margin" />
-    <ListView android:id="@id/search_result" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/settings_search_margin" />
-    <View android:id="@id/search_loading" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-</miui.widget.NestedHeaderLayout>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="preference_bt_custom_widget_margin_left">-27.0dip</dimen>
-    <dimen name="preference_bt_custom_widget_margin_right">7.0dip</dimen>
-</resources>

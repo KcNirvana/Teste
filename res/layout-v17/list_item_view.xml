@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/list_item_height" android:textAlignment="viewStart" android:layoutDirection="locale" android:paddingEnd="0.0dip" style="@miui:style/Widget.ListView.Item.SingleLine"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RadioButton android:textSize="@dimen/text_size_header" android:gravity="center_vertical" android:id="@id/item_view" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:button="@null" style="@miui:style/TextAppearance.PreferenceList" />
-    <RadioButton android:textSize="@dimen/language_list_item_title" android:textColor="@color/color_title_desp" android:layout_gravity="bottom" android:id="@id/item_view_title" android:paddingBottom="@dimen/language_list_item_padding_bottom" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-</LinearLayout>

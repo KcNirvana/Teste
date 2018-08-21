@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:background="@miui:drawable/preference_item_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="@miui:dimen/list_preferred_item_height" android:scaleType="centerInside" style="@miui:style/Widget.PreferenceItem" />
-    <TextView android:textAppearance="?android:textAppearanceLarge" android:gravity="start" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:textDirection="locale" android:textAlignment="gravity" />
-    <ImageView android:id="@id/drag_handle" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/status_bar_toggle_drag_handle" android:paddingStart="@dimen/status_bar_toggle_drag_handle_padding" />
-</LinearLayout>
