@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape android:shape="rectangle"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <corners android:radius="@dimen/media_notification_bg_radius" />
-    <solid android:color="#14000000" />
-    <stroke android:width="0.36dip" android:color="#26000000" />
-</shape>
