@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:layout_gravity="center" android:paddingTop="6.0dip" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="14.799988sp" android:textColor="#e6000000" android:gravity="center" android:layout_gravity="center" android:id="@id/loading_more" android:background="@drawable/button_rect_bg" android:layout_width="fill_parent" android:layout_height="46.299988dip" android:text="@string/load_more_hint" android:layout_marginStart="@dimen/card_original_left_right_margin" android:layout_marginEnd="@dimen/card_original_left_right_margin" />
-</LinearLayout>

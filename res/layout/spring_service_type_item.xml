@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/root" style="@style/DoubleLineListItemLayoutStyle"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/birth_horoscope_text_size" android:textColor="@color/list_secondary_text_color" android:id="@id/primary" android:layout_marginTop="@dimen/normal_margin" style="@style/TextStyle" />
-    <com.miui.calendar.view.DynamicLinearLayout android:gravity="center" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-</LinearLayout>

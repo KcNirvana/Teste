@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:id="@id/root" android:paddingTop="@dimen/normal_margin" android:paddingBottom="@dimen/normal_margin" style="@style/DoubleLineListItemLayoutStyle"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.miui.calendar.view.OnlineImageView android:id="@id/image" android:layout_width="@dimen/news_image_width" android:layout_height="@dimen/news_image_height" android:layout_marginRight="@dimen/normal_margin" style="@style/ImageWithBorderStyle" />
-    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <TextView android:id="@id/primary" android:singleLine="false" style="@style/DoubleLineListPrimaryTextStyle" />
-        <TextView android:id="@id/secondary" android:singleLine="false" style="@style/DoubleLineListSecondaryTextStyle" />
-    </LinearLayout>
-</LinearLayout>

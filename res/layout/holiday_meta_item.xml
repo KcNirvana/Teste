@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:background="@drawable/list_with_divider_bg_n" android:paddingTop="@dimen/card_normal_margin" android:paddingBottom="@dimen/card_normal_margin" android:layout_width="wrap_content" android:minHeight="@dimen/holiday_meta_layout_min_height" style="@style/CardContentLayoutStyle"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/card_title_text_size" android:textColor="@color/holiday_detail_item_title_color" android:id="@id/title" android:singleLine="true" style="@style/TextStyle" />
-    <TextView android:textSize="@dimen/card_title_text_size" android:textColor="@color/holiday_detail_item_content_color" android:id="@id/content" android:layout_marginLeft="15.0dip" style="@style/TextStyle" />
-</LinearLayout>

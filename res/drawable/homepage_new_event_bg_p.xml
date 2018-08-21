@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape android:shape="oval" android:useLevel="false"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="@color/image_border_color" />
-    <size android:height="@dimen/homepage_menu_size" android:width="@dimen/homepage_menu_size" />
-</shape>

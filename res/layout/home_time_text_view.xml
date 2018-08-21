@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView android:textSize="12.0sp" android:textColor="@color/miui_secondary_text_color_dark" android:gravity="center|right" android:id="@id/home_time" android:background="@color/calendar_date_banner_background" android:paddingLeft="@dimen/page_margin_small" android:paddingRight="@dimen/page_margin_small" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="30.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

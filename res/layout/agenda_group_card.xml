@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" style="@style/CardLayoutStyle"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:gravity="center_vertical" android:id="@id/no_events" android:minHeight="@dimen/line_height_single" android:text="@string/today_no_events" android:layout_marginStart="@dimen/card_large_left_margin" style="@style/SingleLineListPrimaryTextStyle" />
-    <com.miui.calendar.view.DynamicLinearLayout android:id="@id/container" style="@style/DynamicContainerStyle" />
-</LinearLayout>

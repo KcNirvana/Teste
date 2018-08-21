@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <corners android:radius="2.0dip" />
-    <solid android:color="#ffcdcdcd" />
-    <size android:height="10.0dip" />
-    <padding android:left="@dimen/text_chain_custom_tag_padding_lr" />
-    <padding android:right="@dimen/text_chain_custom_tag_padding_lr" />
-</shape>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include android:id="@id/tab_month" android:layout_width="@dimen/tab_month_and_agenda_width" android:layout_height="fill_parent" layout="@layout/homepage_tab_item" />
-    <include android:id="@id/tab_week" android:layout_width="@dimen/tab_week_and_day_width" android:layout_height="fill_parent" layout="@layout/homepage_tab_item" />
-    <include android:id="@id/tab_day" android:layout_width="@dimen/tab_week_and_day_width" android:layout_height="fill_parent" layout="@layout/homepage_tab_item" />
-    <include android:id="@id/tab_agenda" android:layout_width="@dimen/tab_month_and_agenda_width" android:layout_height="fill_parent" layout="@layout/homepage_tab_item" />
-</LinearLayout>

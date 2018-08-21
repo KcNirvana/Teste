@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <PreferenceCategory>
-        <CheckBoxPreference android:title="@string/preferences_use_home_tz_title" android:key="preferences_home_tz_enabled" android:summary="@string/preferences_use_home_tz_descrip" android:defaultValue="false" />
-        <com.android.calendar.preferences.ValueListPreference android:entries="@array/timezone_labels" android:title="@string/preferences_home_tz_title" android:key="preferences_home_tz" android:dependency="preferences_home_tz_enabled" android:dialogTitle="@string/preferences_home_tz_title" android:entryValues="@array/timezone_values" />
-    </PreferenceCategory>
-</PreferenceScreen>

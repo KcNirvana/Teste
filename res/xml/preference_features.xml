@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <Preference android:title="@string/setting_sms_import" android:key="key_sms_import" android:summary="@string/sms_import_description" />
-    <CheckBoxPreference android:title="@string/setting_title_yiji_display" android:key="key_chinese_almanac_pref" android:defaultValue="false" />
-    <CheckBoxPreference android:title="@string/setting_title_holiday_display" android:key="key_holiday_display" android:summary="@string/setting_holiday_display_desc" android:defaultValue="true" />
-</PreferenceScreen>

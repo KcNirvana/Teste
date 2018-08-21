@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="copy_email">Kopyahin ang email address</string>
-    <string name="copy_number">Kopyahin ang numero ng telepono</string>
-    <string name="done">Bumalik</string>
-    <string name="more_string">+%1$s</string>
-</resources>
