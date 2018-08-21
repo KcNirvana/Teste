@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<miui.widget.CheckedTextView android:textAppearance="@miui:style/TextAppearance.AlertDialogListItem.SingleChoice" android:gravity="center_vertical" android:id="@android:id/text1" android:background="@miui:drawable/list_item_bg_dialog_light" android:layout_width="fill_parent" android:layout_height="@miui:dimen/list_preferred_item_height_small" android:checkMark="?android:listChoiceIndicatorSingle" android:minHeight="?android:listPreferredItemHeight" android:paddingStart="0.0dip" android:paddingEnd="16.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@drawable/main_page_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ListView android:id="@id/list_issues" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
-    <LinearLayout android:orientation="vertical" android:id="@id/bottom_panel" android:layout_width="fill_parent" android:layout_height="60.299988dip">
-        <View android:background="#70909090" android:layout_width="fill_parent" android:layout_height="0.30000007dip" />
-        <Button android:id="@id/btn_finish_diagnostic" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/btn_finish_diagnostic" />
-    </LinearLayout>
-</LinearLayout>

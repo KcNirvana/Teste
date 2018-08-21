@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:layout_gravity="center_horizontal" android:id="@id/confirm_fingerprint_view_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fingerprint_remind_dialog_title" style="?android:attr/textAppearanceLarge" />
-    <TextView android:textSize="14.0sp" android:layout_gravity="center_horizontal" android:id="@id/confirm_fingerprint_view_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/finger_remind_message" />
-</LinearLayout>

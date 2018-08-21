@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.miui.antispam.ui.view.AntiSpamEditorTitleView android:id="@id/title_view"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <Button android:id="@id/cancel" android:text="@android:string/cancel" android:layout_weight="0.0" android:layout_marginStart="@dimen/editor_title_button_margin" style="@miui:style/Widget.ActionMode.Button" />
-    <LinearLayout android:gravity="center" android:id="@id/title_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
-        <TextView android:gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@miui:style/TextAppearance.Widget.ActionMode.Title" />
-    </LinearLayout>
-    <Button android:id="@id/ok" android:text="@android:string/ok" android:layout_weight="0.0" android:layout_marginEnd="@dimen/editor_title_button_margin" style="@miui:style/Widget.ActionMode.Button.Default" />
-</com.miui.antispam.ui.view.AntiSpamEditorTitleView>

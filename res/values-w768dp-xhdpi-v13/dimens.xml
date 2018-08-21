@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="boot_msg_top_padding">396.0dip</dimen>
+    <dimen name="boot_msg_bottom_padding">135.0dip</dimen>
+    <dimen name="boot_msg_left_padding">260.0dip</dimen>
+    <dimen name="boot_msg_right_padding">260.0dip</dimen>
+    <dimen name="global_actions_item_margin">40.0dip</dimen>
+    <dimen name="global_actions_text_size">12.0sp</dimen>
+    <dimen name="global_actions_item_text_top_margin">6.0dip</dimen>
+</resources>

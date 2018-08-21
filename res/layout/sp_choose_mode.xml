@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <CheckBox android:layout_gravity="center" android:id="@id/SMSpass" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="@string/st_message_SMSpass" android:layout_weight="1.0" android:paddingStart="8.0dip" android:layout_marginStart="@miui:dimen/preference_item_padding_inner" />
-    <CheckBox android:layout_gravity="center" android:id="@id/Phonepass" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="@string/st_message_phonepass" android:layout_weight="1.0" android:paddingStart="8.0dip" android:layout_marginStart="@miui:dimen/preference_item_padding_inner" />
-</LinearLayout>

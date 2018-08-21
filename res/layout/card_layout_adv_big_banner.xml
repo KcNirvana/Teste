@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@drawable/card_bg_selector" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.miui.common.customview.AdImageView android:id="@id/iv_big_banner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" />
-    <TextView android:textColor="@color/ads_close_text_color" android:id="@id/close" android:background="@drawable/ads_close_bg" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/optimize_result_ads_close_text" android:layout_alignParentEnd="true" />
-</RelativeLayout>

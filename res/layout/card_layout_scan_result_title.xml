@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/optimizingbar_item_height_result" android:paddingStart="@dimen/optimizingbar_item_padding_left" android:paddingEnd="@dimen/optimizingbar_item_padding_right"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/iv_icon" android:layout_width="@dimen/optimizingbar_item_icon_width" android:layout_height="@dimen/optimizingbar_item_icon_width" />
-    <TextView android:id="@id/tv_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:layout_marginStart="@dimen/optimizingbar_item_textview_margin_start" style="@style/CardTitleTextViewStyle" />
-    <TextView android:textSize="12.0sp" android:textColor="@color/optmizing_item_status" android:id="@id/tv_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
-</LinearLayout>

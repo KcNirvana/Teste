@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="12.0sp" android:textColor="@color/blackalpha60" android:id="@id/value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="5.0dip" android:layout_above="@id/bar" android:layout_centerHorizontal="true" />
-    <TextView android:id="@id/bar" android:background="@color/flow_rank_bar_bg" android:layout_width="20.0dip" android:layout_height="10.0dip" android:layout_above="@id/divider" android:layout_centerHorizontal="true" />
-    <include android:id="@id/divider" android:layout_width="fill_parent" android:layout_height="@dimen/card_thin_separate_line_height" android:layout_above="@id/title" layout="@layout/include_horizontal_line" />
-    <TextView android:textSize="13.0sp" android:textColor="@color/blackalpha90" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:singleLine="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:paddingStart="2.5dip" android:paddingEnd="2.5dip" />
-</RelativeLayout>

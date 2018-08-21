@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <item type="dimen" name="list_preferred_item_height">@miui:dimen/list_preferred_item_height_small</item>
-    <dimen name="v_head_margintop">80.0dip</dimen>
-    <dimen name="v_score_text">88.32999dip</dimen>
-    <dimen name="sysinfo_dimen">48.0dip</dimen>
-    <dimen name="main_indicator_padding">5.0dip</dimen>
-    <dimen name="list_empty_item_height">30.0dip</dimen>
-</resources>

@@ -1,132 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="date_of_traffic_cmcc">
-        <item>གཟའ་འདིའི་བཞུར་ཚད།</item>
-        <item>ཉིན་དེའི་བཞུར་ཚད།</item>
-        <item>ཟླ་འདིའི་བཞུར་ཚད།</item>
-    </string-array>
-    <string-array name="date_of_traffic">
-        <item>ཁ་སང་གི་བཞུར་ཚད།</item>
-        <item>ཉིན་དེའི་བཞུར་ཚད།</item>
-        <item>ཟླ་གོང་མའི་བཞུར་ཚད།</item>
-        <item>ཟླ་འདིའི་བཞུར་ཚད།</item>
-    </string-array>
-    <string-array name="date_of_traffic_prefix_cmcc">
-        <item>གཟའ་འདིར།</item>
-        <item>ཉིན་དེར།</item>
-        <item>ཟླ་དེར།</item>
-    </string-array>
-    <string-array name="date_of_traffic_prefix">
-        <item>ཁ་སང་།</item>
-        <item>ཉིན་དེར།</item>
-        <item>ཟླ་བ་གོང་མ།</item>
-        <item>ཟླ་འདི།</item>
-    </string-array>
-    <string-array name="date_of_app_all">
-        <item>ཁ་སང་གི་གཞི་གྲངས་བཞུར་ཚད།</item>
-        <item>ཉིན་དེའི་གཞི་གྲངས་བཞུར་ཚད།</item>
-        <item>ཟླ་གོང་མའི་གཞི་གྲངས་བཞུར་ཚད།</item>
-        <item>ཟླ་འདིའི་གཞི་གྲངས་བཞུར་ཚད།</item>
-        <item>ཁ་སའི་WLANབཞུར་ཚད།</item>
-        <item>ཉིན་འདིའི་WLANབཞུར་ཚད།</item>
-        <item>ཟླ་གོང་མའི་WLANབཞུར་ཚད།</item>
-        <item>ཟླ་འདིའིWLANབཞུར་ཚད།</item>
-    </string-array>
-    <string-array name="traffic_type">
-        <item>གཞི་གྲངས་བཞུར་ཚད།</item>
-        <item>WLANབཞུར་ཚད།</item>
-    </string-array>
-    <string-array name="mi_service_traffic_type">
-        <item>གཞི་གྲངས་བཞུར་ཚད།</item>
-        <item>WLANབཞུར་ཚད།</item>
-    </string-array>
-    <string-array name="over_limit_traffic_waring_style">
-        <item>དྲན་སྐུལ་ཁོ་ན།</item>
-        <item>དྲ་ཆད་ནས་དྲན་སྐུལ་བྱེད་པ།</item>
-    </string-array>
-    <string-array name="roaming_network_type">
-        <item>ཉེར་སྤྱོད་ཆ་ཚང་དྲ་སྦྲེལ་ཆོག</item>
-        <item>མིང་ཐོ་དཀར་བོའི་ཉེར་སྤྱོད་ཁོ་ན་དྲ་སྦྲེལ་ཆོག</item>
-        <item>ཉེར་སྤྱོད་ཡོད་ཚད་ཀྱིས་དྲ་སྦྲེལ་ལ་བཀག་འགོག</item>
-    </string-array>
-    <string-array name="lock_mode">
-        <item>བརྙན་ཤེལ་ཁ་བརྒྱབ་པའི་རྗེས།</item>
-        <item>བརྙན་ཤེལ་ཁ་བརྒྱབ་པའམ་ཉེར་སྤྱོད་ལས་ཕྱིར་འཐོན་རྗེས།</item>
-        <item>བརྙན་ཤེལ་ཁ་བརྒྱབ་པའམ་ཉེར་སྤྱོད་ལས་ཕྱིར་བཏོན་ནས་སྐར་མ1རྗེས།</item>
-    </string-array>
-    <string-array name="sort_type">
-        <item>འཁོར་སྐྱོད་རྣམ་པ།</item>
-        <item>ཉེར་སྤྱོད་ཀྱི་མིང་།</item>
-        <item>བེད་སྤྱོད་ཟློས་ཕྱོད།</item>
-        <item>ཉར་ཚགས་བཟུང་བ།</item>
-        <item>སྒྲིག་འཇུག་དུས་ཚོད།</item>
-    </string-array>
-    <string-array name="sort_title">
-        <item>འཁོར་སྐྱོད་རྣམ་པར་དམིགས་ནས་རིམ་སྒྲིག</item>
-        <item>ཉེར་སྤྱོད་ཀྱི་མིང་ལ་དམིགས་ནས་རིམ་སྒྲིག</item>
-        <item>བེད་སྤྱོད་ཟློས་ཕྱོད་ལ་དམིགས་ནས་རིམ་སྒྲིག</item>
-        <item>ཉར་ཚགས་བཟུང་ཚད་ལ་དམིགས་ནས་རིམ་སྒྲིག</item>
-        <item>སྒྲིག་འཇུག་དུས་ཚོད་ལྟར་རིམ་སྒྲིག</item>
-    </string-array>
-    <string-array name="title_app_info">
-        <item>ཐོག་མར་སྒྲིག་འཇུག་ཡོངས་ཁུངས།</item>
-        <item>ཐོག་མར་སྒྲིག་འཇུག་དུས་ཚོད།</item>
-        <item>གསར་སྒྱུར་མཐའ་མའི་ཡོངས་ཁུངས།</item>
-        <item>གསར་སྒྱུར་མཐའ་མའི་དུས་ཚོད།</item>
-    </string-array>
-    <string-array name="sms_report_type">
-        <item>གཞི་གྲངས་བཞུར་ཚད།</item>
-        <item>བཤད་གླ་ལྷག་མ།</item>
-    </string-array>
-    <string-array name="tether_limit_warn_type">
-        <item>ཚ་གནས་ཁ་བརྒྱབ་ནས་དྲན་བསྐུལ།</item>
-        <item>དྲན་སྐུལ་གཅིག་པུ།</item>
-    </string-array>
-    <string-array name="alarm_repeat_type">
-        <item>ཐེངས་གཅིག</item>
-        <item>ཉིན་རེར།</item>
-        <item>ཁྲིམས་བཀོད་ལས་ཀའི་ཉིན་མོ།</item>
-        <item>གཟའ་ཟླ་བ་ནས་གཟའ་པ་སངས་བར།</item>
-        <item>རང་སྒྲུབ།</item>
-    </string-array>
-    <string-array name="alarm_repeat_type_no_workdays">
-        <item>ཐེངས་གཅིག</item>
-        <item>ཉིན་རེར།</item>
-        <item>གཟའ་ཟླ་བ་ནས་གཟའ་པ་སངས་བར།</item>
-        <item>རང་སྒྲུབ།</item>
-    </string-array>
-    <string-array name="power_dialog_auto_clean_memory_items">
-        <item>སྐར་མ1 ཡི་རྗེས།</item>
-        <item>སྐར་མ5ཡི་རྗེས།</item>
-        <item>སྐར་མ10 ཡི་རྗེས།</item>
-        <item>གཏན་ནས་མིན།</item>
-    </string-array>
-    <string-array name="power_dialog_sleep_items">
-        <item>སྐར་ཆ15</item>
-        <item>སྐར་ཆ30</item>
-        <item>སྐར་མ1</item>
-        <item>སྐར་མ2</item>
-        <item>སྐར་མ5</item>
-        <item>སྐར་མ10</item>
-        <item>གཏན་ནས་མིན།</item>
-    </string-array>
-    <string-array name="power_dialog_cpu_state_items">
-        <item>ནུས་པའི་དཔེ་ཚུལ།</item>
-        <item>དོ་མཉམ་དཔེ་ཚུལ།</item>
-    </string-array>
-    <string-array name="power_dialog_wifi_internet_state_items">
-        <item>ཁ་རྒྱག</item>
-        <item>ཁ་འབྱེད།</item>
-        <item>འགྱུར་བ་མི་གཏོང་།</item>
-    </string-array>
-    <string-array name="power_dialog_vibration_items">
-        <item>འདར་འགུལ་མི་བྱེད།</item>
-        <item>སྒྲ་མེད་སྐབས་སྐབས་ཁོ་ནར་འདར་གཡོ།</item>
-        <item>འདར་འགུལ།</item>
-    </string-array>
-    <string-array name="power_dialog_vibration_items_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
+    <string-array name="boot_msg_text">
+        <item>སྒུལ་སློང་མྱུར་ཚད་ལེགས་འགྱུར་ངང་བཀོལ་བཞིན་པ། སྒུག་རོགས་གནང་།</item>
+        <item>སྒུལ་སློང་མྱུར་ཚད་ལེགས་འགྱུར་ངང་བཀོལ་བཞིན་པ། སྒུག་རོགས་གནང་།</item>
+        <item>སྒུལ་སློང་མྱུར་ཚད་ལེགས་འགྱུར་ངང་བཀོལ་བཞིན་པ། སྒུག་རོགས་གནང་།</item>
+        <item>སྒུལ་སློང་མྱུར་ཚད་ལེགས་འགྱུར་ངང་བཀོལ་བཞིན་པ། སྒུག་རོགས་གནང་།</item>
+        <item>སྒུལ་སློང་མྱུར་ཚད་ལེགས་འགྱུར་ངང་བཀོལ་བཞིན་པ། སྒུག་རོགས་གནང་།</item>
+        <item>སྒུལ་སློང་མྱུར་ཚད་ལེགས་འགྱུར་ངང་བཀོལ་བཞིན་པ། སྒུག་རོགས་གནང་།</item>
+        <item>སྒུལ་སློང་མྱུར་ཚད་ལེགས་འགྱུར་ངང་བཀོལ་བཞིན་པ། སྒུག་རོགས་གནང་།</item>
+        <item>སྒུལ་སློང་མྱུར་ཚད་ལེགས་འགྱུར་ངང་བཀོལ་བཞིན་པ། སྒུག་རོགས་གནང་།</item>
+        <item>སྒུལ་སློང་མྱུར་ཚད་ལེགས་འགྱུར་ངང་བཀོལ་བཞིན་པ། སྒུག་རོགས་གནང་།</item>
+        <item>སྒུལ་སློང་མྱུར་ཚད་ལེགས་འགྱུར་ངང་བཀོལ་བཞིན་པ། སྒུག་རོགས་གནང་།</item>
+        <item>སྒུལ་སློང་མྱུར་ཚད་ལེགས་འགྱུར་ངང་བཀོལ་བཞིན་པ། སྒུག་རོགས་གནང་།</item>
+        <item>སྒུལ་སློང་མྱུར་ཚད་ལེགས་འགྱུར་ངང་བཀོལ་བཞིན་པ། སྒུག་རོགས་གནང་།</item>
     </string-array>
 </resources>

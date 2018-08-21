@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="main_optimizing_bar_margin_top">183.0dip</dimen>
-    <dimen name="main_optimizing_bar_topview_heigh">165.0dip</dimen>
-    <dimen name="main_card_menu_model_height">123.0dip</dimen>
-    <dimen name="scanresult_scorechar_default_margintop">-47.299988dip</dimen>
-    <dimen name="headsup_view_height">220.0dip</dimen>
-    <dimen name="float_view_height">51.299988dip</dimen>
-    <dimen name="float_tips_view_height">51.299988dip</dimen>
-    <item type="dimen" name="icon_width">@android:dimen/app_icon_size</item>
-    <dimen name="traffic_mark_min_width">6.659973dip</dimen>
-    <dimen name="traffic_mark_max_width">180.0dip</dimen>
-    <dimen name="firewall_button_group_width">100.0dip</dimen>
-    <dimen name="firewall_button_group_width_half">50.0dip</dimen>
-    <dimen name="gb_tab1_icon_size">60.69998dip</dimen>
+    <dimen name="boot_msg_top_padding">270.65625dip</dimen>
+    <dimen name="screen_on_proximity_sensor_hint_height">203.09299dip</dimen>
+    <dimen name="text_edit_action_popup_text_size">11.0sp</dimen>
+    <dimen name="text_action_popup_padding">16.669983dip</dimen>
+    <dimen name="text_action_popup_padding_small">13.299988dip</dimen>
+    <dimen name="action_bar_subtitle_top_margin">-3.0dip</dimen>
+    <dimen name="action_bar_subtitle_bottom_margin">0.0dip</dimen>
+    <dimen name="global_actions_item_margin">30.0dip</dimen>
+    <dimen name="global_actions_text_size">12.0sp</dimen>
+    <dimen name="global_actions_item_text_top_margin">6.0dip</dimen>
 </resources>

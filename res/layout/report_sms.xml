@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.miui.antispam.ui.view.EditableListViews android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:fastScrollEnabled="true" />
-    <LinearLayout android:paddingLeft="15.0dip" android:paddingTop="40.0px" android:paddingRight="15.0dip" android:paddingBottom="40.0px" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <Button android:id="@id/report" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/report" />
-    </LinearLayout>
-</LinearLayout>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.miui.networkassistant.ui.view.MainIndicatorView android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="36.329987dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/main_indicator_text_size" android:id="@id/text_indicator1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/main_indicator_padding" />
-    <TextView android:textSize="@dimen/main_indicator_text_size" android:id="@id/text_indicator2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-</com.miui.networkassistant.ui.view.MainIndicatorView>

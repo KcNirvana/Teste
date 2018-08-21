@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="12.0sp" android:textColor="#7f000000" android:id="@id/header_title" android:layout_width="fill_parent" android:layout_height="33.299988dip" android:text="@string/auto_task_manager_group_title" style="@miui:style/Widget.ListView.Item.GroupHeader" />
-    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
-        <miui.widget.EditableListView android:id="@id/list" android:paddingBottom="62.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-        <com.miui.powercenter.autotask.FloatActionButtonView android:layout_gravity="end|bottom|center" android:id="@id/action_btn" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/floating_action_button_margin" android:contentDescription="@string/auto_task_manage_new_task" android:layout_marginStart="@dimen/floating_action_button_margin" android:layout_marginEnd="@dimen/floating_action_button_margin" />
-    </FrameLayout>
-</LinearLayout>

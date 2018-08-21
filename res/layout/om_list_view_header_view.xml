@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.miui.optimizemanage.view.HeaderRelativeLayout android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="44.599976dip" android:paddingStart="@dimen/list_item_view_size_padding_large"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="12.0sp" android:textColor="#b3000000" android:id="@id/header_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
-    <View android:id="@id/line" android:background="@color/separator_line_light_gray" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
-</com.miui.optimizemanage.view.HeaderRelativeLayout>

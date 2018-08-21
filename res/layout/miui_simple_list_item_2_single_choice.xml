@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:textAppearance="@miui:style/TextAppearance.AlertDialogListItem.SingleChoice" android:gravity="center_vertical" android:orientation="horizontal" android:background="@miui:drawable/list_item_bg_dialog_light" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioButton android:gravity="center_vertical" android:id="@id/android_radio" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <CheckedTextView android:textAppearance="@miui:style/TextAppearance.AlertDialogListItem.SingleChoice" android:ellipsize="marquee" android:gravity="start|center" android:id="@android:id/text1" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textAppearance="@miui:style/TextAppearance.Widget.List.Secondary" android:ellipsize="marquee" android:gravity="start|center" android:id="@android:id/text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>
