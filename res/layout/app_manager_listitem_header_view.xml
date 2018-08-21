@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/app_manager_white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@miui:style/TextAppearance.List.Secondary" android:gravity="bottom" android:id="@id/header_title" android:clickable="false" android:layout_width="fill_parent" android:layout_height="30.699982dip" android:layout_marginBottom="7.0dip" android:singleLine="true" android:paddingStart="@dimen/am_app_list_padding_start" />
+    <FrameLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/am_app_list_padding_start">
+        <include layout="@layout/include_horizontal_line" />
+    </FrameLayout>
+</LinearLayout>

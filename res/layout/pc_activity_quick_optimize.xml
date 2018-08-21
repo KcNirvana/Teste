@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.miui.common.customview.MovableLayout android:id="@id/content" android:background="@color/activity_optimize_handle_bg_orange" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" app:headerHeight="@dimen/optimize_header_bar_height" app:scrollRange="@dimen/optimize_header_bar_scroll_size">
+        <com.miui.powercenter.quickoptimize.OptimizeHeaderView android:id="@id/header_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:layout_gravity="bottom" android:id="@id/content_container" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ListView android:id="@id/handle_item_list_view" android:background="@color/white" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000" />
+            <ListView android:id="@id/deep_save_list" android:background="@color/white" android:visibility="gone" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000" />
+        </FrameLayout>
+    </com.miui.common.customview.MovableLayout>
+    <FrameLayout android:id="@id/bottom_bar" android:background="@drawable/main_page_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textColor="@color/white" android:layout_gravity="center" android:id="@id/btn_text_quick_fix" android:background="@drawable/quick_fix_btn_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="23.329987dip" android:text="@string/btn_text_quick_save_power" />
+    </FrameLayout>
+</LinearLayout>

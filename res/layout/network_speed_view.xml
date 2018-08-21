@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="61.299988dip" android:textColor="#e6ffffff" android:orientation="horizontal" android:id="@id/number" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:layout_alignBottom="@id/number" android:layout_marginStart="4.0dip" android:layout_toEndOf="@id/number">
+        <TextView android:textSize="13.299988dip" android:textStyle="bold" android:textColor="#b3ffffff" android:id="@id/unit" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

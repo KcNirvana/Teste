@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:background="@miui:drawable/preference_item_bg" android:minHeight="@miui:dimen/list_preferred_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="@dimen/list_item_app_icon_size" android:layout_height="@dimen/list_item_app_icon_size" android:scaleType="centerInside" />
+    <RelativeLayout android:id="@id/rl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" android:layout_toEndOf="@id/icon">
+        <TextView android:textAppearance="@miui:style/TextAppearance.PreferenceList" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="10.0dip" />
+        <TextView android:textAppearance="@miui:style/TextAppearance.List.Secondary" android:id="@id/summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/title" />
+        <TextView android:id="@id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <miui.widget.ProgressBar android:id="@id/progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:max="100" android:layout_below="@id/rl" android:layout_alignStart="@id/rl" style="?android:attr/progressBarStyleHorizontal" />
+</RelativeLayout>

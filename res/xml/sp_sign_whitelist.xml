@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/white_list_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/cleanup_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="23.0dip" android:layout_alignParentBottom="true" />
+    <TextView android:textAppearance="@miui:style/TextAppearance.List.Secondary" android:gravity="bottom" android:id="@id/header_title" android:background="@drawable/list_item_bg_light" android:paddingBottom="7.0dip" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@miui:style/Widget.ListView.Item.SingleLine" />
+    <ListView android:id="@id/app_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/cleanup_btn" android:layout_below="@id/header_title" />
+    <TextView android:textAppearance="@miui:style/TextAppearance.BlankPage" android:id="@id/empty_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableTop="@drawable/icon_list_empty" android:layout_centerInParent="true" />
+</RelativeLayout>

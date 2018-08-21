@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/header_view" android:layout_width="fill_parent" android:layout_height="@dimen/om_activity_header_view_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.miui.optimizemanage.cpuusage.CpuUsageCircleView android:id="@id/circle_view" android:layout_width="@dimen/om_memory_clean_circle_diameter" android:layout_height="@dimen/om_memory_clean_circle_diameter" android:layout_centerInParent="true" />
+    <RelativeLayout android:layout_width="@dimen/om_memory_clean_circle_diameter" android:layout_height="@dimen/om_memory_clean_circle_diameter" android:layout_centerInParent="true">
+        <com.miui.common.customview.ScoreTextView android:textSize="63.299988dip" android:textColor="@color/om_cpu_usage_percent_text_color" android:id="@id/cpu_usage_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/om_cpu_usage_percent_text_color" android:id="@id/symbol" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip" android:text="@string/percent_symbol" android:maxLines="1" android:layout_alignBottom="@id/cpu_usage_percent" android:layout_toEndOf="@id/cpu_usage_percent" />
+        <TextView android:textSize="13.299988sp" android:textColor="@color/om_cpu_usage_summary_text_color" android:id="@id/summary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:textAlignment="center" />
+    </RelativeLayout>
+</RelativeLayout>

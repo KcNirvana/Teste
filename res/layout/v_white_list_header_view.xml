@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.antivirus.whitelist.WhiteListHeaderView android:id="@id/header_view" android:background="#eef8f8f8" android:layout_width="fill_parent" android:layout_height="@miui:dimen/list_preferred_item_height_small"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@miui:style/TextAppearance.List.Secondary" android:gravity="bottom" android:id="@id/header_title" android:background="@drawable/list_item_bg_light" android:paddingBottom="7.0dip" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@miui:style/Widget.ListView.Item.SingleLine" />
+</com.miui.antivirus.whitelist.WhiteListHeaderView>

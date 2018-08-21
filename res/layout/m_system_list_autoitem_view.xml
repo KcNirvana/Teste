@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/main_page_background" android:paddingTop="@dimen/card_main_left_banner_iv_banner_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/card_main_left_banner_iv_banner_margin" android:paddingEnd="@dimen/card_main_left_banner_iv_banner_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/card_main_list_banner_tv_title_size" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/CardTitleTextViewStyle" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_status" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sp_result_safe" />
+        <TextView android:textSize="12.0sp" android:id="@id/status" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</LinearLayout>

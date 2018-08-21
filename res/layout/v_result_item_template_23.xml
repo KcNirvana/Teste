@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ListViewItem"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:clean="http://schemas.android.com/apk/res/com.miui.securitycenter">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ResultItem">
+        <TextView android:textSize="@dimen/result_title_text" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/adds_item_top_margin" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/vartical_margin_pic_text">
+            <com.miui.antivirus.ui.ResizeFrameLayout android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_weight="1.0" android:layout_marginEnd="4.5dip" clean:ratioXY="0.75">
+                <com.miui.common.customview.AdImageView android:id="@id/img1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            </com.miui.antivirus.ui.ResizeFrameLayout>
+            <com.miui.antivirus.ui.ResizeFrameLayout android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_weight="1.0" android:layout_marginStart="2.0dip" android:layout_marginEnd="2.2999878dip" clean:ratioXY="0.75">
+                <ImageView android:id="@id/img2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            </com.miui.antivirus.ui.ResizeFrameLayout>
+            <com.miui.antivirus.ui.ResizeFrameLayout android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_weight="1.0" android:layout_marginStart="4.299988dip" clean:ratioXY="0.75">
+                <ImageView android:id="@id/img3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            </com.miui.antivirus.ui.ResizeFrameLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/vartical_margin_pic_text" android:layout_marginBottom="@dimen/adds_item_bottom_margin">
+            <TextView android:id="@id/market" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/recommended" style="@style/MarketText" />
+            <TextView android:id="@id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ResultBottomTextWithRLine" />
+            <TextView android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="0.0dip" style="@style/ResultBottomText" />
+            <View android:id="@id/close" android:background="@drawable/ic_close" android:layout_width="@dimen/close_size" android:layout_height="@dimen/close_size" android:layout_marginEnd="@dimen/close_right_margin" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

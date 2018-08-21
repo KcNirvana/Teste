@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/view_top" android:background="@color/line_card_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/card_fat_separate_line_height" />
+    <RelativeLayout android:background="@drawable/main_page_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="47.0dip">
+        <TextView android:id="@id/header_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/card_main_left_banner_iv_banner_margin" android:layout_centerVertical="true" android:layout_alignParentStart="true" style="@style/CardListTitleTextiViewStyle" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/blackalpha60" android:id="@id/tips_right" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/card_main_left_banner_iv_banner_margin" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <include android:layout_width="fill_parent" android:layout_height="@dimen/card_thin_separate_line_height" layout="@layout/include_horizontal_line" />
+</LinearLayout>

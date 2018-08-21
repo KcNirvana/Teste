@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.optimizemanage.view.CustomActionBarView android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="5.669983dip" android:paddingEnd="5.669983dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/action_bar_arrow_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@miui:drawable/action_bar_back_dark" android:layout_centerVertical="true" android:contentDescription="@string/btn_back" />
+        <TextView android:textAppearance="@miui:style/TextAppearance.WindowTitle" android:textColor="@android:color/white" android:gravity="center" android:id="@id/action_bar_title" android:layout_width="wrap_content" android:layout_height="?android:actionBarSize" android:text="@string/optimize_manage_title" android:layout_centerInParent="true" />
+        <FrameLayout android:id="@id/action_bar_right_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</com.miui.optimizemanage.view.CustomActionBarView>

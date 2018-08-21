@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@miui:style/Widget.ListView.Item.DoubleLine"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/imageview_icon" android:layout_width="@dimen/icon_width" android:layout_height="@dimen/icon_width" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+        <TextView android:textAppearance="@miui:style/TextAppearance.List.Secondary" android:textSize="12.0dip" android:id="@id/textview_traffic_rx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="9.0dip" android:layout_alignParentEnd="true" />
+        <TextView android:textAppearance="@miui:style/TextAppearance.List.Secondary" android:textSize="12.0dip" android:id="@id/textview_traffic_tx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="76.0dip" android:layout_alignParentEnd="true" />
+        <TextView android:textAppearance="@miui:style/TextAppearance.List.Primary" android:id="@id/textview_appname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginStart="12.0dip" android:layout_marginEnd="135.0dip" android:layout_toEndOf="@id/imageview_icon" />
+    </RelativeLayout>
+</LinearLayout>

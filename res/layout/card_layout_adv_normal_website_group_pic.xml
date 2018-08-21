@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/card_bg_selector" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:paddingStart="10.399994dip" android:paddingEnd="10.399994dip">
+        <TextView android:gravity="center_vertical" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:layout_marginEnd="10.0dip" android:layout_toStartOf="@id/close" style="@style/FunctionTitleStyle" />
+        <TextView android:textColor="@color/ads_close_text_color" android:id="@id/close" android:background="@drawable/ads_close_bg" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/optimize_result_ads_close_text" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingTop="10.0dip" android:paddingBottom="10.399994dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/rl_title" android:paddingStart="10.399994dip" android:paddingEnd="10.399994dip">
+        <com.miui.common.customview.AdImageView android:id="@id/iv_banner1" android:layout_width="fill_parent" android:layout_height="72.69998dip" android:scaleType="centerCrop" android:layout_weight="1.0" android:layout_marginEnd="1.0dip" />
+        <com.miui.common.customview.AdImageView android:id="@id/iv_banner2" android:layout_width="fill_parent" android:layout_height="72.69998dip" android:scaleType="centerCrop" android:layout_weight="1.0" android:layout_marginStart="1.0dip" android:layout_marginEnd="1.0dip" />
+        <com.miui.common.customview.AdImageView android:id="@id/iv_banner3" android:layout_width="fill_parent" android:layout_height="72.69998dip" android:scaleType="centerCrop" android:layout_weight="1.0" android:layout_marginStart="1.0dip" />
+    </LinearLayout>
+</RelativeLayout>

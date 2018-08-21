@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="#0cffffff" android:layout_width="fill_parent" android:layout_height="73.29999dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:focusable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="13.299988sp" android:textColor="#e5ffffff" android:ellipsize="end" android:id="@id/estimate_time_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:singleLine="true" />
+        <TextView android:textSize="10.0sp" android:textColor="#99ffffff" android:ellipsize="end" android:id="@id/estimate_time_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/battery_estimate_usage_time_title" android:singleLine="true" />
+    </LinearLayout>
+    <View android:background="#26ffffff" android:layout_width="1.0px" android:layout_height="30.0dip" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:focusable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="13.299988sp" android:textColor="#e5ffffff" android:ellipsize="end" android:id="@id/temperature_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:singleLine="true" />
+        <TextView android:textSize="10.0sp" android:textColor="#99ffffff" android:ellipsize="end" android:id="@id/temperature_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/battery_temperature_title" android:singleLine="true" />
+    </LinearLayout>
+    <View android:background="#26ffffff" android:layout_width="1.0px" android:layout_height="30.0dip" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:focusable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="13.299988sp" android:textColor="#e5ffffff" android:ellipsize="end" android:id="@id/capacity_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:singleLine="true" />
+        <TextView android:textSize="10.0sp" android:textColor="#99ffffff" android:ellipsize="end" android:id="@id/capacity_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/battery_capacity_title" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

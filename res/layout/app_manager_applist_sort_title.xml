@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@color/app_manager_white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/am_sort" android:layout_width="fill_parent" android:layout_height="44.69998dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="43.69998dip" android:paddingStart="@dimen/am_app_list_padding_start" android:paddingEnd="@dimen/am_app_list_padding_end">
+            <TextView android:textSize="13.0sp" android:textColor="@color/app_manager_black_b3" android:layout_gravity="center_vertical" android:id="@id/am_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/am_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/am_dropdown_indicator_down" />
+        </LinearLayout>
+        <include android:layout_gravity="bottom" layout="@layout/include_horizontal_line" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/am_discription" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="33.69998dip" android:paddingStart="@dimen/am_app_list_padding_start">
+            <LinearLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/am_icon_memory" android:alpha="0.8" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/app_manager_black_66" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_manager_memory" android:layout_marginStart="5.299988dip" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/am_card_item_storage" android:alpha="0.8" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/app_manager_black_66" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_manager_details_storage_title" android:layout_marginStart="5.299988dip" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/am_icon_running" android:alpha="0.8" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/app_manager_black_66" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pm_auto_start_proc_is_running" android:layout_marginStart="5.299988dip" />
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/am_app_list_padding_start">
+            <include layout="@layout/include_horizontal_line" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

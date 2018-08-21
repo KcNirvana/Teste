@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/card_bg_selector" android:paddingBottom="20.0dip" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:paddingStart="10.399994dip" android:paddingEnd="10.399994dip">
+        <TextView android:gravity="center_vertical" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:layout_marginEnd="10.0dip" android:layout_toStartOf="@id/close" style="@style/FunctionTitleStyle" />
+        <TextView android:textColor="@color/ads_close_text_color" android:id="@id/close" android:background="@drawable/ads_close_bg" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/optimize_result_ads_close_text" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <com.miui.common.customview.AdImageView android:id="@id/iv_big_banner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:scaleType="centerCrop" android:layout_below="@id/rl_title" android:layout_marginStart="10.399994dip" android:layout_marginEnd="10.399994dip" />
+</RelativeLayout>

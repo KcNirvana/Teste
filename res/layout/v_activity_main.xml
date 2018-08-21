@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.antivirus.ui.MainActivityView android:id="@id/main_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.miui.antivirus.ui.MainContentFrame android:id="@id/content_frame" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/handle_bar">
+        <com.miui.antivirus.ui.LineAnimationView android:id="@id/animation_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/virus_action_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/antivirus_status_bar_margin_top" android:paddingStart="5.669983dip">
+            <ImageView android:id="@id/back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@miui:drawable/action_bar_back_light" android:contentDescription="@string/antivirus_main_activity_back" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/v_activity_main_text_antivirus" android:gravity="center" android:id="@id/text_antivirus" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/menu_text_antivirus" android:layout_weight="1.0" />
+            <Button android:id="@id/settings" android:background="@miui:drawable/icon_settings_light" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/Settings_title_anti_virus" android:layout_marginEnd="5.669983dip" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/v_header_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/virus_action_bar" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip">
+            <RelativeLayout android:id="@id/result_icon_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+                <ImageView android:id="@id/result_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="180.0px" android:textColor="@color/white" android:id="@id/result_risk_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_centerHorizontal="true" />
+                <ImageView android:id="@id/result_icon_edge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <com.miui.common.customview.ScoreTextView android:textSize="@dimen/v_score_text" android:textColor="@color/v_activity_main_number" android:id="@id/number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:singleLine="true" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="20.0sp" android:textColor="@color/v_activity_main_scan_pre" android:id="@id/scan_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/scanresult_scorechar_default_margintop" android:text="@string/virus_scan_process_pre" android:singleLine="true" android:layout_below="@id/number" android:layout_marginStart="3.0dip" android:layout_toEndOf="@id/number" />
+            <RelativeLayout android:id="@id/scan_result_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/number">
+                <LinearLayout android:gravity="center" android:id="@id/result_title_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+                    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/v_activity_main_title_text" android:id="@id/result_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                    <ImageView android:id="@id/arrow" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="2.0dip" android:layout_toEndOf="@id/result_text" />
+                </LinearLayout>
+                <TextView android:textSize="11.0sp" android:textColor="@color/v_activity_main_summary_text" android:id="@id/result_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:singleLine="true" android:layout_below="@id/result_title_layout" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </com.miui.antivirus.ui.MainContentFrame>
+    <ViewStub android:id="@id/v_scan_result_stub" android:layout="@layout/v_activity_scan_result" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/virus_result_list_margin_top" android:layout_alignParentBottom="true" />
+    <com.miui.antivirus.ui.MainHandleBar android:orientation="vertical" android:id="@id/handle_bar" android:background="@drawable/main_page_background" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:id="@id/handle_item_network" android:layout_width="fill_parent" android:layout_height="@dimen/list_preferred_item_height" style="@miui:style/Widget.ListView.Item.DoubleLine">
+            <LinearLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:id="@id/handle_text_title_network" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/handle_title_network" android:singleLine="true" style="@miui:style/TextAppearance.List.Primary" />
+            </LinearLayout>
+            <miui.widget.ProgressBar android:layout_gravity="center" android:id="@id/handle_network_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" style="?android:attr/progressBarStyleSmall" />
+            <ImageView android:gravity="center" android:id="@id/handle_network_state" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/progress_succeed" android:scaleType="centerInside" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/handle_item_safepay" android:layout_width="fill_parent" android:layout_height="@dimen/list_preferred_item_height" style="@miui:style/Widget.ListView.Item.DoubleLine">
+            <LinearLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:id="@id/handle_text_title_safepay" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/handle_title_pay_env" android:singleLine="true" style="@miui:style/TextAppearance.List.Primary" />
+            </LinearLayout>
+            <miui.widget.ProgressBar android:layout_gravity="center" android:id="@id/handle_payment_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" style="?android:attr/progressBarStyleSmall" />
+            <ImageView android:gravity="center" android:id="@id/handle_payment_state" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/progress_succeed" android:scaleType="centerInside" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/handle_item_privacy" android:layout_width="fill_parent" android:layout_height="@dimen/list_preferred_item_height" style="@miui:style/Widget.ListView.Item.DoubleLine">
+            <LinearLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:id="@id/handle_text_title_privacy" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/handle_title_privacy" android:singleLine="true" style="@miui:style/TextAppearance.List.Primary" />
+            </LinearLayout>
+            <miui.widget.ProgressBar android:layout_gravity="center" android:id="@id/handle_privacy_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" style="?android:attr/progressBarStyleSmall" />
+            <ImageView android:gravity="center" android:id="@id/handle_privacy_state" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/progress_succeed" android:scaleType="centerInside" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/handle_item_virus" android:layout_width="fill_parent" android:layout_height="@dimen/list_preferred_item_height" style="@miui:style/Widget.ListView.Item.DoubleLine">
+            <LinearLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:id="@id/handle_text_title_virus" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/activity_title_virus" android:singleLine="true" style="@miui:style/TextAppearance.List.Primary" />
+            </LinearLayout>
+            <miui.widget.ProgressBar android:layout_gravity="center" android:id="@id/handle_virus_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" style="?android:attr/progressBarStyleSmall" />
+            <ImageView android:gravity="center" android:id="@id/handle_virus_state" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/progress_succeed" android:scaleType="centerInside" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/list_preferred_button_height">
+            <TextView android:textSize="10.0sp" android:textColor="@color/ss_activity_main_textview_support" android:layout_gravity="center_horizontal" android:id="@id/support" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" />
+            <Button android:id="@id/btn_action" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/btn_text_stop" android:layout_alignParentBottom="true" android:layout_marginStart="23.0dip" android:layout_marginEnd="23.0dip" />
+        </LinearLayout>
+    </com.miui.antivirus.ui.MainHandleBar>
+</com.miui.antivirus.ui.MainActivityView>

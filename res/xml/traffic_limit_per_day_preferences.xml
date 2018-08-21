@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/title_limit_traffic_per_day">
+        <CheckBoxPreference android:title="@string/title_limit_traffic_per_day" android:key="pref_key_limit_traffic_per_day" android:defaultValue="false" />
+        <miui.preference.ValuePreference android:title="@string/pref_title_traffic_limit_number" android:key="pref_key_traffic_limit_number" />
+        <miui.preference.ValuePreference android:title="@string/pref_title_over_traffic_limit_warning" android:key="pref_key_over_traffic_limit_warning" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/lock_screen_warning_category">
+        <CheckBoxPreference android:title="@string/lock_screen_warning_switch_title" android:key="pref_key_lock_screen_switch" android:summary="@string/lock_screen_warning_switch_summary" android:defaultValue="false" />
+        <miui.preference.ValuePreference android:title="@string/lock_screen_warning_value" android:key="pref_key_lock_screen_warning_value" />
+    </PreferenceCategory>
+</PreferenceScreen>

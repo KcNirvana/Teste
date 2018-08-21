@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/card_bg_selector" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/card_main_left_banner_iv_banner_margin">
+        <TextView android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/CardListTitleTextiViewStyle" />
+        <TextView android:textSize="9.299988sp" android:textColor="@color/item_score_bg" android:layout_gravity="center_vertical" android:id="@id/tv_score" android:background="@drawable/result_item_score_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" />
+    </LinearLayout>
+    <include android:layout_width="fill_parent" android:layout_height="@dimen/card_thin_separate_line_height" layout="@layout/include_horizontal_line" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/micloud_storage_frame_height">
+        <com.miui.securityscan.ui.main.ColorfulRingView android:layout_gravity="center" android:id="@id/ring" android:layout_width="@dimen/micloud_storage_ring_diameter" android:layout_height="@dimen/micloud_storage_ring_diameter" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/StorageTextStyle" android:id="@id/tv_storage_percentage" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textAppearance="@style/StorageFullTextStyle" android:id="@id/tv_storage_full" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_cloud_space_full" />
+            <TextView android:textAppearance="@style/StorageSpaceStyle" android:id="@id/tv_storage_space" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:textAppearance="@miui:style/TextAppearance.Medium" android:layout_gravity="bottom|center" android:id="@id/tv_storage_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/micloud_storage_all_margin_bottom" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_container" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include layout="@layout/card_layout_bottom_button" />
+</LinearLayout>

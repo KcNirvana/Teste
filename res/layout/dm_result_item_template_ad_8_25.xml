@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/close" android:layout_marginTop="9.0dip" android:layout_marginEnd="9.0dip" android:layout_alignParentEnd="true" style="@style/AdActionButtonStyle" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.399994dip" android:layout_marginStart="10.399994dip">
+            <com.miui.common.customview.AdImageView android:id="@id/icon" android:layout_width="@dimen/icon_size" android:layout_height="@dimen/icon_size" android:src="@drawable/icon_def" android:scaleType="centerCrop" />
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="8.0dip">
+                <TextView android:gravity="center_vertical" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/FunctionTitleStyle" />
+                <TextView android:layout_gravity="start|center" android:id="@id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginEnd="@dimen/result_page_padding" style="@style/FunctionSummaryStyle" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip">
+                    <RatingBar android:id="@id/score" android:layout_width="wrap_content" android:layout_height="wrap_content" android:numStars="5" android:rating="2.5" android:stepSize="0.5" />
+                    <TextView android:id="@id/download_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="6.5999756dip" style="@style/ResultBottomText" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView android:id="@id/bigImage" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="166.0dip" android:layout_marginTop="10.399994dip" android:scaleType="fitXY" android:layout_marginStart="10.399994dip" android:layout_marginEnd="10.399994dip" />
+    <View android:background="#ffe5e5e5" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="10.399994dip" />
+    <Button android:id="@id/button" style="@style/FunctionResultButton" />
+</LinearLayout>

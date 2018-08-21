@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/card_bg_selector" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/ads_close_text_color" android:id="@id/close" android:background="@drawable/ads_close_bg" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="@string/optimize_result_ads_close_text" android:layout_marginEnd="9.0dip" android:layout_alignParentEnd="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ResultItem">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/card_main_left_banner_iv_banner_margin">
+            <com.miui.common.customview.AdImageView android:id="@id/iv_banner" android:layout_width="@dimen/card_main_list_banner_iv_banner_size" android:layout_height="@dimen/card_main_list_banner_iv_banner_size" android:src="@drawable/icon_def" android:scaleType="centerCrop" />
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="13.0dip" android:layout_marginEnd="13.0dip">
+                <TextView android:gravity="center_vertical" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" style="@style/FunctionTitleStyle" />
+                <TextView android:layout_gravity="center_vertical" android:id="@id/tv_summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:maxLines="2" style="@style/FunctionSummaryStyle" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:id="@id/iv_big_banner" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="166.0dip" android:layout_marginTop="10.399994dip" android:scaleType="centerCrop" android:layout_marginStart="@dimen/card_main_left_banner_iv_banner_margin" android:layout_marginEnd="@dimen/card_main_left_banner_iv_banner_margin" />
+        <Button android:id="@id/btn_action" android:layout_width="fill_parent" android:layout_height="35.399994dip" android:layout_marginTop="10.399994dip" android:layout_marginBottom="6.0dip" android:text="@string/download" android:layout_marginStart="@dimen/card_main_left_banner_iv_banner_margin" android:layout_marginEnd="@dimen/card_main_left_banner_iv_banner_margin" style="@style/ResultButtonBlue2" />
+    </LinearLayout>
+</RelativeLayout>

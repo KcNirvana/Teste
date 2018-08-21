@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/am_sort" android:background="@color/app_manager_white" android:layout_width="fill_parent" android:layout_height="44.69998dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="43.69998dip" android:paddingStart="@dimen/am_app_list_padding_start" android:paddingEnd="@dimen/am_app_list_padding_end">
+        <TextView android:textSize="13.0sp" android:textColor="@color/app_manager_black_b3" android:layout_gravity="center_vertical" android:id="@id/am_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/am_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/am_dropdown_indicator_down" />
+    </LinearLayout>
+    <include android:layout_gravity="bottom" layout="@layout/include_horizontal_line" />
+</LinearLayout>

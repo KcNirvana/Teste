@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ll_action" android:background="@drawable/card_bg_bottom_no_shadow_full_line_selector" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="43.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/card_separate_line_bg" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentTop="true" />
+    <TextView android:textSize="12.0sp" android:textColor="#e62daf39" android:id="@id/tv_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerInParent="true" />
+</RelativeLayout>

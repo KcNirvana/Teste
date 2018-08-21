@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/main_page_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="33.599976dip" android:paddingStart="@dimen/am_list_pading_start"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="@color/app_manager_black_47" android:gravity="center_vertical" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:paddingEnd="@dimen/am_list_pading_end" />
+    <include android:layout_gravity="bottom" layout="@layout/include_horizontal_line" />
+</LinearLayout>

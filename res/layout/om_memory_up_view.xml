@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.miui.common.customview.ScoreTextView android:textSize="@dimen/om_main_number_text_size" android:textColor="#ffffffff" android:id="@id/mu_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="13.299988sp" android:textColor="#80ffffff" android:id="@id/mu_flag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip" android:text="@string/percent_symbol" android:maxLines="1" android:layout_alignBottom="@id/mu_percent" android:layout_toEndOf="@id/mu_percent" />
+    <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/mu_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/memory_cleaned_memory_up" android:layout_below="@id/mu_percent" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="12.0sp" android:textColor="#80ffffff" android:id="@id/mu_info" android:paddingTop="5.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/mu_tip" android:layout_centerHorizontal="true" />
+</RelativeLayout>

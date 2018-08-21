@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/first_use_back_button_alight_top">
+        <ImageView android:layout_gravity="center" android:id="@id/icon" android:layout_width="@android:dimen/app_icon_size" android:layout_height="@android:dimen/app_icon_size" android:layout_marginTop="30.0dip" android:src="@drawable/icon_app_lock" />
+        <TextView android:textSize="14.299988sp" android:textColor="#ccffffff" android:gravity="center" android:id="@id/applock_add_account_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/applock_bind_account_title" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/main_page_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/applock_icon" android:layout_width="65.0dip" android:layout_height="65.0dip" android:layout_marginTop="112.0dip" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/account_info_text_color" android:id="@id/applock_account_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.599976dip" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/add_account_button_text_color" android:gravity="center_horizontal" android:id="@id/applock_add_account_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/applock_add_account_info" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="13.0sp" android:textColor="#ffffffff" android:id="@id/applock_button_confirm_lock" android:background="@drawable/button_selector" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/set_applock_password" android:layout_marginStart="23.0dip" android:layout_marginEnd="23.0dip" />
+        <TextView android:textSize="12.0sp" android:textColor="#66000000" android:gravity="center_horizontal" android:id="@id/applock_button_confirm_lock_unlock" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="13.0dip" android:text="@string/applock_not_add_account" style="@style/ForgetPasswordButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

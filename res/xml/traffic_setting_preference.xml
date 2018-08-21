@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/traffic_setting_fragment_area" android:key="pref_category_area">
+        <miui.preference.ValuePreference android:title="@string/traffic_setting_fragment_province" android:key="pref_key_province" />
+        <miui.preference.ValuePreference android:title="@string/traffic_setting_fragment_city" android:key="pref_key_city" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/traffic_setting_fragment_operator_setting">
+        <miui.preference.ValuePreference android:title="@string/traffic_setting_fragment_operator" android:key="pref_key_operator" />
+        <miui.preference.ValuePreference android:title="@string/traffic_setting_fragment_brand" android:key="pref_key_brand" />
+    </PreferenceCategory>
+    <miui.preference.ValuePreference android:summary="@string/privacy_prompt_traffic_adjust_message" />
+</PreferenceScreen>

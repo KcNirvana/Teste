@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<misearch
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <items>
+        <item>
+            <id>1</id>
+            <title>resource_securitycenter</title>
+            <package>com.miui.securitycenter</package>
+            <class>com.miui.securityscan.MainActivity</class>
+            <keywords>keywords_securitycenter</keywords>
+            <description>path_securitycenter</description>
+        </item>
+        <item>
+            <id>2</id>
+            <title>resource_cleanmaster</title>
+            <package>com.miui.securitycenter</package>
+            <class>com.miui.cleanmaster.CleanMasterInstallActivity</class>
+            <keywords>keywords_cleanmaster</keywords>
+            <description>path_cleanmaster</description>
+        </item>
+        <item>
+            <id>3</id>
+            <title>resource_antivirus</title>
+            <package>com.miui.securitycenter</package>
+            <class>com.miui.antivirus.activity.MainActivity</class>
+            <keywords>keywords_antivirus</keywords>
+            <description>path_antivirus</description>
+        </item>
+    </items>
+</misearch>

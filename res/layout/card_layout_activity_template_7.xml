@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/card_bg_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ListViewItem"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/vartical_margin_pic_layout" android:layout_marginBottom="@dimen/vartical_margin_pic_layout">
+        <com.miui.common.customview.ResizeFrameLayout android:layout_width="fill_parent" android:layout_height="100.0dip" securitycenter:secRatioXY="0.5">
+            <com.miui.common.customview.AdImageView android:id="@id/iv_banner" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        </com.miui.common.customview.ResizeFrameLayout>
+        <TextView android:textSize="@dimen/card_main_list_banner_tv_title_size" android:textColor="@color/white" android:layout_gravity="start|center" android:id="@id/tv_title" android:background="#99000000" android:paddingTop="@dimen/vartical_margin_pic_text" android:paddingBottom="@dimen/vartical_margin_pic_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:paddingStart="@dimen/vartical_margin_pic_text" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

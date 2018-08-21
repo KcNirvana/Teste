@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.securityscan.ui.main.OptimizingBar android:id="@id/optmizing_bar" android:background="@color/optmizing_bg" android:paddingBottom="20.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/view_top" android:background="@color/card_separate_line_bg" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/view_top">
+        <include android:id="@id/layout_system_item" layout="@layout/m_viewstub_optmizingbar_item" />
+        <View android:background="@color/card_separate_line_bg" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginStart="@dimen/optimizingbar_item_padding_left" />
+        <include android:id="@id/layout_cache_item" layout="@layout/m_viewstub_optmizingbar_item" />
+        <View android:background="@color/card_separate_line_bg" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginStart="@dimen/optimizingbar_item_padding_left" />
+        <include android:id="@id/layout_memory_item" layout="@layout/m_viewstub_optmizingbar_item" />
+        <View android:background="@color/card_separate_line_bg" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </LinearLayout>
+    <Button android:textSize="12.0sp" android:textColor="@color/optmizing_button_text" android:id="@id/button_stop_optmize" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/optmizingbar_stop_optmize" android:layout_alignParentBottom="true" android:layout_marginStart="27.0dip" android:layout_marginEnd="27.0dip" style="@miui:style/Widget.Button" />
+</com.miui.securityscan.ui.main.OptimizingBar>

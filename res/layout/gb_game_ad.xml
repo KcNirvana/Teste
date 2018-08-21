@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/line" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="10.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <View android:background="#ffefeff0" android:clickable="false" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+    </LinearLayout>
+    <RelativeLayout android:background="@color/text_color_white_95" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/line">
+        <TextView android:textSize="13.299988sp" android:textColor="#cc000000" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/result_ad_icon_right_top" android:text="@string/game_ad_recommendation" android:layout_marginStart="@dimen/result_ad_icon_right_margin" android:layout_alignParentStart="true" />
+        <TextView android:textSize="8.599976dip" android:textColor="#ffcccccc" android:gravity="center" android:id="@id/close" android:background="@drawable/virus_close_ad_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/result_ad_icon_right_top" android:text="@string/virus_ad_icon_text" android:layout_marginEnd="@dimen/result_ad_icon_right_margin" android:layout_alignParentEnd="true" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/game_ad_tab_container" android:background="@color/text_color_white_95" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="47.69998dip" android:paddingStart="@dimen/main_padding_30" android:paddingEnd="@dimen/main_padding_30">
+            <com.miui.gamebooster.customview.GameAdTabItem android:id="@id/game_ad_one" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <com.miui.gamebooster.customview.GameAdTabItem android:id="@id/game_ad_two" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <com.miui.gamebooster.customview.GameAdTabItem android:id="@id/game_ad_three" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <com.miui.gamebooster.customview.GameAdTabItem android:id="@id/game_ad_four" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

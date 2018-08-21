@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ListViewItem"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:clean="http://schemas.android.com/apk/res/com.miui.securitycenter">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ResultItem">
+        <TextView android:textSize="@dimen/result_title_text" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/adds_item_top_margin" />
+        <com.miui.antivirus.ui.ResizeFrameLayout android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginTop="@dimen/vartical_margin_pic_text" clean:ratioXY="0.5">
+            <com.miui.common.customview.AdImageView android:id="@id/img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        </com.miui.antivirus.ui.ResizeFrameLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/vartical_margin_pic_text">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/promotion" style="@style/MarketText" />
+            <TextView android:id="@id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/vartical_margin_pic_text" style="@style/ResultBottomText" />
+            <View android:id="@id/close" android:background="@drawable/ic_close" android:layout_width="@dimen/close_size" android:layout_height="@dimen/close_size" android:layout_marginEnd="@dimen/close_right_margin" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v4.view.ViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/tab_divider" android:layout_below="@id/head" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/main_tab_container" android:background="@color/text_color_white_95" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="@dimen/view_dimen_140" android:layout_alignParentBottom="true" android:paddingStart="@dimen/main_padding_30" android:paddingEnd="@dimen/main_padding_30">
+        <com.miui.gamebooster.customview.BottomTabItem android:id="@id/home_page" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <com.miui.gamebooster.customview.BottomTabItem android:id="@id/rank_page" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <com.miui.gamebooster.customview.BottomTabItem android:id="@id/mine_page" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:id="@id/tab_divider" android:background="@color/text_color_black_15" android:layout_width="fill_parent" android:layout_height="@dimen/divider" android:layout_above="@id/main_tab_container" />
+</RelativeLayout>

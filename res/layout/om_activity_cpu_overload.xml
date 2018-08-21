@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/header_view" android:background="@color/om_memory_clean_need_clean_warn" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/action_bar_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/om_status_bar_height" layout="@layout/om_action_bar_view" />
+        <ImageView android:id="@id/warn_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_proc_cpu_usage_warn" android:layout_centerInParent="true" />
+        <TextView android:textSize="13.299988sp" android:textColor="#b3ffffff" android:gravity="center_horizontal" android:id="@id/warn_text" android:paddingTop="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/om_cpu_usage_warn_title_text" android:layout_below="@id/warn_img" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <include layout="@layout/om_list_view_header_view" />
+    <ListView android:id="@id/list_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <Button android:textColor="@color/white" android:id="@id/quick_fix" android:background="@drawable/quick_fix_btn_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.599976dip" android:text="@string/om_btn_text_quick_fix" />
+</LinearLayout>

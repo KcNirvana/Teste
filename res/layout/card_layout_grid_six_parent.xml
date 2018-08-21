@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/six_pices_card_item_height" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/column1" android:background="@drawable/card_bg_selector" android:paddingTop="@dimen/six_pices_card_item_column_padding_top" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:paddingStart="@dimen/six_pices_card_item_column_padding_start" android:paddingEnd="@dimen/six_pices_card_item_column_padding_end">
+        <com.miui.securityscan.ui.main.FuncGrid6ImageView android:id="@id/iv_icon1" android:layout_width="@dimen/six_pices_card_item_icon_width" android:layout_height="@dimen/six_pices_card_item_icon_height" />
+        <TextView android:textSize="@dimen/six_pices_card_item_title_textsize" android:textColor="@color/six_pices_card_item_title_textcolor" android:id="@id/tv_title1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/six_pices_card_item_title_margin_top" android:singleLine="true" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/six_pices_card_item_summary_textcolor" android:id="@id/tv_summary1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/column2" android:background="@drawable/card_bg_selector" android:paddingTop="@dimen/six_pices_card_item_column_padding_top" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:paddingStart="@dimen/six_pices_card_item_column_padding_start" android:paddingEnd="@dimen/six_pices_card_item_column_padding_end">
+        <com.miui.securityscan.ui.main.FuncGrid6ImageView android:id="@id/iv_icon2" android:layout_width="@dimen/six_pices_card_item_icon_width" android:layout_height="@dimen/six_pices_card_item_icon_height" />
+        <TextView android:textSize="@dimen/six_pices_card_item_title_textsize" android:textColor="@color/six_pices_card_item_title_textcolor" android:id="@id/tv_title2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/six_pices_card_item_title_margin_top" android:singleLine="true" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/six_pices_card_item_summary_textcolor" android:id="@id/tv_summary2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

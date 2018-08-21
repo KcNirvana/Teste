@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/pm_activity_main_back" android:gravity="center_vertical" android:id="@id/split_finger_window_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/back_button_alight_top" android:text="@string/cancal_to_setting_fingerprint" android:drawableStart="@miui:drawable/action_bar_back_dark" style="@miui:style/TextAppearance.WindowTitle" />
+    <ImageView android:id="@id/split_app_icon" android:layout_width="@dimen/app_icon_normal_width" android:layout_height="@dimen/app_icon_normal_width" android:layout_marginTop="160.0dip" android:scaleType="centerCrop" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="14.5sp" android:textColor="#80ffffff" android:gravity="center" android:id="@id/split_window_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/fod_finger_windows_tips" android:layout_below="@id/split_app_icon" />
+    <TextView android:textSize="17.5sp" android:textColor="@color/fod_authentication_dialog_title" android:gravity="center" android:id="@id/split_window_tips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="114.0dip" android:layout_below="@id/split_window_title" />
+</RelativeLayout>
