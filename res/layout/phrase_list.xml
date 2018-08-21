@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:background="@drawable/phrase_list_header_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <TextView android:textSize="12.0sp" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/frequent_phrases" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
-        <ImageButton android:id="@id/edit_phrase" android:background="@drawable/phrase_edit_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" />
-    </RelativeLayout>
-    <ListView android:scrollbarThumbVertical="@drawable/scrollbar_thumb_vertical_light" android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" />
-</LinearLayout>

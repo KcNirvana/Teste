@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_labels">
+        <item>"S'està intentant accedir a la ubicació"</item>
+        <item>"S'està intentant accedir a la ubicació"</item>
+        <item>"S'està intentant accedir a la ubicació"</item>
+        <item>"S'està intentant utilitzar la vibració"</item>
+        <item>"S'estan llegint els contactes"</item>
+        <item>"S'estan modificant els contactes"</item>
+        <item>"S'està intentant llegir el registre de trucades"</item>
+        <item>"S'està intentant modificar el registre de trucades"</item>
+        <item>"S'està intentant accedir al calendari"</item>
+        <item>"S'està intentant modificar el calendari"</item>
+        <item>"S'està intentant accedir a la ubicació"</item>
+        <item>"S'està intentant publicar una notificació"</item>
+        <item>"S'està intentant accedir a la ubicació"</item>
+        <item>"S'està intentant realitzar una trucada"</item>
+        <item>"S'està intentant llegir els SMS"</item>
+        <item>"S'està intentant escriure/modificar els SMS"</item>
+        <item>"S'està intentant rebre SMS"</item>
+        <item>"S'està intentant rebre SMS"</item>
+        <item>"S'està intentant rebre SMS"</item>
+        <item>"S'està intentant rebre SMS"</item>
+        <item>"S'està intentant enviar SMS"</item>
+        <item>"S'està intentant llegir SMS"</item>
+        <item>"S'està intentant escriure/modificar SMS"</item>
+        <item>"S'està intentant modificar la configuració"</item>
+        <item>"S'està intentant dibuixar per sobre"</item>
+        <item>"S'està intentant accedir a les notificacions"</item>
+        <item>"S'està intentant accedir a la Càmera"</item>
+        <item>"S'està intentant enregistrar àudio"</item>
+        <item>"S'està intentant reproduir àudio"</item>
+        <item>"S'està intentant llegir el porta-retalls"</item>
+        <item>"S'està intentant modificar el porta-retalls"</item>
+        <item>"S'està intentant utilitzar els botons multimèdia"</item>
+        <item>"S'està intentant utilitzar l'enfocament de l'àudio"</item>
+        <item>"S'està intentant utilitzar el volum principal"</item>
+        <item>"S'està intentant utilitzar el volum de veu"</item>
+        <item>"S'està intentant utilitzar el volum del to"</item>
+        <item>"S'està intentant utilitzar el volum multimèdia"</item>
+        <item>"S'està intentant utilitzar el volum de l'alarma"</item>
+        <item>"S'està intentant utilitzar el volum de les notificacions"</item>
+        <item>"S'està intentant utilitzar el volum del Bluetooth"</item>
+        <item>"S'està intentant mantenir el dispositiu actiu"</item>
+        <item>"S'està intentant accedir a la ubicació"</item>
+        <item>"S'està intentant accedir a la ubicació"</item>
+        <item>"S'està intentant activar/desactivar la Wi-Fi"</item>
+        <item>"S'està intentant activar/desactivar el Bluetooth"</item>
+        <item>"S'està intentant activar/desactivar les dades mòbils"</item>
+        <item>"S'està intentant enviar MMS"</item>
+        <item>"S'està intentant llegir MMS"</item>
+        <item>"S'està intentant escriure MMS"</item>
+        <item>"S'està intentant iniciar en l'arrencada"</item>
+    </string-array>
+</resources>

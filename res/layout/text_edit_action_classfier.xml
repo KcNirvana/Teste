@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/app_icon" android:layout_width="@dimen/text_classfier_app_icon_width" android:layout_height="@dimen/text_classfier_app_icon_width" />
-    <TextView android:textAppearance="?android:textAppearanceMediumInverse" android:textSize="@dimen/text_edit_action_popup_text_size" android:textColor="@color/text_edit_action_popup_text" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/text_classfier_text_margin_left" android:singleLine="true" />
-</LinearLayout>

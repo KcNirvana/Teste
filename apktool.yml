@@ -1,22 +1,24 @@
 !!brut.androlib.meta.MetaInfo
-apkFileName: framework-ext-res.apk
+apkFileName: framework-res.apk
 compressionType: false
 doNotCompress:
 - arsc
 - xml
+- bin
+- frag
+- vert
+- html
 isFrameworkApk: true
 packageInfo:
-  forcedPackageId: '17'
-  renameManifestPackage: com.miui.rom
-sdkInfo: null
+  forcedPackageId: '1'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '25'
+  targetSdkVersion: '25'
 sharedLibrary: false
 unknownFiles: {}
-usesFramework:
-  ids:
-  - 1
-  - 16
-  tag: null
+usesFramework: null
 version: 2.3.1
 versionInfo:
-  versionCode: '1100000'
-  versionName: 1.10.0.0
+  versionCode: '25'
+  versionName: 7.1.2
