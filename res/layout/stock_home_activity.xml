@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.miui.personalassistant.ui.widget.CustomScrollView android:background="@color/background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.miui.personalassistant.stock.home.StockListLayoutContainer android:orientation="vertical" android:id="@id/list_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/color_schema" android:background="@miui:drawable/preference_item_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/stock_color_schema" android:layout_weight="1.0" style="@style/StockListItemPrimaryTextStyle" />
+                <TextView android:id="@id/color_schema_des" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/StockListItemSecondaryTextStyle" />
+                <ImageView android:id="@id/arrow" android:background="@miui:drawable/arrow_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/stock_home_color_schema_arrow_margin_start" />
+            </LinearLayout>
+            <include layout="@layout/stock_list_item_divider_layout" />
+            <View android:background="@color/stock_home_top_divider_color" android:layout_width="wrap_content" android:layout_height="@dimen/stock_home_top_divider_height" />
+            <FrameLayout android:background="@drawable/setting_list_first_n" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/focus_stocks" style="@style/StockItemTitleTextStyle" />
+                <TextView android:layout_gravity="end|center" android:id="@id/add" android:paddingLeft="15.0dip" android:paddingTop="15.0dip" android:paddingRight="20.0dip" android:paddingBottom="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_stock" style="@style/StockAddTextStyle" />
+            </FrameLayout>
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.miui.personalassistant.ui.widget.SettingListView android:id="@id/stock_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" android:overScrollMode="never" />
+                <include layout="@layout/stock_empty_view" />
+            </FrameLayout>
+            <include layout="@layout/stock_list_item_divider_layout" />
+            <include layout="@layout/stock_home_footer_layout" />
+        </com.miui.personalassistant.stock.home.StockListLayoutContainer>
+    </com.miui.personalassistant.ui.widget.CustomScrollView>
+</LinearLayout>

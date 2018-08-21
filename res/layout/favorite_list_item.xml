@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/favorite_item_root" android:background="@drawable/favorite_list_selector" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.miui.personalassistant.ui.widget.RoundedImageView android:id="@id/icon" android:layout_width="@dimen/favorite_item_icon_size" android:layout_height="@dimen/favorite_item_icon_size" android:layout_marginLeft="10.0dip" android:scaleType="centerCrop" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:riv_corner_radius="5.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/list_item_title" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:maxLines="2" android:layout_toLeftOf="@id/icon" android:layout_alignParentLeft="true" android:lineSpacingExtra="2.0dip" />
+    <TextView android:textSize="10.0sp" android:textColor="@color/list_item_time" android:id="@id/date_source" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/icon" android:layout_below="@id/title" android:layout_alignParentLeft="true" />
+</RelativeLayout>

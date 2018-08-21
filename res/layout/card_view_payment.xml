@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/CardView" class="com.miui.home.launcher.assistant.payment.PaymentCardView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/card_view_group" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@id/payment_guide_view_stub" android:layout="@layout/card_view_empty_icon" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/payment_content_view_stub" android:layout="@layout/card_view_payment_content" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+</view>

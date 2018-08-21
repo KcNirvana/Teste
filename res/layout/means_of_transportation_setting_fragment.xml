@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/view_top_line" />
+    <TextView android:textSize="12.0sp" android:textColor="#80000000" android:gravity="start|center" android:background="@drawable/preference_middle_item_bg_normal" android:clickable="false" android:layout_width="fill_parent" android:layout_height="32.0dip" android:text="@string/which_transport" android:singleLine="true" style="@miui:style/TextAppearance.Widget.List.Primary" />
+    <RadioGroup android:orientation="vertical" android:id="@id/trip_type" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioButton android:textSize="@dimen/launch_text_font" android:textColor="@drawable/launch_type_text_selector" android:gravity="center_vertical" android:id="@id/trip_drive" android:background="@miui:drawable/preference_item_bg" android:paddingLeft="2.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/launch_item_height" android:text="@string/drive" />
+        <RadioButton android:textSize="@dimen/launch_text_font" android:textColor="@drawable/launch_type_text_selector" android:gravity="center_vertical" android:id="@id/trip_subway" android:background="@miui:drawable/preference_item_bg" android:paddingLeft="2.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/launch_item_height" android:text="@string/transit_subway" />
+        <RadioButton android:textSize="@dimen/launch_text_font" android:textColor="@drawable/launch_type_text_selector" android:gravity="center_vertical" android:id="@id/trip_bicycle" android:background="@miui:drawable/preference_item_bg" android:paddingLeft="2.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/launch_item_height" android:text="@string/bicycle" />
+        <RadioButton android:textSize="@dimen/launch_text_font" android:textColor="@drawable/launch_type_text_selector" android:gravity="center_vertical" android:id="@id/trip_walk" android:background="@miui:drawable/preference_item_bg" android:paddingLeft="2.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/launch_item_height" android:text="@string/walk" />
+    </RadioGroup>
+</LinearLayout>

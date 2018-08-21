@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/CardView" class="com.miui.home.launcher.assistant.ui.view.AgendaAssistantCardView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/card_view_group_agenda" />
+    <LinearLayout android:orientation="vertical" android:id="@id/agenda_body_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.miui.home.launcher.assistant.ui.widget.AgendaBookListView android:id="@id/listview" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include layout="@layout/card_view_empty" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/button_text_size_n" android:textColor="@color/button_text_color_n" android:gravity="center" android:id="@id/more" android:background="@drawable/card_button_left" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/agenda_assistant_more" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/button_text_size_n" android:textColor="@color/button_text_color_n" android:gravity="center" android:id="@id/add" android:background="@drawable/card_button_right" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/agenda_assistant_add" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</view>

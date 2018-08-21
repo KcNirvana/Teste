@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.ali.user.mobile.ui.widget.APCheckBox android:textSize="16.0dip" android:textColor="@color/alipay_colorGray" android:id="@id/custom_check_box" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:includeFontPadding="false" android:drawableLeft="@drawable/alipay_checkbox_style" android:drawablePadding="10.0dip" />
+    </LinearLayout>
+    <com.ali.user.mobile.ui.widget.APImageView android:id="@id/link_image" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="12.0dip" android:contentDescription="@null" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.ali.user.mobile.ui.widget.APTextView android:textSize="16.0dip" android:textColor="@color/alipay_antBlue" android:id="@id/link_text" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" android:textIsSelectable="true" />
+    </LinearLayout>
+</merge>

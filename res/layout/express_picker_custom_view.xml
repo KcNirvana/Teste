@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="@null" android:id="@id/picker_custom_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/yellow_page_picker_custom_view_margin_left" android:layout_marginTop="@dimen/yellow_page_picker_custom_view_margin_top" android:text="@android:string/cancel" android:layout_centerVertical="true" style="@miui:style/Widget.ActionMode.Button" />
+    <TextView android:gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/app_label" android:singleLine="true" android:layout_toLeftOf="@id/place_holder" android:layout_toRightOf="@id/cancel" style="@miui:style/TextAppearance.Widget.ActionMode.Title" />
+    <Button android:id="@id/place_holder" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/yellow_page_picker_custom_view_margin_top" android:layout_alignParentRight="true" style="@miui:style/Widget.ActionMode.Button" />
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="assistant_day">
+        <item quantity="other">%d天后</item>
+        <item quantity="one">%d天后</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">%1$d天前</item>
+    </plurals>
+    <plurals name="express_history_dialog_delete_message">
+        <item quantity="other">确认要删除所选的 %s 项快递吗？</item>
+        <item quantity="one">确认要删除所选的 %s 项快递吗？</item>
+    </plurals>
+    <plurals name="express_history_menu_select_num">
+        <item quantity="other">已选中%s项</item>
+        <item quantity="one">已选中%s项</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%1$d小时前</item>
+    </plurals>
+    <plurals name="main_delete_desc">
+        <item quantity="other">确认要删除所选的 %s 条收藏吗？</item>
+        <item quantity="one">确认要删除所选的 %s 条收藏吗？</item>
+    </plurals>
+    <plurals name="main_mark_fav_num">
+        <item quantity="other">已标记%s项为重要</item>
+        <item quantity="one">已标记%s项为重要</item>
+    </plurals>
+    <plurals name="main_mark_select_num">
+        <item quantity="other">已选中%s项</item>
+        <item quantity="one">已选中%s项</item>
+    </plurals>
+    <plurals name="mins_ago">
+        <item quantity="other">%1$d分钟前</item>
+    </plurals>
+    <plurals name="payment_record_dialog_delete_message">
+        <item quantity="other">确认要删除所选的 %s 项支出吗？</item>
+        <item quantity="one">确认要删除所选的 %s 项支出吗？</item>
+    </plurals>
+    <plurals name="payment_record_menu_select_num">
+        <item quantity="other">已选中%s项</item>
+        <item quantity="one">已选中%s项</item>
+    </plurals>
+    <plurals name="shopping_delete_num">
+        <item quantity="other">确认要删除所选的 %s 件商品吗？</item>
+        <item quantity="one">确认要删除所选的 %s 件商品吗？</item>
+    </plurals>
+    <plurals name="sms_day_suffix">
+        <item quantity="other">%d天后</item>
+        <item quantity="one">%d天后</item>
+    </plurals>
+    <plurals name="sms_hour_suffix">
+        <item quantity="other">%d小时后</item>
+        <item quantity="one">%d小时后</item>
+    </plurals>
+    <plurals name="sms_minute_suffix">
+        <item quantity="other">%d分钟后</item>
+        <item quantity="one">%d分钟后</item>
+    </plurals>
+    <plurals name="sms_title_hours">
+        <item quantity="other">%d小时</item>
+        <item quantity="one">%d小时</item>
+    </plurals>
+    <plurals name="sms_title_minutes">
+        <item quantity="other">%d分钟</item>
+        <item quantity="one">%d分钟</item>
+    </plurals>
+    <plurals name="steps">
+        <item quantity="other">%d|步</item>
+        <item quantity="zero">%d|步</item>
+        <item quantity="one">%d|步</item>
+    </plurals>
+    <plurals name="time_hour_ago">
+        <item quantity="other">%d小时前</item>
+        <item quantity="one">%d小时前</item>
+    </plurals>
+    <plurals name="time_minute_ago">
+        <item quantity="other">%d分钟前</item>
+        <item quantity="one">%d分钟前</item>
+    </plurals>
+</resources>

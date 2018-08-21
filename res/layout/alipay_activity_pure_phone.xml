@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/alipay_colorWhite" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ali.user.mobile.util.ResizeScrollView android:id="@id/scrollview" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:focusable="true" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <RelativeLayout android:id="@id/wrapper" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+                <TextView android:text="@string/alipay_text_phone_register" style="@style/alipay_reg_title_text" />
+                <com.ali.user.mobile.ui.widget.AUPhoneInputBox android:id="@id/reg_phone_num" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" />
+                <Button android:enabled="false" android:id="@id/reg_confirm" android:layout_marginTop="30.0dip" android:text="@string/alipay_registNew" style="@style/alipay_reg_main_button" />
+            </LinearLayout>
+            <TextView android:textSize="14.0dip" android:textColor="@color/alipay_colorLightGrayV2" android:gravity="center_horizontal" android:id="@id/taobao_protocol" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="450.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="30.0dip" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </com.ali.user.mobile.util.ResizeScrollView>
+    <com.ali.user.mobile.ui.widget.APTitleBar android:id="@id/titlebar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+</RelativeLayout>

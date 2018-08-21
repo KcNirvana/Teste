@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/card_middle" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="36.69998dip" android:layout_height="36.69998dip" android:layout_marginTop="16.699982dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/card_body" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.699982dip" android:layout_marginRight="16.299988dip">
+        <RelativeLayout android:id="@id/card_upper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.699982dip">
+            <ViewStub android:id="@id/train_ticket" android:layout="@layout/layout_sms_train" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/airplane_ticket" android:layout="@layout/layout_sms_airplane" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/tab_group" android:layout="@layout/layout_sms_hotel" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/tab_movie" android:layout="@layout/layout_sms_movie" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <View android:id="@id/dash_divider" android:background="@drawable/dash_divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="15.299988dip" android:layout_marginBottom="8.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/sub_body" android:paddingTop="4.5999756dip" android:paddingBottom="20.299988dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

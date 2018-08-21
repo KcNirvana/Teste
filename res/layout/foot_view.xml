@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:paddingBottom="13.299988dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:alpha="0.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/setting" android:text="@string/card_setting_btn" style="@style/SettingBtn" />
+    <ViewStub android:layout_gravity="center_horizontal" android:id="@id/footer_upgrade" android:layout="@layout/card_footer_upgrade" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="34.0dip" android:layout_marginBottom="28.0dip" />
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/CardView" class="com.miui.home.launcher.assistant.ui.view.FunctionLaunchCardView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/card_view_group" />
+    <LinearLayout android:orientation="vertical" android:id="@id/container" android:background="@drawable/card_launch_bg" android:paddingLeft="5.399994dip" android:paddingTop="12.299988dip" android:paddingRight="5.399994dip" android:paddingBottom="13.599976dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/launch_container1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/view_function_launch_item" />
+            <include layout="@layout/view_function_launch_item" />
+            <include layout="@layout/view_function_launch_item" />
+            <include layout="@layout/view_function_launch_item" />
+            <include layout="@layout/view_function_launch_item" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/launch_container2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.699982dip" android:layout_marginBottom="3.0dip">
+            <include layout="@layout/view_function_launch_item" />
+            <include layout="@layout/view_function_launch_item" />
+            <include layout="@layout/view_function_launch_item" />
+            <include layout="@layout/view_function_launch_item" />
+            <include layout="@layout/view_function_launch_item" />
+        </LinearLayout>
+    </LinearLayout>
+</view>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="aqi_title">
+        <item>རབ།</item>
+        <item>བཟང་།</item>
+        <item>ཚད་ཆུང་།</item>
+        <item>ཚད་འབྲིང་།</item>
+        <item>ཚད་ལྕི།</item>
+        <item>ཚབས་ཆེན།</item>
+    </string-array>
+    <string-array name="aqi_title_append">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>སྦགས་བཙོག་%1$s</item>
+        <item>སྦགས་བཙོག་%1$s</item>
+        <item>སྦགས་བཙོག་%1$s</item>
+        <item>སྦགས་བཙོག་%1$s</item>
+    </string-array>
+    <string-array name="aqi_title_prefix">
+        <item>མཁའ་རླུང་%1$s</item>
+        <item>མཁའ་རླུང་%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </string-array>
+    <string-array name="day_time_space">
+        <item>ནམ་ཕྱེད།</item>
+        <item>ཐོ་རེངས།</item>
+        <item>སྔ་དྲོ།</item>
+        <item>ཉིན་གུང་།</item>
+        <item>ཕྱི་དྲོ།</item>
+        <item>ས་སྲོད།</item>
+        <item>མཚན་མོ།</item>
+    </string-array>
+    <string-array name="detail_font_size">
+        <item>ཆུང་བ།</item>
+        <item>ཚད་ལྡན་ཅན།</item>
+        <item>ཆེ་བ།</item>
+    </string-array>
+    <string-array name="stock_color_schema">
+        <item>དམར་འཕར་ལྗང་ཆག</item>
+        <item>ལྗང་འཕར་དམར་ཆག</item>
+    </string-array>
+    <string-array name="express_status_all">
+        <item>ལམ་བར་དུ་ཡོད།</item>
+        <item>སྦྲག་སྐྱེལ་བྱེད་བཞིན་པ།</item>
+        <item>ཚོང་ཟོག་བསྐུར་ཟིན།</item>
+        <item>དོགས་གཞིའི་ཅ་ལག</item>
+        <item>རྩིས་བླངས་ཟིན།</item>
+        <item>འཐུས་མཆན་ཕྱིར་སློག་བྱེད་པ།</item>
+        <item>ཕྱིར་སློག</item>
+        <item>གནས་སྐབས་ཆ་འཕྲིན་མི་འདུག</item>
+    </string-array>
+    <string-array name="express_status_detail">
+        <item>ལམ་བར་དུ་ཡོད།</item>
+        <item>སྦྲག་སྐྱེལ་བྱེད་བཞིན་པ།</item>
+    </string-array>
+    <string-array name="payment_chooser">
+        <item>འཕྲིན་ཕྲན།（དངུལ་བཅོལ་ཁཱ་དང་། ཡིད་རྟོན་ཁཱ་གཏོང་སྒོ）</item>
+        <item>འཕྲིན་ཕྲན་གཏོང་སྤྲོད།</item>
+        <item>གཏོང་སྤྲོད་འབོ་ལས་གཏོང་སྤྲོད།</item>
+    </string-array>
+    <string-array name="express_status_detail_flag">
+        <item>0</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="express_status_flag_all">
+        <item>0</item>
+        <item>5</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>6</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="icon_pkg">
+        <item>རོལ་དབྱངས།</item>
+        <item>ས་ཁྲ།</item>
+        <item>taxiuber</item>
+    </string-array>
+</resources>

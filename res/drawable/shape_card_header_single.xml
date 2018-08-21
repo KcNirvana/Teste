@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/allscreen_header_press" />
+            <padding android:top="13.889984dip" android:bottom="13.889984dip" />
+            <corners android:topLeftRadius="@dimen/card_radius" android:topRightRadius="@dimen/card_radius" android:bottomLeftRadius="@dimen/card_radius" android:bottomRightRadius="@dimen/card_radius" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/allscreen_header" />
+            <padding android:top="13.889984dip" android:bottom="13.889984dip" />
+            <corners android:topLeftRadius="@dimen/card_radius" android:topRightRadius="@dimen/card_radius" android:bottomLeftRadius="@dimen/card_radius" android:bottomRightRadius="@dimen/card_radius" />
+        </shape>
+    </item>
+</selector>

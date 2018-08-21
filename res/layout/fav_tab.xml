@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/tab_container" android:background="@drawable/select_team_tabs" android:paddingLeft="14.299988dip" android:paddingRight="14.299988dip" android:layout_width="fill_parent" android:layout_height="45.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioButton android:id="@id/tab_new" android:checked="true" android:text="@string/fav_tab_new" style="@style/FavCardTab" />
+    <RadioButton android:id="@id/tab_article" android:text="@string/fav_tab_article" style="@style/FavCardTab" />
+    <RadioButton android:id="@id/tab_shopping" android:text="@string/fav_tab_shopping" style="@style/FavCardTab" />
+    <RadioButton android:id="@id/tab_video" android:text="@string/fav_tab_video" style="@style/FavCardTab" />
+</RadioGroup>

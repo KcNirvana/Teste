@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_view_empty_three_line">125.81998dip</dimen>
+    <dimen name="card_view_emtpy_miot_device_height">90.54999dip</dimen>
+    <dimen name="cta_title_size">13.699982sp</dimen>
+    <dimen name="miot_device_card_controller_height">47.26999dip</dimen>
+    <dimen name="miot_device_card_controller_margin_bottom">10.899994dip</dimen>
+    <dimen name="miot_device_card_controller_margin_right">16.359985dip</dimen>
+    <dimen name="miot_device_card_controller_width">52.72998dip</dimen>
+    <dimen name="miot_device_card_desc_padding_start">14.179993dip</dimen>
+    <dimen name="miot_device_card_descrip_size">10.899994sp</dimen>
+    <dimen name="miot_device_card_grid_padding">10.899994dip</dimen>
+    <dimen name="miot_device_card_height">101.09dip</dimen>
+    <dimen name="miot_device_card_padding_top">9.379974dip</dimen>
+    <dimen name="miot_device_card_status_height">118.899994dip</dimen>
+    <dimen name="miot_device_card_status_line_margin">9.379974dip</dimen>
+    <dimen name="miot_device_card_status_line_margin_top">6.869995dip</dimen>
+    <dimen name="miot_device_card_status_line_size">32.0dip</dimen>
+    <dimen name="miot_device_card_status_margin_start">14.5dip</dimen>
+    <dimen name="miot_device_card_status_margin_top">7.0dip</dimen>
+    <dimen name="miot_device_card_status_name_size">10.899994sp</dimen>
+    <dimen name="miot_device_card_status_value_size">21.049988sp</dimen>
+    <dimen name="miot_device_card_title_padding_start">13.809998dip</dimen>
+    <dimen name="miot_device_card_title_size">14.5sp</dimen>
+    <dimen name="miot_device_icon_padding_bottom">7.819977dip</dimen>
+    <dimen name="miot_device_icon_padding_left">9.819977dip</dimen>
+    <dimen name="miot_device_icon_size">43.639984dip</dimen>
+</resources>

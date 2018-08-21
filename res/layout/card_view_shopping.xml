@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/CardView" class="com.miui.home.launcher.assistant.ui.view.ShoppingCardView"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/card_view_group" />
+    <LinearLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/item1" android:background="@drawable/card_middle" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.miui.home.launcher.assistant.ui.widget.RoundedImageView android:id="@id/item1_icon" android:layout_centerVertical="true" app:riv_corner_radius="5.0dip" style="@style/ShoppingImage" />
+            <TextView android:id="@id/item1_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/item1_icon" style="@style/ShoppingTitle" />
+            <RelativeLayout android:id="@id/subtitle1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/item1_icon" android:layout_below="@id/item1_title" style="@style/ShoppingSubTitle">
+                <TextView android:id="@id/price1" style="@style/ShoppingPrice" />
+                <TextView android:id="@id/app_name1" style="@style/ShoppingAppName" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/item2" android:background="@drawable/card_middle" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.miui.home.launcher.assistant.ui.widget.RoundedImageView android:id="@id/item2_icon" android:layout_centerVertical="true" app:riv_corner_radius="5.0dip" style="@style/ShoppingImage" />
+            <TextView android:id="@id/item2_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/item2_icon" style="@style/ShoppingTitle" />
+            <RelativeLayout android:id="@id/subtitle2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/item2_icon" android:layout_below="@id/item2_title" style="@style/ShoppingSubTitle">
+                <TextView android:id="@id/price2" style="@style/ShoppingPrice" />
+                <TextView android:id="@id/app_name2" style="@style/ShoppingAppName" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/item3" android:background="@drawable/card_middle" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.miui.home.launcher.assistant.ui.widget.RoundedImageView android:id="@id/item3_icon" android:layout_centerVertical="true" app:riv_corner_radius="5.0dip" style="@style/ShoppingImage" />
+            <TextView android:id="@id/item3_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/item3_icon" style="@style/ShoppingTitle" />
+            <RelativeLayout android:id="@id/subtitle3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/item3_icon" android:layout_below="@id/item3_title" style="@style/ShoppingSubTitle">
+                <TextView android:id="@id/price3" style="@style/ShoppingPrice" />
+                <TextView android:id="@id/app_name3" style="@style/ShoppingAppName" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <ViewStub android:id="@id/empty" android:layout="@layout/card_view_empty_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/authorize" android:layout="@layout/card_view_empty_icon" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/button_text_size_n" android:textColor="@color/button_text_color_n" android:gravity="center" android:id="@id/more" android:background="@drawable/card_button_single" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/shopping_all" />
+</view>

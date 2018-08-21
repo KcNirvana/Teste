@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/CardView" class="com.miui.home.launcher.assistant.ui.view.BasketballCardView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/card_view_group" />
+    <ViewStub android:id="@id/ball_empyt_view" android:layout="@layout/card_view_empty_imageview" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/ball_main_view" android:layout="@layout/card_view_ball_main" android:layout_width="fill_parent" android:layout_height="wrap_content" />​
+</view>

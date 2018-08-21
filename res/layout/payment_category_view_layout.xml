@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.payment.ui.view.CategoryView android:gravity="center_vertical" android:layout_gravity="end|center" android:id="@id/category" android:layout_width="@dimen/editor_content_right_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/category_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/editor_category_icon_margin_start" android:layout_marginEnd="@dimen/editor_category_icon_margin_end" />
+    <TextView android:ellipsize="end" android:id="@id/category_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:layout_weight="1.0" style="@style/RecordEditorContentStyle" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/payment_btn_inline_expand" />
+</com.miui.payment.ui.view.CategoryView>

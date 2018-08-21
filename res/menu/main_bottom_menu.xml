@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@miui:drawable/action_button_edit_light" android:id="@id/modify" android:title="@string/favorite_title_modify" android:showAsAction="always|withText" />
+    <item android:icon="@miui:drawable/action_button_share_light" android:id="@id/share" android:title="@string/detail_action_share" android:showAsAction="always|withText" />
+    <item android:icon="@miui:drawable/action_button_delete_light" android:id="@id/delete" android:title="@string/favorite_delete" android:showAsAction="always|withText" />
+</menu>

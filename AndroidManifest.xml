@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.miui.personalassistant" platformBuildVersionCode="23" platformBuildVersionName="6.0-2704002">
+    <permission android:name="miui.personalassistant.ACCESS_PROVIDER" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="miui.personalassistant.RECEIVE_CLOUD_SYNC_DATA" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="miui.personalassistant.RECEIVE_TRANSPROXY_DATA"/>
+    <permission android:name="miui.personalassistant.permission.READ_ASSISTANT_PROVIDER" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="miui.personalassistant.permission.WRITE_ASSISTANT_PROVIDER" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="miui.personalassistant.permission.RECEIVE_TRANSPROXY_DATA" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="android.permission.READ_MIPOCKET" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="android.permission.WRITE_MIPOCKET" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="com.miui.personalassistant.UPDATE_FAVORITE" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="miui.permission.EXTRA_NETWORK"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="com.android.settings.permission.READ_SETTINGS"/>
+    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"/>
+    <uses-permission android:name="android.permission.START_ANY_ACTIVITY"/>
+    <uses-permission android:name="android.permission.ACCESS_VOICE_INTERACTION_SERVICE"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="com.miui.yellowpage.permission.ACCESS_YELLOWPAGE"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="miui.personalassistant.ACCESS_PROVIDER"/>
+    <uses-permission android:name="miui.permission.READ_STEPS"/>
+    <uses-permission android:name="miui.personalassistant.RECEIVE_CLOUD_SYNC_DATA"/>
+    <uses-permission android:name="android.permission.SET_ACTIVITY_WATCHER"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="com.android.settings.permission.CLOUD_SETTINGS_PROVIDER"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_SYNC_STATS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="com.xiaomi.permission.CLOUD_MANAGER"/>
+    <uses-permission android:name="android.permission.BIND_REMOTEVIEWS"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="android.permission.MANAGE_USERS"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.miui.personalassistant.UPDATE_FAVORITE"/>
+    <uses-permission android:name="com.miui.personalassistant.permission.FAVORITE"/>
+    <uses-permission android:name="com.miui.notes.permission.ACCESS_NOTE"/>
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"/>
+    <uses-permission android:name="android.permission.READ_FRAME_BUFFER"/>
+    <uses-permission android:name="android.permission.INJECT_EVENTS"/>
+    <uses-permission android:name="android.permission.STOP_APP_SWITCHES"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_SETTINGS"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="cn.org.ifaa.permission.USE_IFAA_MANAGER"/>
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <uses-permission android:name="android.permission.MANAGE_FINGERPRINT"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="com.samsung.android.authservice.permission.READ_CONTENT_PROVIDER"/>
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true" android:xlargeScreens="true"/>
+    <application android:backupAgent="com.miui.payment.backup.PaymentBackupAgent" android:extractNativeLibs="false" android:hardwareAccelerated="true" android:icon="@mipmap/logo_icon" android:label="@string/app_label" android:name="com.miui.personalassistant.Application" android:theme="@style/Theme">
+        <uses-library android:name="cloud-common.jar"/>
+        <uses-library android:name="android-support-v13.jar"/>
+        <uses-library android:name="gson.jar"/>
+        <uses-library android:name="android-support-v7-recyclerview.jar"/>
+        <meta-data android:name="android.max_aspect" android:value="2.2"/>
+        <meta-data android:name="com.baidu.lbsapi.API_KEY" android:value="GmCwvXWHkR6VoGaFvMzmVotd6FImcudr"/>
+        <meta-data android:name="com.miui.personalassistant.allowBackup" android:value="true"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:label="@string/apps_label" android:name="com.miui.personalassistant.ui.AppPickerActivity" android:screenOrientation="portrait" android:theme="@style/Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:label="@string/place_label" android:name="com.miui.personalassistant.ui.PlaceActivity" android:screenOrientation="portrait" android:theme="@style/PlaceTheme">
+            <intent-filter>
+                <action android:name="com.miui.personalassistant.PLACE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:label="@string/choose_city" android:name="com.miui.personalassistant.ui.PersonalAssistantPickerActivity" android:screenOrientation="portrait" android:theme="@style/Theme">
+            <intent-filter>
+                <action android:name="com.miui.personalassistant.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:name="com.miui.personalassistant.ui.CommonSettingActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Light.TransparentDark">
+            <intent-filter>
+                <action android:name="com.miui.personalassistant.CommonSettingActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:name="com.miui.personalassistant.ui.CommonSettingDetailActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.miui.personalassistant.CommonSettingDetailActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:label="@string/setting_home_label" android:name="com.miui.personalassistant.ui.SearchAddressActivity" android:screenOrientation="portrait" android:theme="@style/Theme">
+            <intent-filter>
+                <action android:name="com.miui.personalassistant.SEARCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:label="@string/card_settings" android:name="com.miui.personalassistant.ui.CardSettingsActivity" android:screenOrientation="portrait" android:theme="@style/Theme">
+            <intent-filter>
+                <action android:name="com.miui.personalassistant.CARDSET"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:name="com.miui.personalassistant.ui.LocationSettingActivity" android:screenOrientation="portrait" android:theme="@miui:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="com.miui.personalassistant.LOCATION_SETTING"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:label="@string/launch_label" android:name="com.miui.personalassistant.ui.LaunchActivity" android:screenOrientation="portrait" android:theme="@style/Theme.NoFloating">
+            <intent-filter>
+                <action android:name="com.miui.personalassistant.LaunchActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:name="com.miui.personalassistant.ui.TeamsSelectActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Light.TransparentDark">
+            <intent-filter>
+                <action android:name="com.miui.personalassistant.SELECT_TEAM"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:name="com.miui.personalassistant.ui.AlipaySdkCodeActivity" android:screenOrientation="portrait" android:theme="@style/AlipayCodeTransparent"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:name="com.miui.personalassistant.ui.QuickstartDownloadDialogActivity" android:screenOrientation="portrait" android:theme="@style/Theme.DialogActivity">
+            <intent-filter>
+                <action android:name="com.miui.personalassistant.QUICKSTART_DIALOG"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:name="com.miui.personalassistant.ui.QuickstartInstallDialogActivity" android:screenOrientation="portrait" android:theme="@style/Theme.DialogActivity">
+            <intent-filter>
+                <action android:name="com.miui.personalassistant.QUICKSTART_INSTALL_DIALOG"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:name="com.miui.personalassistant.ui.BallDownloadDialogActivity" android:screenOrientation="portrait" android:theme="@style/Theme.DialogActivity">
+            <intent-filter>
+                <action android:name="com.miui.personalassistant.BALL_DIALOG"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:name="com.miui.personalassistant.ui.ExpressDownloadDialogActivity" android:screenOrientation="portrait" android:theme="@style/Theme.DialogActivity">
+            <intent-filter>
+                <action android:name="com.miui.personalassistant.EXPRESS_DIALOG"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:name="com.miui.personalassistant.ui.DialogCTAActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Dialog">
+            <intent-filter>
+                <action android:name="com.miui.personalassistant.CTADIALOG"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:label="@string/card_book_all" android:name="com.miui.personalassistant.ui.card.BookAllActivity" android:screenOrientation="portrait" android:theme="@style/Theme">
+            <intent-filter>
+                <action android:name="com.miui.personalassistant.BOOK_ALL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.sdu.didi.openapi.DiDiWebActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name="com.miui.personalassistant.ui.card.MiuiDiDiWebActivity" android:screenOrientation="portrait" android:taskAffinity="com.miui.personalassistant.didi" android:theme="@style/MiuiDiDiWebTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.miui.personalassistant.ui.card.DiDiActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="com.miui.personalassistant.DIDI"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <provider android:authorities="miui_personalassistant_v2" android:exported="true" android:name="com.miui.personalassistant.provider.PersonalAssistantProvider" android:permission="miui.personalassistant.ACCESS_PROVIDER"/>
+        <service android:enabled="true" android:name="com.miui.personalassistant.services.DataTransmissionService" android:process=":trans">
+            <intent-filter>
+                <action android:name="com.miui.personalassistant.trans"/>
+            </intent-filter>
+        </service>
+        <service android:name="miui.maml.elements.MusicListenerService" android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.MusicListenerService"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.miui.personalassistant.services.TransmissionService">
+            <intent-filter>
+                <action android:name="com.miui.personalassistant.TRANSMISSION_PROVIDER"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:label="@string/quickstart_accessibility_service" android:name="com.miui.voicesdk.VoiceAccessibilityService" android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService"/>
+            </intent-filter>
+            <meta-data android:name="android.accessibilityservice" android:resource="@xml/sdkaccessibility"/>
+        </service>
+        <receiver android:name="com.miui.personalassistant.services.sms.SmsReceiver">
+            <intent-filter>
+                <action android:name="com.miui.smsextra.action_sms_receiver"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.miui.personalassistant.services.sms.SmsService"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/favorite_label" android:launchMode="singleTask" android:name="com.miui.personalassistant.favorite.ui.FavoriteMainActivity" android:screenOrientation="portrait" android:taskAffinity="com.miui.personalassistant.favorite" android:theme="@style/Fav.main" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="com.miui.personalassistant.favorite.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:label="@string/favorite_label" android:launchMode="singleTask" android:name="com.miui.personalassistant.favorite.ui.FavoriteDetailActivity" android:screenOrientation="portrait" android:taskAffinity="com.miui.personalassistant.favorite" android:theme="@style/ThemeLightImmersion">
+            <intent-filter>
+                <action android:name="com.miui.personalassistant.favorite.DETAIL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.miui.personalassistant.favorite.ui.SearchActivity" android:screenOrientation="portrait" android:taskAffinity="com.miui.personalassistant.favorite" android:theme="@style/Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.miui.personalassistant.favorite.ui.CategoryActivity" android:screenOrientation="portrait" android:taskAffinity="com.miui.personalassistant.favorite" android:theme="@style/Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/fav_support_label" android:name="com.miui.personalassistant.favorite.ui.SupportAppActivity" android:screenOrientation="portrait" android:taskAffinity="com.miui.personalassistant.favorite" android:theme="@style/Theme"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleInstance" android:name="com.miui.personalassistant.favorite.sync.MiuiFavoriteDialogActivity" android:screenOrientation="portrait" android:taskAffinity="com.miui.personalassistant.favorite.authorization" android:theme="@miui:style/Theme.Light.Dialog.Alert">
+            <intent-filter>
+                <action android:name="com.miui.personalassistant.favorite.OPEN_CONFIRM"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:name="com.miui.personalassistant.ui.card.FavDownloadDialogActivity" android:screenOrientation="portrait" android:theme="@style/Theme.DialogActivity">
+            <intent-filter>
+                <action android:name="com.miui.personalassistant.FAV_DIALOG"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:icon="@drawable/fav_logo" android:label="@string/send_action_title" android:name="com.miui.personalassistant.favorite.ui.FavoriteShareActivity" android:theme="@style/Theme.AlertDialog">
+            <intent-filter android:label="@string/send_action_title">
+                <action android:name="android.intent.action.SEND"/>
+                <data android:mimeType="text/*"/>
+                <data android:mimeType="plain/*"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:icon="@drawable/fav_logo" android:label="@string/fav_label" android:launchMode="singleTop" android:name="com.miui.personalassistant.favorite.ui.GlobalSearchableActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AlertDialog">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/searchable"/>
+        </activity>
+        <provider android:authorities="global.search.favorite" android:exported="true" android:name="com.miui.personalassistant.favorite.provider.GlobalSearchProvider">
+            <path-permission android:pathPrefix="/search_suggest_query" android:readPermission="android.permission.GLOBAL_SEARCH"/>
+        </provider>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:label="@string/express_num_setting_title" android:name="com.miui.personalassistant.ui.ExpressNumSettingActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden" android:exported="false" android:name="com.miui.share.chooser.ShareChooserActivity" android:screenOrientation="portrait" android:theme="@style/MiuiShare.Theme.Light.Alert"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.miui.share.weibo.WeiboShareActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser" android:windowSoftInputMode="adjustResize"/>
+        <activity android:launchMode="singleTask" android:name="com.tencent.tauth.AuthActivity" android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="tencentAPPID"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.tencent.connect.common.AssistActivity" android:screenOrientation="behind" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <provider android:authorities="favorite" android:exported="true" android:icon="@drawable/fav_logo" android:label="@string/favorite_label" android:name="com.miui.personalassistant.favorite.db.FavoriteProvider" android:readPermission="android.permission.READ_MIPOCKET" android:syncable="true" android:writePermission="android.permission.WRITE_MIPOCKET"/>
+        <receiver android:name="com.miui.personalassistant.services.AccountReceiver">
+            <intent-filter>
+                <action android:name="android.accounts.LOGIN_ACCOUNTS_PRE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.miui.personalassistant.favorite.sync.MiuiFavoriteReceiver">
+            <intent-filter>
+                <action android:name="com.miui.personalassistant.action.FAVORITE"/>
+                <action android:name="com.miui.personalassistant.action.SHOPPING"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.miui.personalassistant.favorite.service.FavoriteShareService"/>
+        <service android:name="com.miui.personalassistant.favorite.service.DeleteService"/>
+        <provider android:authorities="personal_assistant" android:exported="true" android:icon="@mipmap/logo_icon" android:label="@string/app_label" android:name="com.miui.personalassistant.provider.AssistantProvider" android:readPermission="miui.personalassistant.permission.READ_ASSISTANT_PROVIDER" android:syncable="true" android:writePermission="miui.personalassistant.permission.WRITE_ASSISTANT_PROVIDER"/>
+        <receiver android:name="com.miui.personalassistant.services.ContentCatcherReceiver">
+            <intent-filter>
+                <action android:name="miui.intent.action.contentcatcher"/>
+            </intent-filter>
+        </receiver>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.miui.payment.ui.home.HomeActivity" android:screenOrientation="portrait" android:taskAffinity="com.miui.personalassistant.payment" android:theme="@style/PaymentMainActivityStyle" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="paymentassistant.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:label="@string/payment_app_name" android:name="com.miui.payment.ui.preference.PaymentPreferenceActivity" android:screenOrientation="portrait" android:theme="@miui:style/Theme.Light.Settings">
+            <intent-filter>
+                <action android:name="paymentassistant.intent.action.settings"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/monthly_report_lable" android:name="com.miui.payment.ui.monthly.MonthStatementActivity" android:theme="@miui:style/Theme.Light"/>
+        <activity android:label="" android:name="com.miui.payment.ui.monthly.MonthRecordListActivity" android:screenOrientation="portrait" android:theme="@style/MonthRecordListActivity"/>
+        <activity android:exported="true" android:label="@string/edit_record_label" android:launchMode="singleTask" android:name="com.miui.payment.ui.edit.RecordEditorActivity" android:screenOrientation="portrait" android:taskAffinity="com.miui.personalassistant.payment" android:theme="@miui:style/Theme.Light" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="paymentassistant.intent.action.edit_record"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="paymentassistant.intent.action.add_record"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <provider android:authorities="com.miui.paymentassistant" android:exported="true" android:multiprocess="false" android:name="com.miui.payment.provider.PaymentProvider"/>
+        <activity android:excludeFromRecents="true" android:label="@string/setting_stock" android:launchMode="singleTask" android:name="com.miui.personalassistant.stock.home.HomeActivity" android:screenOrientation="portrait" android:theme="@miui:style/Theme.Light">
+            <intent-filter>
+                <action android:name="stockassistant.action.main"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:exported="true" android:launchMode="singleTask" android:name="com.miui.personalassistant.stock.search.SearchActivity" android:screenOrientation="portrait" android:theme="@miui:style/Theme.Light">
+            <intent-filter>
+                <action android:name="stockassistant.action.add.main"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:exported="true" android:label="@string/stock_web_lable" android:name="com.miui.personalassistant.ui.WebActivity" android:screenOrientation="portrait" android:theme="@miui:style/Theme.Light">
+            <intent-filter>
+                <action android:name="com.miui.personalassistant.WEB"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <provider android:authorities="com.miui.stock" android:exported="true" android:name="com.miui.personalassistant.stock.provider.StockProvider"/>
+        <service android:name="com.miui.personalassistant.stock.service.StockService">
+            <intent-filter>
+                <action android:name="com.miui.stock.action.request"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.miui.stock.action.update_cache_sort"/>
+            </intent-filter>
+        </service>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.miui.personalassistant.express.activity.ExpressAddressListActivity" android:screenOrientation="portrait" android:theme="@miui:style/Theme.Light" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="com.miui.yellowpage.action.MANAGE_ADDRESS"/>
+                <action android:name="com.miui.yellowpage.action.PICK_ADDRESS"/>
+                <action android:name="com.miui.yellowpage.action.PICK_ADDRESS_JSON"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.miui.personalassistant.express.activity.HistoryActivity" android:screenOrientation="portrait" android:taskAffinity="com.miui.personalassistant.express" android:theme="@miui:style/Theme.Light" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="inquiry_history" android:path="" android:scheme="yellowpage"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/express_setting_number_title" android:name="com.miui.personalassistant.express.activity.PhoneBindingActivity" android:theme="@miui:style/Theme.Light" android:windowSoftInputMode="stateVisible">
+            <intent-filter>
+                <action android:name="com.miui.yellowpage.action.EXPRESS_PHONE_BINDING"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/express_inquiry" android:name="com.miui.personalassistant.express.activity.QueryActivity" android:screenOrientation="portrait" android:taskAffinity="com.miui.personalassistant.express" android:theme="@style/ExpressInquiryTheme" android:uiOptions="splitActionBarWhenNarrow" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="com.miui.yellowppage.express_inquiry"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="express_inquiry" android:path="" android:scheme="yellowpage"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.miui.personalassistant.express.activity.SendExpressActivity" android:screenOrientation="portrait" android:theme="@miui:style/Theme.Light" android:windowSoftInputMode="adjustPan|stateHidden">
+            <intent-filter>
+                <action android:name="com.miui.yellowpage.action.SEND_EXPRESS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="express_send" android:path="" android:scheme="yellowpage"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.miui.personalassistant.express.activity.RegionPickerActivity" android:screenOrientation="portrait" android:theme="@miui:style/Theme.Light" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="com.miui.yellowpage.action.PICK_REGION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.miui.personalassistant.express.activity.ExpressOrderActivity" android:screenOrientation="portrait" android:theme="@miui:style/Theme.Light" android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="express_order" android:path="" android:scheme="yellowpage"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.miui.personalassistant.express.activity.ExpressCompanyListActivity" android:screenOrientation="portrait" android:theme="@miui:style/Theme.Light"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.miui.personalassistant.express.activity.RemarkActivity" android:screenOrientation="portrait" android:taskAffinity="com.miui.personalassistant.express" android:theme="@style/Theme.AlertDialog">
+            <intent-filter>
+                <action android:name="com.miui.yellowpage.action.REMARK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.miui.personalassistant.express.activity.ExpressAddressEditorActivity" android:screenOrientation="portrait" android:theme="@miui:style/Theme.Light">
+            <intent-filter>
+                <action android:name="com.miui.yellowpage.action.NEW_ADDRESS"/>
+                <action android:name="com.miui.yellowpage.action.EDIT_ADDRESS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.miui.personalassistant.express.activity.LoginActivity" android:screenOrientation="portrait" android:theme="@miui:style/Theme.Light">
+            <intent-filter>
+                <action android:name="com.miui.personalassistant.action.LOGIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/order_merchant_title" android:name="com.miui.personalassistant.express.activity.OrderActivity" android:screenOrientation="portrait" android:theme="@miui:style/Theme.Light">
+            <intent-filter>
+                <action android:name="com.miui.personalassistant.action.ORDER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="order" android:path="" android:scheme="personalassistant"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.miui.personalassistant.express.activity.CompanyPickerActivity" android:screenOrientation="portrait" android:taskAffinity="com.miui.personalassistant.express" android:theme="@miui:style/Theme.Light"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.miui.personalassistant.ui.CTADialogActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AlertDialog">
+            <intent-filter>
+                <action android:name="com.miui.personalassistant.action.CTADIALOG"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.miui.personalassistant.ui.ExpressCatcherSettingActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:label="@string/apps_label" android:name="com.miui.personalassistant.ui.AlipayXspaceResolverActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Dialog"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:name="com.miui.personalassistant.ui.card.LoginDialogActivity" android:screenOrientation="portrait" android:theme="@style/Theme.DialogActivity">
+            <intent-filter>
+                <action android:name="com.miui.personalassistant.LOGIN_DIALOG"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:name="com.miui.personalassistant.ui.card.LoginBlankActivity" android:screenOrientation="portrait" android:theme="@style/Theme.DialogActivity">
+            <intent-filter>
+                <action android:name="com.miui.personalassistant.LOGIN_BLANK_DIALOG"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <provider android:authorities="miui.personalassistant.express" android:exported="true" android:name="com.miui.personalassistant.express.provider.ExpressProvider"/>
+        <receiver android:name="com.miui.personalassistant.express.receiver.AccountReceiver">
+            <intent-filter>
+                <action android:name="android.accounts.LOGIN_ACCOUNTS_POST_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/shopping_label" android:launchMode="singleTask" android:name="com.miui.personalassistant.shopping.ui.ShoppingMainActivity" android:screenOrientation="portrait" android:taskAffinity="com.miui.personalassistant.shopping" android:theme="@style/Fav.main" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="com.miui.personalassistant.SHOPPING"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="com.miui.personalassistant.shopping.ui.ShoppingDetailActivity" android:screenOrientation="portrait" android:taskAffinity="com.miui.personalassistant.shopping" android:theme="@style/ThemeLightImmersion">
+            <intent-filter>
+                <action android:name="com.miui.personalassistant.SHOPPING_DETAIL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.miui.personalassistant.shopping.ui.ShoppingSearchActivity" android:screenOrientation="portrait" android:taskAffinity="com.miui.personalassistant.shopping" android:theme="@style/Theme"/>
+        <service android:name="com.miui.personalassistant.shopping.service.ShoppingDeleteService"/>
+        <receiver android:exported="true" android:name="com.miui.voiceassist.mvs.client.MvsClientReceiver" android:permission="com.miui.voiceassist.MVS_BROADCAST">
+            <intent-filter>
+                <action android:name="com.miui.voiceassist.mvs.client.ACTION_RESGISTER_MVS"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="com.alipay.android.phone.inside.InteractionService" android:process=":alipayinside">
+            <intent-filter>
+                <action android:name="com.alipay.phone.inside.INSIDE_INTERACTION"/>
+            </intent-filter>
+        </service>
+        <uses-library android:name="org.ifaa.android.manager.permissions" android:required="false"/>
+        <activity android:configChanges="orientation" android:excludeFromRecents="true" android:exported="false" android:hardwareAccelerated="true" android:launchMode="singleTop" android:name="com.alipay.android.app.pay.MiniLaucherActivity" android:process=":alipayinside" android:screenOrientation="portrait" android:theme="@style/MspAppTheme">
+            <intent-filter android:priority="800">
+                <action android:name="com.alipay.mobilepay.android"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:excludeFromRecents="true" android:exported="false" android:hardwareAccelerated="true" android:launchMode="singleTop" android:name="com.alipay.android.app.ui.quickpay.window.MiniWebActivity" android:process=":alipayinside" android:screenOrientation="portrait">
+            <intent-filter android:priority="800">
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:hardwareAccelerated="true" android:launchMode="singleTop" android:name="com.alipay.android.app.ui.quickpay.window.MiniPayActivity" android:process=":alipayinside" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent" android:windowSoftInputMode="stateAlwaysHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="com.alipay.android.app.TransProcessPayActivity" android:theme="@style/MspAppTheme"/>
+        <service android:exported="false" android:name="com.alipay.android.app.MspService" android:process=":alipayinside">
+            <intent-filter android:priority="800">
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.alipay.android.app.MspInsideService" android:process=":alipayinside">
+            <intent-filter android:priority="800">
+                <action android:name="com.alipay.android.app.insidePay"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="false" android:name="com.alipay.android.app.LiveConnectReceiver">
+            <intent-filter android:priority="800">
+                <action android:name="com.alipay.android.app.pay.ACTION_CREATE_LIVE_CONNECT"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:launchMode="singleTask" android:name="com.ali.user.mobile.login.ui.AliUserLoginActivity" android:process=":alipayinside" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:launchMode="singleTask" android:name="com.ali.user.mobile.login.ui.AlipayUserLoginActivity" android:process=":alipayinside" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:name="com.ali.user.mobile.register.ui.AliUserRegisterChoiceRegionActivity" android:process=":alipayinside" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:name="com.ali.user.mobile.login.ui.AliUserLoginSixPasswordActivity" android:process=":alipayinside" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:name="com.ali.user.mobile.login.ui.LoginManualSmsActivity" android:process=":alipayinside" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:name="com.ali.user.mobile.login.ui.LoginQuerypwdActivity" android:process=":alipayinside" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:launchMode="singleTask" android:name="com.ali.user.mobile.login.ui.AliuserGuideActivity" android:process=":alipayinside" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:name="com.ali.user.mobile.register.ui.AliUserRegisterSixPasswordActivity" android:process=":alipayinside" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:name="com.ali.user.mobile.register.ui.AliuserRegisterSuccessActivity" android:process=":alipayinside" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="navigation|orientation" android:launchMode="singleTask" android:name="com.ali.user.mobile.register.ui.RegPurePhoneActivity" android:process=":alipayinside" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:name="com.ali.user.mobile.register.ui.RegReadSmsActivity" android:process=":alipayinside" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="navigation|orientation" android:name="com.ali.user.mobile.register.ui.RegManualSmsActivity" android:process=":alipayinside" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="navigation|orientation" android:name="com.ali.user.mobile.register.ui.RegLoginPwdActivity" android:process=":alipayinside" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="navigation|orientation" android:name="com.ali.user.mobile.register.ui.RegExistUserActivity" android:process=":alipayinside" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="navigation|orientation" android:launchMode="singleTask" android:name="com.ali.user.mobile.register.ui.AliuserWebViewActivity" android:process=":alipayinside" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="navigation|orientation" android:launchMode="singleTask" android:name="com.ali.user.mobile.external.LoginPreCheckActivity" android:process=":alipayinside" android:screenOrientation="portrait" android:theme="@style/alipay_TranslucentTheme" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="navigation|orientation" android:exported="true" android:launchMode="singleTask" android:name="com.ali.user.mobile.external.AuthLoginResultActivity" android:process=":alipayinside" android:screenOrientation="portrait" android:theme="@style/alipay_TransparentNoAnimationTheme" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="navigation|orientation" android:launchMode="singleTask" android:name="com.ali.user.mobile.h5.AliuserWebViewActivity" android:process=":alipayinside" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="navigation|orientation" android:launchMode="singleTask" android:name="com.ali.user.mobile.external.LogoutInsideActivity" android:process=":alipayinside" android:screenOrientation="portrait" android:theme="@style/alipay_TranslucentTheme" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <receiver android:enabled="true" android:name="com.ali.user.mobile.accountbiz.receiver.SecurityInitMsgReceiver">
+            <intent-filter>
+                <action android:name="com.alipay.security.init"/>
+                <action android:name="com.alipay.security.login"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

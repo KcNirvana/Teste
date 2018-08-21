@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transition
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/miot_device_status_on" />
+    <item android:drawable="@drawable/miot_device_status_off" />
+</transition>

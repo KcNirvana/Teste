@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/preference_middle_item_bg_normal" android:layout_width="fill_parent" android:layout_height="34.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="#80000000" android:gravity="start|center" android:id="@id/tv_phone_group_title" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/express_setting_authorized_number" android:maxLines="1" android:layout_weight="1.0" style="@miui:style/TextAppearance.Widget.List.Primary" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/action_button_remark_v10" android:id="@id/remark" android:title="@string/express_inquiry_history_remark" android:showAsAction="always" />
+    <item android:icon="@miui:drawable/action_button_edit_light" android:id="@id/edit_logistics" android:title="@string/express_inquiry_edit_logistics" android:showAsAction="always" />
+    <item android:icon="@miui:drawable/action_button_delete_light" android:id="@id/delete" android:title="@string/delete" android:showAsAction="always" />
+</menu>

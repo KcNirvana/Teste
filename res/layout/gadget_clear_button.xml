@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/function_launch_icon" android:layout_height="@dimen/function_launch_icon"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.miui.home.launcher.assistant.ui.widget.CircleProgressBar android:id="@id/bar" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

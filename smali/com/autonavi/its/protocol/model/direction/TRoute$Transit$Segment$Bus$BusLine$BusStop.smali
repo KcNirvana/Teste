@@ -1,0 +1,284 @@
+.class public Lcom/autonavi/its/protocol/model/direction/TRoute$Transit$Segment$Bus$BusLine$BusStop;
+.super Ljava/lang/Object;
+.source "TRoute.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/autonavi/its/protocol/model/direction/TRoute$Transit$Segment$Bus$BusLine;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "BusStop"
+.end annotation
+
+
+# instance fields
+.field private mId:Ljava/lang/String;
+
+.field private mLocation:Lcom/autonavi/its/protocol/model/Coordinate;
+
+.field private mName:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static parser(Lorg/json/JSONObject;)Lcom/autonavi/its/protocol/model/direction/TRoute$Transit$Segment$Bus$BusLine$BusStop;
+    .locals 2
+
+    if-nez p0, :cond_0
+
+    const/4 v0, 0x0
+
+    :goto_0
+    return-object v0
+
+    :cond_0
+    new-instance v0, Lcom/autonavi/its/protocol/model/direction/TRoute$Transit$Segment$Bus$BusLine$BusStop;
+
+    invoke-direct {v0}, Lcom/autonavi/its/protocol/model/direction/TRoute$Transit$Segment$Bus$BusLine$BusStop;-><init>()V
+
+    const-string/jumbo v1, "name"
+
+    invoke-virtual {p0, v1}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-direct {v0, v1}, Lcom/autonavi/its/protocol/model/direction/TRoute$Transit$Segment$Bus$BusLine$BusStop;->setName(Ljava/lang/String;)V
+
+    const-string/jumbo v1, "id"
+
+    invoke-virtual {p0, v1}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-direct {v0, v1}, Lcom/autonavi/its/protocol/model/direction/TRoute$Transit$Segment$Bus$BusLine$BusStop;->setId(Ljava/lang/String;)V
+
+    const-string/jumbo v1, "location"
+
+    invoke-virtual {p0, v1}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v1}, Lcom/autonavi/its/protocol/model/Coordinate;->parserProtocolString(Ljava/lang/String;)Lcom/autonavi/its/protocol/model/Coordinate;
+
+    move-result-object v1
+
+    invoke-direct {v0, v1}, Lcom/autonavi/its/protocol/model/direction/TRoute$Transit$Segment$Bus$BusLine$BusStop;->setLocation(Lcom/autonavi/its/protocol/model/Coordinate;)V
+
+    goto :goto_0
+.end method
+
+.method public static parserArray(Lorg/json/JSONArray;)Ljava/util/List;
+    .locals 5
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lorg/json/JSONArray;",
+            ")",
+            "Ljava/util/List",
+            "<",
+            "Lcom/autonavi/its/protocol/model/direction/TRoute$Transit$Segment$Bus$BusLine$BusStop;",
+            ">;"
+        }
+    .end annotation
+
+    if-eqz p0, :cond_0
+
+    invoke-virtual {p0}, Lorg/json/JSONArray;->length()I
+
+    move-result v4
+
+    if-nez v4, :cond_2
+
+    :cond_0
+    const/4 v3, 0x0
+
+    :cond_1
+    return-object v3
+
+    :cond_2
+    new-instance v3, Ljava/util/ArrayList;
+
+    invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
+
+    if-eqz p0, :cond_1
+
+    invoke-virtual {p0}, Lorg/json/JSONArray;->length()I
+
+    move-result v2
+
+    const/4 v1, 0x0
+
+    :goto_0
+    if-ge v1, v2, :cond_1
+
+    invoke-virtual {p0, v1}, Lorg/json/JSONArray;->optJSONObject(I)Lorg/json/JSONObject;
+
+    move-result-object v4
+
+    invoke-static {v4}, Lcom/autonavi/its/protocol/model/direction/TRoute$Transit$Segment$Bus$BusLine$BusStop;->parser(Lorg/json/JSONObject;)Lcom/autonavi/its/protocol/model/direction/TRoute$Transit$Segment$Bus$BusLine$BusStop;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_3
+
+    invoke-interface {v3, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    :cond_3
+    add-int/lit8 v1, v1, 0x1
+
+    goto :goto_0
+.end method
+
+.method private setId(Ljava/lang/String;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/autonavi/its/protocol/model/direction/TRoute$Transit$Segment$Bus$BusLine$BusStop;->mId:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method private setLocation(Lcom/autonavi/its/protocol/model/Coordinate;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/autonavi/its/protocol/model/direction/TRoute$Transit$Segment$Bus$BusLine$BusStop;->mLocation:Lcom/autonavi/its/protocol/model/Coordinate;
+
+    return-void
+.end method
+
+.method private setName(Ljava/lang/String;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/autonavi/its/protocol/model/direction/TRoute$Transit$Segment$Bus$BusLine$BusStop;->mName:Ljava/lang/String;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public getId()Ljava/lang/String;
+    .locals 1
+
+    iget-object v0, p0, Lcom/autonavi/its/protocol/model/direction/TRoute$Transit$Segment$Bus$BusLine$BusStop;->mId:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public getLocation()Lcom/autonavi/its/protocol/model/Coordinate;
+    .locals 1
+
+    iget-object v0, p0, Lcom/autonavi/its/protocol/model/direction/TRoute$Transit$Segment$Bus$BusLine$BusStop;->mLocation:Lcom/autonavi/its/protocol/model/Coordinate;
+
+    return-object v0
+.end method
+
+.method public getName()Ljava/lang/String;
+    .locals 1
+
+    iget-object v0, p0, Lcom/autonavi/its/protocol/model/direction/TRoute$Transit$Segment$Bus$BusLine$BusStop;->mName:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 3
+
+    new-instance v0, Ljava/lang/StringBuffer;
+
+    invoke-direct {v0}, Ljava/lang/StringBuffer;-><init>()V
+
+    const-string/jumbo v1, "\n\t\t\t\t\t\t[ BusStop "
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string/jumbo v2, "\n \t\t\t\t\t\t\t\u7ad9\u70b9\u540d\u79f0: "
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-virtual {p0}, Lcom/autonavi/its/protocol/model/direction/TRoute$Transit$Segment$Bus$BusLine$BusStop;->getName()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string/jumbo v2, "\n \t\t\t\t\t\t\t\u7ad9\u70b9ID: "
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-virtual {p0}, Lcom/autonavi/its/protocol/model/direction/TRoute$Transit$Segment$Bus$BusLine$BusStop;->getId()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string/jumbo v2, "\n \t\t\t\t\t\t\t\u7ad9\u70b9\u4f4d\u7f6e: "
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-virtual {p0}, Lcom/autonavi/its/protocol/model/direction/TRoute$Transit$Segment$Bus$BusLine$BusStop;->getLocation()Lcom/autonavi/its/protocol/model/Coordinate;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+
+    const-string/jumbo v1, "\n\t\t\t\t\t\t]\n"
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    return-object v1
+.end method

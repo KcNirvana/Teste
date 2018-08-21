@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#ff262a3b" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:id="@id/circle_progressbar" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_centerInParent="true">
+        <com.alipay.android.app.flybird.ui.window.specific.samsungpay.CircleProgressBar android:id="@id/specific_samsungpay_circle_progressbar" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/alipay_tag" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <TextView android:textSize="17.0sp" android:textColor="#ff888888" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/alipay_processing" android:layout_below="@id/circle_progressbar" android:layout_centerHorizontal="true" />
+</RelativeLayout>

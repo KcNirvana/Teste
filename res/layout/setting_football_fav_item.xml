@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/setting_team_icon" android:background="@drawable/setting_list_icon_bg" android:layout_width="@dimen/setting_list_icon_size" android:layout_height="@dimen/setting_list_icon_size" android:scaleType="centerInside" android:layout_centerVertical="true" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/setting_list_title" android:id="@id/setting_team_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0" />
+    <ImageView android:id="@id/setting_team_drag" android:paddingLeft="10.0dip" android:focusable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:src="@drawable/ic_drag" android:layout_centerVertical="true" android:contentDescription="@string/list_icon_drag" />
+</LinearLayout>

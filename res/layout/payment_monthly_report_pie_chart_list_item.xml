@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:paddingTop="@dimen/monthly_pie_chart_label_padding_top" android:paddingBottom="@dimen/monthly_pie_chart_label_padding_top" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/pie_chart_label" android:drawablePadding="@dimen/monthly_pie_chart_label_img_padding" style="@style/MonthlyReportTextLight" />
+</RelativeLayout>

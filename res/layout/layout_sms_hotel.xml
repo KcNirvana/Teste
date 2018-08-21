@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/SmsCardSubText" android:textSize="@dimen/sms_movie_code_title" android:id="@id/codename" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/sms_movie_code" android:textColor="@color/book_assistant_title" android:id="@id/codenumber" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-1.2999878dip" />
+</LinearLayout>

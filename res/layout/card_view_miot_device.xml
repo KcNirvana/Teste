@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/CardView" class="com.miui.home.launcher.assistant.ui.view.MiotDeviceCardView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/card_view_group_miot_device" />
+    <ViewStub android:id="@id/device_main_view" android:layout="@layout/card_view_miot_device_main" android:layout_width="fill_parent" android:layout_height="wrap_content" />​
+<ViewStub android:id="@id/account_empty_view" android:layout="@layout/card_view_empty_miot_device_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/authorize_view" android:layout="@layout/card_view_empty_icon_three" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</view>

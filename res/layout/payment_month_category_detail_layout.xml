@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.payment.ui.monthly.MonthCategoryDetailLayout android:orientation="vertical" android:id="@id/category_detail_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/monthly_category_detail_title_textsize" android:textColor="@color/monthly_report_text_light" android:gravity="center" android:layout_width="wrap_content" android:layout_height="@dimen/monthly_category_detail_title_height" android:text="@string/month_statement_category_detail_title" android:layout_marginStart="@dimen/monthly_category_detail_title_margin_start" />
+    <View style="@style/DefaultHorizontalLine" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/month_empty_view" android:visibility="gone" android:layout_marginTop="@dimen/monthly_pie_chart_empty_view_margin" android:text="@string/month_report_month_no_data" style="@style/MonthlyReportTextLight" />
+        <ViewStub android:id="@id/category_detail_view_stub" android:layout="@layout/payment_month_category_detail" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+</com.miui.payment.ui.monthly.MonthCategoryDetailLayout>

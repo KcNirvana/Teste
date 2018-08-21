@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html class="${bgColor}">
+<head lang="zh-CN">
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <style type="text/css">
+        html,
+        div,
+        dl,
+        dt,
+        dd,
+        ul,
+        ol,
+        h4,
+        h5,
+        h6,
+        pre,
+        code,
+        form,
+        fieldset,
+        legend,
+        input,
+        button,
+        textarea,
+        p,
+        blockquote,
+        th,
+        td,
+        section {
+            max-width: 100%!important;
+            margin: 0 0 10px 0;
+            padding: 0;
+            line-height: 1.5
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-size: .18rem;
+            font-weight: bold;
+            font-family: miuibd;
+            margin-bottom: 5px
+        }
+
+        html {
+            font-size: 100px
+        }
+
+        ol,
+        ul {
+            padding: 0 0 0 25px
+        }
+
+        blockquote {
+            padding: 10px 10px;
+            border-left: 5px solid rgba(0, 0, 0, .2)
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0
+        }
+
+        fieldset,
+        img {
+            border: 0
+        }
+
+        del,
+        ins {
+            text-decoration: none
+        }
+
+        caption,
+        th {
+            text-align: left
+        }
+
+        q:before,
+        q:after {
+            rules: ''
+        }
+
+        abbr,
+        acronym {
+            border: 0;
+            font-variant: normal
+        }
+
+        sup {
+            vertical-align: baseline
+        }
+
+        sub {
+            vertical-align: baseline
+        }
+
+        legend {
+            color: #000
+        }
+
+        input,
+        button,
+        textarea,
+        select,
+        optgroup,
+        option {
+            font-family: inherit;
+            font-size: inherit;
+            font-style: inherit;
+            font-weight: inherit
+        }
+
+        input,
+        button,
+        textarea,
+        select {
+            *font-size: 100%
+        }
+
+        body {
+            font: 13px/1.231 arial, helvetica, clean, sans-serif;
+            *font-size: small;
+            *font: x-small
+        }
+
+        body {
+            font-size: .16rem
+        }
+
+        select,
+        input,
+        button,
+        textarea,
+        button {
+            font: 99% arial, helvetica, clean, sans-serif
+        }
+
+        table {
+            font-size: inherit;
+            font: 100%
+        }
+
+        pre,
+        code,
+        kbd,
+        samp,
+        tt {
+            font-family: monospace;
+            *font-size: 108%;
+            line-height: 100%
+        }
+
+        .clearfix:after {
+            rules: ".";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden
+        }
+
+        .clearfix {
+            zoom: 1
+        }
+
+        html,
+        body {
+            background: #f7f7f7;
+            overflow-x: hidden
+        }
+
+        html {
+            margin: 0 23px
+        }
+
+        body {
+            font-family: miui, Helvetica, serif;
+            margin: 0;
+            padding: 8px 0;
+        }
+
+        figure,
+        img {
+            width: auto;
+            height: auto;
+            max-width: 100%
+        }
+
+        figure {
+            margin: 0;
+            padding: 0
+        }
+
+        a {
+            text-decoration: none;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            color: #4aa7f5
+        }
+
+        strong,
+        b {
+            font-family: miuibd;
+            font-weight: bold
+        }
+
+        .mipocket-title {
+            font-size: .24rem;
+            font-weight: bold;
+            text-align: left;
+            margin: 0 0 23px;
+            color: #181818;
+            line-height: 1.2;
+            font-family: miuibd
+        }
+
+        .mipocket-subtitle {
+            font-size: .12rem;
+            font-weight: normal;
+            color: #7b7b7b;
+            margin: 12px 0 0;
+            line-height: 1
+        }
+
+        .mipocket-cont {
+            font-size: .17rem;
+            text-align: justify;
+            color: #4a4a4a;
+            margin: 0
+        }
+
+        .small .mipocket-title {
+            font-size: .21rem;
+            margin-bottom: 20px
+        }
+
+        .small .mipocket-subtitle {
+            margin-top: 9px
+        }
+
+        .small .mipocket-cont {
+            font-size: .15rem
+        }
+
+        .small h1,
+        .small h2,
+        .small h3 {
+            font-size: .16rem
+        }
+
+        .large .mipocket-title {
+            font-size: .26rem;
+            margin-bottom: 26px
+        }
+
+        .large .mipocket-subtitle {
+            font-size: .13rem;
+            margin-top: 13px
+        }
+
+        .large .mipocket-cont {
+            font-size: .19rem
+        }
+
+        .large h1,
+        .large h2,
+        .large h3 {
+            font-size: .21rem
+        }
+
+        .black,
+        .black body {
+            background: #3a3d42
+        }
+
+        .black .mipocket-title {
+            color: #bcbcbd
+        }
+
+        .black .mipocket-subtitle {
+            color: #838487
+        }
+
+        .black .mipocket-cont {
+            color: #9fa0a1
+        }
+
+        .black blockquote {
+            border-left: 5px solid rgba(255, 255, 255, .2)
+        }
+
+        .black figure,
+        .black img {
+            opacity: .7
+        }
+
+        .yellow,
+        .yellow body {
+            background: #fbf0d9
+        }
+
+        .yellow .mipocket-title {
+            color: #5b4636
+        }
+
+        .yellow .mipocket-subtitle {
+            color: #ab9b87
+        }
+
+        .yellow .mipocket-cont {
+            color: #5b4636
+        }
+
+        .green,
+        .green body {
+            background: #cbe5cb
+        }
+
+        .green .mipocket-title {
+            color: #333
+        }
+
+        .green .mipocket-subtitle {
+            color: #7f8c7f
+        }
+
+        .green .mipocket-cont {
+            color: #333
+        }
+    </style>
+</head>
+
+<body class="${fontSize}">
+<div class="mipocket-title">${title}</div>
+<div class="mipocket-cont">${body}</div>
+<script type="text/javascript">
+    ! function() {
+        function a(a, t) {
+            var n;
+            if (a.naturalWidth) n = a.naturalWidth, t(a, n);
+            else {
+                var s = new Image;
+                s.src = a.src, s.onload = function() {
+                    this.onload = null, t(a, s.width)
+                }
+            }
+        }
+
+        function t(a, t) {
+            t >= document.body.clientWidth / 3 && (a.style.width = "100%")
+        }
+        for (var n = document.getElementsByTagName("img"), s = 0; s < n.length; s++) {
+            var e = n[s];
+            e.onload = function() {
+                this.onload = null, a(this, t)
+            }, (e.dataset.src || e.dataset.original) && (e.src = e.dataset.src || e.dataset.original)
+        }
+        window.changeFontSize = function(a) {
+            var t = document.querySelector("body");
+            switch (t.setAttribute("class", ""), a) {
+                case 0:
+                    t.classList.add("small");
+                    break;
+                case 1:
+                    break;
+                case 2:
+                    t.classList.add("large")
+            }
+        }, window.changeBg = function(a) {
+            var t = document.querySelector("html");
+            t.setAttribute("class", ""), t.classList.add(a)
+        }
+    }();
+</script>
+</body>
+</html>

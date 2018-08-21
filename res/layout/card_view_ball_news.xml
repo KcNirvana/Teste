@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ball_news_item_root" android:background="@drawable/bg_ball_item" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <com.miui.personalassistant.ui.widget.RoundedImageView android:id="@id/icon" android:layout_width="98.29999dip" android:layout_height="65.69998dip" android:scaleType="centerCrop" app:riv_corner_radius="2.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="15.299988sp" android:textColor="@color/list_item_title" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.699982dip" android:maxLines="2" android:layout_toLeftOf="@id/end" android:layout_alignParentLeft="true" android:lineSpacingExtra="2.0dip" />
+    <TextView android:textSize="11.0sp" android:textColor="@color/list_item_time" android:id="@id/date_source" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="21.0dip" android:layout_toLeftOf="@id/end" android:layout_below="@id/title" android:layout_alignParentLeft="true" />
+</RelativeLayout>

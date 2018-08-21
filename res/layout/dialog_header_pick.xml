@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@drawable/dark_divider" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/button_text_size_n" android:textColor="@color/card_view_title" android:gravity="center_vertical" android:id="@id/clear_header_btn" android:paddingLeft="@dimen/dimen_20" android:layout_width="fill_parent" android:layout_height="55.69998dip" android:text="@string/search_clear_header" />
+    <TextView android:textSize="@dimen/button_text_size_n" android:textColor="@color/card_view_title" android:gravity="center_vertical" android:id="@id/change_header_btn" android:paddingLeft="@dimen/dimen_20" android:layout_width="fill_parent" android:layout_height="55.69998dip" android:text="@string/search_change_header" />
+</LinearLayout>

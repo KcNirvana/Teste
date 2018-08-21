@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/favorite_item_root" android:background="@drawable/favorite_list_selector" android:paddingTop="20.0dip" android:paddingBottom="22.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <com.miui.personalassistant.ui.widget.RoundedImageView android:id="@id/icon" android:layout_width="@dimen/favorite_item_icon_size" android:layout_height="@dimen/favorite_item_icon_size" android:scaleType="centerCrop" app:riv_corner_radius="5.0dip" />
+        <CheckBox android:id="@id/cb_choose" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@color/list_item_title" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_toLeftOf="@id/end" android:layout_alignParentLeft="true" android:lineSpacingExtra="2.0dip" />
+    <TextView android:textSize="10.0sp" android:textColor="@color/list_item_time" android:id="@id/date_source" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_toLeftOf="@id/end" android:layout_below="@id/title" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <TextView android:textSize="10.0sp" android:textColor="@color/list_item_time" android:id="@id/date_source_noimage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_toLeftOf="@id/end" android:layout_below="@id/title" android:layout_alignParentLeft="true" />
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="aqi_title">
+        <item>ئەلا</item>
+        <item>ياخشى</item>
+        <item>يېنىك</item>
+        <item>ئوتتۇرھال</item>
+        <item>ئېغىر</item>
+        <item>قاتتىق</item>
+    </string-array>
+    <string-array name="aqi_title_append">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s بۇلغىنىش</item>
+        <item>%1$s بۇلغىنىش</item>
+        <item>%1$s بۇلغىنىش</item>
+        <item>%1$s بۇلغىنىش</item>
+    </string-array>
+    <string-array name="aqi_title_prefix">
+        <item>ھاۋا %1$s</item>
+        <item>ھاۋا %1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </string-array>
+    <string-array name="day_time_space">
+        <item>يېرىم كېچە</item>
+        <item>سەھەر</item>
+        <item>چ ب</item>
+        <item>چۈش</item>
+        <item>چ ك</item>
+        <item>گۇگۇم</item>
+        <item>كەچ</item>
+    </string-array>
+    <string-array name="detail_font_size">
+        <item>كىچىك</item>
+        <item>ئۆلچەملىك</item>
+        <item>چوڭ</item>
+    </string-array>
+    <string-array name="stock_color_schema">
+        <item>قىزىل ئۆسكەن يېشىل چۈشكەن</item>
+        <item>يېشىل ئۆسكەن قىزىل چۈشكەن</item>
+    </string-array>
+    <string-array name="express_status_all">
+        <item>يولدا</item>
+        <item>يەتكۈزۈلىۋاتىدۇ</item>
+        <item>مال يوللاندى</item>
+        <item>گۇمانلىق</item>
+        <item>تاپشۇرۋېلىندى</item>
+        <item>قايتۇرۇش</item>
+        <item>قايتۇرۇش</item>
+        <item>ھازىرچە ئۇچۇريوق</item>
+    </string-array>
+    <string-array name="express_status_detail">
+        <item>يولدا</item>
+        <item>يەتكۈزۈلىۋاتىدۇ</item>
+    </string-array>
+    <string-array name="payment_chooser">
+        <item>ئۇچۇر(ساقلاش كارتىسى،كىرىدېت كارتا چىقىمى)</item>
+        <item>ئۈندىدار ھەق تۆلەش</item>
+        <item>ئالىپايدا تۆلەش</item>
+    </string-array>
+    <string-array name="express_status_detail_flag">
+        <item>0</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="express_status_flag_all">
+        <item>0</item>
+        <item>5</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>6</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="icon_pkg">
+        <item>مۇزىكا</item>
+        <item>خەرىتە</item>
+        <item>taxiuber</item>
+    </string-array>
+</resources>

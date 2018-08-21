@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/mini_web_title_layout" android:background="@color/mini_title_bg_color" android:layout_width="fill_parent" android:layout_height="48.0dip">
+            <LinearLayout android:id="@id/title_back_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+                <ImageView android:layout_gravity="center_vertical" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/alipay_msp_back" android:contentDescription="@string/accessibilty_back_button" />
+                <View android:layout_gravity="center_vertical" android:background="@color/mini_title_spline_color" android:layout_width="1.0dip" android:layout_height="25.0dip" />
+            </LinearLayout>
+            <TextView android:textSize="17.0dip" android:textColor="@color/mini_title_text_color" android:gravity="center" android:id="@id/mini_web_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:layout_toRightOf="@id/title_back_layout" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <View android:background="@color/mini_title_bottom_line" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <FrameLayout android:id="@id/mini_webView_frame" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</FrameLayout>

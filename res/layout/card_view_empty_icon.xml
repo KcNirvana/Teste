@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/empty_icon_show" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center|left" android:orientation="horizontal" android:id="@id/empty" android:background="@drawable/card_title_n_t" android:layout_width="fill_parent" android:layout_height="@dimen/empty_card_height">
+        <ImageView android:id="@id/empty_icon" android:background="@drawable/s_note" android:layout_marginTop="-6.299988dip" style="@style/GuideCardIcon" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.299988dip" android:layout_marginTop="1.0dip" android:layout_marginRight="20.0dip">
+            <TextView android:id="@id/empty_icon_title" style="@style/GuideCardTitle" />
+            <TextView android:id="@id/empty_icon_tip" style="@style/GuideCardTip" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:id="@id/empty_icon_btn" android:text="@string/authorize_button" style="@style/BlueCardBtn" />
+</LinearLayout>

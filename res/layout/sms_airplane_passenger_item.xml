@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/dash_divider" android:background="@drawable/dash_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <TextView android:textSize="13.299988sp" android:textColor="@color/book_assistant_subtitle" android:gravity="center|left" android:id="@id/info_text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.2999878dip" />
+        <TextView android:textSize="13.299988sp" android:textColor="@color/sms_airplane_item_left" android:gravity="center|right" android:id="@id/info_text2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="2.2999878dip" />
+    </LinearLayout>
+</LinearLayout>

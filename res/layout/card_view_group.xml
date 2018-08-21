@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/card_header" android:background="@drawable/selector_card_title" android:layout_width="fill_parent" android:layout_height="@dimen/card_view_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon1" android:scaleType="centerCrop" style="@style/SuggestionIcon1" />
+    <TextView android:id="@id/name" style="@style/GroupText" />
+    <TextView android:layout_gravity="center|right" android:id="@id/net_unavailable" android:layout_marginRight="0.0dip" android:text="@string/net_unavailable" style="@style/CardTitleEmptyTip" />
+    <ImageView android:id="@id/card_setting" android:paddingLeft="0.0dip" android:focusable="true" android:visibility="gone" android:src="@drawable/card_setting_light" android:contentDescription="@string/btn_more" style="@style/GroupSetting" />
+    <TextView android:id="@id/card_title_empty_tip" style="@style/CardTitleEmptyTip" />
+</LinearLayout>

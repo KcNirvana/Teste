@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/header_item" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/total_views" android:background="@drawable/payment_preference_item_bg_n" android:paddingTop="@dimen/total_views_padding_top" android:layout_width="fill_parent" android:layout_height="@dimen/total_views_height" android:weightSum="2.0" android:paddingStart="@dimen/total_views_horizontal_padding" android:paddingEnd="@dimen/total_views_horizontal_padding">
+        <LinearLayout android:orientation="vertical" android:id="@id/total_today" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:id="@id/total_today_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/total_today_desc_text" style="@style/TotalDescStyle" />
+            <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:shrinkColumns="0">
+                <TableRow>
+                    <TextView android:id="@id/total_today_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TotalAmountTextStyle" />
+                    <TextView android:id="@id/total_today_amount_unit" android:paddingBottom="@dimen/total_amount_unit_text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/total_views_horizontal_space" style="@style/TotalAmountUnitStyle" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/total_month" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_marginStart="@dimen/total_views_horizontal_space">
+            <TextView android:layout_gravity="end" android:id="@id/total_month_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/total_month_desc_text" style="@style/TotalDescStyle" />
+            <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:shrinkColumns="0">
+                <TableRow android:gravity="end">
+                    <TextView android:id="@id/total_month_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TotalAmountTextStyle" />
+                    <TextView android:id="@id/total_month_amount_unit" android:paddingBottom="@dimen/total_amount_unit_text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/total_views_horizontal_space" style="@style/TotalAmountUnitStyle" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/monthly_report_entry_text_size" android:textColor="@color/monthly_report_entry_text_color" android:gravity="center" android:id="@id/monthly_report_entry" android:background="@miui:drawable/preference_item_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/monthly_report_entry_text" />
+    <Space android:layout_width="fill_parent" android:layout_height="@dimen/total_views_vertical_space" />
+</LinearLayout>

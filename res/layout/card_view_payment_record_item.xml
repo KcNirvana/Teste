@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:background="@drawable/card_regular_last" android:layout_width="fill_parent" android:layout_height="@dimen/payment_record_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@id/payment_record_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/payment_record_empty" style="@style/CardEmptyTitle" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/payment_record" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/payment_record_category_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/payment_category_spending" android:layout_marginEnd="@dimen/payment_record_icon_margin_end" />
+        <LinearLayout android:orientation="vertical" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:ellipsize="end" android:id="@id/payment_record_comment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" android:layout_marginEnd="5.0dip" style="@style/PaymentRecordPrimaryTextStyle" />
+                <TextView android:id="@id/payment_record_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/PaymentRecordPrimaryTextStyle" />
+                <TextView android:textColor="@color/payment_record_primary_text_color" android:id="@id/payment_record_amount_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/payment_record_items_space_horizontal" android:layout_alignParentEnd="true" style="@style/PaymentRecordSecondaryTextStyle" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/payment_record_method" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/PaymentRecordSecondaryTextStyle" />
+                <TextView android:id="@id/payment_record_time" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/PaymentRecordSecondaryTextStyle" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

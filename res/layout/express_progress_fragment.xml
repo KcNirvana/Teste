@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/root_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/rl_express_summary" android:background="@drawable/yellowpage_item_bg" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/express_progress_banner_margin_left" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+                <TextView android:textStyle="bold" android:id="@id/state" style="@style/ExpressProgressStateAppearance" />
+                <TextView android:ellipsize="end" android:id="@id/title" android:maxEms="12" style="@style/ExpressProgressBannerContentAppearance.Secondary" />
+                <TextView android:ellipsize="end" android:id="@id/description" style="@style/ExpressProgressBannerContentAppearance.Secondary" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_goods_detail" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <TextView android:id="@id/tv_goods_detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/express_goods_detail" style="@miui:style/TextAppearance.List.Secondary" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@miui:drawable/arrow_right" />
+            </LinearLayout>
+        </RelativeLayout>
+        <include layout="@layout/common_divider" />
+        <RelativeLayout android:id="@id/rl_cainiao_banner" android:background="@drawable/yellowpage_item_bg" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/iv_cainiao" android:layout_width="18.0dip" android:layout_height="12.0dip" android:layout_marginLeft="@dimen/express_progress_banner_margin_left" android:src="@drawable/cainiao_logo" android:scaleType="centerInside" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:textAppearance="@miui:style/TextAppearance.Medium" android:textSize="@dimen/express_detail_caoniao_banner_text_size" android:id="@id/tv_cainiao_banner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/express_cainiao_banner" android:layout_toRightOf="@id/iv_cainiao" android:layout_centerVertical="true" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_more_service" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <TextView android:textSize="@dimen/express_detail_caoniao_banner_text_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/express_more_service" style="@miui:style/TextAppearance.List.Secondary" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@miui:drawable/arrow_right" />
+            </LinearLayout>
+        </RelativeLayout>
+        <ImageView android:id="@id/iv_divider" android:background="#1a000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:background="@color/express_progress_background" android:paddingTop="@dimen/express_progress_padding_top" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ListView android:id="@id/progress_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/progress_err_result" android:paddingLeft="@dimen/express_inquiry_error_text_padding_horizontal" android:paddingRight="@dimen/express_inquiry_error_text_padding_horizontal" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableTop="@drawable/list_empty" />
+    <com.miui.personalassistant.ui.widget.LoadingProgressView android:gravity="center" android:layout_gravity="bottom" android:id="@id/loading_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

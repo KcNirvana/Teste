@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/CardView" class="com.miui.home.launcher.assistant.ui.view.NoteboardCardView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/card_view_group" />
+    <TextView android:textColor="#cc000000" android:gravity="center|left" android:id="@id/notes_text" android:background="@drawable/card_noteboard_bg" android:paddingLeft="@dimen/card_conent_space" android:paddingTop="20.0dip" android:paddingRight="@dimen/card_conent_space" android:paddingBottom="31.699982dip" android:hint="@string/card_hint_noteboard" android:maxLines="8" android:lineSpacingExtra="6.0dip" android:breakStrategy="simple" style="@style/CardEmptyTitle" />
+</view>

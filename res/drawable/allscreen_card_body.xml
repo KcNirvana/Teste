@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/allscreen_bg" />
+    <corners android:topLeftRadius="@dimen/allscreen_card_radius" android:topRightRadius="@dimen/allscreen_card_radius" android:bottomLeftRadius="@dimen/allscreen_card_radius" android:bottomRightRadius="@dimen/allscreen_card_radius" />
+</shape>

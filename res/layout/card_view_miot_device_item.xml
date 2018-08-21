@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/device_main_view" android:background="@drawable/miot_device_item_bg" android:layout_width="fill_parent" android:layout_height="@dimen/miot_device_card_height">
+        <TextView android:textSize="@dimen/miot_device_card_title_size" android:textColor="#e5000000" android:id="@id/device_name" android:layout_width="132.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/miot_device_card_title_padding_start" android:layout_marginTop="@dimen/miot_device_card_padding_top" android:singleLine="true" android:includeFontPadding="false" />
+        <TextView android:textSize="@dimen/miot_device_card_descrip_size" android:textColor="#80000000" android:id="@id/device_description" android:layout_width="84.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/miot_device_card_desc_padding_start" android:singleLine="true" android:includeFontPadding="false" android:layout_below="@id/device_name" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/device_description" android:layout_alignParentBottom="true">
+            <ImageView android:layout_gravity="bottom" android:id="@id/icon" android:layout_width="@dimen/miot_device_icon_size" android:layout_height="@dimen/miot_device_icon_size" android:layout_marginBottom="@dimen/miot_device_icon_padding_bottom" android:layout_marginStart="@dimen/miot_device_icon_padding_left" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/description_status_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/miot_device_card_status_margin_top" android:layout_marginStart="@dimen/miot_device_card_status_margin_start" />
+            <ImageView android:layout_gravity="end|bottom|center" android:id="@id/device_controller" android:paddingRight="@dimen/miot_device_card_controller_margin_right" android:paddingBottom="@dimen/miot_device_card_controller_margin_bottom" android:layout_width="@dimen/miot_device_card_controller_width" android:layout_height="@dimen/miot_device_card_controller_height" />
+        </FrameLayout>
+    </RelativeLayout>
+</FrameLayout>

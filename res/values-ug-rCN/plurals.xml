@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="assistant_day">
+        <item quantity="other">%d كۈندىن كېيىن</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">%1$dكۈن بۇرۇن</item>
+    </plurals>
+    <plurals name="express_history_dialog_delete_message">
+        <item quantity="other">تاللانغان %s دانە تېز يوللانمىنى ئۆچۈرەمسىز؟</item>
+    </plurals>
+    <plurals name="express_history_menu_select_num">
+        <item quantity="other">تاللانغىنى %s تۈر</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%1$dسائەت بۇرۇن</item>
+    </plurals>
+    <plurals name="main_delete_desc">
+        <item quantity="other">تاللىغان %s دانە ساقلانمىنى ئۆچۈرەمسىز؟</item>
+    </plurals>
+    <plurals name="main_mark_fav_num">
+        <item quantity="other">بەلگە قويغان%s تۈر مۇھىم</item>
+    </plurals>
+    <plurals name="main_mark_select_num">
+        <item quantity="other">تاللانغىنى %s تۈر</item>
+    </plurals>
+    <plurals name="mins_ago">
+        <item quantity="other">%1$dمىنۇت بۇرۇن</item>
+    </plurals>
+    <plurals name="payment_record_dialog_delete_message">
+        <item quantity="other">تاللانغان %s تۈرلۈك چىقىمنى ئۆچۈرەمسىز؟</item>
+    </plurals>
+    <plurals name="payment_record_menu_select_num">
+        <item quantity="other">تاللانغىنى %s تۈر</item>
+    </plurals>
+    <plurals name="shopping_delete_num">
+        <item quantity="other">تاللانغان %s دانە مالنى ئۆچۈرەمسىز؟</item>
+    </plurals>
+    <plurals name="sms_day_suffix">
+        <item quantity="other">%d كۈندىن كېيىن</item>
+    </plurals>
+    <plurals name="sms_hour_suffix">
+        <item quantity="other">%d سائەتتىن كېيىن</item>
+    </plurals>
+    <plurals name="sms_minute_suffix">
+        <item quantity="other">%dمىنۇتتىن كېيىن</item>
+    </plurals>
+    <plurals name="sms_title_hours">
+        <item quantity="other">%d سائەت</item>
+    </plurals>
+    <plurals name="sms_title_minutes">
+        <item quantity="other">%d مىنۇت</item>
+    </plurals>
+    <plurals name="steps">
+        <item quantity="other">%d|قەدەم</item>
+    </plurals>
+    <plurals name="time_hour_ago">
+        <item quantity="other">%dﺳﺎﺋﻪﺕ ﺑﯘﺭﯗﻥ</item>
+    </plurals>
+    <plurals name="time_minute_ago">
+        <item quantity="other">%d مىنۇت ئىلگىرى</item>
+    </plurals>
+</resources>

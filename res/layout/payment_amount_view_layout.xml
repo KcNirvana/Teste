@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.payment.ui.view.AmountView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/amount_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/amount" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="10.0dip" android:hint="@string/edit_amount_hint" android:layout_weight="1.0" android:inputType="numberDecimal" style="@style/RecordEditorContentStyle" />
+    <TextView android:layout_gravity="end" android:id="@id/amount_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2.0dip" android:layout_marginEnd="@dimen/editor_content_margin_border_inner" style="@style/RecordEditorTitleStyle" />
+</com.miui.payment.ui.view.AmountView>

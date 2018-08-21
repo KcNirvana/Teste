@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.home.launcher.assistant.express.ExpressItemLayout android:id="@id/express_item" android:background="@drawable/card_middle" android:descendantFocusability="afterDescendants" style="@style/ExpressItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/title" android:paddingTop="@dimen/express_item_top" android:maxLines="1" android:layout_alignParentStart="true" style="@style/ExpressTitle" />
+    <TextView android:textSize="@dimen/express_status_size" android:textColor="@color/express_title" android:gravity="end" android:id="@id/status" android:paddingTop="@dimen/express_item_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_alignParentEnd="true" />
+    <TextView android:textSize="@dimen/express_desc_size" android:textColor="@color/express_desc" android:ellipsize="end" android:id="@id/exp_desc" android:paddingTop="@dimen/express_desc_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/title" />
+    <TextView android:textSize="@dimen/express_num_size" android:textColor="@color/express_num" android:id="@id/num" android:paddingTop="@dimen/express_num_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_below="@id/exp_desc" />
+    <View android:id="@id/dash_divider" android:background="@drawable/dash_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/express_item_top" android:layout_marginBottom="@dimen/express_item_top" android:layout_below="@id/num" />
+    <TextView android:textSize="@dimen/express_num_size" android:textColor="@color/express_num" android:id="@id/pickup_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/express_code_txt" android:maxLines="1" android:layout_below="@id/dash_divider" />
+    <TextView android:textSize="@dimen/express_code_size" android:textColor="@color/express_title" android:id="@id/pickup_code" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/pickup_title" />
+    <Button android:id="@id/booking_btn" android:layout_below="@id/pickup_code" style="@style/ExpressBookBtn" />
+</com.miui.home.launcher.assistant.express.ExpressItemLayout>

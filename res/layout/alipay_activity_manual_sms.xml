@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/alipay_colorWhite" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ali.user.mobile.util.ResizeScrollView android:id="@id/scrollview" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:focusable="true" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+            <TextView android:text="@string/alipay_reg_manual_sms_title" style="@style/alipay_reg_title_text" />
+            <TextView android:textSize="17.0dip" android:textColor="@color/alipay_reg_tip" android:gravity="center" android:id="@id/reg_manual_sms_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+            <com.ali.user.mobile.ui.widget.AUBoxInput android:layout_gravity="center_horizontal" android:id="@id/reg_manual_sms_input" android:layout_width="264.0dip" android:layout_height="57.0dip" android:layout_marginTop="40.0dip" app:alipay_boxCount="4" app:alipay_boxSize="57.0dip" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/alipay_reg_error" android:gravity="center" android:id="@id/reg_manual_sms_error" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/alipay_reg_manual_sms_error" />
+            <TextView android:textSize="17.0dip" android:gravity="center" android:id="@id/reg_manual_sms_count" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginBottom="30.0dip" />
+        </LinearLayout>
+    </com.ali.user.mobile.util.ResizeScrollView>
+    <com.ali.user.mobile.ui.widget.APTitleBar android:id="@id/titlebar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+</RelativeLayout>

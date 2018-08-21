@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/action_bar_bg_navigation_light" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/status" android:layout_width="fill_parent" android:layout_height="20.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/didi_toolbar" android:layout_width="fill_parent" android:layout_height="@dimen/system_header_height" android:layout_below="@id/status">
+        <TextView android:layout_gravity="center_vertical" android:id="@id/didi_toolbar_back" android:background="@drawable/selector_action_bar_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:contentDescription="@string/btn_back" />
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="#cc000000" android:layout_gravity="center_vertical" android:id="@id/didi_webview_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <View android:id="@id/gap" android:background="#ffc9c9c9" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/didi_toolbar" />
+    <WebView android:id="@id/didi_webview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/gap" />
+</RelativeLayout>

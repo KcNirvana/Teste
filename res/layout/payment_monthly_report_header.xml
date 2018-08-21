@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/previous_month_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/monthly_pager_btn_margin_left" android:layout_marginTop="@dimen/monthly_pager_btn_margin_top" android:layout_marginBottom="@dimen/monthly_pager_btn_margin_top" android:src="@drawable/payment_btn_previous_month" android:contentDescription="@string/payment_month_prev" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="@dimen/monthly_pager_padding_top" android:paddingBottom="@dimen/monthly_pager_padding_bottom" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:id="@id/monthly_date_text" style="@style/MonthlyReportTextLight" />
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="26.0sp" android:textColor="@color/monthly_report_text_dark" android:id="@id/monthly_amount_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/monthly_report_text_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/currency_china" />
+        </LinearLayout>
+        <TextView android:visibility="gone" style="@style/MonthlyReportTextLight" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/next_month_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/monthly_pager_btn_margin_top" android:layout_marginRight="@dimen/monthly_pager_btn_margin_left" android:layout_marginBottom="@dimen/monthly_pager_btn_margin_top" android:src="@drawable/payment_btn_next_month" android:contentDescription="@string/payment_month_next" />
+</LinearLayout>

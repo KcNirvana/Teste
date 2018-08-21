@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.personalassistant.favorite.ui.widget.DetailBackgroundPanel android:gravity="center" android:id="@id/background_panel" android:background="@color/font_white" android:paddingLeft="@dimen/detail_font_padding" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/detail_font_background_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@miui:style/TextAppearance.PreferenceList" android:paddingBottom="2.6999817dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_font_background" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_bg_icons_container" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <RelativeLayout android:id="@id/rl_bg_white" style="@style/DetailBgFrame">
+            <ImageView android:id="@id/iv_bg_white" android:src="@drawable/bg_white" style="@style/DetailBgIcon" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rl_bg_yellow" style="@style/DetailBgFrame">
+            <ImageView android:id="@id/iv_bg_yellow" android:src="@drawable/bg_yellow" style="@style/DetailBgIcon" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rl_bg_green" style="@style/DetailBgFrame">
+            <ImageView android:id="@id/iv_bg_green" android:src="@drawable/bg_green" style="@style/DetailBgIcon" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rl_bg_black" style="@style/DetailBgFrame">
+            <ImageView android:id="@id/iv_bg_black" android:src="@drawable/bg_black" style="@style/DetailBgIcon" />
+        </RelativeLayout>
+    </LinearLayout>
+</com.miui.personalassistant.favorite.ui.widget.DetailBackgroundPanel>

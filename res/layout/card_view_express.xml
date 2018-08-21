@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:paddingLeft="@dimen/assist_content_padding" android:paddingRight="@dimen/assist_content_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/CardView" class="com.miui.home.launcher.assistant.express.ExpressCardView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/card_view_group" />
+    <FrameLayout android:id="@id/fl_express_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/card_view_express_content" />
+        <ViewStub android:id="@id/auth" android:layout="@layout/card_view_empty_icon" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+</view>

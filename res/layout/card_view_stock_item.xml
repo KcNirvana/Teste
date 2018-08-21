@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/card_middle" android:layout_width="fill_parent" android:layout_height="@dimen/stock_card_view_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="@dimen/stock_card_view_item_name_width" android:layout_height="wrap_content">
+        <TextView android:ellipsize="end" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/stock_card_view_item_name_max_width" android:singleLine="true" style="@style/StockItemNameTextStyle" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/stock_card_view_item_market_margin_name">
+            <TextView android:gravity="center" android:id="@id/market" android:background="@drawable/icon_stock_location_bg" android:layout_width="@dimen/stock_card_view_item_market_width" android:layout_height="@dimen/stock_card_view_item_market_height" style="@style/StockItemMarketTextStyle" />
+            <TextView android:id="@id/symbol" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/stock_card_view_item_symbol_margin_market" style="@style/StockItemSymbolTextStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:gravity="end|center" android:id="@id/price" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0" android:paddingEnd="@dimen/stock_card_view_item_price_margin_next" style="@style/StockItemPriceTextStyle" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0">
+        <com.miui.home.launcher.assistant.ui.widget.StockChangeTextView android:gravity="end|center" android:id="@id/change" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/StockItemChangeTextStyle" />
+        <com.miui.home.launcher.assistant.ui.widget.StockChangeTextView android:gravity="end|center" android:id="@id/change_rate" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/StockItemChangeTextStyle" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="end|center" android:id="@id/change_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/stock_card_view_item_price_margin_next" />
+</LinearLayout>

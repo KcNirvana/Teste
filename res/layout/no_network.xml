@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/no_network_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/no_network_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="75.0dip" android:src="@drawable/no_network" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/setting_place" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.699982dip" android:text="@string/req_no_data" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/setting_place" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/check_network_retry" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/setting_place" android:gravity="center" android:layout_gravity="center" android:id="@id/btn_retry" android:background="@drawable/btn_retry" android:layout_width="150.0dip" android:layout_height="39.0dip" android:layout_marginTop="44.0dip" android:text="@string/retry" />
+</LinearLayout>

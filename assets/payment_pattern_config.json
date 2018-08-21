@@ -1,0 +1,415 @@
+{
+  "configVersion": "34",
+  "minAppVersion": "374",
+  "packages": [
+    {
+      "packageName": "com.tencent.mm",
+      "activityPatterns": [
+        {
+          "activity": "com.tencent.mm.plugin.wallet_core.ui.WalletOrderInfoNewUI",
+          "textPatterns": [
+            {
+              "regex": "(?:成功|successful)@@(.*)@@(.)@@(\\d+[,\\d]*(?:\\.\\d{1,2})?)",
+              "commentGroup": 1,
+              "amountCurrencyGroup": 2,
+              "amountNumberGroup": 3
+            },
+            {
+              "regex": "(?:成功|successful)@@(.*)@@(\\d+[,\\d]*(?:\\.\\d{1,2})?)",
+              "commentGroup": 1,
+              "amountNumberGroup": 2
+            }
+          ]
+        },
+        {
+          "activity": "com.tencent.mm.plugin.wallet_core.ui.WalletOrderInfoUI",
+          "textPatterns": [
+            {
+              "regex": "(?:成功|successful)@@.*?@@(.)(\\d+[,\\d]*(?:\\.\\d{1,2})?)@@.*商\\s*品@@(.*?)@@.*时间@@(\\d{4}-\\d{2}-\\d{2}\\s*\\d{2}:\\d{2})@@.*单号@@(.*?)@@",
+              "amountCurrencyGroup": 1,
+              "amountNumberGroup": 2,
+              "commentGroup": 3,
+              "dateGroup": 4,
+              "methodAccountGroup": 5
+            }
+          ]
+        },
+        {
+          "activity": "com.tencent.mm.plugin.remittance.ui.RemittanceResultNewUI",
+          "textPatterns": [
+            {
+              "regex": "(?:成功|Success)@@.*(?:待|by)\\s*(.*?)(?:确认收钱)?@@.*?(\\d+[,\\d]*(?:\\.\\d{1,2})?)@@",
+              "commentGroup": 1,
+              "amountNumberGroup": 2
+            },
+            {
+              "regex": "(?:成功|Success)@@(.)@@(\\d+[,\\d]*(?:\\.\\d{1,2})?)",
+              "amountCurrencyGroup": 1,
+              "amountNumberGroup": 2
+            },
+            {
+              "regex": "(?:成功|Success)@@(.*?)@@(?:.)@@(\\d+[,\\d]*(?:\\.\\d{1,2})?)",
+              "commentGroup": 1,
+              "amountNumberGroup": 2
+            },
+            {
+              "regex": "(?:成功|Success)@@(.)@@(\\d+[,\\d]*(?:\\.\\d{1,2})?)@@.*?@@(.*?)@@",
+              "amountCurrencyGroup": 1,
+              "amountNumberGroup": 2,
+              "commentGroup": 3
+            },
+            {
+              "regex": "(?:成功|Success)@@(.)@@(\\d+[,\\d]*(?:\\.\\d{1,2})?)@@.*收款人@@(.*)",
+              "amountCurrencyGroup": 1,
+              "amountNumberGroup": 2,
+              "commentGroup": 3
+            },
+            {
+              "regex": "(?:成功|Success)@@(\\d+[,\\d]*(?:\\.\\d{1,2})?)@@.*收款人@@(.*?)@@",
+              "amountNumberGroup": 1,
+              "commentGroup": 2
+            }
+          ]
+        },
+        {
+          "activity": "com.tencent.mm.plugin.remittance.ui.RemittanceDetailUI",
+          "textPatterns": [
+            {
+              "regex": "(?:.*@@)?(.+)(?:已收钱|Accepted)@@(?:.?(\\d+[,\\d]*(?:\\.\\d{1,2})?)).*?(?:时间|time).*?(\\d{4}-\\d{2}-\\d{2}\\s*\\d{2}:\\d{2})",
+              "commentGroup": 1,
+              "amountNumberGroup": 2,
+              "dateGroup": 3
+            },
+            {
+              "regex": "(?:已收钱|Accepted)@@(?:.?(\\d+[,\\d]*(?:\\.\\d{1,2})?)).*?(?:时间|time).*?(\\d{4}-\\d{2}-\\d{2}\\s*\\d{2}:\\d{2})",
+              "amountNumberGroup": 1,
+              "dateGroup": 2
+            }
+          ]
+        },
+        {
+          "activity": "com.tencent.mm.plugin.luckymoney.ui.LuckyMoneyDetailUI",
+          "textPatterns": [
+            {
+              "regex": ".*共(\\d+[,\\d]*(?:\\.\\d{1,2})?)元@@(.*?)@@(.*?)@@",
+              "amountNumberGroup": 1,
+              "commentGroup": 2,
+              "dateGroup": 3
+            },
+            {
+              "regex": "with\\s+(\\S)?(\\d+[,\\d]*(?:\\.\\d{1,2})?).*?@@(.*?)@@(.*?)@@",
+              "amountCurrencyGroup": 1,
+              "amountNumberGroup": 2,
+              "commentGroup": 3,
+              "dateGroup": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "packageName": "com.eg.android.AlipayGphone",
+      "activityPatterns": [
+        {
+          "activity": "com.alipay.mobile.nebulacore.ui.H5Activity",
+          "textPatterns": [
+            {
+              "regex": "[\"]?(.*?)\\\\n([-+]?\\d+[,\\d]*(?:\\.\\d{1,2})?)\\\\n.*时[\\s\\\\n]*间[\\s\\\\n]*(\\d{4}-\\d{2}-\\d{2}\\s*\\d{2}:\\d{2}).*?号\\\\n\\s*(\\d+)",
+              "commentGroup": 1,
+              "amountNumberGroup": 2,
+              "dateGroup": 3,
+              "methodAccountGroup": 4
+            },
+            {
+              "regex": "[\"]?(.*?)\\\\n([-+]?\\d+[,\\d]*(?:\\.\\d{1,2})?)\\\\n.*(?:说明|备注)\\\\n(.*?)\\\\n.*时间\\\\n(\\d{4}-\\d{2}-\\d{2}\\s*\\d{2}:\\d{2}).*?号\\\\n(\\d+)",
+              "commentGroup": 1,
+              "amountNumberGroup": 2,
+              "categoryDescGroup": 3,
+              "dateGroup": 4,
+              "methodAccountGroup": 5
+            },
+            {
+              "regex": "交易成功\\\\n(.?)(\\d+[,\\d]*(?:\\.\\d{1,2})?)\\\\n商户名称：(.*?)\\\\n.*单号：(.*?)\\\\n.*时间：(\\d{4}-\\d{2}-\\d{2}\\s*\\d{2}:\\d{2})",
+              "amountCurrencyGroup": 1,
+              "amountNumberGroup": 2,
+              "commentGroup": 3,
+              "methodAccountGroup": 4,
+              "dateGroup": 5
+            },
+            {
+              "regex": "(?:等待卖家|配送中).*\\\\n(.*?)\\\\n申请退单.*实付款\\\\n(.?)(\\d+[,\\d]*(?:\\.\\d{1,2})?)\\\\n.*订单编号:\\s*(.*?)\\\\n.*创建时间:\\s*(\\d{4}-\\d{2}-\\d{2}\\s*\\d{2}:\\d{2})",
+              "commentGroup": 1,
+              "amountCurrencyGroup": 2,
+              "amountNumberGroup": 3,
+              "methodAccountGroup": 4,
+              "dateGroup": 5
+            },
+            {
+              "regex": "交易完成.*预计.*?\\\\n(.*?)\\\\n.*实付款\\\\n(.?)(\\d+[,\\d]*(?:\\.\\d{1,2})?)\\\\n.*订单编号:\\s*(.*?)\\\\n.*创建时间:\\s*(\\d{4}-\\d{2}-\\d{2}\\s*\\d{2}:\\d{2})",
+              "commentGroup": 1,
+              "amountCurrencyGroup": 2,
+              "amountNumberGroup": 3,
+              "methodAccountGroup": 4,
+              "dateGroup": 5
+            },
+            {
+              "regex": "付款成功.*\\\\n(\\d+[,\\d]*(?:\\.\\d{1,2})?)元.*\\\\n(.*?)时间：\\s*(\\d{4}-\\d{2}-\\d{2}\\s*\\d{2}:\\d{2})",
+              "amountNumberGroup": 1,
+              "categoryDescGroup": 2,
+              "dateGroup": 3
+            },
+            {
+              "regex": "支付成功\\\\n(.*?)\\\\n.*(\\d{4}-\\d{2}-\\d{2}\\s*\\d{2}:\\d{2}).*?\\\\n(.?)\\s*(\\d+[,\\d]*(?:\\.\\d{1,2})?)",
+              "commentGroup": 1,
+              "dateGroup": 2,
+              "amountCurrencyGroup": 3,
+              "amountNumberGroup": 4
+            },
+            {
+              "regex": "成功\\\\n(.?)\\s*(\\d+[,\\d]*(?:\\.\\d{1,2})?)",
+              "amountCurrencyGroup": 1,
+              "amountNumberGroup": 2
+            },
+            {
+              "regex": "订单编号\\\\n(.*)\\\\n交易金额\\\\n(.?)(\\d+[,\\d]*(?:\\.\\d{1,2})?)\\\\n收款方\\\\n(.*?)\\\\n",
+              "methodAccountGroup": 1,
+              "amountCurrencyGroup": 2,
+              "amountNumberGroup": 3,
+              "commentGroup": 4
+            }
+          ]
+        },
+        {
+          "activity": "com.alipay.mobile.bill.detail.ui.NewBillDetailActivity",
+          "textPatterns": [
+            {
+              "regex": ".*?@@(-\\d+[,\\d]*(?:\\.\\d{1,2})?)@@.*付款方式@@(.+)@@(商品|充值)说明@@(.+?)@@.*创建时间@@(\\d{4}-\\d{2}-\\d{2}\\s*\\d{2}:\\d{2}).*?号@@(\\d+)",
+              "amountNumberGroup": 1,
+              "methodNameGroup": 2,
+              "categoryDescGroup": 4,
+              "commentGroup": 4,
+              "dateGroup": 5,
+              "methodAccountGroup": 6
+            },
+            {
+              "regex": ".*@@(.+)@@(-\\d+[,\\d]*(?:\\.\\d{1,2})?)@@.*付款方式@@(.+)@@(转账|缴费|红包)(?:说明|备注).*创建时间@@(\\d{4}-\\d{2}-\\d{2}\\s*\\d{2}:\\d{2}).*?号@@(\\d+)",
+              "commentGroup": 1,
+              "amountNumberGroup": 2,
+              "methodNameGroup": 3,
+              "categoryDescGroup": 4,
+              "dateGroup": 5,
+              "methodAccountGroup": 6
+            }
+          ]
+        },
+        {
+          "activity": "com.alipay.mobile.payee.ui.PayeeQRPayerPayResultActivity_",
+          "textPatterns": [
+            {
+              "regex": "(?:成功|Successful)@@(\\d+[,\\d]*(?:\\.\\d{1,2})?)元@@(.*?)@@",
+              "amountNumberGroup": 1,
+              "commentGroup": 2
+            }
+          ]
+        },
+        {
+          "activity": "com.alipay.mobile.transferapp.ui.TransferToAccountSuccessActivity_",
+          "textPatterns": [
+            {
+              "regex": "成功@@(.*)已收到你的.*?@@(\\d+[,\\d]*(?:\\.\\d{1,2})?)元",
+              "commentGroup": 1,
+              "amountNumberGroup": 2
+            },
+            {
+              "regex": "Successful@@(.*)\\s+has\\s+received.*?@@(\\S)?(\\d+[,\\d]*(?:\\.\\d{1,2})?)",
+              "commentGroup": 1,
+              "amountCurrencyGroup": 2,
+              "amountNumberGroup": 3
+            }
+          ]
+        },
+        {
+          "activity": "com.alipay.android.app.flybird.ui.window.FlyBirdWindowActivity",
+          "textPatterns": [
+            {
+              "regex": "成功@@(.*?)元.*@@(?:付款信息|Payment)@@.*@@[+-]?\\d+[,\\d]*(?:\\.\\d{1,2})?@@(?!积分|活动)(.*?)@@",
+              "amountNumberGroup": 1,
+              "commentGroup": 2
+            },
+            {
+              "regex": "成功@@(.*?)元.*@@付款信息@@(.*?)@@.*[+-]?\\d+[,\\d]*(?:\\.\\d{1,2})?@@积分奖励@@.*?@@(?!活动)(.*?)@@",
+              "amountNumberGroup": 1,
+              "methodNameGroup": 2,
+              "commentGroup": 3
+            },
+            {
+              "regex": "Success@@(.*?)元.*@@Payment@@(.*?)@@.*[+-]?\\d+[,\\d]*(?:\\.\\d{1,2})?",
+              "amountNumberGroup": 1,
+              "methodNameGroup": 2
+            },
+            {
+              "regex": "成功@@(.*?)元",
+              "amountNumberGroup": 1
+            },
+            {
+              "regex": "成功.*(缴费).*?@@(.*?)元",
+              "commentGroup": 1,
+              "amountNumberGroup": 2
+            },
+            {
+              "regex": "订单信息@@(.*?)@@.*@@需付款@@(.*?)元",
+              "commentGroup": 1,
+              "amountNumberGroup": 2
+            },
+            {
+              "regex": "付款方式@@(.*?)@@.*需付款@@(.*?)元",
+              "methodNameGroup": 1,
+              "amountNumberGroup": 2
+            },
+            {
+              "regex": "(\\d+[,\\d]*(?:\\.\\d{1,2})?)@@.*订单信息@@(.*?)@@付款方式@@(.*?)@@",
+              "amountNumberGroup": 1,
+              "commentGroup": 2,
+              "categoryDescGroup": 2,
+              "methodNameGroup": 3
+            },
+            {
+              "regex": "(\\d+[,\\d]*(?:\\.\\d{1,2})?)@@.*付款方式@@(.*?)@@",
+              "amountNumberGroup": 1,
+              "methodNameGroup": 2
+            },
+            {
+              "regex": "(\\d+[,\\d]*(?:\\.\\d{1,2})?)@@.*支付成功",
+              "amountNumberGroup": 1
+            },
+            {
+              "regex": "(\\d+[,\\d]*(?:\\.\\d{1,2})?)@@.*订单信息@@(.*?)@@",
+              "amountNumberGroup": 1,
+              "commentGroup": 2
+            },
+            {
+              "regex": "成功@@(\\d+[,\\d]*(?:\\.\\d{1,2})?)@@.*(?:付款方式|Method)@@(.*?)@@.*(?:收款方|Recipient)@@(.*?)@@",
+              "amountNumberGroup": 1,
+              "methodNameGroup": 2,
+              "commentGroup": 3
+            },
+            {
+              "regex": "成功@@(\\d+[,\\d]*(?:\\.\\d{1,2})?)@@.*(?:收款方|Recipient)@@(.*?)@@",
+              "amountNumberGroup": 1,
+              "commentGroup": 2
+            }
+          ]
+        },
+        {
+          "activity": "com.alipay.android.phone.discovery.envelope.crowd.CrowdHostActivity",
+          "textPatterns": [
+            {
+              "regex": "(?:已领取|opened).*?(?:元|total)?@@(.*?)@@.*?(\\d+[,\\d]*(?:\\.\\d{1,2})?)(?:元|CNY)@@(.*?)@@",
+              "commentGroup": 1,
+              "amountNumberGroup": 2,
+              "dateGroup": 3
+            }
+          ]
+        },
+        {
+          "activity": "com.alipay.mobile.onsitepay9.payer.KoubeiPaySuccessActivity",
+          "textPatterns": [
+            {
+              "regex": "\\d+[,\\d]*(?:\\.\\d{1,2})?@@(.*?)@@.*?(?:付款信息|Payment)@@.*?@@([-+]?\\d+[,\\d]*(?:\\.\\d{1,2})?)@@",
+              "commentGroup": 1,
+              "amountNumberGroup": 2
+            },
+            {
+              "regex": "\\d+[,\\d]*(?:\\.\\d{1,2})?@@\\d+[,\\d]*(?:\\.\\d{1,2})?@@(.*?)@@(?:优惠明细|Discount).*@@(?:付款信息|Payment)@@(.*?)@@([-+]?\\d+[,\\d]*(?:\\.\\d{1,2})?)@@",
+              "commentGroup": 1,
+              "methodNameGroup": 2,
+              "amountNumberGroup": 3
+            },
+            {
+              "regex": "(\\d+[,\\d]*(?:\\.\\d{1,2})?)@@支付成功@@宝贝信息@@(.*?)@@",
+              "amountNumberGroup": 1,
+              "commentGroup": 2
+            },
+            {
+              "regex": "(\\d+[,\\d]*(?:\\.\\d{1,2})?)@@\\d+[,\\d]*(?:\\.\\d{1,2})?@@(.*?)@@(?:优惠明细|Discount)@@",
+              "amountNumberGroup": 1,
+              "commentGroup": 2
+            }
+          ]
+        },
+        {
+          "activity": "com.alipay.mobile.onsitepay9.payer.PaySuccessActivity",
+          "textPatterns": [
+            {
+              "regex": "^(?!支付成功)(.*?)@@([-+]?\\d+[,\\d]*(?:\\.\\d{1,2})?)元@@.*(?:付款信息|Payment)@@(.*?)@@",
+              "commentGroup": 1,
+              "amountNumberGroup": 2,
+              "methodNameGroup": 3
+            },
+            {
+              "regex": "^(?!支付成功)(.*?)@@([-+]?\\d+[,\\d]*(?:\\.\\d{1,2})?)元",
+              "commentGroup": 1,
+              "amountNumberGroup": 2
+            },
+            {
+              "regex": "成功@@([-+]?\\d+[,\\d]*(?:\\.\\d{1,2})?)元@@.*(?:付款信息|Payment)@@(.*?)@@",
+              "amountNumberGroup": 1,
+              "methodNameGroup": 2
+            },
+            {
+              "regex": "成功@@([-+]?\\d+[,\\d]*(?:\\.\\d{1,2})?)元",
+              "amountNumberGroup": 1
+            },
+            {
+              "regex": "Succeeded@@(￥)?([-+]?\\d+[,\\d]*(?:\\.\\d{1,2})?)@@.*Payment@@(.*?)@@",
+              "amountCurrencyGroup": 1,
+              "amountNumberGroup": 2,
+              "methodNameGroup": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "packageName": "com.taobao.taobao",
+      "activityPatterns": [
+        {
+          "activity": "com.alipay.android.app.flybird.ui.window.FlyBirdWindowActivity",
+          "textPatterns": [
+            {
+              "regex": "(\\d+[,\\d]*(?:\\.\\d{1,2})?)@@.*付款方式@@(.*?)@@",
+              "amountNumberGroup": 1,
+              "methodNameGroup": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "packageName": "com.tmall.wireless",
+      "activityPatterns": [
+        {
+          "activity": "com.alipay.android.app.flybird.ui.window.FlyBirdWindowActivity",
+          "textPatterns": [
+            {
+              "regex": "(\\d+[,\\d]*(?:\\.\\d{1,2})?)@@.*付款方式@@(.*?)@@",
+              "amountNumberGroup": 1,
+              "methodNameGroup": 2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "features": {
+    "maxLength": "500",
+    "digits": "[+-]?\\d+[,\\d{3}]*\\.\\d{2}",
+    "contains": "((支付|交易|付款|代付|转账)(成功|完成))|(支付结果.*完成)|(已存入对方零钱)|(等待.*(发货|收货))|(\\d+个红包共)|Success|(Payment [sS]uccessful)|Accepted|(1 Red Packet)|(Payment Result.*Done)",
+    "notContains": "^(?!.*(信用卡还款|单次转入|银行处理中|转出到余额|普通充值|微信红包|被抢光|余额宝-自动转入|未出账|待付款|已经到底啦|我要投保|客服小蚂答|请选择所有要投诉的交易|请选择遇到问题的账单|分钟后订单将自动取消|分钟后还未接单|订单查询重新查询|充值中|提交订单|等待支付|去支付|去缴费|交易进行中|正在为您开通|正在向商户付款|已阅读并同意|法律法规允许范围内|红包奖励发放|下月才需还款|Luckiest Draw|和店员已确认|快递员已取件|再捐一笔|立即预约|查看更多优惠|未完成支付|后将返回首页|立即捐款|立即投保|我的客服|充值商品由天猫卖家提供|没有可用的优惠券)).*$"
+  },
+  "backTracking": [
+    "付款成功@@请输入支付密码",
+    "付款成功@@输入密码",
+    "正在付款...@@确认付款"
+  ]
+}

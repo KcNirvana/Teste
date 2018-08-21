@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/preference_middle_item_bg_normal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_phone_action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-10.0dip" android:src="@drawable/setting_list_remove_icon" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/list_item_title" android:id="@id/tv_binded_phone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <TextView android:textSize="12.0sp" android:textColor="#80000000" android:layout_gravity="center_vertical" android:id="@id/tv_phone_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="10.0dip" style="@miui:style/TextAppearance.Widget.List.Primary" />
+</LinearLayout>

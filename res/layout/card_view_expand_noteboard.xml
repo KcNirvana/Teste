@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/NoteDialogView" class="com.miui.home.launcher.assistant.ui.view.ExpandNoteBoardCardView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/expand_note_header" android:background="@drawable/card_title_n_w" android:layout_width="fill_parent" android:layout_height="@dimen/card_view_height" android:layout_marginTop="@dimen/note_dialog_view_top">
+        <ImageView android:id="@id/icon" android:src="@drawable/s_note" android:scaleType="centerCrop" style="@style/SuggestionIcon1" />
+        <TextView android:text="@string/card_title_noteboard" style="@style/GroupText" />
+        <TextView android:id="@id/expand_note_header_done" android:text="@string/card_note_finish" style="@style/NoteFinish" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/expand_note_panel" android:background="@drawable/card_regular_single_no_padding_n" android:layout_width="fill_parent" android:layout_height="@dimen/expand_note_card_height_with_keyboard">
+        <ScrollView android:scrollbarStyle="outsideOverlay" android:id="@id/scroll_view_panel" android:scrollbars="vertical" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="235.0dip" android:fillViewport="true" android:overScrollMode="never">
+            <EditText android:textSize="15.0sp" android:textColor="#cc000000" android:gravity="center|left|top" android:autoLink="all" android:linksClickable="false" android:id="@id/expand_note_edit_panel" android:background="@android:color/transparent" android:paddingLeft="@dimen/card_conent_space" android:paddingTop="@dimen/dimen_20" android:paddingRight="@dimen/card_conent_space" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="false" android:maxLength="5000" android:lineSpacingExtra="6.0dip" android:imeOptions="actionDone|flagNoFullscreen" />
+        </ScrollView>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/expand_note_footer" android:layout_width="fill_parent" android:layout_height="@dimen/expand_note_card_footer_height">
+            <ImageView android:id="@id/expand_note_clear_pre" android:layout_width="52.0dip" android:layout_height="wrap_content" android:src="@drawable/icon_expand_note_clear" android:contentDescription="@string/detail_action_delete" />
+            <TextView android:textSize="@dimen/button_text_size_n" android:textColor="#ffec2700" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/expand_note_clear" android:paddingLeft="18.299988dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/card_expand_note_clear" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <ImageView android:id="@id/expand_note_save" android:layout_width="52.0dip" android:layout_height="wrap_content" android:src="@drawable/icon_expand_note_save" android:contentDescription="@string/save_to_note" />
+        </LinearLayout>
+    </LinearLayout>
+</view>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/payment_notice_bar_text_size" android:textColor="@color/payment_notice_bar_text_color" android:gravity="center_vertical" android:id="@id/user_notice_bar" android:background="@drawable/payment_notice_bar_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="47.5dip" android:text="@string/payment_user_notice_bar_text" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/total_views" android:background="@drawable/card_middle" android:paddingTop="@dimen/payment_total_container_padding_top" android:paddingBottom="@dimen/payment_total_container_padding_bottom" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="2.0" android:paddingStart="@dimen/payment_total_container_padding_horizontal" android:paddingEnd="@dimen/payment_total_container_padding_horizontal">
+        <LinearLayout android:orientation="vertical" android:id="@id/total_today" android:focusable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:id="@id/total_today_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/payment_total_container_text_margin_bottom" android:text="@string/payment_total_today_desc" style="@style/PaymentHintTextStyle" />
+            <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:shrinkColumns="0">
+                <TableRow>
+                    <TextView android:id="@id/total_today_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/PaymentTotalPrimaryTextStyle" />
+                    <TextView android:id="@id/total_today_amount_unit" android:paddingBottom="@dimen/payment_total_container_unit_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/payment_unit_cny" android:layout_marginStart="@dimen/payment_total_items_space_horizontal" style="@style/PaymentTotalAmountUnitTextStyle" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/total_month" android:focusable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_marginStart="@dimen/payment_total_items_space_horizontal">
+            <TextView android:gravity="end" android:id="@id/total_month_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/payment_total_container_text_margin_bottom" android:text="@string/payment_total_month_desc" style="@style/PaymentHintTextStyle" />
+            <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:shrinkColumns="0">
+                <TableRow android:gravity="end">
+                    <TextView android:id="@id/total_month_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/PaymentTotalPrimaryTextStyle" />
+                    <TextView android:id="@id/total_month_amount_unit" android:paddingBottom="@dimen/payment_total_container_unit_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/payment_unit_cny" android:layout_marginStart="@dimen/payment_total_items_space_horizontal" style="@style/PaymentTotalAmountUnitTextStyle" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/card_view_payment_record_item" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="2.0">
+        <TextView android:id="@id/payment_detail" android:background="@drawable/card_button_left" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/payment_record_list" android:layout_weight="1.0" style="@style/CardBtn2" />
+        <TextView android:id="@id/payment_add" android:background="@drawable/card_button_right" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/payment_record_add" android:layout_weight="1.0" style="@style/CardBtn2" />
+    </LinearLayout>
+</LinearLayout>

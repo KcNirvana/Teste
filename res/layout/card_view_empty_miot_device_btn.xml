@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/empty_show" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0sp" android:textColorHint="@color/search_hint_color" android:ellipsize="end" android:gravity="center" android:id="@id/empty_tip" android:background="@drawable/card_regular_last" android:paddingLeft="55.0dip" android:paddingRight="55.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/card_view_emtpy_miot_device_height" />
+    <TextView android:id="@id/empty_btn" style="@style/CardBtn" />
+</LinearLayout>
