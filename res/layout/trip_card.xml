@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/CardLayoutStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="@string/trip_card_title" android:layout_marginStart="@dimen/card_left_right_margin" style="@style/CardTitleTextStyle" />
+    <View android:id="@id/divider" style="@style/CardTitleDividerStyle" />
+    <com.miui.calendar.view.DynamicLinearLayout android:id="@id/container" style="@style/DynamicContainerStyle" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/miui_ic_menu_today_p_28" />
+    <item android:state_focused="true" android:drawable="@drawable/miui_ic_menu_today_p_28" />
+    <item android:drawable="@drawable/miui_ic_menu_today_n_28" />
+</selector>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/divider" android:background="@color/miui_text_color_inverse" android:layout_width="2.0px" android:layout_height="32.0dip" android:layout_marginLeft="@dimen/card_normal_margin" android:layout_marginTop="2.0dip" android:layout_marginRight="@dimen/card_normal_margin" />
+    <TextView android:textSize="37.0sp" android:textColor="@color/credit_detail_header_text_color" android:id="@id/number" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

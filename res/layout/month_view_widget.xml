@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/widget_padding" android:paddingRight="@dimen/widget_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/header" android:background="@drawable/widget_month_header_bg_light" android:layout_width="fill_parent" android:layout_height="@dimen/widget_header_height">
+        <ImageView android:id="@id/action_bar_month_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingStart="@dimen/action_bar_title_month_margin_left" android:paddingEnd="@dimen/action_bar_title_month_margin_right" />
+        <TextView android:textSize="@dimen/action_bar_title_year_size" android:id="@id/action_bar_year_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/action_bar_widget_title_month_margin_bottom" android:layout_alignBottom="@id/action_bar_month_view" android:layout_toEndOf="@id/action_bar_month_view" />
+        <TextView android:textSize="@dimen/action_bar_title_week_size" android:id="@id/action_bar_week_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/action_bar_year_view" android:layout_toEndOf="@id/action_bar_month_view" />
+        <ImageView android:id="@id/btn_next_month" android:background="@drawable/widget_next_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        <ImageView android:id="@id/btn_prev_month" android:background="@drawable/widget_prev_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/btn_next_month" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/content" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/title_divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/widget_page_margin_lr" android:layout_marginRight="@dimen/widget_page_margin_lr" android:src="@color/widget_line_divider_light" />
+        <LinearLayout android:gravity="center_vertical" android:id="@id/week_header" android:layout_width="fill_parent" android:layout_height="@dimen/widget_week_header_height">
+            <TextView android:id="@id/firstday" style="@style/widget_header_weekday_text" />
+            <TextView android:id="@id/secondday" style="@style/widget_header_weekday_text" />
+            <TextView android:id="@id/thirthday" style="@style/widget_header_weekday_text" />
+            <TextView android:id="@id/forthday" style="@style/widget_header_weekday_text" />
+            <TextView android:id="@id/fifthday" style="@style/widget_header_weekday_text" />
+            <TextView android:id="@id/sixthday" style="@style/widget_header_weekday_text" />
+            <TextView android:id="@id/seventhday" style="@style/widget_header_weekday_text" />
+        </LinearLayout>
+        <GridView android:gravity="center" android:id="@id/month_view" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="@dimen/widget_month_content_height" android:listSelector="@drawable/widget_month_item_selector" android:numColumns="7" android:overScrollMode="never" />
+        <include layout="@layout/month_view_widget_day_header" />
+        <FrameLayout android:id="@id/event_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ListView android:id="@id/event_view" style="@style/WidgetMonthViewEvent" />
+            <include android:id="@id/empty" layout="@layout/month_view_widget_event_empty" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

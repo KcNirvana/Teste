@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" style="@style/CardLayoutStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/root" android:background="@drawable/normal_clickable_only_item_bg" android:paddingTop="@dimen/card_normal_margin" android:paddingBottom="@dimen/card_normal_margin" style="@style/CardContentLayoutStyle">
+        <com.miui.calendar.view.OnlineImageView android:id="@id/multi_image_1" android:layout_width="@dimen/small_image_ad_image_width" android:layout_height="@dimen/small_image_ad_image_height" android:scaleType="fitXY" android:layout_marginEnd="@dimen/card_normal_margin" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:id="@id/title" android:layout_marginEnd="@dimen/card_left_right_margin" style="@style/AdCardTitleTextStyle" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip">
+                <TextView android:textSize="@dimen/huangli_good_bad_type_size" android:textColor="#66000000" android:id="@id/source" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="5.0dip" />
+                <TextView android:layout_gravity="center_vertical" android:id="@id/banner_ad_tag" android:maxLines="1" style="@style/TextChainAdSpreadTextStyle" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageButton android:id="@id/close" android:background="@drawable/normal_clickable_top_right_bg" android:padding="@dimen/card_left_right_margin" android:layout_marginEnd="@dimen/card_left_right_margin" android:layout_alignParentEnd="true" style="@style/CloseImageButtonStyle" />
+</RelativeLayout>

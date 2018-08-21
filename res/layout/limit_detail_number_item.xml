@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/divider" android:background="@color/miui_text_color_inverse" android:layout_width="2.0px" android:layout_height="10.0dip" android:layout_marginLeft="@dimen/small_margin" android:layout_marginTop="1.0dip" android:layout_marginRight="@dimen/small_margin" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/hover_text_color" android:id="@id/number" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

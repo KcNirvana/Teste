@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/root" android:paddingTop="@dimen/card_normal_margin" android:paddingBottom="@dimen/card_normal_margin" android:paddingStart="25.0dip" android:paddingEnd="15.0dip" style="@style/DoubleLineListItemLayoutStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="@dimen/horoscope_small_icon_width" android:layout_height="@dimen/horoscope_small_icon_height" android:layout_marginRight="@dimen/normal_margin" style="@style/ImageStyle" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:id="@id/primary" style="@style/DoubleLineListPrimaryTextStyle" />
+        <TextView android:id="@id/secondary" style="@style/DoubleLineListSecondaryTextStyle" />
+    </LinearLayout>
+    <CheckBox android:id="@id/check" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" />
+</LinearLayout>

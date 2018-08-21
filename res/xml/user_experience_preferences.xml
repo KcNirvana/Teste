@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:key="category_user_experience">
+        <CheckBoxPreference android:title="@string/setting_content_promotion" android:key="key_content_promotion" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/setting_recommend" android:key="key_recommend_card" android:summary="@string/setting_recommend_summary" android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

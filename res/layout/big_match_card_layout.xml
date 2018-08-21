@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/CardLayoutStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/title_root" style="@style/CardTitleLayoutStyle">
+        <TextView android:id="@id/title" android:layout_width="0.0dip" android:layout_weight="1.0" style="@style/CardTitleTextStyle" />
+        <TextView android:gravity="center" android:id="@id/more" android:background="@drawable/normal_clickable_top_right_bg" android:visibility="gone" android:layout_height="fill_parent" android:text="@string/more_match" style="@style/TitleChangeTextStyle" />
+        <TextView android:gravity="center" android:id="@id/change" android:background="@drawable/normal_clickable_top_right_bg" android:layout_height="fill_parent" android:text="@string/card_title_change" style="@style/TitleChangeTextStyle" />
+    </LinearLayout>
+    <View android:id="@id/title_bottom_divider" style="@style/CardTitleDividerStyle" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/banner_root" android:background="@drawable/list_with_divider_bg" android:paddingTop="@dimen/small_margin" android:paddingBottom="@dimen/small_margin" android:minHeight="@dimen/card_title_height" style="@style/CardContentLayoutStyle">
+        <com.miui.calendar.view.OnlineImageView android:id="@id/banner_icon" android:layout_width="@dimen/card_banner_icon_size_large" android:layout_height="@dimen/card_banner_icon_size_large" android:layout_marginRight="@dimen/small_margin" android:scaleType="fitCenter" style="@style/ImageStyle" />
+        <TextView android:textSize="@dimen/list_secondary_text_size" android:textColor="@color/card_title_text_color" android:gravity="center_vertical" android:id="@id/banner_pref_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+        <com.miui.calendar.view.AutoVerticalScrollViewSwitcher android:id="@id/banner_switcher" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/banner_close" android:layout_marginLeft="@dimen/normal_margin" style="@style/SmallImageAdCloseImageButtonStyle" />
+    </LinearLayout>
+    <com.miui.calendar.view.DynamicLinearLayout android:orientation="vertical" android:id="@id/match_list" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DynamicContainerStyle" />
+    <LinearLayout android:id="@id/button_root" android:background="@drawable/card_bottom_background" android:paddingTop="1.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/card_more_height" android:layout_marginStart="@dimen/card_left_right_margin" android:layout_marginEnd="@dimen/card_left_right_margin">
+        <TextView android:id="@id/button_1" android:background="@drawable/non_transparent_clickable_bottom_left_bg" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/ButtonStyle" />
+        <TextView android:id="@id/button_2" android:background="@drawable/non_transparent_clickable_view_bg" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="1.0px" android:layout_weight="1.0" style="@style/ButtonStyle" />
+        <TextView android:id="@id/button_3" android:background="@drawable/non_transparent_clickable_view_bg" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="1.0px" android:layout_weight="1.0" style="@style/ButtonStyle" />
+        <TextView android:id="@id/button_4" android:background="@drawable/non_transparent_clickable_bottom_right_bg" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="1.0px" android:layout_weight="1.0" style="@style/ButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

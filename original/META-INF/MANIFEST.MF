@@ -1,0 +1,4564 @@
+Manifest-Version: 1.0
+Built-By: Generated-by-ADT
+Created-By: Android Gradle 102.2.2-miui
+
+Name: res/drawable-xhdpi-v4/calname_unselected_pressed_holo_light.9.pn
+ g
+SHA-256-Digest: FJnsLG+ZAUk/rbTonLeaCP/Zd1DqE9gzhXTJpGK3Utk=
+
+Name: res/drawable-hdpi-v4/ic_contact_picture.png
+SHA-256-Digest: Xtmk6mmPPulRyL4wefE8GO5cnxus8WsXhsAgNX/nvxQ=
+
+Name: assets/bank/hzyh.png
+SHA-256-Digest: VWuaVqPeQYz5vrEBo12FdSbJfJ6EZ8R0BrR+bNfWs5M=
+
+Name: res/drawable-xxhdpi-v4/icon_tab_month_unselected.png
+SHA-256-Digest: nrq11nIkvL5s3aJ15Pzr8StW3vJEX1o+GzuO3faI59I=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_p_20.png
+SHA-256-Digest: Qp5vk0Z1hPeSUf3aBV4TvYGW4qfzecrss1oEJj++u2w=
+
+Name: res/drawable/widget_month_item_selector.xml
+SHA-256-Digest: KF7PoFUpyyGN9iqHtPfoGa9nbUzEMatYNFYDG/sFJBg=
+
+Name: res/drawable-xxhdpi-v4/today_blue_week_holo_light.9.png
+SHA-256-Digest: WanS/IlrkmuCVYJVb+3LOnTKgRxVHHFAhj2ai4FpilU=
+
+Name: res/drawable-xxxhdpi-v4/ic_small_image_ad_close.png
+SHA-256-Digest: cM3NCjPUmCbACbj6PRRUHBPMGn8biVjEGpt2Wgmqjqk=
+
+Name: res/layout/custom_repeat_month_group.xml
+SHA-256-Digest: Zgdy9/4ABizRNGVv4bpQrL7VjO9fqvFGHCXPaIQOHlQ=
+
+Name: res/layout/detail_info_item.xml
+SHA-256-Digest: GjETahyhK4FBFy78hbasDb8yJM49WN9mOVSB+uSlCr4=
+
+Name: org/apache/commons/codec/language/bm/gen_exact_common.txt
+SHA-256-Digest: apQ8qM8/e+0f9Rbemj7PRPE8gB09yWeAOxtqla5F03I=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_n_3.png
+SHA-256-Digest: GbZyQwOGcG1hhW2CXN9UVsdiFRbs2WoU4W8rxM2qSkg=
+
+Name: res/layout/edit_event_card_divider.xml
+SHA-256-Digest: MA/ak/fJ6Q9RNAXpCfOEg9GdjNz9RfMeabQmpM/sz5U=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_p_31.png
+SHA-256-Digest: dR6rPhw4XBW2BhAdkYzMRbOiI2LJC7AGefMB4VZH0CM=
+
+Name: res/drawable-xxhdpi-v4/widget_agenda_preview.png
+SHA-256-Digest: 6Dz13JagoqVjmvLPX1E170zOoudYmqkXEWYDLSut+VA=
+
+Name: res/drawable-xhdpi-v4/countdown_btn_n.png
+SHA-256-Digest: W1iiZwb5CU3z5xmlJw1J+nrI3FvhcRIKewtfTq1UzxI=
+
+Name: assets/drawable-xhdpi/get_code_button.9.png
+SHA-256-Digest: NVnFqEo3z5swL/eHi25tGZ54EwTJxJtxRuoTchdW840=
+
+Name: org/apache/commons/codec/language/bm/ash_approx_russian.txt
+SHA-256-Digest: uQi4EyUJkJEGfsuqsjLbAhW2Hr1omdD32YmgEzY6fLM=
+
+Name: res/layout/large_image_with_install_ad_card.xml
+SHA-256-Digest: BHlEYQ6q+Eh5VyKFw/M1hByK8x+KtucEc9TXFI+qWyg=
+
+Name: res/drawable-xxxhdpi-v4/ic_aqi_skull.png
+SHA-256-Digest: NjhXy+aCPrVz0vDZTUNx9Yh8xiViry/0uf59I72/Tp0=
+
+Name: res/drawable-xxxhdpi-v4/ic_jump_large.png
+SHA-256-Digest: jBW5vmQGaFCeJ0+6sflgi1FDrQLPVqOQZQnyBjzh3+k=
+
+Name: org/apache/commons/codec/language/bm/gen_exact_greeklatin.txt
+SHA-256-Digest: h4TCsdi44gbj385u2k897IAKG8IT3E9NwMsJqBMqVCw=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_p_15.png
+SHA-256-Digest: GZmVVti+ruTi+C5L0CBFdWNNyJug1SIZAaA4QrsJnIo=
+
+Name: assets/drawable-xhdpi/common_button_big_blue.9.png
+SHA-256-Digest: cM4qH2jGSJgcvT66I9qjD55xCTHHpGpt8lMhBvTlO0Y=
+
+Name: res/drawable-xhdpi-v4/ic_huangli_ji.png
+SHA-256-Digest: AxuC1Ky7rCm8+1rFSZ8Pd/YYlzvqJ+aL6tTCaMstsek=
+
+Name: res/layout/agenda_event_item_part_divider.xml
+SHA-256-Digest: yFQM52vN0IZeNxkpYR07qb1bZIDcFVezKlT0U3I92zQ=
+
+Name: res/drawable-xxhdpi-v4/ic_ad.png
+SHA-256-Digest: cBever5uBAwFJk2R7WfheOlzs9/djLEknZ3ZWktvbkI=
+
+Name: res/layout/spring_calendar_card.xml
+SHA-256-Digest: NkuWSN8ufpTLtBe5vG05XJ3deNBEfkSs2dqKdNdsJlU=
+
+Name: res/drawable-xhdpi-v4/fortune_rating_off.png
+SHA-256-Digest: gUhDlBAp9B9auVTjceSxG6U7Hwcrn5nONLnFDXAmba4=
+
+Name: res/layout/email_autocomplete_item_loading.xml
+SHA-256-Digest: 7F3kt4Wij1vj24glgP1UA5b6JeD4tCx8nDXuBD1inPA=
+
+Name: org/apache/commons/codec/language/bm/gen_exact_german.txt
+SHA-256-Digest: q+DCspPd430FHITApgGUuMMDjzmUEbYPBwbc3frbC98=
+
+Name: assets/drawable-xhdpi/tableview_sectionheader_background.png
+SHA-256-Digest: 9+V+WWHefSQlVTTw+aoxKFUbvlNL8GR4sVWf2FAYZro=
+
+Name: res/drawable-xhdpi-v4/ic_credit.png
+SHA-256-Digest: LEwOq9y5ROkmjcRbztQzjTo5v1rNwLupQzl/Oc+bOtY=
+
+Name: org/apache/commons/codec/language/bm/sep_rules_french.txt
+SHA-256-Digest: Kjy+NH/aDfWV4xEJWcSWVsbsa287evaaZ9VZDwcpaZs=
+
+Name: res/layout/agenda_event_item_part_month_header.xml
+SHA-256-Digest: TY3zkbClkp7/iLt7ZM6wT1gUTBDgisGo/JX2jawhq2o=
+
+Name: res/drawable/action_button_today_18.xml
+SHA-256-Digest: xvhsGNHA+/TfLwMsqy0VJEN9G5P2ZGN25ecgb0D0X0A=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_p_12.png
+SHA-256-Digest: 8H6UA2giazUKaNWyRlGaCnQc9fcRqqVlhmacbcAAsAE=
+
+Name: res/layout/train_info_fragment.xml
+SHA-256-Digest: SJRjmUoNkWVxGvJVs/qBeUwqdppV0kYYd5vJXq8J5y4=
+
+Name: assets/drawable/weibosdk_dialog_bg.9.png
+SHA-256-Digest: j3JX54JAdOVgoAtmdNSB9UX5djh62DWAjqWtvLbH/J0=
+
+Name: res/drawable-xxhdpi-v4/tab_bg_last_pressed_light.9.png
+SHA-256-Digest: lcfhWZnTesKHbuNg2Rbx2U+Rlyi9nxa8HzCFq/l+mpQ=
+
+Name: res/drawable-xhdpi-v4/event_icon_countdown.png
+SHA-256-Digest: oJEfdWJ/zJOGiTBXv+iUXlx4mlYhQdsEVQ1HNy6txwQ=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_n_17.png
+SHA-256-Digest: ka3ESnt84Ql4tmdcXXl7mYGsNOiDXH4NeW+N5ABi6KA=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_n_4.png
+SHA-256-Digest: HVxODedAhAZkMKltUxpE6s66S+a3C+f39vrtX5MUoz8=
+
+Name: res/drawable-xhdpi-v4/ic_gas_bill.png
+SHA-256-Digest: EMjGhsIq26LwGTW6jZg74BnczDgRRgFWQrT9IE2HwFU=
+
+Name: org/apache/commons/codec/language/bm/gen_approx_czech.txt
+SHA-256-Digest: 5SsSolD6WT+ZyooG4CsYoJFRih5rZv1Jbnin2ziIzEM=
+
+Name: res/layout/calendars_item.xml
+SHA-256-Digest: XscW9o7B2y6C5YatwjHZlJC5cbMkvojZvIVb9BNy6UE=
+
+Name: res/drawable-xxhdpi-v4/event_item_bg_p.9.png
+SHA-256-Digest: xGY/hhF2xPo/qPUlkFnkqVz4FyjM5wAcBMRNWnj3yC8=
+
+Name: res/menu/search_title_bar.xml
+SHA-256-Digest: KbwTxc+ewJsS22VkXfitfzQ8G/VzQtvEn9aQN2vH06Q=
+
+Name: res/drawable-xhdpi-v4/ic_phone_num.png
+SHA-256-Digest: ea4iKvNZKh1oHFxAfHNc/akC0vfh+d8lk1vm13bbmYs=
+
+Name: assets/bank/eedsyh.png
+SHA-256-Digest: WXDJKFF+sE3exmfei0PMAQAoDOroIc/CEyTiBT07+U4=
+
+Name: res/drawable-xhdpi-v4/ic_huangli_yi.png
+SHA-256-Digest: Wxtmfym9Fn0/aBYG2F5aROwxrIElUCLUBvBkF46oJYU=
+
+Name: res/drawable-xxhdpi-v4/fortune_caiwei.png
+SHA-256-Digest: vFUOFjFeaMZjJReIYObhyLbeVUYg/Z0UyoH/OmWjvUA=
+
+Name: res/drawable-xxhdpi-v4/countdown_btn_n.png
+SHA-256-Digest: ZSN1+iQNSaSpStzXl+TU0TSKjBSlZgQT2+Kcg+sfXEw=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_p_13.png
+SHA-256-Digest: XeTh5vqhHL3aDua/ElcGiysCBXded79p3YFoa6VrcbM=
+
+Name: res/drawable-xxxhdpi-v4/tab_bg_first_pressed_light.9.png
+SHA-256-Digest: 3/0JqQ3Ds9ak99iwsp2g5nM7aF0OVhbXZGDzXNil54A=
+
+Name: res/layout/olympic_match_card_item_layout.xml
+SHA-256-Digest: GHtxiXhIK+8+zUkleU66NiiIJzR4Jj/+ahcGrw0xvpI=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_n_5.png
+SHA-256-Digest: pEkBuN0WETHyvqRVAnJiLHuRrkm2OZ7SLlPeuxSxgEs=
+
+Name: res/drawable-xhdpi-v4/month_suffix.png
+SHA-256-Digest: ClNdVGlrwLyuRUyrnyHqE9Qu1/4oXDOGyIvGc9NkFxs=
+
+Name: res/drawable-xxxhdpi-v4/travel_feichangzhun.png
+SHA-256-Digest: R1L5U+q86GM2/FLLoQtSqy/qnN8L48up74TLuh4bBzE=
+
+Name: res/layout/detail_action_bar_style_center.xml
+SHA-256-Digest: KeKWcJ0istQPoqqEl9F9wnM9rHaTyzEPzkdJ6Lkh/XM=
+
+Name: res/drawable-xhdpi-v4/ic_movie_name.png
+SHA-256-Digest: BdbtWnBM75AsDjZMfPJeaRmWZnoz9avLQGXmOQLUA2w=
+
+Name: assets/animals/chicken.png
+SHA-256-Digest: RqO7MkbQb0zVLITWc7jjZieFy6KRFkWuMRkNeqAy7gc=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_p_21.png
+SHA-256-Digest: rIadjsaCpeDLee8CwvXeuPdRvDS0cTfbjTMwBH8TKxA=
+
+Name: res/layout/credit_info_header.xml
+SHA-256-Digest: HlMcpzB7zys0tiLqJzNcZ+ahlEVH08JIfcFhZ9uwGT4=
+
+Name: res/drawable-xhdpi-v4/medal_silver.png
+SHA-256-Digest: gda9sGN+qRKlb5yC5ozcNod5AlJDpSVyOLBSImckuFg=
+
+Name: assets/other/limit_detail_header_bg.jpg
+SHA-256-Digest: sR+OBe7p8Enwrnh3h1uIz4qIL2YoyLQNGmAhJ1rfx2s=
+
+Name: res/layout/gas_info_header.xml
+SHA-256-Digest: adcI3mrEs9XnYj2yowIHt1EqTLo/PqipuzdJXJWaY2s=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_p_23.png
+SHA-256-Digest: r8y4E5fW8XHQB4GOXwTsc/2Zn+8sgi4PhoyciF+j7uE=
+
+Name: res/drawable/action_button_today_26.xml
+SHA-256-Digest: FBdZjmHDfa6SGzuT7XW+NhvzFhhxnEdUPU6GBaocIa8=
+
+Name: res/drawable-xxhdpi-v4/calname_bottom_unselected_holo_light.9.pn
+ g
+SHA-256-Digest: VsNbLxyeb2P/2nLNeagZg+YVs470R+zw/QDys44O+K8=
+
+Name: res/drawable-xxhdpi-v4/tab_bg_first_pressed_light.9.png
+SHA-256-Digest: ivRKJwwgZcizs/Ienqd8R83pWo3tsYPux2JI8CDmzTo=
+
+Name: res/drawable-xxhdpi-v4/timeline_indicator_activated_holo_light.9
+ .png
+SHA-256-Digest: hbyNI6rOeIdLyoLN7U+8g52MdHa7dp+a8HD5qd5n1Sw=
+
+Name: res/drawable-hdpi-v4/chip_background_selected.9.png
+SHA-256-Digest: Q7UOeMZZP6MDZ9UIMm6Xn/zncRxgOKA77VL/TiQkonA=
+
+Name: res/drawable-xxhdpi-v4/calname_select_underselect_pressed_holo_l
+ ight.9.png
+SHA-256-Digest: AUNz3wucppeoCAy2WXl80uylTkyHMRvDGQ+ZjlNyoBA=
+
+Name: res/drawable-xxhdpi-v4/widget_new_event_p.png
+SHA-256-Digest: YXweiIoP82sePmM45WbZDPRwDCk8nO4c6qBE594d9lg=
+
+Name: assets/drawable-xhdpi/timeline_icon_attention.png
+SHA-256-Digest: Wj2Pc16cWWWpQFRJznkKkYluDQgctSSVlV+9rKYoqxU=
+
+Name: res/layout/fortune_settings.xml
+SHA-256-Digest: RB8L3GV2+KMtcJRzcfcrn1ZfFiIgBnRV8j76VKld6ww=
+
+Name: org/apache/commons/codec/language/bm/gen_hebrew_common.txt
+SHA-256-Digest: Spibhp8ik1kMIa8jBdpliJZq7m073kMbPkkSOQSxG88=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_n_11.png
+SHA-256-Digest: VF3mbbvWqesq9ZfVygK6jZ1GzdEnYi6JB4nUHcKvOBc=
+
+Name: res/drawable-xxhdpi-v4/ic_phone_num.png
+SHA-256-Digest: 3z2Y19lrMRd71iY0sVf5V4IDaKUduLGKhN+PSe1/wbI=
+
+Name: res/layout/fragment_edit_solar_to_lunar.xml
+SHA-256-Digest: apV821HjR3MT2N+UxFOycowNZZai9PKZ5gqXSQY685I=
+
+Name: res/drawable-xhdpi-v4/event_item_bg_p.9.png
+SHA-256-Digest: xGY/hhF2xPo/qPUlkFnkqVz4FyjM5wAcBMRNWnj3yC8=
+
+Name: res/layout/agenda_event_item_month_first.xml
+SHA-256-Digest: bLUMRTprsa6nMtuZck3fl/bwjoXCUtLU0+qjWoBsMtE=
+
+Name: res/layout/card_detail_activity.xml
+SHA-256-Digest: 9XyNOJjsDcwQzaXKN1an0RNSu4mfK4rcdi2NbYkwYLs=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_n_2.png
+SHA-256-Digest: skgmu8Jt6cZF9sVwBR6LyDfToU0yxKnPkvm4CsIIB5A=
+
+Name: res/drawable-xxhdpi-v4/ic_movie_name.png
+SHA-256-Digest: vRa5350pBO73WI18Nlo1ZBBWd+t0394ANMKBeYhjSqc=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_p_21.png
+SHA-256-Digest: bTKdEYI9bGRrT1ujhpHjMfsPRqSIoMa942YKnbkqxW8=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_p_29.png
+SHA-256-Digest: mE0MjdxUDdRIHByO7N2W9ct3z3jxpS9VtFB5zidINr8=
+
+Name: res/drawable/action_button_today_17.xml
+SHA-256-Digest: rvyy/cc1+Kf4DmQRkmjOoqdqCeBL/2OStNCNCzFjDdc=
+
+Name: res/drawable-hdpi-v4/chip_delete.png
+SHA-256-Digest: HY0twTnqaMlcebgwo5F/LQzaKvIsF01ott5+ej7IVF4=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_n_12.png
+SHA-256-Digest: h6VuCaAwvlq4aAB/WzBxCTJIUB+MBVF8RtwUnL0bWfU=
+
+Name: res/drawable-xhdpi-v4/action_bar_stack_bg_light.9.png
+SHA-256-Digest: PUMwpT6L5FWW7p/1W4YtAhBSunso5dlKYOQfIMb+w1E=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_p_13.png
+SHA-256-Digest: SEauRo5yn0P5B2G4DXhdOe+x7IBXfJw587Uk5gg0K2c=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_n_10.png
+SHA-256-Digest: ZDghR95wCgA8f6D0XDUNKKYEIaw7Lsei7tUjzd1rdzY=
+
+Name: res/drawable-xhdpi-v4/icon_tab_agenda_unselected.png
+SHA-256-Digest: OTuhQPUz4NLZ1O/tRyFeTyXTRkQ9Amzoj8brp73U7cY=
+
+Name: res/drawable-xhdpi-v4/widget_month_icon.png
+SHA-256-Digest: gt0T8tYfKJnuMW1e43VMkaJuwOPaTSLxpmaZhhTJmrQ=
+
+Name: org/apache/commons/codec/language/bm/ash_exact_common.txt
+SHA-256-Digest: /DVYN3g5oQN1u0AUbZ0S7Js3SHIjAjzAdplGrtJPNS8=
+
+Name: res/drawable-xhdpi-v4/ic_alarm_white.png
+SHA-256-Digest: t86HYLitQyAirceg/hTaFAl5+N0BHE5M+CyOHEji0hM=
+
+Name: res/xml/preference_reminder_mode.xml
+SHA-256-Digest: 9yIxITJD+QhRG9lP+Zy2a6TYYU4LlO7Nz2xuVVIOYJc=
+
+Name: org/apache/commons/codec/language/bm/ash_approx_romanian.txt
+SHA-256-Digest: kAvLi4Us6XOPhe+s2pG7yvAZLWYvL6mW67404RWAFzY=
+
+Name: res/drawable-xxhdpi-v4/icon_tab_day_unselected.png
+SHA-256-Digest: g6dKgHFtp+/OzUytL0lPKGP2dJWiJu5AxiQxPDEY8Gw=
+
+Name: assets/bank/nyyh.png
+SHA-256-Digest: sRjeQkbWWRbPtEbDgoI001gmmw46igzGD+DDrbAVcTY=
+
+Name: res/drawable-xxhdpi-v4/loading.9.png
+SHA-256-Digest: ZU4KQMLCLervVBFLmSy8TQ/4WbRRtBLnRJQ7/jPNUYs=
+
+Name: res/drawable-xxxhdpi-v4/card_bg_end_n.9.png
+SHA-256-Digest: 2DqsH7qDSmx+Xq/kL83by3s8ueBMEJLiZFn3v0lw5rk=
+
+Name: assets/bank/hbyh.png
+SHA-256-Digest: 9EAnwvoSh72BO48y8cIxT82w0yylFXtczYoFMB0uucE=
+
+Name: res/drawable-xhdpi-v4/no_network.png
+SHA-256-Digest: OIuObZMKOCuCAS/NqD8rikVQIcthWqHMytfkEOt5ux0=
+
+Name: res/drawable-xxhdpi-v4/ic_full_banner_ad_close_n.png
+SHA-256-Digest: CGH6HvefvGtm8opueDOUIyx9Uu0BelRBrxJ1U6IOmdU=
+
+Name: res/layout/activity_date_interval_result.xml
+SHA-256-Digest: xWUGaOSeXRkA+nKjV4pw9Cr3CXr1NbOkQhFYpwYXXI0=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_p_22.png
+SHA-256-Digest: RbY57MBWG5GYOvV9kddCj1QRwXXz9o+XBvLuQk0QgxA=
+
+Name: res/layout/movie_info_header.xml
+SHA-256-Digest: KewsanMy/BMJt8n/CTBpq9wHCx8yPw7xejH+a2lTDhg=
+
+Name: assets/other/shift_detail_header_bg.jpg
+SHA-256-Digest: ysN/zO69CmlWxsWd7Qbjgyv01PdSrWt8nE/44PZuvdM=
+
+Name: res/drawable-xxxhdpi-v4/btn_bg_single_normal_blue_light.9.png
+SHA-256-Digest: 0dgusNm6caKUf/kJJl51F08gf5oOHPa7UkpRrp9PrEk=
+
+Name: res/drawable-xxxhdpi-v4/ic_huangli_yi.png
+SHA-256-Digest: 4ohSBlKkP4Ifnq9boQOc8tM7oXUR3OI+IHiB2ZEIkMc=
+
+Name: res/drawable-xxxhdpi-v4/travel_cloud.png
+SHA-256-Digest: LtaVqgg0GqBAtHvyBod1FMmEBqDjEV2spApXhKzwnrk=
+
+Name: org/apache/commons/codec/language/bm/gen_approx_greek.txt
+SHA-256-Digest: 5SsSolD6WT+ZyooG4CsYoJFRih5rZv1Jbnin2ziIzEM=
+
+Name: res/color/ad_install_button_text.xml
+SHA-256-Digest: /oXKDw8Ae4UdfpbMCZ5SkycDgWcMjSKKQjpDG9uflw4=
+
+Name: res/drawable-xhdpi-v4/tab_bg_middle_selected_light.9.png
+SHA-256-Digest: xiuWRAXTCmYLl+WbW/mGn9upezT6P1VFSvGdwAWFr9Q=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_p_16.png
+SHA-256-Digest: LdeeoA0T9AwcC5MfcKnD+6rL3dsEOAjeBVoya1OYVs8=
+
+Name: res/layout/select_calendars_fragment.xml
+SHA-256-Digest: z28etHziER2LogMw9yKmSeEFbw36bKv8Rgxbwe9rf3o=
+
+Name: res/xml/file_paths.xml
+SHA-256-Digest: IgVdNp0Q9r1p5HzUgKowuAhBZf+Ng+DUv/+X3m+5ruM=
+
+Name: res/drawable-xxhdpi-v4/month_suffix.png
+SHA-256-Digest: fZ5XpDlJ1y/5/QPgqQKO/cqLX8jxsiNJ2RwVu9sWmGM=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_n_24.png
+SHA-256-Digest: 5oXFDVLnIcr5Oam7W8VOa5cT7rGbJlgiRyfH3YIvAB0=
+
+Name: res/drawable-xxhdpi-v4/event_icon_anniversary.png
+SHA-256-Digest: mpLLL+bAkRl5W3khngs3iTqFYOx8dp5GAI/MsEG+A1w=
+
+Name: res/drawable-zh-rCN-xxhdpi-v4/widget_month_preview.png
+SHA-256-Digest: URHToW5ill393hvqvaC5KHuaNNJUdF355izouq6z8FY=
+
+Name: assets/bank/jhyh.png
+SHA-256-Digest: 5ZsxPmD/Zd5FMYZYcB8M6+wiyeUgX3tfD22jr0+9Rhg=
+
+Name: org/apache/commons/codec/language/bm/sep_exact_spanish.txt
+SHA-256-Digest: 1U8m+Absg6NL6qAzy9EQqSBPhTBFv5BQowUBRrUuxQs=
+
+Name: res/drawable-xhdpi-v4/ic_person.png
+SHA-256-Digest: 7dCtC/wg858LrNYhRlkeUS6wnD1mXeyp9Xt7FkgR6Jw=
+
+Name: res/drawable-xhdpi-v4/card_bg_first_n.9.png
+SHA-256-Digest: lVFvpt9PWMX4NxzukqfuaNavFI4JGShrDTdBzGIsyoo=
+
+Name: res/drawable-xxhdpi-v4/medal_silver.png
+SHA-256-Digest: ax47W1W/oOniECbPc9YuiKh9e7W27RmIz655ucG4ns8=
+
+Name: res/drawable-xxxhdpi-v4/event_icon_anniversary.png
+SHA-256-Digest: Mo+fVEJI3nbHGwCNeLhRLh1LRQ/j0H64M6zdOEBZYf8=
+
+Name: res/drawable-xxxhdpi-v4/list_with_divider_bg_n.9.png
+SHA-256-Digest: B/BZfvGvuTdibacTj1w495pwlu+rty0hFXXsz/2zce0=
+
+Name: assets/bank/csncsyyh.png
+SHA-256-Digest: 5+RDYc9Qk8iOFdu8VE49gENT/wOQ4x9h/y7NcEyuj20=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_n_25.png
+SHA-256-Digest: x3nJcBmpdebLaaSmrx4GC48B+Z2u797l8uBVYq6yvGs=
+
+Name: org/apache/commons/codec/language/bm/gen_rules_romanian.txt
+SHA-256-Digest: de4m88a/bK/CJYviG4IJUuLgfBkpGeNP1xfdgbCi9K0=
+
+Name: res/drawable-xhdpi-v4/event_btn_n.png
+SHA-256-Digest: 4ORf+5yv1CEE019Jz9d1yNJ4xTeA4lJS8tE1eQrmick=
+
+Name: res/drawable-xxhdpi-v4/tab_bg_first_selected_light.9.png
+SHA-256-Digest: ivRKJwwgZcizs/Ienqd8R83pWo3tsYPux2JI8CDmzTo=
+
+Name: assets/drawable-xhdpi/login_bottom_background.9.png
+SHA-256-Digest: AACHxnR1KlDxxkhsjfvgKGruBgJVPr3l1T3/K2SZamg=
+
+Name: res/layout/holiday_meta_card.xml
+SHA-256-Digest: RcEc6Ot1fQ18URfcseQRMxYeB2In6f+1gTmiP7JaDeU=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_p_14.png
+SHA-256-Digest: I8Ib/BWmdML9kiflRDKWbXOGm04PKqxH5+zT0Ln2bFQ=
+
+Name: res/drawable-xxhdpi-v4/ic_countdown.png
+SHA-256-Digest: dN3xp56v4T8kOI5s6cLg9NTiyT+c2WYWWzqMcjlt0tw=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_n_18.png
+SHA-256-Digest: 7LQn3E00USzk+/Jim2PTxd4RU6TFjbCS15wvtsMhF0I=
+
+Name: res/layout/agenda_event_item_all_empty.xml
+SHA-256-Digest: YY51zPI8ks8m38fO6ZpFioqFlwEjLn+7Cx+xWsweamQ=
+
+Name: res/drawable-xxhdpi-v4/no_network.png
+SHA-256-Digest: IxnWTnCN6x1N91ogRsd7FKzRZfee9qDMEEdMiLvvx3U=
+
+Name: res/drawable-xhdpi-v4/calname_unselected_underselect_holo_light.
+ 9.png
+SHA-256-Digest: Nym0261F94WiCz+6SjxihgRqbNE7+jR4MKxB39aDmh4=
+
+Name: res/drawable-xxhdpi-v4/afternoon_bg.png
+SHA-256-Digest: f/89ODo0OSc8TNxonwhO5/uri4xGOv6ICO0u1V8RT2w=
+
+Name: res/layout/contact_birthday_title_view.xml
+SHA-256-Digest: 4W8snbMb9sI6bykBhtHTCrULcb1FJrmSFr1YqjcwOUY=
+
+Name: res/anim/activity_close_enter.xml
+SHA-256-Digest: Rn22py4WnC8cYayiODrF/zVG/ZqQkzVQFkvgWmVdBCU=
+
+Name: res/drawable-xhdpi-v4/tab_bg_first_selected_light.9.png
+SHA-256-Digest: PkHHjKRqeQHg+PLfyzTM5d3HhXHYrkpIyjVnfnCP6KE=
+
+Name: res/drawable-xxxhdpi-v4/anniversary_btn_n.png
+SHA-256-Digest: h2jY9uA29RdWs6KbI0t9KtxbBSKQQ/CQxK11/mLwFQg=
+
+Name: res/drawable/widget_header_bg.xml
+SHA-256-Digest: v2DootKoAXVrclkR695o0P8A8BGyBCihInI/H5TIzsc=
+
+Name: res/drawable-xxhdpi-v4/list_without_divider_bg_n.9.png
+SHA-256-Digest: HN2FDoWfIUmHvAza5VYkkfkoAaQrWCI8WpySOyqROsI=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_n_31.png
+SHA-256-Digest: f9oANnQbFUIH4u8WprNqV8EW+PbBrMGSHcaUgIdr75s=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_n_6.png
+SHA-256-Digest: WlaqnFKc2lHYwYY2Fcz/t4L6l4j8wnO6OKEYrvd0OLc=
+
+Name: res/drawable-xhdpi-v4/afternoon_bg.png
+SHA-256-Digest: H57pOlFfr3Lzybpat/WVBRyhPYqfXdf2Ouj1JA8Bk4s=
+
+Name: assets/drawable-hdpi/timeline_relationship_icon_attention.png
+SHA-256-Digest: Z5jfvVcPmzvQuColDHAJ5oqdotDvBVRxAVk/vBwaQYs=
+
+Name: res/drawable-xxhdpi-v4/list_with_divider_bg_p.9.png
+SHA-256-Digest: rCzHRvJLPls6abps/zVMNfgWgElIFg/VtO9ExAlokxQ=
+
+Name: org/apache/commons/codec/language/bm/gen_exact_english.txt
+SHA-256-Digest: /VUX6Y7r++H5eewh+XSenWyv0+Z5jl8xwXOgvgjAJeU=
+
+Name: res/drawable-xxhdpi-v4/calname_bottom_unselected_underselect_hol
+ o_light.9.png
+SHA-256-Digest: F16UYtmAGqb6qLyCNW6JflUkCxIZ12q++CH7VQWwNHI=
+
+Name: res/layout/flight_info_header.xml
+SHA-256-Digest: eNthtVYM2Q/I0vMgvDEeWDSIc+fjePS7nmGNHTNhm6Q=
+
+Name: res/layout/limit_card.xml
+SHA-256-Digest: qrjoS5INZR7BY2sULJ6yVhB4X6sDXgAnSo0ZWV89Shc=
+
+Name: res/drawable-xhdpi-v4/tab_bg_single_pressed_light.9.png
+SHA-256-Digest: vIM4n6OyXUXybMdA6S5p3bGgfkLUEcSxsILiPXQQOhI=
+
+Name: res/drawable/text_chain_custom_tag_bg.xml
+SHA-256-Digest: VF1XnDEi18myqVABPQA/O5Fs3nPiHjanSdPNtyYYFFc=
+
+Name: assets/animals/dog.png
+SHA-256-Digest: 3Eb4SUa/aegmZ1vF1aPd+wLnVimUijwShACA5fDPWEs=
+
+Name: org/apache/commons/codec/language/bm/ash_exact_german.txt
+SHA-256-Digest: MmdPNC98i3P+gx9GsFN98KK51DxF/N7XYX3fKElcDio=
+
+Name: res/drawable-xhdpi-v4/homepage_guide_bg_n.9.png
+SHA-256-Digest: tBHJZ0O3tXVpuubLzE4FbrwfL4y++Rw+xpqjDm+5hn4=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_n_3.png
+SHA-256-Digest: kEWQ7AkJ6+aQtsUSExUM3yqBR+lv9IVoT+3wzG0k82s=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_p_28.png
+SHA-256-Digest: 4Bw2LhKU6/bfJqFJCJ+VBthPqlxbopwFPmdzNj6L3g4=
+
+Name: res/layout/choose_date_jump_or_cal.xml
+SHA-256-Digest: akNAYRbBVSQvkNbfI5hgFHdu1xMCJwtIfnjUFNjPbo0=
+
+Name: res/layout/fortune_card.xml
+SHA-256-Digest: 8gf/vZ3it7qzlFrRL7zL0w0AWk3wo+P9mwGazjPzICc=
+
+Name: res/drawable-xxhdpi-v4/ic_loan.png
+SHA-256-Digest: HComWbU2GjrY/lhoURGVXsvSZuVYY8XtNS7lcWBdk8U=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_p_20.png
+SHA-256-Digest: cbHRK6sBPPG3VcXkwI3eG34sZm0xFsCWjUVJWXcWkFU=
+
+Name: res/anim/activity_close_exit.xml
+SHA-256-Digest: tublJ/LL2BoC28Fa402Enj/9hGCCco5bqfwytnr8DLg=
+
+Name: res/drawable/action_button_today_27.xml
+SHA-256-Digest: LA03zlvLZVgcQZ4pBZ4Ds8OXGu8felO4zFpoAAEHl58=
+
+Name: res/drawable-xxhdpi-v4/ic_interval.png
+SHA-256-Digest: V0VlbPhC9xjHkR5vUGxv1D9OeAhfqKk32MdK/MU1moA=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_n_21.png
+SHA-256-Digest: Dx/EV00ioIEcavPhqSG47ckmm8pvJogPwJ670eQls5E=
+
+Name: res/drawable/homepage_new_event_bg_p.xml
+SHA-256-Digest: jYAGs96BtCL6jucd9idxXCCqUK+iGT2ICB2QwuX8ris=
+
+Name: res/drawable-xxhdpi-v4/stat_notify_calendar.png
+SHA-256-Digest: PHNfHux7kyuWPDfIidX1Hb+tvelvap2Yx2uevBfXEzo=
+
+Name: res/drawable-xxxhdpi-v4/ic_movie.png
+SHA-256-Digest: p7W30qAoPfi20O3yffOXNiW1Q6SzLQf8ADPpLGJBwbM=
+
+Name: res/drawable/text_chain_ad_spread_bg.xml
+SHA-256-Digest: ozSYibDZbnNcHJX3HeEOhPgCr+BnyvIgVyYKGsmU+Hk=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_n_13.png
+SHA-256-Digest: B1Ut/IGmdDdJjLZLCZGs/ZGGMzP2bC+hN7eYXMyTrbE=
+
+Name: lib/mips64/libweibosdkcore.so
+SHA-256-Digest: IEfHk7Ry/ttIsVPe0IoVhJm8UBmae2x0/YA1Qr2SS1k=
+
+Name: res/drawable-xxxhdpi-v4/card_bg_n.9.png
+SHA-256-Digest: QF3x2ozAS7ZEg+Ir9FQyTaHspAwLIHBaxrS+1OStUDs=
+
+Name: assets/drawable-xxhdpi/get_code_button.9.png
+SHA-256-Digest: h0bX//cXxlZPUHgNgzpZiy/Jz9KMRyQHdHGmKWKXHNc=
+
+Name: res/anim/homepage_guide_in.xml
+SHA-256-Digest: /43H8sFiGsdgy8dsXKvXVz0Uuveb8rD3f/Ya0TbwX1E=
+
+Name: res/drawable-xhdpi-v4/ic_countdown.png
+SHA-256-Digest: SGo0YD048G4LmPoN2hj+vNE6L1bnsANv50cki7fVIl8=
+
+Name: res/layout/large_image_ad_card.xml
+SHA-256-Digest: i9f2TEKiQBjyqca3mWkxm7GeZMZpqYtk0iPP8TxQfSY=
+
+Name: res/drawable-xxxhdpi-v4/ic_movie_name.png
+SHA-256-Digest: QeM2ZQjQwY7dFN7ul/vcKag/82ItxoAwOH+cg3ygSpg=
+
+Name: res/drawable/action_button_today_24.xml
+SHA-256-Digest: UoWYAustQxq1aBuiv7jKBFcWlD0/rVH/68oeJn13uuA=
+
+Name: res/drawable-xxhdpi-v4/panel_month_event_holo_light.9.png
+SHA-256-Digest: 0N0voEPDBdLMTeZfQ9U6dnQ/tO4aPUe4QQUOpmattIc=
+
+Name: res/drawable-xxhdpi-v4/action_bar_back_p.png
+SHA-256-Digest: tKYHIjreaWLygPpmf1fdaVSj5VEoJvgLulvlaO2iYDs=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_n_1.png
+SHA-256-Digest: LuNyQQL5DTT1uSZJcSYsRn0OXMNubujw4VSlYr3w//s=
+
+Name: res/drawable-xxxhdpi-v4/tab_bg_last_normal_light.9.png
+SHA-256-Digest: K6ckpyfK3rIQ9s4+ZLsOXJtxozWwxNfIllHf6RCxZ8c=
+
+Name: res/drawable-xxxhdpi-v4/icon_share_p_light.png
+SHA-256-Digest: xpIxQY7G0X+mXovIABwo8OjZDH850kH/xI5NaFMSR8c=
+
+Name: res/drawable-xhdpi-v4/ic_jump_large.png
+SHA-256-Digest: 66x9FRst2Fsw5wSya1CkWdn5hOxNOCXYx+CIvrgIeck=
+
+Name: res/drawable-xxhdpi-v4/widget_new_event_n.png
+SHA-256-Digest: XuoHx2XuWrH7FVfA4stEC1tVFhg5V7DY0qWAIX8EU2A=
+
+Name: org/apache/commons/codec/language/bm/ash_rules_russian.txt
+SHA-256-Digest: nZkE0j7GAx/2IJZ3Zs9yoG9aqayVjryatsSVahnCx2s=
+
+Name: assets/bank/zgyh.png
+SHA-256-Digest: jUo18vifdWVYUrYoB8mB7tuifas1nNLK+Q/1pwAnRsM=
+
+Name: org/apache/commons/codec/language/bm/gen_rules_greeklatin.txt
+SHA-256-Digest: BhIvA/6Hny73iwt2vxQS6xcMafqCj0DX57kHhWZWRG4=
+
+Name: res/drawable-xxhdpi-v4/ic_flight.png
+SHA-256-Digest: 4eSBqAAb988l4ECqvlKs64tNLXlUZD69Bn89bu15q58=
+
+Name: org/apache/commons/codec/language/bm/gen_approx_arabic.txt
+SHA-256-Digest: g4pH5vloGJpKiCuCIgZUyiGUUJVtLPCuAzbTQolMWY8=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_n_10.png
+SHA-256-Digest: i0HMZWC3dsQJe85VieqHBd8m09ib2iUh9P7RSThttzY=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_p_10.png
+SHA-256-Digest: efXGoZvP/FHlRj9gd4p5jcltMThZN1mepHaFXXSX0Ds=
+
+Name: res/drawable-xxxhdpi-v4/fortune_zhengchong.png
+SHA-256-Digest: rphYalMczFbsrgMAY6mQcvUTcQoyNhXiDjytJ6+txoQ=
+
+Name: res/layout/home_time_text_view.xml
+SHA-256-Digest: 3LEzOzK9X9+vwZ8kRGe+cSeqRL9ISWJqm6jffqBWPI0=
+
+Name: res/drawable/widget_bg.xml
+SHA-256-Digest: VDvzSJfhiPRMIbx3y+Mrg6wVJhq8raYeJdlwlphFxjM=
+
+Name: res/drawable-xxhdpi-v4/ic_movie_cinema.png
+SHA-256-Digest: cpHzuvzNU6tYy1VgMM2uK6z2tTikVdf9Y3hBWhPQ35c=
+
+Name: res/layout/all_in_one.xml
+SHA-256-Digest: 4i6X1NC2pH7bPL7O24RcW2eNnbgPG8EEzVGu3N9v/1A=
+
+Name: res/raw/city_code_config.json
+SHA-256-Digest: UyPEPTw14y4m/R7VikAdK6mLagAaug6vvJQ6Rc4Jw1E=
+
+Name: res/drawable-xhdpi-v4/widget_month_bg_white.9.png
+SHA-256-Digest: D1AvGTuN80AQkNaMZ86bQ3cMH8EVuwYfhIw+EQ4PrCE=
+
+Name: res/drawable-xxhdpi-v4/action_bar_back_normal_light.png
+SHA-256-Digest: 3o+nk4SG6PF5K/vbyggb6P5pQWBQGRUeh/1Du+Z0ylA=
+
+Name: res/drawable-xhdpi-v4/tag_bg.9.png
+SHA-256-Digest: FRjPjy402iI2AeOyK96R3N8q2fM5a51ZnPtzD9wdqNI=
+
+Name: res/drawable-xxhdpi-v4/pop_up_window_list_bg.9.png
+SHA-256-Digest: +cooyxjXD/VZVjKndZZbU3DpijiZcX1HX+xUsbYv8J0=
+
+Name: res/drawable-xxxhdpi-v4/btn_bg_single_pressed_light.9.png
+SHA-256-Digest: XSVzqHO8yaeHqCo0FouvPD0LrQr31ZYFmXCjdpn3f4w=
+
+Name: res/drawable-xxxhdpi-v4/medal_gold.png
+SHA-256-Digest: qKXojB9Y9qqq5j9n59W0h5nFBq+IeYl073o7L/H4aCk=
+
+Name: res/drawable-xxhdpi-v4/tab_bg_single_pressed_light.9.png
+SHA-256-Digest: Bp1yFOGNVlXrJI1ObnrkZMC+i10p8YN0fWmm08xlnO4=
+
+Name: res/drawable-xxxhdpi-v4/travel_car.png
+SHA-256-Digest: dTlIQmQVnPhzIINdlGLNPB3H1O3ZS0KskwEQYX1Slts=
+
+Name: org/apache/commons/codec/language/bm/ash_exact_polish.txt
+SHA-256-Digest: 0E1ujqTtWT9Hj+H/FQofV6wwVXwT+fAZ/PKxZYtv9J4=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_n_11.png
+SHA-256-Digest: vT54Kaw6fYcpyRgVUp6bQ7OuAp4bxYvfKTbBaNDqCjg=
+
+Name: res/xml/repeat_end_preference.xml
+SHA-256-Digest: eWR8upaExUFJzqOfkSCBNd0KhoUX6mQ8/hjGmI5waiY=
+
+Name: res/drawable-xxhdpi-v4/ic_joke.png
+SHA-256-Digest: /ky+kQ6AAkCUJaJ640z57HhizDCZfz2l3qN5EUEAAPw=
+
+Name: assets/countryCodeEn.txt
+SHA-256-Digest: Ko7+H/6rMjpsob0fNn2I6LoVQd3c1j+LiwoaPGib2Qk=
+
+Name: res/layout/weather_card.xml
+SHA-256-Digest: mD3EbvjO7uwMAlis3q2GsI2W1+ko4lkvCRnaqAR1rqE=
+
+Name: res/drawable-xxhdpi-v4/birthday_btn_n.png
+SHA-256-Digest: kFpyRtc/cYESs1i7f9ebxsJ3CzM5e9Z7c+bMVkaTPac=
+
+Name: res/drawable-xxhdpi-v4/widget_month_icon.png
+SHA-256-Digest: YGGiWkeXaDMx+gCRE7P+lxncnQKzmWDHp3gb+H4D/no=
+
+Name: assets/other/flight_detail_header_bg.jpg
+SHA-256-Digest: 3flrmkt9lsb/Li/Ai45bRhAhqs2UCG3v/tC60++nskQ=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_p_15.png
+SHA-256-Digest: k40ozspBp0fgFHADLjk48u5Z5ouu4yRDFWqeLnXIujQ=
+
+Name: org/apache/commons/codec/language/bm/gen_exact_romanian.txt
+SHA-256-Digest: 1U8m+Absg6NL6qAzy9EQqSBPhTBFv5BQowUBRrUuxQs=
+
+Name: res/layout/widget_item3.xml
+SHA-256-Digest: W6Dh6e9b9the0ENjBb6HjvQojH1G3bCG9YMUgnYkw8c=
+
+Name: org/apache/commons/codec/language/bm/gen_exact_cyrillic.txt
+SHA-256-Digest: /VUX6Y7r++H5eewh+XSenWyv0+Z5jl8xwXOgvgjAJeU=
+
+Name: res/drawable-mdpi-v4/ic_contact_picture.png
+SHA-256-Digest: g5SEfu5BAYDtKrXpZH1HsRmg/RJfi1p5zrAn3I7KhVY=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_p_17.png
+SHA-256-Digest: YRmb5p501+GTa99mS0eIVpL3PRxmJqEEVg+YuwcXyQo=
+
+Name: res/drawable-xhdpi-v4/tab_bg_first_pressed_light.9.png
+SHA-256-Digest: PkHHjKRqeQHg+PLfyzTM5d3HhXHYrkpIyjVnfnCP6KE=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_p_25.png
+SHA-256-Digest: X+Ong2Td/ExR72Sz0LkJMSFx73ZiASOmUOVArBBarjo=
+
+Name: res/drawable-ldrtl-xhdpi-v4/edit_text_search.png
+SHA-256-Digest: XTLro9HmHJ21mIAsM5mpYIRbRsb7khwjJsMLMRhZpBk=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_p_23.png
+SHA-256-Digest: SEjMLX/SzRWZcKdkIM+ad2hTLoNLQk/NNbga3RnyKm0=
+
+Name: org/apache/commons/codec/language/bm/gen_rules_italian.txt
+SHA-256-Digest: mRVd7fDK6q5CEod9C5DaUuAlKBLu5KsGqar1OTuUr7A=
+
+Name: assets/bank/default.png
+SHA-256-Digest: A4j55QHNMkJAoW+iRQ72oEvf3lnvB67G5D1nAxYX9G0=
+
+Name: res/drawable/choose_or_cal_end_item_bg.xml
+SHA-256-Digest: aojgdzx2buQFPg2pcBfqvf4lxxtnLeAj5pvENLv07KQ=
+
+Name: assets/bank/gdyh.png
+SHA-256-Digest: Ts+VqUPvyiW+KMsfns0CeAyOaRHpy73MEX0ymL/FhGI=
+
+Name: res/drawable-xhdpi-v4/ic_contact_picture.png
+SHA-256-Digest: TOoy4GdwQM5hF04YynDdTR5lixbK+d5QjZwwxqLMArs=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_n_26.png
+SHA-256-Digest: XISCqdLFCDWX3UI9ZilTLivgzlQ3vfGVVPvB0LoVg4E=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_n_6.png
+SHA-256-Digest: OKDbUa2Pi/5ZRRyQLN4ketd9O6SNOl8bJ7LiGF8ucuE=
+
+Name: org/apache/commons/codec/language/bm/gen_exact_greek.txt
+SHA-256-Digest: 1U8m+Absg6NL6qAzy9EQqSBPhTBFv5BQowUBRrUuxQs=
+
+Name: res/drawable-xhdpi-v4/icon_share_p_light.png
+SHA-256-Digest: u5WPzJVg75WoulzVrZN4Re0/j+m6o2yga/dBUQmEfRg=
+
+Name: res/drawable/widget_month_item_transparent.xml
+SHA-256-Digest: ejWdl2icnBOCqwQBJZEoLigsXjzIDuprUnwC+fr00Sg=
+
+Name: assets/bank/zjczsyyh.png
+SHA-256-Digest: l/Hp1D2NIJ6xusCazE8F5nsjgSGY6rraEurkC+clwu4=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_p_30.png
+SHA-256-Digest: iNrOVKLExpWWz/ZYrouH490xeXtBHSJDffPQpJAeJO4=
+
+Name: res/drawable/homepage_guide_bg.xml
+SHA-256-Digest: O/jajRiisRftSS9ufKtcgHDfEReml4SCNglxRorJ59g=
+
+Name: assets/drawable-xhdpi/weibosdk_notification_icon.png
+SHA-256-Digest: +gNFd9axuBwgricJ+I1rPjLrH8LxfYc5DQyjfIGg2/Y=
+
+Name: res/layout/huangli_detail_action_bar.xml
+SHA-256-Digest: 62aiA/ltz7o1mPx2YqBNX1yTr0kUeR0woVetPp5ADEs=
+
+Name: res/drawable-xxxhdpi-v4/homepage_guide_bg_n.9.png
+SHA-256-Digest: SnfAcrsH1jI40hYhN0X5lO7MTSq5liIsIR98nTB4LOM=
+
+Name: res/drawable/repeat_table_item_bg.xml
+SHA-256-Digest: OCGqO7Qm9Rh4NpZdx5n3SgysBgwPEB6YUYqu/dK5eVU=
+
+Name: res/drawable-xxhdpi-v4/button_rect_bg_p.9.png
+SHA-256-Digest: qlbTN6OpSiJNDp7R06Gi/pWuaBLeG9MXyRyQUxJERsw=
+
+Name: org/apache/commons/codec/language/bm/ash_hebrew_common.txt
+SHA-256-Digest: rRGg9TfpCwiT6GJODJl92OLs4T3+i5CzZtOnc/gpvuU=
+
+Name: res/drawable-xxxhdpi-v4/medal_silver.png
+SHA-256-Digest: 4GiRvyaUY9xJrLNQwdwP4H646vSvDLMruk9ppxQynuU=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_p_9.png
+SHA-256-Digest: q0R1YkPnjr9bsdzdSqS1lbzXWpZ3lXoWCrCZfyzWZBk=
+
+Name: assets/bank/pfyh.png
+SHA-256-Digest: AhkYC7392HknbsFRUkBqrMYQXZLNf+TafWelFkX7Re0=
+
+Name: res/drawable-xxxhdpi-v4/icon_settings_p.png
+SHA-256-Digest: DYfr0tSCpdGi+yG3d7LLUkFZbpdPnCyIadn8z6fMzXs=
+
+Name: res/drawable/anniversary_btn.xml
+SHA-256-Digest: BHJaXA2HEGPcRyo4eFWiheLiJu/29gam3BFZcRLmXyQ=
+
+Name: org/apache/commons/codec/language/bm/ash_exact_any.txt
+SHA-256-Digest: vGtrQj5q+ZfORTSOF/Og1qGGF8/me1C9tQHMlyWMPTU=
+
+Name: org/apache/commons/codec/language/bm/sep_approx_common.txt
+SHA-256-Digest: fz6imF/UsbXg9aZUSkerYySXp4U7aRrvXmvXMg/Ko6Y=
+
+Name: res/layout/share_list_item.xml
+SHA-256-Digest: l0ZZ9T4dS4BUg4nK9MK1s8BzAi59tSiQBuDUEDeholQ=
+
+Name: assets/drawable-hdpi/ic_com_sina_weibo_sdk_close.png
+SHA-256-Digest: k+fhME21c0/RaS0j5r0i4mwISsfMZvS5zq+k4FYKwvI=
+
+Name: assets/bank/xyyh.png
+SHA-256-Digest: XZ3i70CLrU3gVnk6MPKRpN6XKI8KUEV5rHZTApOXtUM=
+
+Name: res/drawable/action_button_today_25.xml
+SHA-256-Digest: DZgExonc8tQseYXPcL3SEs/ySzyP2CxoFBnEvdcTFMc=
+
+Name: res/layout/book_card_item.xml
+SHA-256-Digest: rZHYKE3X0RbML5j1lN4z0Ki96U/3lTJcfJFU0riLdm8=
+
+Name: assets/drawable-xxhdpi/ic_com_sina_weibo_sdk_close.png
+SHA-256-Digest: n4AYO40omUT8+X5tGIaIa4K++VkNa8GP8uPw/k3SUb0=
+
+Name: res/drawable-xhdpi-v4/event_icon_birthday.png
+SHA-256-Digest: jDZyLUg0tA8e8kE9JfTkLhQDxDAwVRKA/ziaiYXuR4Q=
+
+Name: org/apache/commons/codec/language/bm/gen_exact_polish.txt
+SHA-256-Digest: bYBff8MXLwLxEkC5BD/txTXQcpoQXyGCBd287jJFeBo=
+
+Name: res/drawable-xhdpi-v4/anniversary_btn_p.png
+SHA-256-Digest: 2mTG4JJ/h4MkAees4R4Wa89+w65q68sTncpRb7DEiLg=
+
+Name: res/drawable-xxxhdpi-v4/event_icon_flight.png
+SHA-256-Digest: NuM1dQ2wYvFfU8+JzwlMCWYTlaTolA5dBYKg2KrZv10=
+
+Name: org/apache/commons/codec/language/bm/ash_exact_english.txt
+SHA-256-Digest: Jl2TtTDy8LOytgKv2m6RI3DAsBwG30ophxGfYyC/+0Q=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_n_29.png
+SHA-256-Digest: 8iKOdq8X7qOrYCWg8Swn+dbtJB7kA53vTBskiXP0IQ8=
+
+Name: res/drawable-xxxhdpi-v4/anniversary_btn_p.png
+SHA-256-Digest: yLSIAlm//MEDezySmDWIic3eQccjnHeWmeyRMfAZ5/0=
+
+Name: assets/horoscope/scorpio.jpg
+SHA-256-Digest: yFXq3ti9HyiA0NgR5yP5D+PAo/ETF7IWUQMTKC2Iv24=
+
+Name: res/drawable-xhdpi-v4/ic_joke.png
+SHA-256-Digest: NKs47LhaTGdYvYW43+EDe00FY4845epUZQufI9P/akM=
+
+Name: res/anim/slide_left_out.xml
+SHA-256-Digest: SvR52I4uLFo38eBn5mGxA1wL926RLK6ZoCi36mu1tMY=
+
+Name: res/xml/searchable.xml
+SHA-256-Digest: 9EW0w2GPfltrPqfpfAu5DpnpJ03SLQY3g0IN6U0IlJc=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_n_14.png
+SHA-256-Digest: SQLXOKKiTbVI2OmxzSNTHWpOcQA7nFubWxNZ871aHmA=
+
+Name: assets/animals/sheep.png
+SHA-256-Digest: Nkuv4CdEM+Pz14sqcSRzKBCCY0aS6uHrLA3QalB8zH8=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_p_30.png
+SHA-256-Digest: X31G9P8ZylbQSWpBzxpDVcShI8YOXyu7zzILNGlUed8=
+
+Name: res/drawable-xhdpi-v4/chip_background_invalid.9.png
+SHA-256-Digest: h6ywxtYHo8K1RZlXV1JG3QtX4fZKO7KJL4i75hg76Fg=
+
+Name: assets/drawable-xhdpi/weibosdk_navigationbar_back.png
+SHA-256-Digest: 5d/TFX4i5S3mwQaT49nmRbFphqNiS0QaSE4aRKpGrKs=
+
+Name: res/drawable-xhdpi-v4/calname_bottom_unselected_holo_light.9.png
+SHA-256-Digest: VsNbLxyeb2P/2nLNeagZg+YVs470R+zw/QDys44O+K8=
+
+Name: assets/bank/pdsyh.png
+SHA-256-Digest: /+LscFnNTRRzBAZtM2akJzSgiuRICHbUsgEUCrC2jjg=
+
+Name: res/drawable-xxhdpi-v4/calname_select_underunselected_holo_light
+ .9.png
+SHA-256-Digest: tfuuqQlbVBr/CuAz7FRtR9vu51tyiE7Aw3jUJzIMOYA=
+
+Name: res/layout/date_picker_dialog.xml
+SHA-256-Digest: 9dBjtQY1BXPzTxQBsSG5DjJK6/5eEoAu2FT4hz29jMM=
+
+Name: res/drawable-xhdpi-v4/holiday_detail_default.png
+SHA-256-Digest: I2sicGpIGMALCM+qD3zj2QfUmbNED8EsVTQyo0/zia4=
+
+Name: res/drawable-xxhdpi-v4/ic_huangli_ji.png
+SHA-256-Digest: rGWEHezmsdftW4OFKrNV8rVU98hQ07ql9PP/u1R7N70=
+
+Name: res/drawable-xxhdpi-v4/tag_bg.9.png
+SHA-256-Digest: jscSHayQUWHQNBWJPvtskNV3A/3820dDnkX8UI8H5ls=
+
+Name: res/drawable-xxxhdpi-v4/edit_text_search.png
+SHA-256-Digest: I8OTAKyNbeKRimEScIwwRKpxCWINgToGMyxQiRtcq0I=
+
+Name: res/drawable-xxxhdpi-v4/icon_tab_week_selected.png
+SHA-256-Digest: LRGiefvZAfrX+kfHiNvbApulbKkrO71pnqCh4P/jESE=
+
+Name: res/drawable/action_button_today_19.xml
+SHA-256-Digest: B9/EG4K2SaEEYcwwwVcgHgR3rG9UKlCy7YD5ZbBZkhg=
+
+Name: res/drawable-xxhdpi-v4/travel_cloud.png
+SHA-256-Digest: Udd5sE0fYF44eWn6K1HrfQMZU4MLGgmatGJZbpQBrrY=
+
+Name: org/apache/commons/codec/language/bm/sep_exact_italian.txt
+SHA-256-Digest: 1U8m+Absg6NL6qAzy9EQqSBPhTBFv5BQowUBRrUuxQs=
+
+Name: res/drawable/ic_expand_holo_light.xml
+SHA-256-Digest: awwF2Xbl8duQAzRBVZ2jI/vj5YynVC1fvLnhb1iq9Iw=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_n_12.png
+SHA-256-Digest: YBnJO9sBZnHJV7Iqfc6gteYu0oCAi4LUCK27+HaNI34=
+
+Name: org/apache/commons/codec/language/bm/sep_exact_hebrew.txt
+SHA-256-Digest: 1U8m+Absg6NL6qAzy9EQqSBPhTBFv5BQowUBRrUuxQs=
+
+Name: res/drawable-xhdpi-v4/travel_cloud.png
+SHA-256-Digest: q/gFuTaDog3XME6sv+KxoqQqT+LvFznh87C6dErn42w=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_p_11.png
+SHA-256-Digest: fAqF7JZ2V+FA32SbcYXeBN93iMfjllxA2Z10O7o0eA0=
+
+Name: assets/drawable-xhdpi/login_country_background_highlighted.9.png
+SHA-256-Digest: RQ1oLyJi/1pYJ0pdsCMJJdOrs/5TikGql4dIJ2qpQso=
+
+Name: res/drawable-xxhdpi-v4/calname_unselected_holo_light.9.png
+SHA-256-Digest: s426QN7wAJgakr9Hct/NlKQdW6Lw77sUQElNxchWayY=
+
+Name: res/drawable/edit_event_tab_text.xml
+SHA-256-Digest: BHNbML8wmy4V2TNNEM280KL3nXH7uqxeK9RXJd4ghN4=
+
+Name: res/layout/custom_repeat_year_group.xml
+SHA-256-Digest: Uw7chwvPAGVQT/3C9f772YyNv4+h/wpOyIQn2AuOsfU=
+
+Name: res/layout/film_card_item.xml
+SHA-256-Digest: gaveGsWBUWdbHFDdXQpuj15fbzk26JlY8kpzCPWwqZE=
+
+Name: res/raw/xiaomi_static_config
+SHA-256-Digest: TThQXyBxyzI2Vh38mxGyTQ7LAUT1d/dV/qrOyhnrlPo=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_n_3.png
+SHA-256-Digest: 6D/bdyRjCQidgckFkk0L4Do/hF37mwzZuO4hKwCyE/M=
+
+Name: org/apache/commons/codec/language/bm/gen_rules_turkish.txt
+SHA-256-Digest: GAC6ua7mvl9Xg4v6rwcQCYQcGvk9XdInieGnZD0ZkmE=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_n_20.png
+SHA-256-Digest: qoSRbGoFXXyosI+jk3CE+6jJul4yLeo98GtMEndacmk=
+
+Name: assets/weather/icon_cloudy.png
+SHA-256-Digest: rvY+N3DpIoN+OA5vBbDT6FunK9yDTPv5NqRhNLsXTQI=
+
+Name: res/drawable-xhdpi-v4/ic_close2.png
+SHA-256-Digest: ekY5Lz68GuvHB8SK3Iexo2RMvh0LD/RdiOxkHwgUY/g=
+
+Name: res/mipmap-440dpi-v4/ic_launcher_calendar.png
+SHA-256-Digest: fGPAHPZcXPny6u99v7W6qegYRWVCvyELG94WKVNyJdw=
+
+Name: res/drawable-xxhdpi-v4/tab_bg_middle_pressed_light.9.png
+SHA-256-Digest: Pav0krnwacwRF3mzKxt3RHgCDbWYo+2xvxJ0LWeSRQk=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_n_9.png
+SHA-256-Digest: ntma7fQiUbx8iBLzka3qzs78g47dAbKiPY2E97vGQ/I=
+
+Name: assets/other/hotel_detail_header_bg.jpg
+SHA-256-Digest: jLR9V3+dYjYKnlgJSV7rviV9/m76ak5mTCYdkvlXYM4=
+
+Name: com/sina/weibo/sdk/net/cacert_com.cer
+SHA-256-Digest: J/RqASKf6T8Exg15vSRlGNdYj9W6SCfRbO6cpZiEN14=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_n_5.png
+SHA-256-Digest: UD9xHG7gdN9fdOqr+DVmfGtynRT5moZDFTIq99EqIFU=
+
+Name: res/drawable/huangli_ji_bg.xml
+SHA-256-Digest: I2Rkh/RjA/aak8h/D5VAvux0XFXMTmefd1Q/FKDbpq8=
+
+Name: res/drawable/non_transparent_clickable_bottom_only_bg.xml
+SHA-256-Digest: 7/Euqzh4rojg2LhM9rJhDomBsbvJgVnLmth6H8+n+YM=
+
+Name: assets/fonts/Mitype2018-60.otf
+SHA-256-Digest: fW9jom/kH6yasVfJg8y4Eg7rlYsax1InEvPEmWN5qZM=
+
+Name: org/apache/commons/codec/language/bm/gen_rules_spanish.txt
+SHA-256-Digest: 5yU8fBq35G0pyFeSvmjBWnvbiTfDZAQ/TExljQj3ams=
+
+Name: res/layout/homepage_tab_item.xml
+SHA-256-Digest: mnWr//neKuQ3MAxbZLjYl2HMCP1TTY9RLJawLRT2eGg=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_n_4.png
+SHA-256-Digest: K1BkNosE8odGTFmIGsi7JCc98Vma7RvPFaubhMv6i/A=
+
+Name: res/layout/holiday_service_card.xml
+SHA-256-Digest: FqLAAs/E52pmRy+6B+vjEBN0/Lbdo7Wq6b6KPYYWUdM=
+
+Name: res/drawable-xxxhdpi-v4/event_icon_countdown.png
+SHA-256-Digest: 7LXi5UbAapbIv5bn1O7WIVLbsevWj+yqjSRHmeCMwYw=
+
+Name: org/apache/commons/codec/language/bm/lang.txt
+SHA-256-Digest: BZh6aARCRqoZ6rtqvFptm9BmyyULf9yVrpZytzidyR4=
+
+Name: org/apache/commons/codec/language/bm/gen_approx_spanish.txt
+SHA-256-Digest: ypOR+IMBG3SRl/u8eXdnd9lX3V9VdJ2aYAwdIp+AuN8=
+
+Name: res/layout/agenda_widget_no_events.xml
+SHA-256-Digest: pChsc9P39FjGQ0UonHeRM22/EuNaLkWWBGvriOhiTL0=
+
+Name: res/layout/loading_layout.xml
+SHA-256-Digest: ArQsKMq4yvLhw2JXMRUTy2x1Pe+1Du+U9hk4P3SNQK0=
+
+Name: res/drawable-xhdpi-v4/timeline_indicator_activated_holo_light.9.
+ png
+SHA-256-Digest: hbyNI6rOeIdLyoLN7U+8g52MdHa7dp+a8HD5qd5n1Sw=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_p_22.png
+SHA-256-Digest: kW/TlBUIZcDXXxsp0QosRIIXoShsJM3J087KmjSK9bY=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_p_18.png
+SHA-256-Digest: iNFbGYGCdNFjPJWqVcm5wIXyqvp1qPSlOr7t5/XRPrU=
+
+Name: res/layout/history_card_item_layout.xml
+SHA-256-Digest: wLrmHPLEwnJ9tD2/d8XVC8e9yghBVhEH5Pp184rC/bU=
+
+Name: res/drawable-xxhdpi-v4/card_bg_n.9.png
+SHA-256-Digest: JNuGNNXuBzM1Ws3D7qIrUKWhRgDUOGauzh8Je+8SGKQ=
+
+Name: res/drawable/action_button_today_31.xml
+SHA-256-Digest: CD0QvzzYox7h6sW8khmrh3Pql6jhfxGdiEnN5edlKJ8=
+
+Name: res/drawable-xxxhdpi-v4/ic_flight.png
+SHA-256-Digest: W82ubUqRuQeLDDlwt8CI2gMrv2ysxr+gKTO0vrXoqGI=
+
+Name: org/apache/commons/codec/language/bm/gen_approx_hebrew.txt
+SHA-256-Digest: 1U8m+Absg6NL6qAzy9EQqSBPhTBFv5BQowUBRrUuxQs=
+
+Name: res/drawable-xhdpi-v4/icon_tab_month_selected.png
+SHA-256-Digest: +pAIKygC5WWJzlV/J3aYC4HLWQHiII+X/HY3LY3EV8s=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_n_27.png
+SHA-256-Digest: UX9yI2E+G/K8lD31U1txWjacd2RyDMXrObLFIYwybDQ=
+
+Name: res/drawable/share_button.xml
+SHA-256-Digest: HnhdXZGV7iTZSVMzhXfJ/ngryjlIrv1ukX9isMjfo+4=
+
+Name: assets/animals/rabbit.png
+SHA-256-Digest: uHwQ82QVN8bCzsNQFAlMOkuWoOkhLUOt+ldbj6o2gTE=
+
+Name: assets/bank/qdyh.png
+SHA-256-Digest: /Fh2cSmY83ukdbl4JTLVoUyVWwbiXI+533jKmfMtJsk=
+
+Name: res/drawable-xxxhdpi-v4/fortune_rating_off.png
+SHA-256-Digest: zxot6qlk6wPKvHvHpN7OfZsdVpgNeOLEmOFdAce/Uzw=
+
+Name: res/drawable/btn_bg_blue_small_hollow_n.xml
+SHA-256-Digest: ISL+h/oaUYW4HykQ9eWiPIn3L1pfwQPMYqRSs2Gf1XA=
+
+Name: assets/other/gas_detail_header_bg.jpg
+SHA-256-Digest: HudO/7HhU/2AqE3gtaO+8+pevvQYGZWVAHZFhIzZMSA=
+
+Name: res/drawable-xhdpi-v4/countdown_btn_p.png
+SHA-256-Digest: LRsJ7i+BJt9t2aii0eZNQaUkhciFwJvQBuKDAtqduVs=
+
+Name: res/layout/preference_value_vibrate.xml
+SHA-256-Digest: JK+nPhVtAaNpxwImk4oDGsfZy7z+NPOY03Jwc7hocOM=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_p_16.png
+SHA-256-Digest: cLacjpxBekNDHg3JtWloJIxfu1lgIF0nqV9ty1GVXxI=
+
+Name: org/apache/commons/codec/language/bm/gen_languages.txt
+SHA-256-Digest: sxZa2qNgJsKTONyNjzUc68dCNzFGXh1kIvJ9Z3hJTH0=
+
+Name: res/drawable-xhdpi-v4/mask.png
+SHA-256-Digest: vqMyRz7h7GL3sazm4UsM/0mj8uQmBm/AQndxA+SmzFY=
+
+Name: res/drawable-xxxhdpi-v4/ic_loan.png
+SHA-256-Digest: Ro0eLgrKetozzzFbsKD2hx4RFifvpsanMtqu5Kyun64=
+
+Name: res/drawable-xxxhdpi-v4/ic_countdown.png
+SHA-256-Digest: zHHnLrJZeCIzmT3AbF9hi1RIeTYaYphT+zj40Zp3ChA=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_p_24.png
+SHA-256-Digest: XZcLbGVdLf4xk90XE/047JSn5SP39jN2QCNW9v46tKA=
+
+Name: res/drawable-xhdpi-v4/ic_flight.png
+SHA-256-Digest: yiCtoVknaTri5EECEGdCYONUy0nnoYRvw59BpYmDxpo=
+
+Name: res/drawable-xhdpi-v4/widget_agenda_preview.png
+SHA-256-Digest: B6wWef2PH4OCsnrkqGa5dsB9I/imBSX9qU+I/LN6sEE=
+
+Name: res/drawable-xxhdpi-v4/btn_bg_single_normal_blue_light.9.png
+SHA-256-Digest: 9Fnr9WJiUyjJTXB+Ta60z4sFDWvk/Ih0HfxqNWOPaS4=
+
+Name: res/drawable/huangli_circle.xml
+SHA-256-Digest: FSUL7F9VN57i9PXgZMP4qQJsRdJb+e6gL1XOhx32V0A=
+
+Name: assets/drawable-xhdpi/weibosdk_common_shadow_top.9.png
+SHA-256-Digest: zX+YzKOx2zqSyLVG/AsQMGucwmEqpCM+DjvM4/onIE8=
+
+Name: res/drawable-xhdpi-v4/ic_aqi_gas_mask.png
+SHA-256-Digest: H3kTVUfddpvdMfp4468F7SO7M4IysViY2NLrLC27NtI=
+
+Name: res/drawable-xxhdpi-v4/tab_bg_single_normal_light.9.png
+SHA-256-Digest: kCYPJ5t7BXJmRhVjlSHZjRcYKdzp7Mgptc7nfIWJ5ys=
+
+Name: res/layout/agenda_widget.xml
+SHA-256-Digest: tOnUgd/KnxoHa+OxmD7lRchAb6W0jdglERnCHJ+2lo0=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_n_21.png
+SHA-256-Digest: KK0MzKtGNKT9e80JTsuJmfTePEPSNmcb2g84k0xCiws=
+
+Name: res/drawable/action_button_today_8.xml
+SHA-256-Digest: l6/hrGIV8NmWkYSOC9iL/n68l3FmehY7nPql5vQhiJg=
+
+Name: org/apache/commons/codec/language/bm/ash_approx_common.txt
+SHA-256-Digest: 2lt/68cPhg+RvMzKN8KaYZojRCzIC5zZitiE4W1smFQ=
+
+Name: res/drawable-xxhdpi-v4/ic_shift.png
+SHA-256-Digest: 43pQaq3N8KTYic+fE1csOyuTy+DI3LX/zfTeIkxj4o0=
+
+Name: org/apache/commons/codec/language/bm/sep_approx_french.txt
+SHA-256-Digest: 1U8m+Absg6NL6qAzy9EQqSBPhTBFv5BQowUBRrUuxQs=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_n_9.png
+SHA-256-Digest: HdvmMjLEfXrbPyyPE9wSeVJYREnI6NVBqRSE4Pwe55s=
+
+Name: res/drawable-xxxhdpi-v4/ic_birthday.png
+SHA-256-Digest: mJ0zx9sphE0kFPQsSkbYnAKq99TkWX7wsWV4QBnxFB8=
+
+Name: assets/bank/shnsyh.png
+SHA-256-Digest: SoKedmGt5y9EsHhIbJdILcv573BItc34jOcKvZfuXY8=
+
+Name: res/layout/contact_item.xml
+SHA-256-Digest: pojZRicc7+Y12dVFaPg91jNBEGaJaZXZa4Pv8JK2ucU=
+
+Name: res/drawable-xxhdpi-v4/card_bg_end_n.9.png
+SHA-256-Digest: 2DqsH7qDSmx+Xq/kL83by3s8ueBMEJLiZFn3v0lw5rk=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_n_7.png
+SHA-256-Digest: 0eOFsLBjmUKeF7cVziUmebrsMrfcXItFMsTBxgysg/Y=
+
+Name: org/apache/commons/codec/language/bm/gen_exact_russian.txt
+SHA-256-Digest: NL+lCVEfdRemKDMMynxeUUZKtO75U4NAVPaE0C4R/8c=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_n_13.png
+SHA-256-Digest: hWpG9PYN1M5dLy930o7cb3+cbf41F/amsGXt4e55gOk=
+
+Name: org/apache/commons/codec/language/bm/sep_exact_any.txt
+SHA-256-Digest: 3z9js5RrjV8FxJd+5atIjagWL0rYyvp6gc2HMbSVTLg=
+
+Name: res/drawable-xxhdpi-v4/travel_feichangzhun.png
+SHA-256-Digest: UziHkICRt7BRqmBddynl13KZy4z03n1qm6gXRQ3Z7a4=
+
+Name: res/drawable-xxxhdpi-v4/force_touch_new_event.png
+SHA-256-Digest: q/KvpgJleAzJD15i7jxM/AYtuptjvOug/1lZZYYWhFU=
+
+Name: res/drawable-zh-rCN-xhdpi-v4/widget_month_icon.png
+SHA-256-Digest: bZlooC6MvK93meEetNAubRVf9XAmVGKZJdWHlH4kwcs=
+
+Name: res/layout/hotel_info_header.xml
+SHA-256-Digest: adcI3mrEs9XnYj2yowIHt1EqTLo/PqipuzdJXJWaY2s=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_n_19.png
+SHA-256-Digest: YvgR7kdhgngdexwDtFxHw4+oElJH33ruzyNIkuR3ZdA=
+
+Name: res/drawable-xhdpi-v4/guide_card_icon.png
+SHA-256-Digest: PDUMD9KVr0pofbz5/uIbsEl6MO1O0HLgmBbNasWsMiE=
+
+Name: res/drawable/cricket_match_remind.xml
+SHA-256-Digest: 61P0CBz9KDuql6lGvBg7YE5KEyXiB0f+F8cRZw1yfXs=
+
+Name: res/anim/fade_out.xml
+SHA-256-Digest: 8OJ2LILTcaljqml1oGtep6E2/Eheg1inVrVn7XtT1hg=
+
+Name: res/layout/alert_item.xml
+SHA-256-Digest: luR0ei0hAz7qRrzuGbuDNc+rTzV7YXxuq+9bNLDAg9Y=
+
+Name: res/layout/game_card.xml
+SHA-256-Digest: bIrH4sF1dLs5Bbmax7LYDiOgHposasJKWYdaprz6Pks=
+
+Name: org/apache/commons/codec/language/bm/gen_rules_polish.txt
+SHA-256-Digest: 5ODrYQqLzPcdOc0OELLFHk0fEyoFLRg8dJURRk7VH8k=
+
+Name: res/layout/book_card.xml
+SHA-256-Digest: 6qfv7iLbKOB1owbNb3AETZ9Ztq5Bun/j9aDjshrFuRc=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_p_24.png
+SHA-256-Digest: Bdw+tBMjcxkYbHIryAEuiYYvNfxKd7Xmu/ljSZAAS7E=
+
+Name: assets/horoscope/capricorn.jpg
+SHA-256-Digest: PmgXWhAEeUhten3v8PV+G9RRVCvv9Wmu2UbIyah1lbU=
+
+Name: res/drawable-xhdpi-v4/card_bg_end_n.9.png
+SHA-256-Digest: p1toVXmhYCAHj1y6u4ZqvUpDRJ40h62DCbTTG34ChNg=
+
+Name: res/layout/birthday_info.xml
+SHA-256-Digest: C13PUbgPE3K6HKzgb3kyLEOj7UnA8cGLHSq5EKRBs/w=
+
+Name: res/mipmap-xhdpi-v4/ic_launcher_calendar.png
+SHA-256-Digest: tbWCwtrGQrI2QSs5/C9bY75ISrhRH9TahqMtW6XRQJQ=
+
+Name: res/layout/shift_card.xml
+SHA-256-Digest: RfjB1RSn4shZIYIQrhyx8y2UoalC5JM2PLZM7TSiuDA=
+
+Name: res/xml/time_zone_preferences.xml
+SHA-256-Digest: 9RBHOO3wFnSRvQtZuN+Xd+JuPEogm6bEP2s6CnW2Nb0=
+
+Name: org/apache/commons/codec/language/bm/ash_exact_spanish.txt
+SHA-256-Digest: Jl2TtTDy8LOytgKv2m6RI3DAsBwG30ophxGfYyC/+0Q=
+
+Name: AndroidManifest.xml
+SHA-256-Digest: SAgGrCVUUm9/+g5+Y0SSddwsCvucOxkPRcVLAx/iLkU=
+
+Name: res/drawable-xhdpi-v4/subscribe_button_p.9.png
+SHA-256-Digest: 6jbTxdY1CBGj2otKORH5oaSLzZbdz/h57Th/kd9Np/8=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_p_25.png
+SHA-256-Digest: Dag7Dn/KrP0XPT5IeLCimitzMddZWJHjR93FDdkiUkY=
+
+Name: res/drawable-xxxhdpi-v4/icon_tab_day_selected.png
+SHA-256-Digest: rtObnuhTq1uH4QWmK6jKWNttWzsPFK2+emIBK+BQ014=
+
+Name: org/apache/commons/codec/language/bm/gen_rules_cyrillic.txt
+SHA-256-Digest: DIFYEn8ZvQ5oO/iDqy+360wXOjTuUatnUvVskyqxJeg=
+
+Name: assets/drawable-mdpi/ic_com_sina_weibo_sdk_close.png
+SHA-256-Digest: SEODk7C4oBlyc1aapn3cg5axzLFESSk0HJODHNt9qJM=
+
+Name: res/layout/base_list_detail_activity.xml
+SHA-256-Digest: 0ZVED9zE10yXDaP7qedzebClqDH8PdPtPYhvwfgnb2U=
+
+Name: res/drawable-xxhdpi-v4/swipe_up_guide_arrow_2.png
+SHA-256-Digest: dYqFBOjrGvMlrJluA3Qa5YByiE7KPT04NaILmu7l2JM=
+
+Name: res/drawable-xhdpi-v4/load_fail.9.png
+SHA-256-Digest: Ptd2j/84uS6mcTrWXkkB8Uy3zJfvwdLdjKEI30ejjIs=
+
+Name: res/layout/subscribe_channel_card_title.xml
+SHA-256-Digest: diMpaiAKOqu8kpgu+kjIUDGUVanbbBMSTCG/K2VvzgE=
+
+Name: res/drawable-xxhdpi-v4/ic_birthday.png
+SHA-256-Digest: H89f1qq93UtFntz7cwI1E9NBUIhfk1hO18vjbX0vFjY=
+
+Name: res/layout/edit_event_spinner.xml
+SHA-256-Digest: qrFjBI6nf+Tp6c1CzGbd7+w+Uw642VsTg/K91j7sfSk=
+
+Name: res/layout/holiday_card.xml
+SHA-256-Digest: Z6vYd7dUNyN6Dxq5bfa8s2u9D+pOpp4MJYLWJBV9kv0=
+
+Name: org/apache/commons/codec/language/bm/sep_approx_any.txt
+SHA-256-Digest: R2Yckre9Kj2/8LGfI0IoEHbyh3+rJZKgwHalVagTlH8=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_p_27.png
+SHA-256-Digest: dCCHzNwHeLyHxB0w4iZX2GdXtGpSjgjDuyaxDayNEyI=
+
+Name: res/layout/lottery_card.xml
+SHA-256-Digest: 63P7v6xpLxrY2UvoS/CpKRPQIY3BHlan4zjrNtK0dPA=
+
+Name: res/drawable-xxxhdpi-v4/icon_settings_n.png
+SHA-256-Digest: fjiU6UNH8drCnAw+jgCuF89A9P6jWe/8x9Etgmj3cmo=
+
+Name: res/layout/limit_settings.xml
+SHA-256-Digest: Woibp1bojqnIZFx94WmmQ/XxeSPc353KdXQhpu6HkTQ=
+
+Name: res/drawable-xxhdpi-v4/event_icon_train.png
+SHA-256-Digest: fTY1GHQzP1aO9ods/9VnIyMNuM+do632d38ebgV1T3M=
+
+Name: res/drawable-xxhdpi-v4/medal_bronze.png
+SHA-256-Digest: HPztZorJxAOjSy9HcSCp7QeseG26YH2yFDFZnAI6/UM=
+
+Name: res/drawable-xxxhdpi-v4/swipe_up_guide_arrow_2.png
+SHA-256-Digest: jTsYppdH1Cveect8JVagXUqo3F1TuTuUeCjbmdp9YuQ=
+
+Name: res/layout/joke_card.xml
+SHA-256-Digest: nCq8J3aDBRu909yuS8oIoJD+eLOwnp8rFqnH+vpKkdQ=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_p_9.png
+SHA-256-Digest: uIuLnJqOnGsTPiNsI3gQhxMcO24xfMHczsUpdirkQBI=
+
+Name: res/layout/spring_service_type_item.xml
+SHA-256-Digest: zj66HudTpeTC2y/qp/aoYbx8awkEvc4ErlQZoqJukbE=
+
+Name: res/drawable-xxhdpi-v4/btn_radio_on_light.png
+SHA-256-Digest: vCGjsXF+2uAjQ/+UQ7TarhotbZ36D/Oc3/rfJjHUXns=
+
+Name: res/drawable-xxhdpi-v4/icon_tab_day_selected.png
+SHA-256-Digest: MrPZWWvsBQWUbJiGK6SbWZSFp4vE7DJEOl7NREl71SY=
+
+Name: assets/bg/anniversary_bg.jpg
+SHA-256-Digest: GTEinBOV6RgkdznzT9clBkEpwV24Yqni3xDYp/G/qsU=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_p_17.png
+SHA-256-Digest: dvb60GJkOawTuya9CBEbGURtlkeoXwVnm24vZJP4hGI=
+
+Name: res/drawable-xxhdpi-v4/tab_bg_last_selected_light.9.png
+SHA-256-Digest: lcfhWZnTesKHbuNg2Rbx2U+Rlyi9nxa8HzCFq/l+mpQ=
+
+Name: res/drawable/repeat_table_empty_item_bg.xml
+SHA-256-Digest: WttV542kOWVq2/v5EinGSLQn9xdfhRcv/upl+osruMw=
+
+Name: res/drawable-xxxhdpi-v4/icon_date_n.png
+SHA-256-Digest: GMaiC+WF0LP2zYUgJ9XE7pG7MZxbIGknBtO9JMenaXk=
+
+Name: res/drawable/action_button_today_30.xml
+SHA-256-Digest: LRoaqpIzGkN4Gs8IpFErM/6UNoi/6a6gaOJBENj8Iaw=
+
+Name: org/apache/commons/codec/language/bm/sep_approx_spanish.txt
+SHA-256-Digest: IdYyJ5dyromDgyIgUFvPDG+1APT/reD5kIMG0BhxDxM=
+
+Name: res/drawable/action_button_today_15.xml
+SHA-256-Digest: pgarcauxoO0QDOXimG+2t5Y3TYXpX58CP6wpGF8RbfU=
+
+Name: res/layout/big_match_card_layout.xml
+SHA-256-Digest: PdZfjMWXR6PkUrdpwGW9UuU721PGCBh1hay0jPcAYNc=
+
+Name: org/apache/commons/codec/language/bm/gen_approx_common.txt
+SHA-256-Digest: 7fA+T0nDQ9RbY+qcPUcLa6+Vo2iMVyOtHoW9+4YOMxQ=
+
+Name: res/drawable-xxhdpi-v4/tab_bg_middle_normal_light.9.png
+SHA-256-Digest: u1ajOpoIWBdBKWDRTT4RiOVm3ZL6jWC2vDzdaBnxB7s=
+
+Name: res/drawable-xxxhdpi-v4/icon_tab_agenda_selected.png
+SHA-256-Digest: HmZ7FT1lIQjXdqaLmmK3+wByWzjfrCMezIw6ycLaMOs=
+
+Name: res/drawable-xxhdpi-v4/ic_limit.png
+SHA-256-Digest: Rkivr1niLvyjCwHhkBnQ6wlpuLDsHHhmK6FCUn91Imo=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_n_20.png
+SHA-256-Digest: uuMzhH3/DqDNA5XgwFGPpQm2AdIAHP+4AdsrCsvDvBo=
+
+Name: org/apache/commons/codec/language/bm/gen_rules_hebrew.txt
+SHA-256-Digest: pXDzf0XzXy5AmxFz2VXYOtyHjagYf4mduTDV0Z+JpfE=
+
+Name: assets/drawable-xxhdpi/weibosdk_navigationbar_back.png
+SHA-256-Digest: 55Ce9qKD4vKcmg1ytRGvC3jYUv4UoLwMR+kyMn1ofU4=
+
+Name: res/layout/share_editor.xml
+SHA-256-Digest: Nu6KGTrQ/wr55XrGUYuuImGrK9V0QKJSnSYja6a5iis=
+
+Name: res/menu/sms_event_detail_menu.xml
+SHA-256-Digest: JXYS1AZ3Tv6uaEcxVowtmuy3YnxeyBQH4W55amRr9/M=
+
+Name: res/layout/flight_info_fragment.xml
+SHA-256-Digest: BZYhsshhZvvvYJsys2KqJY+nk4/filoOHqANzmjsMu0=
+
+Name: res/drawable-xhdpi-v4/pop_up_window_list_bg.9.png
+SHA-256-Digest: Wf1QKazh0htmFQboNz4DWona/xw8b4kiBDs20PuVUco=
+
+Name: assets/horoscope/aquarius.jpg
+SHA-256-Digest: AQOGa2G3j3Ukt8ckv4zGFQaYoAp5Qmj64tnFtVg4xrw=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_n_21.png
+SHA-256-Digest: HYZrCLWJLdAuSDTrvomWwwgBHBhNgoxTPXfJyCgzo9Q=
+
+Name: res/anim/slide_right_in.xml
+SHA-256-Digest: f5G16m77+t8B5oQOzNTIETXAEaPJpw/KxEcheOCCDPs=
+
+Name: res/drawable-xxhdpi-v4/force_touch_new_event.png
+SHA-256-Digest: bnTEMr6CDbPtVAoSKTFFzoOtXN1OrbWISKJukWLoefo=
+
+Name: res/xml/preference_calendar_settings.xml
+SHA-256-Digest: 8TpoO3HgiN5x+vE13crJcaVkgGs7YpIk4VbH2RN7C8g=
+
+Name: res/layout/agenda_group_card.xml
+SHA-256-Digest: uKO6drfStkxV9squqEaw2GzJxjuNA+rxDa9s3oj/RO4=
+
+Name: res/layout/month_view_widget_event_item.xml
+SHA-256-Digest: 3A+6HA/uoEl0dLGSDPHBJ4JkONDRfw6qVDIH4FEKXNA=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_p_12.png
+SHA-256-Digest: C0oLH7eFkmn+7fx8G9gWH3XK4C19JRKtkrLXvMOl19g=
+
+Name: res/layout/travel_reminder_spinner.xml
+SHA-256-Digest: bjET1BA1XzIZgpnrd9ldwb28gJjIs3q2KVLsoitGHBg=
+
+Name: res/drawable-xxxhdpi-v4/tab_bg_last_selected_light.9.png
+SHA-256-Digest: UKjYqb6962QJl4wQLgK9NelOdtzz4WsXqmXP02XZ75M=
+
+Name: res/drawable-xxhdpi-v4/event_item_bg_first_n.9.png
+SHA-256-Digest: MUomX9ZF2hEwXcWvrSj47ZFYJyF9QMXBYBOOOyEY60U=
+
+Name: res/drawable-xhdpi-v4/expandable_group_background_n.9.png
+SHA-256-Digest: p3EvetJ3JZXEo3CodKAkqAp/ZxswPe2qgASMqT8dki8=
+
+Name: res/drawable-xxhdpi-v4/fortune_zhengchong.png
+SHA-256-Digest: mFNHjmICLtSWQkUAf7s4PM6wq3UyUBvtGKsSPQmXzrg=
+
+Name: res/drawable-xhdpi-v4/widget_month_bg_black.9.png
+SHA-256-Digest: o2zboYAJgv02mOT8Be0ZyQYng8aR2k2RYl6vwx3uAPY=
+
+Name: res/layout/contact_birthday_list_item.xml
+SHA-256-Digest: SXEA8mGj6YSJk5iv5lfnuHnhxNa8amTNsDrORHGqG84=
+
+Name: res/layout/limit_card_number_item.xml
+SHA-256-Digest: nvJNpWwbPmVPVzEMXfJ9ERjBMLQECIG6RZiDoFaxwbA=
+
+Name: res/drawable/non_transparent_clickable_view_bg.xml
+SHA-256-Digest: FcGLVc8tnkoRwCMfWQdGMrtkRsTFDzlIuXCYylpcDd8=
+
+Name: res/xml/functionindex.xml
+SHA-256-Digest: LmTQKqnil955G7MKjbpJT/uoiUytEHu6KE/bFXrylKM=
+
+Name: res/drawable-xxhdpi-v4/widget_agenda_icon.png
+SHA-256-Digest: D8U2+0i235B859mmAimbx4wMIkMkGwiRAGrkIG1i+a4=
+
+Name: res/drawable/ad_install_button_bg_p.xml
+SHA-256-Digest: v2aq8sh3W+7mq3a4iBuNn28D/QcLKlCjo2lz/0AecIA=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_n_22.png
+SHA-256-Digest: 3+8UOeHg7LLeyZRMScWjWbFsxWBkwxZvBwQK8V99e04=
+
+Name: org/apache/commons/codec/language/bm/gen_exact_spanish.txt
+SHA-256-Digest: sziO1amBffpxcrEGHNIAMGhiPFt5S00loiEiXIk+3fI=
+
+Name: assets/animals/cattle.png
+SHA-256-Digest: uzf5u5P0vCWa5upJfNxYWrZynCb3nxjIHIDGYx7cnxg=
+
+Name: res/layout/card_container.xml
+SHA-256-Digest: UKAftwDClBDWloqPe3Uq1wwX2aIlmHChu2sqywRIUKM=
+
+Name: res/layout/timezone_footer.xml
+SHA-256-Digest: 79TvvSvB9ZTiA5p+hCNz8gSnaaTmWO4CnYqYIQU085Y=
+
+Name: res/drawable-xhdpi-v4/action_bar_back_normal_light.png
+SHA-256-Digest: wE3xYKJG+TYdpQH19A1Y6ZKrU95Odiv1aGXYJvQ+rqM=
+
+Name: res/drawable/lottery_blue_ball_bg.xml
+SHA-256-Digest: gsnDHpH92iRu6Ug1+xRzMSGNY28n058+/+bMqKDVLGo=
+
+Name: res/drawable-xxhdpi-v4/ic_collapse_small_holo_light.png
+SHA-256-Digest: jet/FegRSCFSwrCsxPIoaStH2jVeB7G1QK6DoDMyItg=
+
+Name: res/drawable-xxhdpi-v4/ic_jump_large.png
+SHA-256-Digest: KaXsDdbU1mlszugqMBaVxJwSP/Do1WodCyk3rIBU0Ak=
+
+Name: res/layout/fragment_agenda.xml
+SHA-256-Digest: Fq0TiU9uGo6RwNEyy6OWG0KpiZbph8548NcVLhy9utg=
+
+Name: res/drawable-xxhdpi-v4/swipe_up_guide_bg.9.png
+SHA-256-Digest: bU+OV+zOaLopXssD8Jy7mWkNUeqdeWMu54nv0HRQRSE=
+
+Name: res/drawable-xhdpi-v4/subscribe_button_n.9.png
+SHA-256-Digest: bpEdUDGQAkJZ0/nYwZih+u8+DBPn1VZVgzGRwXInPUA=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_n_8.png
+SHA-256-Digest: N1NwWSE02DTAWqNsbYcvseEVs4VlbpxgbqnADt1Ip0Y=
+
+Name: res/drawable-xxhdpi-v4/icon_date_p.png
+SHA-256-Digest: aTxGrgVXVSlL+yzqqUPdPEdRuwgPhlHExnQocuCYVY4=
+
+Name: res/drawable/date_calculate_tab_text.xml
+SHA-256-Digest: k7pC4G+bepvhtgkJ9lMfqVujo7PNAbDt5U1OQuHUpqU=
+
+Name: res/layout/fragment_month.xml
+SHA-256-Digest: sOHq2JYA6ehiOacs9HF7q5M+t+2lpgJm0dEHiHlDnxs=
+
+Name: res/anim/fade_in.xml
+SHA-256-Digest: Ws9xLl5s/+G+9Jhwe+sWEkYVyrPqxCiHPZKLHxcRdYk=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_n_19.png
+SHA-256-Digest: CTmHS+io9el1OG6LYHl2zBeeVGFtAyk/Mz22b664Ofg=
+
+Name: res/drawable-xxhdpi-v4/list_with_divider_bg_n.9.png
+SHA-256-Digest: Ky5dt4DURI4nIIkN1Q2Wdlioks0yUjVLjOlmrjmgFWg=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_p_25.png
+SHA-256-Digest: rEOHogP2Hi12yD2OYYGtjJGxKFULjRmkvL09YEBalJA=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_p_24.png
+SHA-256-Digest: J3Gwf6Ngrq1Iv/q7fIxxyYVN3PaeRakzA1TuMVpCjf8=
+
+Name: res/drawable-xxhdpi-v4/ic_hotel.png
+SHA-256-Digest: ES/sSgrHjmR0ot3oUmuGe3Eh7iOc4uzHrKHkCMcSImc=
+
+Name: res/drawable-xxxhdpi-v4/card_bg_first_n.9.png
+SHA-256-Digest: TW+2jTNLG2OwPCFeDVuW9nTHaZ3vMryuozeAzzqWhjM=
+
+Name: res/drawable-xxxhdpi-v4/countdown_btn_n.png
+SHA-256-Digest: g/6RtaR/BA2RW0NRvrZicPuTidxkeKyY2U/H3dhAycI=
+
+Name: res/drawable-xhdpi-v4/today_blue_week_holo_light.9.png
+SHA-256-Digest: WanS/IlrkmuCVYJVb+3LOnTKgRxVHHFAhj2ai4FpilU=
+
+Name: res/drawable/action_button_today_9.xml
+SHA-256-Digest: LcSNE1nrmzUfSSCyHlfp9k/me/FWsSoXnEyYdVxon+A=
+
+Name: res/layout/calendar_sync_item.xml
+SHA-256-Digest: 1G73KcEk/q56KXTjHBsNJ7xt3HATKKb2jCyS65TO/h8=
+
+Name: res/drawable/normal_clickable_first_item_bg.xml
+SHA-256-Digest: aUubITFD3PG8Yu0erfKp9O9mbZiQaYGENUD9d0lEWvE=
+
+Name: res/drawable/widget_next_btn.xml
+SHA-256-Digest: 7a4HkEk8uFxeCyKhOHwyhHewrBO+WpvBNZN1a/AhTe0=
+
+Name: res/drawable-xxxhdpi-v4/ic_person.png
+SHA-256-Digest: 9Pw3HZ+xu4ANDAT+oLaO029RXWxTfeksA/QD4VmkqoY=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_p_8.png
+SHA-256-Digest: U2huMP2qdF1UDrhM7ZZGX8XxXL+NQDeYQhiqTOK24C0=
+
+Name: res/drawable-xxxhdpi-v4/swipe_up_guide_arrow_1.png
+SHA-256-Digest: 6OUiUb7hkxxE1kZVizTY2RITRjK6u77J4Sgl+SHawnI=
+
+Name: assets/drawable-hdpi/weibosdk_common_shadow_top.9.png
+SHA-256-Digest: mEFXZ2JeHwviyYB6DKax5uk4p5iWNLSTjyeyLTpgRIc=
+
+Name: res/drawable/action_bar_back_light.xml
+SHA-256-Digest: Alf8jnDk8tg7ZXdHcXWymK4oLfrIZ0z8bsFiYWlByw4=
+
+Name: res/layout/information_card_item.xml
+SHA-256-Digest: sYuzEsUyPTiMVkSQWUWJzepdcub54dHnT1TPVxksjDk=
+
+Name: assets/bank/hqyh.png
+SHA-256-Digest: fgWb+akiVRPWS0kc30vgHk0zqI9SsCR/U1Tv9vKC+h0=
+
+Name: assets/drawable-hdpi/timeline_relationship_icon_addattention.png
+SHA-256-Digest: WK8x53N4TmdYFjL1H6skcyIKz2ksO/4jKvzzeRoSrSE=
+
+Name: org/apache/commons/codec/language/bm/ash_rules_spanish.txt
+SHA-256-Digest: yeQQqKXAlls545NiqQS9EHI5u/4BdjSOADQj5eSBKqA=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_p_31.png
+SHA-256-Digest: S33lSSCx2OH/bP6oHw3KtgRSDcSa+KabC5V1LXz6LFM=
+
+Name: org/apache/commons/codec/language/bm/sep_lang.txt
+SHA-256-Digest: 5jMZFWwHb41g6UTl+ZhynweTFqvY5cL2Pme43lf7pp8=
+
+Name: res/drawable/btn_bg_light_selector.xml
+SHA-256-Digest: qS7hsJ9cwTTz1Mvk9aK3VeuRlMeM1b224n6xgJTGeEo=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_p_26.png
+SHA-256-Digest: cwUPNkEJaL6aJuxQtfexp6IyRNiOeFv3tUNanEXIrRE=
+
+Name: res/drawable/calname_bottom_select_underselect.xml
+SHA-256-Digest: PudFKjeWlugH1HurtkYhyQA5LW6mIRI6dX3+55QFtAo=
+
+Name: res/drawable-xhdpi-v4/calname_unselected_underselect_pressed_hol
+ o_light.9.png
+SHA-256-Digest: XnAN8ul1AzYfT8iT+MQ/72Z1qyVeixe3Dec7g622x5A=
+
+Name: res/drawable-zh-rCN-xxhdpi-v4/widget_agenda_icon.png
+SHA-256-Digest: RIUgtKgsXAvaQ/duDgLIjQaoNrWF6IuPRnUOMhICIGc=
+
+Name: res/drawable-xhdpi-v4/ic_birthday.png
+SHA-256-Digest: mNQccyAVZhEdd2cn0bGHrISZZh/B0b1pIrdKz8a8/Rs=
+
+Name: res/drawable/choose_or_cal_first_item_bg.xml
+SHA-256-Digest: 3HUmXKTa3L9Pmb6jCDd2KIKeBnR9H2PbEWBOPibFwhk=
+
+Name: res/layout/select_calendars_multi_accounts_fragment.xml
+SHA-256-Digest: E+MUi/DIFeq2dD+fnsnTpVX9Y5MrAKNMlsrccG8Ffzg=
+
+Name: org/apache/commons/codec/language/bm/gen_approx_italian.txt
+SHA-256-Digest: +Cf1SvZWCkxtYVYYQzRX4cncBseMdoPe5tQYfNvNjIM=
+
+Name: res/drawable/ad_install_button_bg.xml
+SHA-256-Digest: rUlg8I4JqO5dJztvNYm/PtiXxP1Pv1gWSISd5rWcI2w=
+
+Name: res/drawable-xhdpi-v4/fortune_zhengchong.png
+SHA-256-Digest: s+zHVnxmIpsPhNny8mBKmGcKY89X+y2SM8Vo1JB4pDY=
+
+Name: res/drawable-xxhdpi-v4/action_bar_back_n.png
+SHA-256-Digest: EYlas4ZaYHZ3mY3CBz72Vihmtk0lshAwHyyHceqIGdc=
+
+Name: res/menu/event_info_action_menu.xml
+SHA-256-Digest: QEda1RVmSULpXyCf3audc6IibFE40HyxinOI+fmNYO8=
+
+Name: assets/drawable-xhdpi/common_button_white.9.png
+SHA-256-Digest: b1Xx0Bj5KqgvGnvatIkOPqDZSi9wVtV9cec0TRZ4Hxc=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_n_23.png
+SHA-256-Digest: /dy9HVJ9CAhXDqjzOZKZkm8phBYVOLm6Puetps552Sw=
+
+Name: res/drawable/btn_bg_blue_small_hollow_p.xml
+SHA-256-Digest: 9cxlNdlkJNyjbwiMe2u+pHOoeFGhhSHE354oWHmaZ/Q=
+
+Name: miui_push_version
+SHA-256-Digest: pDAibjPWMsjNgE/moasqQQeYSB45OUvfe2Nxz1a28mg=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_p_11.png
+SHA-256-Digest: aPDTRQN+HvXpieHIlkoQTz9XIC37J5QaASKWJnJYKfo=
+
+Name: res/drawable-xhdpi-v4/calname_select_underunselected_pressed_hol
+ o_light.9.png
+SHA-256-Digest: 754j0FgJo5rQxbskg3pyv/Zk9/lCjfHCEts4XPknOMk=
+
+Name: res/drawable-xxhdpi-v4/action_bar_back_pressed_dark.png
+SHA-256-Digest: LEiLX5/wCXo6posoo/sIUk1R8zcPehoS3B4NPmW+oAI=
+
+Name: res/layout/match_card_item_layout.xml
+SHA-256-Digest: ac5bOezQtEr5us8sqDXsoHcW8EOEat9jk0zBA3FRoZo=
+
+Name: res/layout/activity_item_layout.xml
+SHA-256-Digest: Sss9yE2HSZjR09T/i9GHTs3ClO5Au5hXPFpXz86KlUQ=
+
+Name: res/layout/day_activity.xml
+SHA-256-Digest: xu7mUqjzS+LA00934t/8M355T38CVJc/N9YWwomFXFo=
+
+Name: res/drawable-xxhdpi-v4/swipe_up_guide_arrow_1.png
+SHA-256-Digest: KAUDiza/dkfg1SL2Hmf1qqNttvrOqsILwkkmA950zbw=
+
+Name: res/drawable-xhdpi-v4/icon_date_n.png
+SHA-256-Digest: G4czVZWqQtTuKfNlCYDBK8yJjt0/WZ57vWLm4dRRtMo=
+
+Name: res/layout/shift_reminder_item.xml
+SHA-256-Digest: SeCePbFJmvWO+Ud1xWnVk8S539EK44eQsScMgh+uJX8=
+
+Name: org/apache/commons/codec/language/bm/gen_rules_german.txt
+SHA-256-Digest: RT1HSrmWUjovCaHFiX2OPhtMBFBhInwFJ5L5guHDyLc=
+
+Name: res/drawable-xxhdpi-v4/fortune_rating_on.png
+SHA-256-Digest: ruh1YzAWM0b0yDF0umyDr3ySNO5tW2GT1f36Q9n1Y1g=
+
+Name: assets/bank/zsyh.png
+SHA-256-Digest: On5mvIgJ+GPkJu9hP9lVdpNUTItuTy4mYOhQeAfgjb8=
+
+Name: assets/weather/icon_snow.png
+SHA-256-Digest: ISsYmFswT6hUPIs07FebJcUvxf5qh2A5M2QcNmMD9Cg=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_n_20.png
+SHA-256-Digest: 9SbhH5YvWKAcUHf71PoRprGJU8gHnVlx5clL3Uj0BGI=
+
+Name: res/layout/huangli_detail_layout.xml
+SHA-256-Digest: vig1vgHlzHZv+khwNUMFM1xPdBBmqbgN+Exx2gW6CYk=
+
+Name: res/xml/month_widget_info.xml
+SHA-256-Digest: kYOAlvTFEzXQFRjPOXPy0qpBpgNtdw6wNGqmSZj2aXU=
+
+Name: res/drawable-xhdpi-v4/btn_bg_blue_small_n.9.png
+SHA-256-Digest: OPIweQO+zeQu0CbZww/v8pOFLJB9Y+sFcA1itx+A4+M=
+
+Name: assets/weather/icon_ice.png
+SHA-256-Digest: 9J9rzJHWzv9vGhXONC4aFY8pk2JXFuLjIDrSz5Qgrqs=
+
+Name: res/drawable-xxxhdpi-v4/ic_aqi_leaf.png
+SHA-256-Digest: 5JhUcf26F747fQpkrL7eXUcqtp0H/ll1e18URYR3ih0=
+
+Name: res/drawable-xhdpi-v4/swipe_up_guide_arrow_1.png
+SHA-256-Digest: k43qJFeuDZsSmtlBWAsk1oEU5IO3sN3n4+i1kGyBlYU=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_n_9.png
+SHA-256-Digest: RTc0JCelHry9DzOrrtEZnKxavPiT2aN/H5bjZr8W98E=
+
+Name: res/drawable-xxxhdpi-v4/icon_date_p.png
+SHA-256-Digest: Kcu8YeOmWFflXZkNYB1j3U7rd9KF8pn6Ys7uEXDuB+g=
+
+Name: res/drawable/ic_expandable_group_background.xml
+SHA-256-Digest: IXSh2CeNNS84KpAcyytt3Gxgw2609Ra4Muh+3nYT7kQ=
+
+Name: res/drawable-xxxhdpi-v4/icon_tab_agenda_unselected.png
+SHA-256-Digest: 1XtDIv71yVnSVCJ0iQD2TT3ZrBDd7W0GU0sxn3ANT1Q=
+
+Name: res/drawable/event_item_bg_first.xml
+SHA-256-Digest: 9GUbUs3rDSPhQiUysqHVGln/IDMWFXfVDT1toPq6xr4=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_p_22.png
+SHA-256-Digest: kNjDMZCt1gEAXAA2GNdBx6uN1vEdNwa9BtadLFgK1+U=
+
+Name: res/drawable-xxhdpi-v4/medal_gold.png
+SHA-256-Digest: Y7M2rIMjhx0ezS/X3bPfnsJc/ZN5tkB3+TWkSosggbk=
+
+Name: res/layout/card_list_item.xml
+SHA-256-Digest: NRrI3voTCFkA4cwS90y5k2lot/1TwL3vujnyCHZtb1Q=
+
+Name: org/apache/commons/codec/language/bm/gen_exact_portuguese.txt
+SHA-256-Digest: 1U8m+Absg6NL6qAzy9EQqSBPhTBFv5BQowUBRrUuxQs=
+
+Name: res/drawable-xhdpi-v4/icon_tab_day_unselected.png
+SHA-256-Digest: NbX6P5dDpoxPnqUt6fxRB0zwn8syaHOXrIbYMKJ/2Gw=
+
+Name: res/layout/simple_frame_layout.xml
+SHA-256-Digest: BAOfE4w9PUUD+ZbsGuKt4zq9sPDM+cDT2I2tpQbYUCw=
+
+Name: org/apache/commons/codec/language/bm/gen_approx_romanian.txt
+SHA-256-Digest: TjXdhrItjQESh7GauosdSvnoxj698n0ImejZ7fTUse0=
+
+Name: res/drawable-xxhdpi-v4/event_icon_birthday.png
+SHA-256-Digest: FHEqeGOUi/laYQUXDIrpQIsmJaTpK4RqE0dnqVecQxg=
+
+Name: res/drawable-xxxhdpi-v4/ic_hotel.png
+SHA-256-Digest: CDLQ+fwPzzjz/ShR+5EmiybuBPStBuXAPXiTJwT3Kiw=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_p_13.png
+SHA-256-Digest: aKyiXGOgpGdENZ2bPceBFm12ShMd7cFELfEeF5g4TCU=
+
+Name: res/drawable-xxhdpi-v4/widget_month_bg_black.9.png
+SHA-256-Digest: mRggx7/Ld++89pMjBxjmTjcuOiZz2C8rNvaaN+VHXr8=
+
+Name: res/drawable-xxhdpi-v4/subscribe_button_n.9.png
+SHA-256-Digest: BeL7aWqUX+SdrVUJAXXKxxT/Ir2DKGuv/jQAhmuDfaQ=
+
+Name: res/drawable/action_button_today_16.xml
+SHA-256-Digest: fGVQNZASFN2IxAE3897cC6HWI/ED92xHuZmVl+UnM3k=
+
+Name: assets/bank/zxyh.png
+SHA-256-Digest: AZFcr2u/2ZMXvfYK8HGV3Gjo5MgtAj0Cm0yV4/MjKzI=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_p_28.png
+SHA-256-Digest: WZYQZ7hu8dvH6LzX9HN078o2fLIxxMGLbmLCc85pBMA=
+
+Name: res/drawable-xxxhdpi-v4/ic_shift.png
+SHA-256-Digest: tMsXzH81Yk12N/48iD7NWBPLNgvXX0KFSTibH/SkizE=
+
+Name: org/apache/commons/codec/language/bm/ash_approx_hungarian.txt
+SHA-256-Digest: a9JJkQcmlJr6TlqWI+w5mRUcPvQ4Q3FKkAA8+xE1Awk=
+
+Name: res/drawable-xhdpi-v4/widget_agenda_icon.png
+SHA-256-Digest: F9JAq6+uAdQUkzW6v4r5yXGu/5UJEqSyROaPpfRAUWQ=
+
+Name: res/drawable-xxhdpi-v4/tab_bg_single_selected_light.9.png
+SHA-256-Digest: Bp1yFOGNVlXrJI1ObnrkZMC+i10p8YN0fWmm08xlnO4=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_n_18.png
+SHA-256-Digest: NE+eUih1lt+8aCDXwRlo+xne3u3nQz0i7DzYOgyvQc4=
+
+Name: res/anim/scroll_up_out.xml
+SHA-256-Digest: FQp/VyajIpeoSPKl79AjVvu0pap1a//rmFaGJNgzEHQ=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_n_23.png
+SHA-256-Digest: VizTmRnyGvAKYDtAS4Dmuv8HtLw6OHpcdveobeoXpGg=
+
+Name: res/drawable-xxhdpi-v4/cancel_reminder.png
+SHA-256-Digest: P38PE8/fUiueZvsGedhFO9kZS1GsZwKd8Q21WRMKCr8=
+
+Name: res/drawable-xxhdpi-v4/travel_car.png
+SHA-256-Digest: spsvfQkPsPWlq1CHp8zD96QJd+L+jZY0ChomrC5YBS4=
+
+Name: res/drawable-xhdpi-v4/list_without_divider_bg_p.9.png
+SHA-256-Digest: TKrfe1FhK/8qK0lcAc79ptcS8LOU/z3Iwwf8hcoymKM=
+
+Name: assets/drawable-xhdpi/search_clear_btn_down.png
+SHA-256-Digest: Ylx79q+KkaxwLb1CIMX10x3a9ej9bauqA8zqV+X9Js8=
+
+Name: res/layout/custom_repeat_number_picker_dialog.xml
+SHA-256-Digest: CvmoiQWGonFLrsOgo4qqxtmMhPDcEuhd3kgCGv+d9Bc=
+
+Name: res/drawable-xhdpi-v4/fortune_rating_on.png
+SHA-256-Digest: MMGMABXorg6Ep/obRpFeFy5ZcFdMLZ7fRMCKsDf4j/Y=
+
+Name: res/drawable-xxxhdpi-v4/fortune_rating_on.png
+SHA-256-Digest: 8vOVwWNPzUlPBTElTzPwuCEZAMPkAdGnrCK9QXR/cgg=
+
+Name: org/apache/commons/codec/language/bm/ash_exact_cyrillic.txt
+SHA-256-Digest: Jl2TtTDy8LOytgKv2m6RI3DAsBwG30ophxGfYyC/+0Q=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_p_11.png
+SHA-256-Digest: ewXf43mS/4Xrwr652IN1bJqBCj9wqPjONWZ1c4VvvDY=
+
+Name: res/drawable-xhdpi-v4/stat_notify_calendar_multiple.png
+SHA-256-Digest: zkWqlOp9TCPwkaPawDlWBwyFUnnIVDlp0ZeE+0lm65M=
+
+Name: res/drawable/homepage_today_bg.xml
+SHA-256-Digest: KRw0YZt3dfeZQLi1rHCH6TK1Vta+fePrP/706m3T6nU=
+
+Name: res/drawable/normal_clickable_top_right_bg.xml
+SHA-256-Digest: Um3Ci4rFAABqNi79jR/a0Nms1uHe8j1kw0oNWAhF8xQ=
+
+Name: res/drawable-xhdpi-v4/expandable_group_background_p.9.png
+SHA-256-Digest: LJLwyhTGeMMyBxHoW78RFvFqAEJxEH8vFRBT2xUMYss=
+
+Name: res/layout/copy_chip_dialog_layout.xml
+SHA-256-Digest: qucMwLuHDU7tSd2pXfGdT4iuNDkT2CqS2MdG8uEqiLk=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_p_8.png
+SHA-256-Digest: LOPBF3IzSrNdHG8dc3wDDxmyywvMP6uNNnx6r8TGxd8=
+
+Name: res/drawable/normal_clickable_end_item_bg.xml
+SHA-256-Digest: yOPMVkYR38sugmYT/fW4qizR+rkCxNGJbP1cWktteqk=
+
+Name: res/color/repeat_radio_text_color.xml
+SHA-256-Digest: 4u0gj6FwwOWvqEsSX4h5pTnUFa0RsVhVK2kVa1PFqgQ=
+
+Name: res/drawable-xhdpi-v4/tab_bg_single_selected_light.9.png
+SHA-256-Digest: vIM4n6OyXUXybMdA6S5p3bGgfkLUEcSxsILiPXQQOhI=
+
+Name: res/drawable/manager_card_background.xml
+SHA-256-Digest: M/TLgT+9KPkHG13M2LfOC+pv/UF7cZMl8ECtAsQRFdU=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_n_31.png
+SHA-256-Digest: tD/cg+wGBNDx6PbGY6tK7+RoZ390qMQ586BgacoAXAg=
+
+Name: assets/drawable-hdpi/weibosdk_navigationbar_back.png
+SHA-256-Digest: 7BtdrQSuIbmoa6Uhuo8IfqRpqvRFofuyljeMzIkjAsI=
+
+Name: res/drawable-xxxhdpi-v4/ic_phone_num.png
+SHA-256-Digest: eEvldJF8bE7Ddb2hWYB3BjBlDZd+/pUPExeio87iMB8=
+
+Name: res/drawable-xhdpi-v4/calname_bottom_unselected_underselect_pres
+ sed_holo_light.9.png
+SHA-256-Digest: d43Nwhlo7aREE4M+k+I03ig69Z9cX5eDtEMd2WC7YaI=
+
+Name: res/drawable-xxhdpi-v4/calname_bottom_select_underselect_pressed
+ _holo_light.9.png
+SHA-256-Digest: mG5+7Y0E0Rsqb+YFR5ERC51TuhTF2XWU4mfGLFrSOjo=
+
+Name: res/drawable-xxhdpi-v4/icon_share_n_light.png
+SHA-256-Digest: +ua2/IWJRnz1/yId9L41JUGyxsF9u0AU/D3MhQJIJkQ=
+
+Name: res/layout/custom_repeat_line_divider.xml
+SHA-256-Digest: haFaHgNFuF7vANjIKk8+SFqoHzuNonCrZ4KZ+YxB5w0=
+
+Name: assets/drawable-xhdpi/common_button_white_highlighted.9.png
+SHA-256-Digest: /5IwbX6r4kUL8zfEM1LYr0foF0Mph8tssRxFJKqruvk=
+
+Name: res/anim/homepage_guide_out.xml
+SHA-256-Digest: nd/lbE0C5j9/1XsBXXp3AyypvBMaUqVQr6G7BNej01g=
+
+Name: res/drawable/homepage_new_event_bg.xml
+SHA-256-Digest: 6XqFzPEQSEoajfw9iHSpAnsISmK+YCSO5bGwSGlh3lA=
+
+Name: org/apache/commons/codec/language/bm/ash_approx_spanish.txt
+SHA-256-Digest: a9JJkQcmlJr6TlqWI+w5mRUcPvQ4Q3FKkAA8+xE1Awk=
+
+Name: lib/armeabi/libweibosdkcore.so
+SHA-256-Digest: Z+XxxQ4OpkW78VQu3LyzY7U/ViaHrtC3XlPXLp14cbU=
+
+Name: res/layout/expandable_textview.xml
+SHA-256-Digest: 5DtjnuZJf4sW5svDpfoyvDITnQ2fr85Ju4UqvX67q0c=
+
+Name: res/layout/olympic_rank_card_layout.xml
+SHA-256-Digest: Axcp58EhswILqZV6VKfC28a7oiEdCEtXH+jIqT/jjNo=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_p_27.png
+SHA-256-Digest: 3EBDVa/tetXujrVPn6va6cYJoRo/NsIk1d1r+WYFKOE=
+
+Name: res/layout/account_calendars.xml
+SHA-256-Digest: ss55aijPnF8EnzT8u1hQwrPdc7OihQHGg9ThDlBlCME=
+
+Name: res/layout/divider_view.xml
+SHA-256-Digest: FqJlR6uTGB6ASuaH7mkEbqQ01DtNex8yorGhqfZOO+M=
+
+Name: res/drawable-xhdpi-v4/card_bg_n.9.png
+SHA-256-Digest: kNsSwU6EyxDSpD0cxyNlBM7an34knCT63n3yzAk1aFg=
+
+Name: res/drawable-xhdpi-v4/miui_day_new_event_indicator.png
+SHA-256-Digest: PtrEyXxocbJtWw3orQDCHSMm2CVX0VSn/+9ZD7UC0ZI=
+
+Name: res/layout/activity_anniversary_or_countdown_info.xml
+SHA-256-Digest: IkX3hkvtsLXQUA8zDZ+vI4Nn7Qf8B89gtoT13jhNph8=
+
+Name: res/drawable/action_button_today_13.xml
+SHA-256-Digest: oxa5nHiSWUthb7bdsbcOQYcujTVVJVGKmcJiiFkHcfw=
+
+Name: res/drawable/action_button_today_28.xml
+SHA-256-Digest: bNcSlxlT0pOHX1IN1Ks9yTRqjN2zPBZBUWnb4mm74z8=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_n_7.png
+SHA-256-Digest: vS3bF590gR00Q299LfOyeTqAN7kHfZAkWw8X2qxg8Q8=
+
+Name: res/drawable-xhdpi-v4/medal_bronze.png
+SHA-256-Digest: BfBwXU7lY0X2qS7v/8Tugi7fTPZw/MzDqOgJTIwmAAA=
+
+Name: res/drawable-xxhdpi-v4/miui_day_header_bg.9.png
+SHA-256-Digest: HkHZaLly6rr84xfC4TXj2agql8SO7BKMdTvc8+R0Hb8=
+
+Name: res/drawable-xxhdpi-v4/ic_jump.png
+SHA-256-Digest: k8buXevnVrCYZy2zrEJf4092+VpZG4f6aecI2qQGY+U=
+
+Name: res/drawable-xxhdpi-v4/miui_day_new_event_indicator.png
+SHA-256-Digest: whmd0tyKYa8roeEnJFdZbQshgl8+27QfgZ+ZCMA6Efc=
+
+Name: res/drawable-xxhdpi-v4/calname_unselected_pressed_holo_light.9.p
+ ng
+SHA-256-Digest: FJnsLG+ZAUk/rbTonLeaCP/Zd1DqE9gzhXTJpGK3Utk=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_n_24.png
+SHA-256-Digest: B/GTk63BUo9XOz0JJqUyB5ZkcAsHa81+ikPgIpw9ad0=
+
+Name: res/drawable-xxxhdpi-v4/ic_jump.png
+SHA-256-Digest: xQ0aHhksmLq8u7LSLdWvDUoZlgNaeHBgfWi/Ib62HLU=
+
+Name: res/drawable-xhdpi-v4/ic_menu_add_field_holo_light.png
+SHA-256-Digest: 0MgZeeT4eT0WfPJ08FlUEMi63mvbo3GiK/xZ8iBIAao=
+
+Name: res/drawable-xxhdpi-v4/ic_full_banner_ad_close_p.png
+SHA-256-Digest: +wEzGQnD4Ev8R5Sd+CIe/XaHNaBRwnEZQh2rZk42Cq8=
+
+Name: res/drawable-xxhdpi-v4/icon_share_p_light.png
+SHA-256-Digest: BuhUMjRZsB5e1wzhCJSYBk5run+w8jyjD4TgP8I7BNo=
+
+Name: res/drawable-xxhdpi-v4/ic_change.png
+SHA-256-Digest: RNCkLd9vjd3eE6ln7/ti8LrV8evBnIa17kbLP04rNZA=
+
+Name: res/drawable/huangli_ji_shape.xml
+SHA-256-Digest: Z2h4isp91SDDxzH64eJmWbma5gFLfgAUhEkLgoJafXo=
+
+Name: res/layout/large_image_card.xml
+SHA-256-Digest: QqUv9Q24+pgWMBC5DCRB72dfHWW328YVN5257yrIvDo=
+
+Name: assets/drawable-xhdpi/weibosdk_navigationbar_back_highlighted.pn
+ g
+SHA-256-Digest: Hlu32QVowbtglbkOL71g18H9tQsiUYBzzcM9IbE5Z2A=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_n_8.png
+SHA-256-Digest: FrTijcPnnbG8URhVUVvVK4r1C7mFzEozTXxpUKJHrDk=
+
+Name: res/drawable-xhdpi-v4/tab_bg_last_normal_light.9.png
+SHA-256-Digest: SCwiRKbitcIVPIULJFaTH/+xKZkSl2NoPeFMb15UlAY=
+
+Name: org/apache/commons/codec/language/bm/gen_rules_russian.txt
+SHA-256-Digest: 3tEFyFcWfCuoxEztfO4ADWvNeCOkhRtpj46lQBFafzc=
+
+Name: res/layout/agenda_action_bar.xml
+SHA-256-Digest: RjdSynhmVoNAxARXWbQLbmSHD7+kDEAolnJ7o5vmfOs=
+
+Name: res/layout/agenda_widget_loading.xml
+SHA-256-Digest: ZNfX9y60bcdLq+Qm4sC9XsU46AaYHqT2D6Bc9eK7tMI=
+
+Name: assets/horoscope/pisces.jpg
+SHA-256-Digest: e+7s7WiIw/m0tFPZO7eJz+o0QYfz00WqA17BJ9v9n1w=
+
+Name: org/apache/commons/codec/language/bm/gen_exact_french.txt
+SHA-256-Digest: 1U8m+Absg6NL6qAzy9EQqSBPhTBFv5BQowUBRrUuxQs=
+
+Name: res/layout/holiday_card_buttons.xml
+SHA-256-Digest: xEzGuMVuqiX/y9lRAtoEw4wRfPpr3vTZ0/nqkG171Po=
+
+Name: res/drawable-xhdpi-v4/ic_shift.png
+SHA-256-Digest: BKbcHUb1SE5GtwD+0p8+rFhf1oSxh0vrag6ILjAfJOE=
+
+Name: res/drawable-xxhdpi-v4/action_bar_back_normal_dark.png
+SHA-256-Digest: CC8fvrIekm9f7+oUm7gKTrLhxV3KinA8YRgSLDwPSFk=
+
+Name: res/drawable-xxhdpi-v4/no_event_hint.png
+SHA-256-Digest: im6QSOdciQacfU6pOiFMrdmPlJoqP1dE7x2vT0BKQoQ=
+
+Name: assets/drawable-hdpi/common_button_white_highlighted.9.png
+SHA-256-Digest: 21IFzepzUbR6y1lYF/t9YggRdxoV4UMKFcYRShFHHjo=
+
+Name: res/drawable-xxxhdpi-v4/no_network.png
+SHA-256-Digest: 2HFy1YprL4eu8abmUeGbsExxO/m8/Af9suPVyKgkJb8=
+
+Name: res/drawable-xhdpi-v4/chip_background.9.png
+SHA-256-Digest: u1SOpT9BsIxZYB2DWMo+lxhHF6ynejFeUCHJkZpmWuU=
+
+Name: res/drawable-xxxhdpi-v4/icon_tab_month_selected.png
+SHA-256-Digest: zx5+1yG8VxsaGQDLvlyQu1h6i+52V5sAk54DOtKooSo=
+
+Name: res/layout/web_view_action_bar.xml
+SHA-256-Digest: p7iDLSfqoEnfXjeHOrpUAzvENdiXLNOqItAyzhJGxZM=
+
+Name: res/layout/small_image_with_install_ad_card.xml
+SHA-256-Digest: npdR+509FHbVcMvsazCMIl2GVknN4RWHtCCjsZ4VlHc=
+
+Name: res/drawable-xxhdpi-v4/ic_anniversary.png
+SHA-256-Digest: P2qn0y18Z+VOkgbMtYRLxyb9/xdW7NectP51BPDS0m8=
+
+Name: res/drawable-xxxhdpi-v4/tab_bg_single_normal_light.9.png
+SHA-256-Digest: tN5DOdC4O6cVKGIa0dKIbvUkpMZmU3zhluY7x1BCDB4=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_n_22.png
+SHA-256-Digest: Avnuy4hqrfDfQiygy09D5wA1GQHCxtTsLl5VpaZID30=
+
+Name: res/drawable/non_transparent_clickable_bottom_right_bg.xml
+SHA-256-Digest: PJX5J3c45Lx0hfJrt7Mn1Av+fOp+QOPSDiIjiueRnBk=
+
+Name: res/drawable-xhdpi-v4/swipe_up_guide_arrow_2.png
+SHA-256-Digest: 9VGwXPi3wzejNcE70EU2slJULLV0c15bkoKTRduSE2c=
+
+Name: org/apache/commons/codec/language/bm/gen_exact_arabic.txt
+SHA-256-Digest: iRogEQxQ/V3Ww0unHBEgfi4RlIw8yl8VVLPJNGRPWgU=
+
+Name: res/drawable-xxhdpi-v4/icon_tab_week_unselected.png
+SHA-256-Digest: wN7NxSWGH3kOFAGCdxuAKcFiYNCsjwsLLoH4p4atHWE=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_p_23.png
+SHA-256-Digest: jVKNZUG/00pdMjMUKzbLcxu79l+nsi6WG9aQ4puum8g=
+
+Name: res/drawable-xxhdpi-v4/travel_train.png
+SHA-256-Digest: kNQSasmh/Ku+IU0sE1RJtiGg9QdcQ4WEX0QZqo+U/Mw=
+
+Name: res/layout/shift_reminder_time_picker_dialog.xml
+SHA-256-Digest: +oX+9LDQXkhygHvURXJjGB2WVYW6IxJ75HdlZan0RsU=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_n_30.png
+SHA-256-Digest: VFnlZXfzOv2gvBgZ+DtPmb8QAUsklYuJ6zdrnXOq47o=
+
+Name: res/layout/holiday_meta_item.xml
+SHA-256-Digest: zHdpweDtAGrJlzy+FXvovc8e9YUIjS2uznHAve39NOg=
+
+Name: res/layout/datetime_picker_dialog.xml
+SHA-256-Digest: XXYGH8aLKf+jNzmVAH59c15SICprXeE99BtCSizF888=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_p_14.png
+SHA-256-Digest: Hs1HK+Ci8FhC/KzXrLymY3LFaarvMbTXc/p+xe1QrQU=
+
+Name: res/drawable-xhdpi-v4/ic_loan.png
+SHA-256-Digest: OlLSlJK4SPvXsTggEpq56ns2TKxlzVDgte1cU6i1F9Y=
+
+Name: res/drawable-xhdpi-v4/icon_tab_month_unselected.png
+SHA-256-Digest: qv4HTi8KHvT8iCUp+qPdvNzqdxgokercjWM0FXceXD0=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_p_10.png
+SHA-256-Digest: JVbkI+uApdGBbGcwt2OjAgpJWqUQWevEagBQH0tLZW0=
+
+Name: res/drawable/lottery_red_ball_bg.xml
+SHA-256-Digest: X2GppB0F/NpgpJ8+ote3Qk/P1H53vqRZOtzxv9+RicI=
+
+Name: res/drawable-xhdpi-v4/tab_bg_first_normal_light.9.png
+SHA-256-Digest: c7CG110lKhQiG8SRlFuZFU1iSY9jMmlS9UyHJC+zoIc=
+
+Name: res/drawable-xxxhdpi-v4/ic_joke.png
+SHA-256-Digest: PrXc5V+6PTcELAoUR00Oqpioo0xFE55wVhZPAbalXlg=
+
+Name: res/layout/olympic_rank_item_layout.xml
+SHA-256-Digest: XFpxWSzYHD5bAGCW1+iBQaGILfD6k3Dv0A6D2gasiC8=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_p_29.png
+SHA-256-Digest: 9hvXxKkvz0rqQT6nj5ocWQC8OF9NtSFP2FnX6oL2BLw=
+
+Name: res/drawable/ad_install_button_bg_n.xml
+SHA-256-Digest: 5/0OZL3S1XnJIULN9BHC8WB58iaFSdyTGBPpUiP2Yjo=
+
+Name: res/layout/agenda_event_item_normal.xml
+SHA-256-Digest: Y7z2Oxd7xEB6JvFHdZ7Okriipl9ly7S451S9ZNOlkP4=
+
+Name: assets/weather/icon_rain.png
+SHA-256-Digest: O4Io6/VhcSejdbVPZ+ekxHB+yqhalGuWE8eSZjaTREY=
+
+Name: res/drawable-xhdpi-v4/event_icon_train.png
+SHA-256-Digest: YhRtnIJYlkCkGGT0F9crYLFnw5ss46tBR97bje5eCSk=
+
+Name: res/drawable-xxhdpi-v4/widget_next_btn_n.png
+SHA-256-Digest: Uz92VdJHgbuFZUwnZ0eb7VsYTm4lsiUCPUPTrj3jtms=
+
+Name: res/drawable-xhdpi-v4/ic_hotel.png
+SHA-256-Digest: 0UQvL7Rz0IEvxSeFX+rWAFtmlN+k+pFqDZKyADnjQJQ=
+
+Name: res/drawable-xxhdpi-v4/ic_aqi_leaf.png
+SHA-256-Digest: 05adSqs69NLl44qE4QcaQYGrZOQ29cqI3tDEdE1AahQ=
+
+Name: assets/other/credit_detail_header_bg.jpg
+SHA-256-Digest: 2cWMsZHHbmfabKcOS4POd6ZNqkk5x3CKnwTP/30Suiw=
+
+Name: res/drawable/blue_button_selector.xml
+SHA-256-Digest: fj0t31WhPN5toPpQQhc0PbNw3TVewEyKJjpMohs9VRI=
+
+Name: res/drawable-xxhdpi-v4/tab_bg_middle_selected_light.9.png
+SHA-256-Digest: Pav0krnwacwRF3mzKxt3RHgCDbWYo+2xvxJ0LWeSRQk=
+
+Name: org/apache/commons/codec/language/bm/gen_rules_arabic.txt
+SHA-256-Digest: grcHx5mYAxvaJp/XwRkuoalnDAPq0J7nenfOT+yhLDg=
+
+Name: res/drawable-xxxhdpi-v4/ic_full_banner_ad_close_n.png
+SHA-256-Digest: 7TYwzeemdNqTTLyjuRnje9TXFsEpo7xHsQNvj+PhW3E=
+
+Name: res/drawable/list_without_divider_bg.xml
+SHA-256-Digest: oswNhf2W/K7dfH2JvhzjTO7RgeFGO4EyZ2nRhvZydiE=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_n_25.png
+SHA-256-Digest: g6a6gumbEIYG03ouobhOHYpXX+lpAy4DnGQvf+Ld6y4=
+
+Name: org/apache/commons/codec/language/bm/gen_rules_portuguese.txt
+SHA-256-Digest: DFHCzCKYhRawP2r91WmYl7fK/is+XTZ2qxAZQfv9ktw=
+
+Name: res/drawable-xxhdpi-v4/calname_bottom_select_underselect_holo_li
+ ght.9.png
+SHA-256-Digest: zexj1TjuMTxgBQgNCqEIDAp73N8fgyAEIN2r+Cno7go=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_p_26.png
+SHA-256-Digest: wx6jXRVrnArXnuDeg96AtjGkzZnfCtQdOg/6cf7xIEA=
+
+Name: assets/fonts/Mitype2018-70.otf
+SHA-256-Digest: oNZru56IouySuHi2r3qaCkIhYtWaRe7UIUGWn2qVqKQ=
+
+Name: res/drawable-xxhdpi-v4/ic_address.png
+SHA-256-Digest: QjK3YcvC+tZ/wTVBozIbIdir07XBs0qSyzK49PgEFbE=
+
+Name: res/drawable-zh-rCN-xhdpi-v4/widget_agenda_icon.png
+SHA-256-Digest: cGW0zt3H0E79ZptuBk1QLJ6nRFTfMxH9fQSUfge7rPg=
+
+Name: assets/horoscope/cancer.jpg
+SHA-256-Digest: zdfjQCinkxd7ieAugq9cRjCSZvs51O5eRK+D+gLE1y0=
+
+Name: org/apache/commons/codec/language/bm/gen_approx_dutch.txt
+SHA-256-Digest: 5SsSolD6WT+ZyooG4CsYoJFRih5rZv1Jbnin2ziIzEM=
+
+Name: res/layout/event_response_container.xml
+SHA-256-Digest: uVua+xS62CDDPFh+wNYIAwAVjVGfdXs8Po6TWrT6mE8=
+
+Name: assets/weather/icon_thunder.png
+SHA-256-Digest: GJX1iSejAObXWUYFSUOhj7ZUzhjT8EsS8EcrntWDqHk=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_p_9.png
+SHA-256-Digest: ExywHCs+HKjOpQ2l3LLZga8JfKnzTMokrphz00+ZssU=
+
+Name: assets/drawable-xxhdpi/weibosdk_navigationbar_back_highlighted.p
+ ng
+SHA-256-Digest: LPr1OY3ChGEyRLaD6CTRWzzq2sO8GS3//izhoN+XDKs=
+
+Name: res/layout/month_view_widget_event_empty.xml
+SHA-256-Digest: +F5zKqktJ82QaVm5MSzN/qkVLUYblU8WU0bMVruwvVM=
+
+Name: res/drawable-xxhdpi-v4/preference_category_background_no_title.9
+ .png
+SHA-256-Digest: 0EMQgFLLFPFDPS/lOfqOz9o6nZiCMTT9BEXQi3TDW2U=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_n_17.png
+SHA-256-Digest: oeAGMCGjecml0BBXcCTkb3tgEvpe4ohx5A6fC9eXS+U=
+
+Name: res/drawable/action_button_today_29.xml
+SHA-256-Digest: AIUgPYyI2YhiwT1a6U9doXdpImwvEHNfU4leWiooFmA=
+
+Name: res/layout/loan_info_header.xml
+SHA-256-Digest: HlMcpzB7zys0tiLqJzNcZ+ahlEVH08JIfcFhZ9uwGT4=
+
+Name: res/drawable-xxhdpi-v4/ic_expand_small_holo_light.png
+SHA-256-Digest: +nxLBh8bwCOY2YV9K/MiH3uBBDQxAJVslLKDbUBl5wo=
+
+Name: res/drawable/action_button_today_14.xml
+SHA-256-Digest: EDMJJ/1GmAF5qKq9nXmMjRbDoesXIno3hs+OgOYzIJk=
+
+Name: res/drawable/card_background.xml
+SHA-256-Digest: hE7CSMgneW+FoI0rOnytxVrqyN0K+E3RQaSbMPEErjI=
+
+Name: res/layout/limit_detail_number_item_huge.xml
+SHA-256-Digest: JLzFgYg9Is/0Ep1fJuCyFYxQgwyh24LaeHbnIee3wUo=
+
+Name: res/drawable-xhdpi-v4/event_btn_p.png
+SHA-256-Digest: j681/LmM+Og0JtPT6opNK1/9nQiQRLCFrTMNawtSUvI=
+
+Name: res/layout/activity_contact_birthday.xml
+SHA-256-Digest: ADvBtA+ZuNtEgk8fXrl40bfk22OjN2SLGp1zg47A34E=
+
+Name: res/color/app_download_button_text_color.xml
+SHA-256-Digest: q32WMAyvIpjRShAG1fjwS2cViXvc8opevJlJo1AgTEk=
+
+Name: res/drawable-xxhdpi-v4/ic_credit.png
+SHA-256-Digest: lEjoeKN4qr2UEkHAgWvYAPOCB/pffX3H+7Zgu4Qn9uA=
+
+Name: res/drawable-xxxhdpi-v4/afternoon_bg.png
+SHA-256-Digest: 4183GJlfAdZBRmNjIGYfu1GxrY76cy2165NLiICkzUk=
+
+Name: org/apache/commons/codec/language/bm/gen_exact_czech.txt
+SHA-256-Digest: /VUX6Y7r++H5eewh+XSenWyv0+Z5jl8xwXOgvgjAJeU=
+
+Name: res/drawable-xxxhdpi-v4/tab_bg_single_pressed_light.9.png
+SHA-256-Digest: fMPsxvzWpUHC/g+qaFVmStfVmTSRXvjlfoUqmiqLZ1k=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_n_10.png
+SHA-256-Digest: VaRyLf8X5dSxZSd0Y8Tgo6UfnbpKOo5VtN9SISsNkf4=
+
+Name: res/drawable-xhdpi-v4/travel_train.png
+SHA-256-Digest: tBET3QzM8XWHX5a7S2hThkkpww5cW7CbjTpsOJOSvIw=
+
+Name: res/layout/email_autocomplete_item.xml
+SHA-256-Digest: ByVpSq5NBo+xf4gRU6BJJd/VGs6ISXhNHrJGx9MG+x8=
+
+Name: res/drawable/widget_day_happening_bg.xml
+SHA-256-Digest: Z0hcsTqx3ngZ0q/E5e/9cNby9+VYrPXM8sPwFu+cOFk=
+
+Name: res/drawable-xhdpi-v4/ic_change.png
+SHA-256-Digest: cwNgJQNgLkx/4j6yj+WRX1xGTf4jekPdUq/5HHsnDCI=
+
+Name: res/drawable-xhdpi-v4/btn_bg_single_pressed_blue_light.9.png
+SHA-256-Digest: HR94gXCiR7JceS+RjxSM1G3aPtPx3ioGSyCe2oVHRS8=
+
+Name: res/layout/shift_detail_activity.xml
+SHA-256-Digest: Ed+BJwgRB3We0kXqcfHuATOm/AZ6iIyK55rpJadIr+4=
+
+Name: res/xml/preference_sms_import.xml
+SHA-256-Digest: j0Zow9qZQFC52+HVeVJq/SULRA0A9MwpbC6v1SjouM8=
+
+Name: res/drawable-xhdpi-v4/btn_bg_blue_small_p.9.png
+SHA-256-Digest: Weg3p9bE2ozFm7xYhfbAchpUvyCHFJyGd1+itTWLZdM=
+
+Name: res/drawable-xhdpi-v4/tab_bg_middle_pressed_light.9.png
+SHA-256-Digest: xiuWRAXTCmYLl+WbW/mGn9upezT6P1VFSvGdwAWFr9Q=
+
+Name: res/drawable/calname_unselected.xml
+SHA-256-Digest: 9Veb2Est1DEnfbW2zYwGD4dtrjCj/yMRqO1+nP4+/tA=
+
+Name: res/layout/ticket_card.xml
+SHA-256-Digest: XKyBJW6EbMjIrBwES9LQMGIZx9PbmIptutilO+VWv74=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_p_28.png
+SHA-256-Digest: N3ynhoI8aWUUL+M1SCCY5jJhjSvKq7x6u0f3fZV43vQ=
+
+Name: res/drawable-xxhdpi-v4/widget_prev_btn_n.png
+SHA-256-Digest: x+6CtfC/hhNbMSPBL5bE4KU9R3MRXTabnqMzJvaNZYU=
+
+Name: assets/drawable-xhdpi/common_button_big_blue_disable.9.png
+SHA-256-Digest: cM4qH2jGSJgcvT66I9qjD55xCTHHpGpt8lMhBvTlO0Y=
+
+Name: res/drawable-xhdpi-v4/action_bar_back_pressed_light.png
+SHA-256-Digest: 6f9c2z86/7KnKfTRUxjHqNVkH4jU1TAIF6mvFzhusYA=
+
+Name: res/drawable-xxxhdpi-v4/action_bar_back_normal_dark.png
+SHA-256-Digest: TT3Fu5JZYPVAGBisRTP4WH6YEUrxT3IunslwlVuBNV4=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_n_4.png
+SHA-256-Digest: 9lmRGqF9vETX+sl/84clXIR2BDdxDngHsRew2AsCaEo=
+
+Name: res/drawable-xxhdpi-v4/ic_amount.png
+SHA-256-Digest: obuQLSJITpp/rzwaBkAqeXgXb67DS0G9VRwyxslb+oM=
+
+Name: res/drawable-xxhdpi-v4/icon_settings_n.png
+SHA-256-Digest: zHl+aOIfBiIpx48gecOuCdnBAQHG0hbcxiSE6OsJL50=
+
+Name: res/drawable-xhdpi-v4/ic_anniversary.png
+SHA-256-Digest: 52X+Sc/tCUrtRXacCaJBxCiXH8jrdHgFDurWa3HCHC8=
+
+Name: res/layout/card_introduction_card.xml
+SHA-256-Digest: OwmgXySiQJK57zT1ahgWrKLiS5AZrGzEpDc3qqHLFZM=
+
+Name: res/layout/month_view_widget.xml
+SHA-256-Digest: y14gduz+2TCsAVqWGvPu6MmwKmKey5UBYdnnj0Wdk9k=
+
+Name: lib/mips/libweibosdkcore.so
+SHA-256-Digest: 6g9CQlQkob/F7Iu6kIkLNhCSwIG41kYUMTgL9G6xXkg=
+
+Name: res/layout/life_assistant_info_card.xml
+SHA-256-Digest: PHRx0cpJ0zWsQdlDxQpneMjXRbQ0vmCW6XCn9Ppz8Rs=
+
+Name: res/drawable-xhdpi-v4/medal_gold.png
+SHA-256-Digest: 9ucxpWJWhZV87wdgmd3w9WOvBmVN01LP+caXau3RSvg=
+
+Name: org/apache/commons/codec/language/bm/gen_approx_hungarian.txt
+SHA-256-Digest: +Cf1SvZWCkxtYVYYQzRX4cncBseMdoPe5tQYfNvNjIM=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_p_21.png
+SHA-256-Digest: rcbqmaNgPNbmtPhn31X3arhgwTgjPnwParfwk1PH6ro=
+
+Name: res/xml/miui_manifest.xml
+SHA-256-Digest: ctGNTFyH1akne85HVVzh8DDqVDNSszmpTN3nsolDgio=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_p_5.png
+SHA-256-Digest: q9212xedf4lCOkUoc1JrWwG0ZPlkeeL00Qo9QYMtUEY=
+
+Name: res/anim/slide_left_in.xml
+SHA-256-Digest: ylB+xu/HhB3FzBNZgY+5+ZZjuv71Detuh+GL6z/8lHw=
+
+Name: res/layout/trip_card.xml
+SHA-256-Digest: g1sL/41K8lSkHCGIHcMVDfBzYTNCQIAUbQDUY5zDCFU=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_p_13.png
+SHA-256-Digest: KSR9sq4a1M1vTRj72rei3+VImdppJxiUHfL8Be6fR7M=
+
+Name: assets/bank/qlyh.png
+SHA-256-Digest: Ig3PBu++pc8A/VhYj4IZzcciJd46we1j8oJFTCuBmrM=
+
+Name: org/apache/commons/codec/language/bm/sep_exact_common.txt
+SHA-256-Digest: w2VK1Da+GFNv7z44cttyVWWcQTv8m1rURrFGe2jIuMA=
+
+Name: res/drawable-xxxhdpi-v4/ic_alert_past.png
+SHA-256-Digest: E4iGrnFH9HE4h1dQ+sxNebcI5lLiPuEWNqrhlaRl4i8=
+
+Name: res/layout/activity_agenda.xml
+SHA-256-Digest: kriQbG/Rn+QNekENgtXNKNiSAPkRCzH8TgXg4pPAkIo=
+
+Name: res/layout/trip_item.xml
+SHA-256-Digest: E4aEraQRTyJNN/Kb8bQ0BY+j7mmNFGrr7p3NM4RyrPc=
+
+Name: res/layout/full_banner_ad_card.xml
+SHA-256-Digest: 8vWOh3YM5Q9nCDIfEV4MQTHPvRw31V9RHM2rS5j8kfw=
+
+Name: res/layout/manager_card.xml
+SHA-256-Digest: rHou+2zcBlav3+o//XALatKBd/LT8PUf1OpYQEixjR8=
+
+Name: res/drawable/btn_bg_red_small_hollow_n.xml
+SHA-256-Digest: K1PAw/8YOXnslKa2kz8Ay+1Q3FmAAa7k2sqgZd1oagM=
+
+Name: org/apache/commons/codec/language/bm/gen_rules_french.txt
+SHA-256-Digest: tfErCFz7SJapECD5AbwW5vMWTwZB5oOw0gWnMFYCdLM=
+
+Name: res/drawable-xxxhdpi-v4/btn_bg_single_pressed_blue_light.9.png
+SHA-256-Digest: UX73hDaB5HKDWVSwPI3q8g/jDALwaMNeekwvaIsNs64=
+
+Name: res/layout/share_chooser.xml
+SHA-256-Digest: ota/Pw98yhZLE2iX4lhWNZRZl25E0U9VgITktRcIZuM=
+
+Name: res/drawable-xxxhdpi-v4/ic_gas_bill.png
+SHA-256-Digest: bDjOFthHWWcv1TSDRv6NncoBOWB6f81h/7M67AjTXAw=
+
+Name: assets/drawable-xhdpi/common_button_big_blue_highlighted.9.png
+SHA-256-Digest: RG0MXzcIVqkJ+OdXXdXmYpgKekWnH+arrX0uxjBxcqs=
+
+Name: assets/horoscope/taurus.jpg
+SHA-256-Digest: +NmNmXmZoUFzGZeV1dfzf+/5gemNXuiOsSL8cPHsWzY=
+
+Name: res/drawable-xxhdpi-v4/ic_small_image_ad_close.png
+SHA-256-Digest: v91OThtuTlpJGShsDDsohyYicKyYshs0pFyO9iRbFcE=
+
+Name: assets/drawable-xhdpi/login_top_background.9.png
+SHA-256-Digest: +n+NX2dIy/Fw1NMhQJVnocHQ/3yPKtUhMHJtuQTAUPs=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_p_4.png
+SHA-256-Digest: xliGsiyXYhnc0fH+DG5zMnMRQf37Op9oqVPCoPuntNo=
+
+Name: res/drawable-xxxhdpi-v4/ic_full_banner_ad_close_p.png
+SHA-256-Digest: J2EnwGPKuRHZCvs/Oq1sigCcjBDUQwNVV5jIjT5dMoM=
+
+Name: res/layout/subscribe_group_list_header_view.xml
+SHA-256-Digest: H3Flo3DNvJAeum+J0KTUkrVFBa8XPrKMv8krI+XayO0=
+
+Name: res/drawable-xhdpi-v4/icon_flight_state.png
+SHA-256-Digest: 0++tcg8A8yBzYqARlJ+gCPxTZFPpslyLCyYItLibMDs=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_n_24.png
+SHA-256-Digest: HJJprjd8LYqufkLFrfVb0w3ZL3wTAEAQFz29a48bogQ=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_p_19.png
+SHA-256-Digest: sStfX7CmSu3+PZMM4FhX4A7AHxqK+zhBu9r3dYxMPRk=
+
+Name: res/layout/film_card.xml
+SHA-256-Digest: Z3sThnBMwhXmGEpfQOKKEYNV0DNoM/8C34zR5gv1uSQ=
+
+Name: res/layout/search.xml
+SHA-256-Digest: r5/uP0NXjram0eRys0kd7xaV5q4Az9ZcYdFhRO9A884=
+
+Name: res/drawable-xxxhdpi-v4/swipe_up_guide_bg.9.png
+SHA-256-Digest: QMexJOTbYJ8fVjGAu9NNqQJWfCKIESk8nWi/YtjhE4o=
+
+Name: res/drawable/app_download_button_pressed.xml
+SHA-256-Digest: j/bF//3dDHBQKkYAbXNOWRkctWzupBjzJ0705RmpF58=
+
+Name: res/layout/widget_preference_check_box.xml
+SHA-256-Digest: bz5Ydts/EgSsQ3y3EPljy8Hk4roK4k4lG+iGZA4QCIE=
+
+Name: res/drawable-xhdpi-v4/btn_bg_single_pressed_light.9.png
+SHA-256-Digest: 2c36pzXPvuKhdwRx9uj0EeUg+2zfrm0x33ceviTh3SY=
+
+Name: res/drawable-xhdpi-v4/list_multi_left_activated_holo.9.png
+SHA-256-Digest: jy84KtOb98VJHcadNZtjioBv+sRVOP8BTAL/wQ0weSE=
+
+Name: res/drawable-xxhdpi-v4/ic_movie.png
+SHA-256-Digest: qyLrgApEozD1qgTWs9mKERipbxVzFB+mWDMN0kNmeiE=
+
+Name: res/layout/custom_repeat_fragment.xml
+SHA-256-Digest: e8MU5U7yS4xz/PlZ1vg0ycscTReGk0h/b2Kp5klyqw0=
+
+Name: assets/horoscope/gemini.jpg
+SHA-256-Digest: Z8qWlbqNatGqFwi40WCd+M3bjH9DEA5qKEt6HA7t3aw=
+
+Name: assets/animals/tiger.png
+SHA-256-Digest: 4GRUS2IJvkALnKB1PIxLXYFeenzB/x9mRWFtRWTJFkw=
+
+Name: assets/bank/gfyh.png
+SHA-256-Digest: ZWMSnepO/c5vhn4eiRsdVHqN1Fjj+vK+6RwAHK0+G2M=
+
+Name: resources.arsc
+SHA-256-Digest: 9zMpRnC3u0Juxta/V/SCOZqg+ZDmMjZiek+hZrN6WgA=
+
+Name: res/drawable-xxhdpi-v4/ic_train.png
+SHA-256-Digest: VvvBTvOO37NdLSJNR9Mz1QoUI/OSduxAGoPIeME2yLc=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_n_24.png
+SHA-256-Digest: vqPmf6xsVdA5QwGT3gzycYVf0cKm7ofXcr9b7UAfviE=
+
+Name: res/drawable-xxhdpi-v4/subscribe_button_p.9.png
+SHA-256-Digest: SnGRC60BFTV0r+VR0NAxDBNSbdDYRCa8T3ZfW07BVis=
+
+Name: res/layout/setting_about.xml
+SHA-256-Digest: SZ1JaMOxH0UqATzM0qF1HX6ZK22892GN3S4uX+ZePOY=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_n_26.png
+SHA-256-Digest: caRb5s4j0ukZaMDFC7oBMARxZounpoivZ6k+PkqSl3c=
+
+Name: res/drawable-xxhdpi-v4/tab_bg_last_normal_light.9.png
+SHA-256-Digest: 9UltlQo5zA4I+GcE0MOK4p85v7zUn9ZBGy9gAWGO52k=
+
+Name: res/drawable-xhdpi-v4/calname_bottom_select_underunselected_pres
+ sed_holo_light.9.png
+SHA-256-Digest: B+1GbdpTkf521ob9Iv1dQuijY+wmqxIkfnvUaGFDFIU=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_n_18.png
+SHA-256-Digest: ooexTyJQv8IZY02pk5q4ZMAUlLw6vMymzkOjPOkm2Cw=
+
+Name: res/drawable-mdpi-v4/chip_delete.png
+SHA-256-Digest: HY0twTnqaMlcebgwo5F/LQzaKvIsF01ott5+ej7IVF4=
+
+Name: res/drawable/action_button_today_11.xml
+SHA-256-Digest: kpczYAL3lEGwL40wWnRjQiZgYAghqL8CPiAbVBQR1Os=
+
+Name: res/drawable/search_mode_edit_text_bg_light.xml
+SHA-256-Digest: 1MxMJ2GOuffDnkl9QRsLS02dFDsKoBIg008xvMs9+Cw=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_n_16.png
+SHA-256-Digest: FepFpo+ed9bElAnKGLjffyU81E1JfISAWMS4CCbJG0M=
+
+Name: res/drawable-xxhdpi-v4/event_icon_flight.png
+SHA-256-Digest: 2SwX3wWsYsRyIR5mkIgs6MoMWmZeigLg+oDh+JtGzqc=
+
+Name: res/layout/fragment_edit_date_calculate.xml
+SHA-256-Digest: qOnM28YeGDQ/MQ5T23KT/8q/NsurU4OkPcT/V4BJxh8=
+
+Name: org/apache/commons/codec/language/bm/gen_exact_approx_common.txt
+SHA-256-Digest: lI9tQ1WsdAEczNe9VOw7zkop6ibF1FGPAZzcHc7ycoU=
+
+Name: res/drawable/calname_bottom_select_underunselected.xml
+SHA-256-Digest: huGhbwVg/Vm3R+ttfwIru/XCTnsOD0qE/iAAf6WX+TQ=
+
+Name: org/apache/commons/codec/language/bm/sep_rules_italian.txt
+SHA-256-Digest: O00lNxDQyd1WSVlAR8jhB2MJTBC3tRjP2EBIwSIlX5s=
+
+Name: res/drawable-mdpi-v4/chip_background.9.png
+SHA-256-Digest: TFw5VyRDZADW2sTfVHjxlJP1hu4NcLs0h51lUU8kYzU=
+
+Name: assets/drawable-hdpi/weibosdk_empty_failed.png
+SHA-256-Digest: LnmErvUtlhHHqid1tPjvco8Rzpk9fp2x0753hMEIfnE=
+
+Name: res/drawable-xhdpi-v4/calname_bottom_select_underunselected_holo
+ _light.9.png
+SHA-256-Digest: YabYvQ/wL5tu4PS64PCUPyFYQcRSvZVEBsJ5T8VHnvc=
+
+Name: res/drawable-xhdpi-v4/tab_bg_middle_normal_light.9.png
+SHA-256-Digest: JNHQ3T8nEc3efP9AStSIai5hRctPHewqHtTGTJ3lc9c=
+
+Name: res/layout/calendars_dropdown_item.xml
+SHA-256-Digest: hA348QLJI23VVZaXVs/Vr+AQLh6k0QiwwC58aQlgqKc=
+
+Name: res/drawable/btn_bg_blue_small.xml
+SHA-256-Digest: qnaJOHvy8WAICLvKy3YrEYpO4awTzYLv0QZrGRt/Uzw=
+
+Name: res/xml/mi_quicksearch_hints.xml
+SHA-256-Digest: OH0YrohwzmANIa9l9CliQnzZ9Fza+tfHThJVANiUB2Y=
+
+Name: res/drawable-xhdpi-v4/icon_tab_week_selected.png
+SHA-256-Digest: ssrAsQhoLnxSHRJPNYs4OfgQtf/oVT7DM5vyfSnPlvk=
+
+Name: res/color/miui_secondary_text_color_dark.xml
+SHA-256-Digest: 54t1N6dwP429ygXTS8MBIpUxJeV3ulJlel2EkpFroYw=
+
+Name: assets/bank/bjyh.png
+SHA-256-Digest: 3UepmusGPzU0REY2suAHD6j+7eITMwMcwWwQ05QiGOk=
+
+Name: res/color/miui_primary_text_color_dark.xml
+SHA-256-Digest: pjUeYL4lP6OFFbO/Rr1oD2sYnhndCZFJm/mKZvkzIxw=
+
+Name: res/drawable-xhdpi-v4/travel_flight_new.png
+SHA-256-Digest: 7vFJyLS/qfY8yZ5nXuKAoUb9vvs7O3Cl6R9L2Gnujz0=
+
+Name: res/drawable-xhdpi-v4/list_without_divider_bg_n.9.png
+SHA-256-Digest: 95NzR776hBM0q/dYInqUOgVFlNY58U90WQ94F7gDTSg=
+
+Name: res/drawable-xxhdpi-v4/list_without_divider_bg_p.9.png
+SHA-256-Digest: h6unGlj48gKaox9FaUALU+oKPWLTuN6B3+rbabJWNO4=
+
+Name: org/apache/commons/codec/language/bm/ash_languages.txt
+SHA-256-Digest: 7nNoiKByVJehHHTMownuIdUg1a1ktVQSUOjx2pE4/pc=
+
+Name: res/drawable-xhdpi-v4/huangli_detail_bg.png
+SHA-256-Digest: onZ3r9nFIGcbJxPCpfq3LQ/CtvATgaF24Jn039K4QEo=
+
+Name: res/drawable-xxhdpi-v4/ic_menu_add_field_holo_light.png
+SHA-256-Digest: 0MgZeeT4eT0WfPJ08FlUEMi63mvbo3GiK/xZ8iBIAao=
+
+Name: res/drawable-xxxhdpi-v4/ic_aqi_gas_mask.png
+SHA-256-Digest: EEDNVD8vPYNuckLh10DCerJTCpz+bAlFYe43Q2DQMdw=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_p_28.png
+SHA-256-Digest: I5n7/4jKQ+BpzHnv2gJe5EvgkJwGmVSRevOkII2b2CI=
+
+Name: res/layout/food_card.xml
+SHA-256-Digest: Kpx7aBna9fR+k697ZoAx/oQChkQ0Tp13ShxyvMdiKg0=
+
+Name: res/layout/fragment_edit_event.xml
+SHA-256-Digest: kzP6hBF6aE07/g5BzSiOZK5HDnj/cPK1o69rsSH4608=
+
+Name: res/layout/health_card.xml
+SHA-256-Digest: tS87gpYI560wClb07FD941X9QlPVebz6ntOjHdNTqO8=
+
+Name: assets/drawable-hdpi/weibosdk_common_button_alpha_highlighted.9.
+ png
+SHA-256-Digest: N3vbBvxkSCc6ZhCQf8LvGVgogkwjT9PD//WPC1uLsV8=
+
+Name: assets/bank/lzyh.png
+SHA-256-Digest: WlhAlMalfLsQt2vUsBkH11dyEBfDPC82WOWw1WjTq1c=
+
+Name: res/layout/holiday_description_card.xml
+SHA-256-Digest: 8wFPU36lnF88gtHI4mFxIlOWUJ//wy3bIotWGivBHaA=
+
+Name: res/layout/ticket_activity_card.xml
+SHA-256-Digest: uul+BPedGkgQYCAOIOkqyz8L3X8JDlbcK6tKFUklQlo=
+
+Name: res/drawable/fortune_ratingbar.xml
+SHA-256-Digest: 92udLeiJrZJKhxAbhDwAMrm08ltCNJrUIRYk99w7JjQ=
+
+Name: res/xml/preference_edit_reminder.xml
+SHA-256-Digest: aAbaxTGwW89TyJnSS95Vsvd8w3crlBZd/bIjXv7Gl4Q=
+
+Name: assets/bank/ncyh.png
+SHA-256-Digest: H+AwSB7tcTcNqR4SBmlqHEID3/BxC+2Yuz+y0cGnAbU=
+
+Name: res/drawable-xxhdpi-v4/fortune_taohua.png
+SHA-256-Digest: ADFTu5Xk3DMWiKqiUVw2mPH3Fotp5JZWg/8rDiRETSg=
+
+Name: res/xml/repeat_preference.xml
+SHA-256-Digest: WqaMERbaTqHJn9KAfeEsNMSE4tRGViOHTVca3fHdCsM=
+
+Name: res/drawable-xhdpi-v4/ic_close.png
+SHA-256-Digest: AySqA88i0GwHCVJBguDciGFi3JsZbxTon3HMwDjgsKo=
+
+Name: res/drawable-xhdpi-v4/ic_limit.png
+SHA-256-Digest: SyqIXAx1ONSx/IjPPIILigM7G8eQKDt54FA/7PcTsKg=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_n_16.png
+SHA-256-Digest: qWIHu3jwbEGoRF+stZGodC0yZ++Vxy4QB7A2wufYwic=
+
+Name: res/drawable/action_button_today_5.xml
+SHA-256-Digest: EhvZcaF2tHit5MbARYUpgm1I96fhx1Fp56Dxri/BGe8=
+
+Name: res/drawable/normal_clickable_only_item_bg.xml
+SHA-256-Digest: pynInwGOpmY0883Y7ywDO80dciueM0Xw0ama+E1FjyE=
+
+Name: res/drawable-xhdpi-v4/calname_select_underselect_pressed_holo_li
+ ght.9.png
+SHA-256-Digest: AUNz3wucppeoCAy2WXl80uylTkyHMRvDGQ+ZjlNyoBA=
+
+Name: res/drawable-xhdpi-v4/widget_next_btn_n.png
+SHA-256-Digest: GSRO+8Ytdc2Nb4xp4mrpub3oCgoB16WqU4FesRTKHRM=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_p_20.png
+SHA-256-Digest: ULh/cTAAFBClf/7Bqbsf2mNUlDfu+eXOIsypmZB/ykM=
+
+Name: res/drawable-hdpi-v4/chip_background.9.png
+SHA-256-Digest: /UHNhvdhVaYZGP0sCazEWaWHUXdaqvhA6zr+kNzBqyM=
+
+Name: assets/horoscope/sagittarius.jpg
+SHA-256-Digest: RfFc24L7o7aqztXUTHokjdYp1io1+1sPutg+NA7LgZs=
+
+Name: org/apache/commons/codec/language/bm/gen_lang.txt
+SHA-256-Digest: y8ekz3vyimv8ShgE6q5RESX0WfKnPaTBwzscqfWKq9s=
+
+Name: res/drawable-xhdpi-v4/ic_small_image_ad_close.png
+SHA-256-Digest: NM9KWmW3hCwyn4eiWQKtHqA3ab7kXOhiJROmO2DM+iA=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_p_4.png
+SHA-256-Digest: 8eE55WQB8XD0R58UTSSk33IyPF2Pardh2ucyNIOy7Wk=
+
+Name: res/drawable-xhdpi-v4/tab_bg_single_normal_light.9.png
+SHA-256-Digest: t0p8K5e71Lgf43PvTmmmOESAn4lBDQs9LzW+5O+cqC4=
+
+Name: res/layout/huangli_banner_item.xml
+SHA-256-Digest: WXmHfmNbfT6t3NOAwuOOCNZL1C+B74RXZnqPaeB3vbo=
+
+Name: assets/drawable-xxhdpi/login_country_background_highlighted.9.pn
+ g
+SHA-256-Digest: Yoxe6SfxhD3DDbIPP/rI/QncsvpVQaAmN/0E+D+lFw8=
+
+Name: org/apache/commons/codec/language/bm/sep_hebrew_common.txt
+SHA-256-Digest: 9U2KTVCsQzGzSpptZGYQjo1GL1kNg7iBMMtDn3YKdOg=
+
+Name: res/drawable-xhdpi-v4/calname_select_underselect_holo_light.9.pn
+ g
+SHA-256-Digest: 9nbdInu54QRPAXbKHcyvHYDag+JlDh41/ORdP+L6jMw=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_p_12.png
+SHA-256-Digest: MdWdQbSvvu0ye4EGyszfp63JhBOnxTOritEjMxaCiSQ=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_p_29.png
+SHA-256-Digest: /DKiVrcT8TXwKUfM+FxMMWDAdZ8sZIRtez0XwtlmuSg=
+
+Name: res/drawable-xxxhdpi-v4/ic_movie_cinema.png
+SHA-256-Digest: 9Fj+1n4r6DUfzyV79wSnlXQGAS4vYpSANMSRSGKuEdk=
+
+Name: res/layout/subscribe_group_action_bar.xml
+SHA-256-Digest: vOnYAhbAswEzphRezt0qzddxIAlm+0Vmeic/Y98DgOM=
+
+Name: res/drawable/calname_unselected_underselect.xml
+SHA-256-Digest: dGgn+Ise0scQoa3Jrpr9AWeDLzelj8uHAC0TK5qY70s=
+
+Name: res/layout/activity_date_calculate_info.xml
+SHA-256-Digest: tbgIxW7sJiwe3Zr44Lg8SFaGBqClCwCciCW4Mxut+Vo=
+
+Name: org/apache/commons/codec/language/bm/gen_approx_russian.txt
+SHA-256-Digest: FeceM/r3u0VY/T9k7J44ERuwSFI0O8SomwmuEnJ5yvA=
+
+Name: assets/animals/pig.png
+SHA-256-Digest: whtPGU0G7oQ6E+qgq8n9CoW40PDppOyxcXNQ7kEyKjc=
+
+Name: res/drawable-xhdpi-v4/birthday_btn_p.png
+SHA-256-Digest: 3eoBGcH860xlFK5HTzLKLejM2DXPNlhr8wiaJn527nQ=
+
+Name: res/layout/reminder_listview.xml
+SHA-256-Digest: CiVNwn7l8olkKSuV8T1kNoZ/lo6qbMEzlPBqTVqJOM8=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_n_31.png
+SHA-256-Digest: tZee1IKDF/hpcxpiV5Rym2MUh7TkJ0GKa+Y+RvzM03k=
+
+Name: res/drawable-xxhdpi-v4/btn_bg_single_pressed_light.9.png
+SHA-256-Digest: rjq2zN4YuhnVmccM4yRcNu4Ob72U1Gc98LjYmUWi8Xk=
+
+Name: res/drawable-xxhdpi-v4/tab_bg_first_normal_light.9.png
+SHA-256-Digest: bJTM/yoixy7wIETyeztBgrKWwhmVZEl+TzYoeMexTCk=
+
+Name: res/drawable/full_banner_ad_close.xml
+SHA-256-Digest: F05x3oPDBgrdcrWbSXiFJYqPavaRdNfM9xuutBzvSEo=
+
+Name: res/layout/fragment_edit_date_interval.xml
+SHA-256-Digest: x+ZLNZMd1Nk1wU7Bqe93Ws4m57LCTsu3nvrvlXl0tyc=
+
+Name: res/drawable-hdpi-v4/more.png
+SHA-256-Digest: zHYoaXW7XEfcw2MQ2gVlq0c2G2XugjRSH+qUsgvFgVQ=
+
+Name: res/layout/all_in_one_title_bar.xml
+SHA-256-Digest: TzZOPsvgJVErTebizboFv7JzdQSU9pnYX2HMnq/w7LE=
+
+Name: res/layout/lottery_card_item.xml
+SHA-256-Digest: mpH1Ch5eDTvtUySYm3ldzgrEIt3Xvyh8T3GDjLgn3+g=
+
+Name: res/drawable/calname_bottom_unselected_underselect.xml
+SHA-256-Digest: QbW5OY5QisiIZgkmL5hc1xDt6wsg6bVX8t1qFsqBiEw=
+
+Name: res/drawable-xxhdpi-v4/widget_next_btn_p.png
+SHA-256-Digest: PWoeH30P3nHbh2Lahse2pOW9ZpebwwpQrPglLgfOrU8=
+
+Name: org/apache/commons/codec/language/bm/gen_exact_hebrew.txt
+SHA-256-Digest: 1U8m+Absg6NL6qAzy9EQqSBPhTBFv5BQowUBRrUuxQs=
+
+Name: res/drawable-xhdpi-v4/ic_aqi_leaf.png
+SHA-256-Digest: 8lg9yFZRcqAWxU54+ISqhaWMOc4+gRVgPnTaH1JofPw=
+
+Name: res/drawable-xhdpi-v4/ic_expand_small_holo_light.png
+SHA-256-Digest: +nxLBh8bwCOY2YV9K/MiH3uBBDQxAJVslLKDbUBl5wo=
+
+Name: res/drawable-xxhdpi-v4/calname_select_underunselected_pressed_ho
+ lo_light.9.png
+SHA-256-Digest: 754j0FgJo5rQxbskg3pyv/Zk9/lCjfHCEts4XPknOMk=
+
+Name: res/drawable-xhdpi-v4/loading.9.png
+SHA-256-Digest: WpPrRvHBoGm9XUR6PNw+VOn8/pu5E6OZ3Z5hyh4gW2U=
+
+Name: res/layout/agenda_widget_day.xml
+SHA-256-Digest: TRG2tt796rjoD37I8O0AVFxqQqm1QFzblNQoWU6m+go=
+
+Name: res/drawable-xhdpi-v4/homepage_guide_bg_p.9.png
+SHA-256-Digest: aLRmmf7Kws4hVSTAh8Z5b9ELQEfrJv+PNc+xdvYNVog=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_n_10.png
+SHA-256-Digest: bCvlhAkc2FP8h8DNLj+zezTUnz32T7UbIS1CsTbAQfM=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_p_30.png
+SHA-256-Digest: CAIQRE0tqP4DflkrIvVGzvaxMRhSh4BV3wJVOj8fxsU=
+
+Name: res/drawable/limit_tips_bar_bg.xml
+SHA-256-Digest: MTOzIi30V3WQDRXQiQtk9RQhAO15YCR9i9h23+pCIm0=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_n_25.png
+SHA-256-Digest: 1WRCTMLp5m11Bh8zV1IpseHAjoE4VQZdaMekLdfATAQ=
+
+Name: res/drawable-xhdpi-v4/icon_share_p.png
+SHA-256-Digest: kcglbwkR5WWWd/32/76CRiB2VococnnqJkxIWpa299c=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_n_3.png
+SHA-256-Digest: HCgPmDaZ4jxJaMk5Or21Xzw5AAMBW8JTDAtDRlOl5cM=
+
+Name: res/drawable-xhdpi-v4/ic_repeat_dark.png
+SHA-256-Digest: Q/g5u4ss+Pxz+RI0SK3Y4H8V7IDQO+bm7VZT3rahw5U=
+
+Name: res/layout/olympic_match_card_layout.xml
+SHA-256-Digest: xR+GddPA5bBaLx67jfel8QwPtK0DfF86UPD+MHe6leI=
+
+Name: assets/bank/msyh.png
+SHA-256-Digest: Ka6PPYMuUq2n5UDSqE4Hs/V9KkbaDzMr2z76lTFa8kc=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_p_6.png
+SHA-256-Digest: KRRkFO2jELqZuqL37G4mJpFDNorXyKVkhzoxwtQDiOg=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_p_19.png
+SHA-256-Digest: XqHBHlJ+uRwYkSLY7FW4i4dNx1vGo2zIW8LR7RT479M=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_n_25.png
+SHA-256-Digest: M/ySy+k1iXD7+hA5jAXB2oMK+wTKQGy28PzJtY/rck0=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_p_3.png
+SHA-256-Digest: 8ATpc/MOLtgE9DDIB++vbrub7vnQ7rl63MR9mtNa1j8=
+
+Name: res/drawable/card_bottom_background.xml
+SHA-256-Digest: pwTODzCOORuFxahysO4IVa5iMWCwdQmoHeBV+SjWF3o=
+
+Name: res/drawable/calname_select_underunselected.xml
+SHA-256-Digest: 352VqLxOaQDYfspi/HAcmeXlDmV/5JkDctoORilb+4g=
+
+Name: res/layout/base_fragment_detail_activity.xml
+SHA-256-Digest: pN+5bEMH6aD7dyk7jgBYkC769bnki8OkOzjsAwcSkKc=
+
+Name: res/drawable/action_button_today_4.xml
+SHA-256-Digest: 6T9L6BgIjlF0cunR2hpS5PDbyPyVn5bQkR+xRrfuL/g=
+
+Name: res/layout/holiday_card_item.xml
+SHA-256-Digest: bz7vMyC+t3jRwbwqKcPTOulmz4rbqr3Q3+uucHGQwGY=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_n_15.png
+SHA-256-Digest: QkGWNEpD5DtbI119T2I+K+o+6zF9UkBV81YnQxXGBHA=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_n_17.png
+SHA-256-Digest: uL0aO6idbs4H2GpyJW/8QkVJy8id7T/RXtMbY/3bQ2g=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_p_7.png
+SHA-256-Digest: TIpDwoOAPalNPnTyYzxDMZF/OEkO9AUUsq2jvg+YQTQ=
+
+Name: org/apache/commons/codec/language/bm/gen_rules_hungarian.txt
+SHA-256-Digest: Frp895v4UIncKf2S7/Y1jIk7xq74XmOW3SmvfEGk9hE=
+
+Name: assets/drawable-hdpi/weibosdk_navigationbar_back_highlighted.png
+SHA-256-Digest: D7P8e3TVMF+BRoS7uaTd0AK3xo9e0rcKlA+Lf1LiYJg=
+
+Name: assets/weather/icon_overcast.png
+SHA-256-Digest: BdhCB7szbyAqAf4r5E5Gu/gBwLerxqy+1weIU9qoLP0=
+
+Name: res/layout/bubble_event.xml
+SHA-256-Digest: YDxdjpg63GoGUycLnAC+3Htxy5fHLAipl0UncbYb2Aw=
+
+Name: res/anim/activity_open_exit.xml
+SHA-256-Digest: WkJXnJAyUnvHS20Wxf71Qka6XT29iW44Vm2Qq53jO6M=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_n_27.png
+SHA-256-Digest: ccFfPZ0OBC4aa7nWp759Jt8wU8683WVIH7NPUkML9xQ=
+
+Name: res/drawable/action_bar_back.xml
+SHA-256-Digest: JS/ReC91mLqH8xKiHvHUspg6Cgykz8DRvpS5/ZZJrIQ=
+
+Name: res/drawable/non_transparent_clickable_bottom_left_bg.xml
+SHA-256-Digest: mbyvYjT/3vgNJ6vzwdGGrClpgG3RCLmJiGra2qHKO0o=
+
+Name: res/drawable/horoscope_list_divider_line.xml
+SHA-256-Digest: ngJPLjIZQmdEBT8FAkNEL7e/3VvvcBtgfjeAvHckP1c=
+
+Name: res/drawable-xxxhdpi-v4/action_bar_back_pressed_dark.png
+SHA-256-Digest: SjrFOtZv//C+XGlKca60n/e1ImB1lrUvrQVJtylZFCw=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_p_18.png
+SHA-256-Digest: +uTwm2ILey38nf6/M//Ofiavl6bVxeqNoNwdd0pbwaM=
+
+Name: res/drawable-xxxhdpi-v4/reminder.png
+SHA-256-Digest: e/fuKohAqVB1Eu3j//mjcZeqxOumOaFUbEDutCYWExY=
+
+Name: res/drawable/action_button_today_12.xml
+SHA-256-Digest: 1U+Fv5Y9i2mQyhC2PNjTZ9eETg21e0KDUR2oHB6ySMY=
+
+Name: assets/bank/jtyh.png
+SHA-256-Digest: 9P/veO73TBgdsSWneabIPpqD9ZoA5D/gH80d9+rOjOA=
+
+Name: res/drawable-xxxhdpi-v4/icon_share_n.png
+SHA-256-Digest: C1w94yA1yVaQlJul/Xcn527sRTpViHxIq21bJDpyfTE=
+
+Name: res/drawable/widget_day_header_bg.xml
+SHA-256-Digest: Ko7l89v5PaLdoL8FCr3vq0rcECg+gnIHsekYxPcmuQo=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_n_15.png
+SHA-256-Digest: NA0Mo4FL2Lw86DJoKQCR2g6sS7+YKtSh4yGCjT1AUuE=
+
+Name: res/layout/history_card.xml
+SHA-256-Digest: C/Tx+ce+HzbW21LokHRQFqbWHXymyBA7+3e38SavK7I=
+
+Name: org/apache/commons/codec/language/bm/sep_rules_any.txt
+SHA-256-Digest: ozQ1bez4HBgmgtjg0D4XJ6tFoGhEbtEcloCRZ6yhh38=
+
+Name: res/layout/fragment_edit_countdown.xml
+SHA-256-Digest: 5OIf5yyUn5eFC1RI7c8zRkLg1DSHlxeWkjw5lP3oeQI=
+
+Name: res/layout/three_images_ad_card.xml
+SHA-256-Digest: vZIQjyb3UOG+7BXkw8jJ+E9NZD0IjaQvlYPD63gpOOY=
+
+Name: assets/animals/snake.png
+SHA-256-Digest: LrhP8Batr/1dej/O6gdiAun1JsRnm+pM5YKJgkVFEW4=
+
+Name: res/drawable-xhdpi-v4/widget_new_event_n.png
+SHA-256-Digest: otlh6BBrZGVh3kL3oJ3EIpuVGzrUtSahEPVaaOLBDLg=
+
+Name: res/drawable-xxxhdpi-v4/night_bg.png
+SHA-256-Digest: hl6vLUVb8+v14LYHcGDGgp1gBPhBzZXMThgc7SEAghk=
+
+Name: res/drawable-xxhdpi-v4/icon_share_p.png
+SHA-256-Digest: xnC3u6fMKWPRiwJtGwB5/dT9a0nBJbRqyDoI63si7e8=
+
+Name: res/drawable-xhdpi-v4/ic_ad.png
+SHA-256-Digest: g1LiYvhaw+emOfGouCdt3FsXZ1bm0JRcD99kw8UA3jg=
+
+Name: res/anim/activity_open_enter.xml
+SHA-256-Digest: D6P4uqxJMcSs6DWaykFI0aBA/FVzhMSBBm1CUXTZhDQ=
+
+Name: res/drawable-xxxhdpi-v4/ic_amount.png
+SHA-256-Digest: Hf/nJWk0ZQJzbnofOavPnA5dPIawb4JdK655N5iwXME=
+
+Name: res/layout/chips_recipient_dropdown_item.xml
+SHA-256-Digest: 9X0/nIHQOuEuuOhl533S1xjax2iFgTMrxnSOh7JB7RI=
+
+Name: res/drawable-xhdpi-v4/icon_tab_agenda_selected.png
+SHA-256-Digest: hh3mJ0Prnoevg/NdrPmK3miq3B6tH2smKUa56ly/1K4=
+
+Name: assets/weather/icon_sand.png
+SHA-256-Digest: niMV0N9xh6AzgXN0TGdjBhYYhwRycLFxv2gegz3IIZI=
+
+Name: res/drawable-xxxhdpi-v4/guide_card_icon.png
+SHA-256-Digest: Yhcdv563s1ZsHIBOkFYfbn9ONVV+SAUWire/yoNHhAU=
+
+Name: res/drawable-xxxhdpi-v4/btn_bg_single_normal_light.9.png
+SHA-256-Digest: VTLe0sPPQgxV6xabpBfofYX7KZIGegpmCa4L7qxw3h8=
+
+Name: res/drawable/dynamic_item_divider_line.xml
+SHA-256-Digest: qHNox4+FpBA/lGjgIMXCLuiLKZCEr972fWwAqfieYRI=
+
+Name: org/apache/commons/codec/language/bm/gen_rules_greek.txt
+SHA-256-Digest: a1bF2Km2Jw+Hd8zl8bCGA5CqIY9+K0PusdfL2zh3iDA=
+
+Name: res/drawable-xxxhdpi-v4/fortune_taohua.png
+SHA-256-Digest: lkhxF9+wyLrc8HQlvoKmmNoJNCYLQLJceMwFd796g8Q=
+
+Name: res/drawable-xhdpi-v4/icon_month_arrow.png
+SHA-256-Digest: iLcr744eb5GbWFjQt/oUhSE+MDOt2Rpmz0SXqZeYIgg=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_p_29.png
+SHA-256-Digest: 7l4Ml2DBzYEiVJYM7eLhUMXvOWL5JYDL8//yfvmXUV8=
+
+Name: res/layout/large_image_with_title_ad_card.xml
+SHA-256-Digest: W5fL3B24vFDvri8kyaphsrnOjVVqxdn7yNm2Iw3qZUM=
+
+Name: res/drawable-xhdpi-v4/reminder.png
+SHA-256-Digest: IJ7VWXRg65nQzRitqKI/BFbD1uTvY7fYgf7Ga+zNhf8=
+
+Name: org/apache/commons/codec/language/bm/gen_exact_any.txt
+SHA-256-Digest: z42j7lHUeNzh/2+hzO8vZUETCNR3A/kgQjzBFyJmYj4=
+
+Name: res/drawable/widget_month_item_selector_today.xml
+SHA-256-Digest: v+JcmfO14MGm6Oe42/s6R6UWDj+j3aZAN+n7LJN6MOg=
+
+Name: res/drawable/widget_month_item_today.xml
+SHA-256-Digest: 6OmOgcCCVFrWom4SbT0eB6bGQs7iidDRiJCFVtw+2gc=
+
+Name: org/apache/commons/codec/language/bm/gen_approx_french.txt
+SHA-256-Digest: HZ009k5djTAJdJ2dgYwFg0Y+6J8IwPfSsFRKQxasrUc=
+
+Name: res/drawable-xhdpi-v4/ic_repeat_white.png
+SHA-256-Digest: RmIUjmnNmG+of3YKDqBqD7bLBI00ll1wkgiLkUFyxGE=
+
+Name: res/drawable-xhdpi-v4/list_with_divider_bg_p.9.png
+SHA-256-Digest: WutyeLJdvq7Z77TPx8jC/Z6n/KT/BaTAFPxi70rn8Rc=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_n_30.png
+SHA-256-Digest: 5Drkxf8MjHAN0C6Gala6QZOwOK8I+ADp/ke3TWMQ5Ps=
+
+Name: res/drawable-xhdpi-v4/widget_next_btn_p.png
+SHA-256-Digest: aF9Af5o1I8j8uSC6LMKCHwNguWfJseBgFQn9+GHVw/Q=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_n_22.png
+SHA-256-Digest: pilomJW6FYJlzQG8Rjk9sGit6lrdLDOfu+zkVooR5CM=
+
+Name: res/drawable-xhdpi-v4/icon_settings_p.png
+SHA-256-Digest: g944ZfsJjkMnuUAj+GH7JetDbmLV0b7V98NVDYxmszI=
+
+Name: res/drawable-xxhdpi-v4/btn_bg_single_pressed_blue_light.9.png
+SHA-256-Digest: SyogDbDtiyPqTIaPdZNKU4HGI8CgOFAn97/ritoE+C8=
+
+Name: res/drawable-xhdpi-v4/miui_day_header_bg.9.png
+SHA-256-Digest: Bj3F+WOwnlf+La2dSFHYXOL1LhDplCZo0YqjySeZfWo=
+
+Name: org/apache/commons/codec/language/bm/ash_rules_english.txt
+SHA-256-Digest: fCiYbn3JEdh5jr6fJrk9BIfmMkgvxTSDY82O+U2sGl4=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_n_2.png
+SHA-256-Digest: neHQv/xm5GgwilLZHWuV1GZmz/tXJmm17kcsN/kMI8c=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_n_26.png
+SHA-256-Digest: JK5aOZKfqcma3yi/yvNcgp6Pr4vgVf+xmQKeqW3Eo2s=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_p_5.png
+SHA-256-Digest: jhVshvydCFmk6JQtVWcGcH5EGAJkQf643vmWvVb723k=
+
+Name: res/layout/detail_action_bar.xml
+SHA-256-Digest: y8UU2eXOX5YhZLhxgsBIfnBRHvj5jSrspLantnzl6yk=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_n_28.png
+SHA-256-Digest: FaLz6GRyBAFfDq4V3xvrB8L/augFDLINC/jfjTvuCOk=
+
+Name: res/drawable-xxxhdpi-v4/ic_limit.png
+SHA-256-Digest: HwASG/lXCeYCVM4AXBSZ0C7lf51JbnThrI1cBsNxBDU=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_p_18.png
+SHA-256-Digest: k2HIHUD4pdiYm41tCoomm3MPqHpI3QmWtva3Kq3vkR0=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_p_23.png
+SHA-256-Digest: m1RCkA7xtyfMq+S82YfeD7eu9suC7et1tJ7RJ4qeHqQ=
+
+Name: res/drawable-xxxhdpi-v4/cancel_reminder.png
+SHA-256-Digest: G2gQnadEUpvzyXuA9aoOENHc0MaKrB1k8tdp1HwhCRY=
+
+Name: assets/bank/wzyh.png
+SHA-256-Digest: iStErUP+25ZqZe6mC5sBSeKMjQG5tm7oQN1+nusWJsY=
+
+Name: res/drawable-xxhdpi-v4/huangli_detail_bg.png
+SHA-256-Digest: y0+Hs9peanDErSgtAv+hEa/OQBhLxJ3zgnT3nj/nV7s=
+
+Name: res/layout/fragment_edit_birthday.xml
+SHA-256-Digest: v/S1EAh8GxR+hwAps/6OCLTIfhaD7czU3SSMMh3PEiM=
+
+Name: res/drawable-xxxhdpi-v4/ic_ad.png
+SHA-256-Digest: 2jboVqbWZMXU2jRuEFeHZ7LV5RvP8m4hrRR8yObAuLI=
+
+Name: lib/arm64-v8a/libweibosdkcore.so
+SHA-256-Digest: Vbk8T32bhdbaibGdG1Czmu1gteTBzMbyYMLeFCIUQ6o=
+
+Name: res/drawable-zh-rCN-xxhdpi-v4/widget_month_icon.png
+SHA-256-Digest: DKR5r2YtT3Ag1D8VqUCGIdcOaODf+aHzbadu8ASanHc=
+
+Name: res/drawable-xhdpi-v4/ic_collapse_small_holo_light.png
+SHA-256-Digest: jet/FegRSCFSwrCsxPIoaStH2jVeB7G1QK6DoDMyItg=
+
+Name: res/layout/horoscope_select_activity.xml
+SHA-256-Digest: nVRkJ+bxSic0QCGmWn3h3zsuU5hQ8bDK3U25dWRe5Ec=
+
+Name: res/layout/video_card.xml
+SHA-256-Digest: CEZI+a7EMsE47lTHXbyvMKJ4wFV2y8Juz7/FY4Qd5s0=
+
+Name: res/raw/fallbackring.ogg
+SHA-256-Digest: ZqcBzg9ewfaS+u+0ViBdw4P2dF46lY5EyqiA8msBt5c=
+
+Name: org/apache/commons/codec/language/bm/gen_exact_turkish.txt
+SHA-256-Digest: 1U8m+Absg6NL6qAzy9EQqSBPhTBFv5BQowUBRrUuxQs=
+
+Name: res/drawable-xhdpi-v4/tab_bg_last_pressed_light.9.png
+SHA-256-Digest: g/wfoTq9BOH1rBeQNvn22u4sOuLNVkg75CGbgydB46k=
+
+Name: res/drawable-zh-rCN-xxhdpi-v4/widget_agenda_preview.png
+SHA-256-Digest: wr/GtNaiXC1guoggBiCKpMkM9CuRw2jCx4YTYH3o/Fw=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_n_8.png
+SHA-256-Digest: UgUjcdhpCuC2QAJJLSqZPc5PlnbONNQxYGwVKMRj0EM=
+
+Name: res/drawable-xxhdpi-v4/btn_radio_off_light.png
+SHA-256-Digest: jdXUyYU7Wqhsiz+0x0H6DDxuvwCX0RwjMsInjxKItLM=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_n_11.png
+SHA-256-Digest: oJp6vAKndvzIEKcvftnRQAkntJ2vnQqSHtc+lqR55Zg=
+
+Name: res/drawable/app_download_button_normal.xml
+SHA-256-Digest: j/bF//3dDHBQKkYAbXNOWRkctWzupBjzJ0705RmpF58=
+
+Name: org/apache/commons/codec/language/bm/sep_rules_spanish.txt
+SHA-256-Digest: V2VLQ1Xke5CFVhJqjPEPmnfcSeW/Oxeel5e06bR/iO0=
+
+Name: res/layout/news_card.xml
+SHA-256-Digest: BJUIA0HETOplQX4gRXdbq/gGQzlqywt/w4rs2R9UpSg=
+
+Name: res/drawable-xxxhdpi-v4/icon_tab_month_unselected.png
+SHA-256-Digest: soLRu/HSyOw3N7VE4W1jGRP2KaabQqgfaorS+yNI6xc=
+
+Name: res/layout/huangli_activity_layout.xml
+SHA-256-Digest: tdvtOHMhAhNGVT/2tZCbdy/w8+9dEgpwJYNHK1Ynluo=
+
+Name: assets/horoscope/libra.jpg
+SHA-256-Digest: rBRrHOgCrkaG4u1UMNovEIFYxW17c3TQOWTkyz+DVzI=
+
+Name: assets/drawable-xhdpi/ic_com_sina_weibo_sdk_close.png
+SHA-256-Digest: 2hatAA7liAovH8+5LLTWlLEqEGKIXodfSQMmlZFcPvg=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_p_26.png
+SHA-256-Digest: W4dNk4LPToaZcOMJprfrJEYyD4Yj5a+BUaAGgyXohlo=
+
+Name: res/drawable-xhdpi-v4/cancel_reminder.png
+SHA-256-Digest: K9IpoATVV58TOULwqX/bqsSzk7JFAoIZ7Hq0gbpta3A=
+
+Name: res/drawable-xxhdpi-v4/icon_flight_state.png
+SHA-256-Digest: QHOnsK9xN5F4HfIhoP5PXN5oKwvMQPj/Y1MsHVRCas4=
+
+Name: res/layout/agenda_list_loading_header.xml
+SHA-256-Digest: yErCTcjDahzXC2eovTM3fO0GrvnGEpPS/HkaJl3JObY=
+
+Name: lib/armeabi-v7a/libweibosdkcore.so
+SHA-256-Digest: 6qeTfdWUBgAMjnNPMw7dmgyv2jgUncfCsp6aPl4qGSA=
+
+Name: res/drawable-xhdpi-v4/event_item_bg_last_n.9.png
+SHA-256-Digest: l5w1CVWVFMFZt+JFlrSv3GOAZCu0s4m/hoQrXm7yWF0=
+
+Name: res/drawable/swipe_up_guide_hint.xml
+SHA-256-Digest: skx7K5RAT+HrhgkKc3Vy+TmY2hf3pCEP9+SPLU27AkI=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_n_14.png
+SHA-256-Digest: m4vV65UBFUidr7dImK0tch3imbw1KTuExuZYRBXa08M=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_p_2.png
+SHA-256-Digest: Suosx+1KQUGZvHjX6I+31bCnv782V+yCZrVF2UKzhWw=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_n_18.png
+SHA-256-Digest: aZELGqmYJTbK7qhG+bV4aniNA3vFNfF7hSNMxSNVkq8=
+
+Name: assets/bank/gznsyh.png
+SHA-256-Digest: A9cMNS/0Rhvxff5gmqIRtSWWWWJRbvtHE+hK+1qLNOY=
+
+Name: assets/bank/gyyh.png
+SHA-256-Digest: ku6WCBAIiYxMk9t2y3/G/C2fj8DQHFGiZElIDg+MuyU=
+
+Name: res/drawable-xxxhdpi-v4/icon_share_n_light.png
+SHA-256-Digest: V482AoGQjgaGhnj/8mpR3bMsZlddM6Yg8ONrLnaiBbw=
+
+Name: res/drawable-xhdpi-v4/ic_alert_past.png
+SHA-256-Digest: 7znfzhzlLA91YT3xio6bY51hUvE0peJ3p3/VFP1Kqes=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_p_14.png
+SHA-256-Digest: hQV5Hv3Vabbu1MZQ+pHlVw7n3Qjmfsuug/YWHnzv1GI=
+
+Name: res/drawable/actionbar_button_setting_bg.xml
+SHA-256-Digest: HEjRe9UJkFTlPopENq+CVhgOQh0f5vUP2fR9q8qN5Wk=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_p_10.png
+SHA-256-Digest: xA5VKOAPRUjAkva6edQWNrZpV1BokNAyKaX7giiN4EQ=
+
+Name: res/drawable/subscribe_button_bg.xml
+SHA-256-Digest: mNbPWvCxoIhzgGOGDFEEXcq52uapW/e65OUUFauMz1Q=
+
+Name: res/drawable-hdpi-v4/chip_background_invalid.9.png
+SHA-256-Digest: nhSK9TD84bTbBRCkNvl7HBPqj8G6F/pVMl9Bj2dgEW8=
+
+Name: res/drawable-xxhdpi-v4/widget_prev_btn_p.png
+SHA-256-Digest: 88QcnvfItPjineHZ5KA1gFRtKDBIEcnPHMh2H7P2eaI=
+
+Name: res/layout/preference_value.xml
+SHA-256-Digest: 9plX/7+1idJPZKsIi4JPMkWalCxeoHX+hjC1WR//lc8=
+
+Name: res/layout/month_view_item_loading.xml
+SHA-256-Digest: OLLkk0lVcG4FWm28RBx+p178yB+S7eHJ6bV1qfb0jjo=
+
+Name: assets/countryCode.txt
+SHA-256-Digest: kl2dpqjYMagbLy3EEHWtd8i5RbfG4f6PpuPAAhmko6Q=
+
+Name: assets/animals/dragon.png
+SHA-256-Digest: 7XjMwbKz6JVNMfErzOCE5ugU4uuk2cdqjJeB1y8N/nU=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_n_27.png
+SHA-256-Digest: lO3P17Lv9uyzCTYVINgKXHokz2PlPAfZOW6WWwcTaRw=
+
+Name: res/drawable-xhdpi-v4/preference_category_background_no_title.9.
+ png
+SHA-256-Digest: zMvoKEN1RwPBOV6H9RycKyvy7mEG9B56AaPEKTzbICA=
+
+Name: gradle.properties
+SHA-256-Digest: fmsiJnBKciu7P6PVgQlsuE315roKem753Ki6tFucU+c=
+
+Name: assets/drawable-xhdpi/triangle.png
+SHA-256-Digest: ytKe78m/IFzjnThA6EPDb/owh+qSKU0eQPcfZwSxyVM=
+
+Name: res/drawable-xxhdpi-v4/calname_select_underselect_holo_light.9.p
+ ng
+SHA-256-Digest: 9nbdInu54QRPAXbKHcyvHYDag+JlDh41/ORdP+L6jMw=
+
+Name: res/drawable/btn_bg_red_small_hollow.xml
+SHA-256-Digest: ujPceMPcDfW51NjYhRvGqufMSKdMh4lzUb7C4n2gT0M=
+
+Name: res/drawable-xxxhdpi-v4/ic_cost.png
+SHA-256-Digest: kaPGPceEoeQ1yRmFjsIBr59VuDPCxkK850axYVafGFc=
+
+Name: org/apache/commons/codec/language/bm/gen_approx_any.txt
+SHA-256-Digest: pyu9Rd6KMao86qoGUTiWxKu1m8du+UWBGj7cY7VUUdQ=
+
+Name: res/drawable-xxhdpi-v4/ic_cost.png
+SHA-256-Digest: 2f7qz+caviq4JdUo7pOtj5CEE1ujilAOk7F8ZFXElcQ=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_p_7.png
+SHA-256-Digest: yp1BCHRmcQ7eNnqKveVCCY8ndiO6k8AfZwJ4e7ker40=
+
+Name: res/drawable-xhdpi-v4/event_icon_anniversary.png
+SHA-256-Digest: nNoWUAS6KYNUTgM1Afqd5GtJ6gNsyoRjWe7/7WHo3QA=
+
+Name: org/apache/commons/codec/language/bm/ash_rules_polish.txt
+SHA-256-Digest: BHv3YwsDjhgKxAfca+20XrvELAGnyb57F4RcTpsV8lA=
+
+Name: res/drawable/btn_bg_red_small_hollow_p.xml
+SHA-256-Digest: 9mOudGTHO8+EzRPgC65ffhWwala/+T9CvmEe2uSWgho=
+
+Name: org/apache/commons/codec/language/bm/gen_rules_english.txt
+SHA-256-Digest: vPuHI8vzlmsJug3G89u9x4goacTnrxYPgDwvBRl4WiI=
+
+Name: res/anim/slide_right_out.xml
+SHA-256-Digest: 4/CkyZ12+a5vjxB5s0e64LLrOFzs9PlNEVt8ZT1/Z8A=
+
+Name: res/drawable-xxxhdpi-v4/ic_anniversary.png
+SHA-256-Digest: 7eqaHUwf0+NCq9P8P/4NjraH9bXWKVyeBMV3ToRQ6a8=
+
+Name: org/apache/commons/codec/language/bm/ash_exact_approx_common.txt
+SHA-256-Digest: oflH4HFCOqXCQ2BIT4W3E596P/530gieNnyhUnQ9Ghk=
+
+Name: res/drawable-xhdpi-v4/night_bg.png
+SHA-256-Digest: Ofw36O3QoKuNeHioPJfsh5pH8eJ0irHns7arz+ifYrY=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_n_12.png
+SHA-256-Digest: KulTAu3Vso+k7GUNZUiJJ/uvvjHy4nBhqaRPXBubPtQ=
+
+Name: res/drawable-xhdpi-v4/ic_interval.png
+SHA-256-Digest: OPhyngzVgPpoE1SWONqYowvBbRWcNnHteFY4ys2fkp8=
+
+Name: res/drawable-xhdpi-v4/widget_new_event_p.png
+SHA-256-Digest: UeEI9lyy9KXDRU9TYKFkZT0O51k3J6utgq0b7AuJluQ=
+
+Name: res/layout/small_image_ad_card.xml
+SHA-256-Digest: qnUx52IbLWcrrKXi/YOCHx9k2iYSjJyrE5CMMTln/DQ=
+
+Name: org/apache/commons/codec/language/bm/sep_exact_portuguese.txt
+SHA-256-Digest: 1U8m+Absg6NL6qAzy9EQqSBPhTBFv5BQowUBRrUuxQs=
+
+Name: res/drawable-xxhdpi-v4/ic_close.png
+SHA-256-Digest: QBNnCmge8iT0NU3e4+vb02bcf7lvjC6zwknbt9yhj+o=
+
+Name: res/drawable-xxxhdpi-v4/ic_close2.png
+SHA-256-Digest: 8uLIxFS0uVXqbYT2P6vXFyuol4XBjzp+APDz+Ys98aU=
+
+Name: res/layout/chips_alternate_item.xml
+SHA-256-Digest: 6mZs+18qL2Eepx2+EDGkljIM+ycORZtx4+jhV+3Djas=
+
+Name: assets/horoscope/virgo.jpg
+SHA-256-Digest: Q81YzKJsATl7goOsyDG7vpibRcTjX0ZZRGLh1DnxUp8=
+
+Name: res/drawable-xhdpi-v4/widget_month_preview.png
+SHA-256-Digest: UDslKQqPwsEi1zpItzGuJPE12kz2Rha2ulLRnrk0pZs=
+
+Name: res/drawable-xhdpi-v4/event_icon_flight.png
+SHA-256-Digest: Lh3CnKS3NnIN5Dqyqw1HbYRhETLEmUbC4oq4GZcth0w=
+
+Name: assets/drawable-xhdpi/weibosdk_common_button_alpha.9.png
+SHA-256-Digest: /bdSX060+1SAvSNiJ+CN/OdccNEzeSxBpkdbvlGY9uk=
+
+Name: res/drawable-xxxhdpi-v4/countdown_btn_p.png
+SHA-256-Digest: 16ijN0B1aTK65y1NsKLgHswvXvCisQROJM/tHT389Vs=
+
+Name: res/drawable-xxhdpi-v4/icon_date_n.png
+SHA-256-Digest: fagxt8jEVtkD0mTDdpZ+oJlnc0oNzaMRg8QGQaxoaF4=
+
+Name: res/drawable-xxhdpi-v4/card_bg_central_n.9.png
+SHA-256-Digest: K0iu5vUBnBlTSaoaG0LIdPSU3V5c4kNzT3sogvxK6I0=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_p_4.png
+SHA-256-Digest: TSg2T7qQt2GehWVdmm+Tw90cwEm9jBXCR7kkCNFWlCQ=
+
+Name: res/drawable-xhdpi-v4/ic_electricity_bill.png
+SHA-256-Digest: PXXV61YhZk8OZsgJjjhDCbZhIexKevXb0dbCHMAsUUs=
+
+Name: res/drawable-xhdpi-v4/icon_date_p.png
+SHA-256-Digest: 9ugu4c53H0st+x3EHgzCgXMVSLw4GhY5pyfXb845+hE=
+
+Name: assets/drawable-xhdpi/search_clear_btn_normal.png
+SHA-256-Digest: Tcqn8NmMmsnuprzT8ssKbRBjSehj5/qoegvf/WETv5I=
+
+Name: res/drawable-hdpi-v4/ic_menu_remove_field_holo_light.png
+SHA-256-Digest: x4VyjVqA4akzNCz3wz2xgeEgusIgtCglZionEje4e1s=
+
+Name: res/drawable-xhdpi-v4/icon_share_n_light.png
+SHA-256-Digest: OQyKoLAX8lmSjNROJye9XMHhFNYcp/Keu5Ltt0iwLYQ=
+
+Name: res/drawable-xhdpi-v4/tab_bg_last_selected_light.9.png
+SHA-256-Digest: g/wfoTq9BOH1rBeQNvn22u4sOuLNVkg75CGbgydB46k=
+
+Name: res/drawable-xxhdpi-v4/action_bar_back_pressed_light.png
+SHA-256-Digest: QG7OdsN5kaKAqdIbrVdi44ac6SdpjKhPFtPBrlC5O2w=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_p_22.png
+SHA-256-Digest: 3XvKre337WS8xDDE17KQUJx0NvsxsyQZL+wk8HetaCQ=
+
+Name: res/drawable-xxxhdpi-v4/icon_tab_day_unselected.png
+SHA-256-Digest: 8VITA2sSxMNEvTunHgYjU8+Hm0UhA7ylxiZaKogg47E=
+
+Name: res/raw/holiday_config.json
+SHA-256-Digest: nmf9tFeMYRiAVT7PPXexcaHY+rglnCURJEAcnuFuGaU=
+
+Name: res/drawable-xxhdpi-v4/ic_close2.png
+SHA-256-Digest: Q05yjLLabV8TQYtOwgIPPs23B5Dp9nR5YTGLsHzaVQk=
+
+Name: res/drawable/action_button_today_7.xml
+SHA-256-Digest: 195z4AFydG5+eQ7GyhjhLppeQG0fN+I2JDW7LLs6Umc=
+
+Name: res/layout/more_item.xml
+SHA-256-Digest: h0tAJ+z9pGanALok0LBpSgLBYpMuOp3U+pW66x+OopQ=
+
+Name: res/drawable-mdpi-v4/chip_background_invalid.9.png
+SHA-256-Digest: QPQstrX48RU/SFKMk77L0/lNCvFOvPlSYuvdCLDlDuc=
+
+Name: res/layout/homepage_tab.xml
+SHA-256-Digest: 7IwcftvdoCCGefJIA+FNzXyFk1etfWTmd891oABATYU=
+
+Name: assets/other/movie_detail_header_bg.jpg
+SHA-256-Digest: BbALMGr7UmrhhO3MUv1+KFPdVKsGfSjxKen0oQRPy9o=
+
+Name: res/drawable-xxhdpi-v4/travel_tower.png
+SHA-256-Digest: FM12oXJCKhWoQnGXg5boSQZRVrz9VO0/u8Z3YguRT8s=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_n_23.png
+SHA-256-Digest: cQWmj0MhqfyKYhiotNDp4vs6oJB70OuebEmn8I+pyfo=
+
+Name: res/layout/custom_repeat_week_picker_dialog.xml
+SHA-256-Digest: Vcq/KXDb6dniveLZ6j05JLzsHWNGXh4vhhhUr4Rfa3E=
+
+Name: org/apache/commons/codec/language/bm/gen_exact_italian.txt
+SHA-256-Digest: 1U8m+Absg6NL6qAzy9EQqSBPhTBFv5BQowUBRrUuxQs=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_n_9.png
+SHA-256-Digest: 1Y62sXp4DLHsPhQrkqRI1i21oYzGNQxcrfL+3LMRcYQ=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_n_29.png
+SHA-256-Digest: atRtXC6Chy5GD8RF0ci/IbRTNHMcGFFX90z5BmgoZPg=
+
+Name: org/apache/commons/codec/language/bm/ash_rules_cyrillic.txt
+SHA-256-Digest: NhvIdpHaa/2ln/QWzmHJIqroEZRGaf0F9TesYp7v7YQ=
+
+Name: res/drawable-xxxhdpi-v4/event_icon_birthday.png
+SHA-256-Digest: qcyY23arCw6ed89JrN7y+rWC9lQRghVP49wFS5tPovA=
+
+Name: res/drawable-xxxhdpi-v4/ic_electricity_bill.png
+SHA-256-Digest: xAB2zC4OgaX/G7SRXfC/CjWZsd9miqoNcWXrABMtOYI=
+
+Name: org/apache/commons/codec/language/bm/ash_rules_romanian.txt
+SHA-256-Digest: IS8DwqHFOaCNRmQQexB73c7TpGG21TYjNcDBA53YjXw=
+
+Name: res/drawable-xhdpi-v4/ic_jump.png
+SHA-256-Digest: fxm8YpC5ITJxjUK6AGWvUN3jhFR2TBFYj8G/F4Ztvbc=
+
+Name: res/drawable-xhdpi-v4/calname_bottom_unselected_underselect_holo
+ _light.9.png
+SHA-256-Digest: F16UYtmAGqb6qLyCNW6JflUkCxIZ12q++CH7VQWwNHI=
+
+Name: org/apache/commons/codec/language/bm/sep_languages.txt
+SHA-256-Digest: nMEtQXLkFWQrQQXZZxfZybKKvKir+2G2RD9OnEetr4c=
+
+Name: res/drawable-xxhdpi-v4/homepage_guide_bg_p.9.png
+SHA-256-Digest: ZYTdJ7YM9nW5D78RZvAXdzTZsGzAfH2dDgMEmHQHSk0=
+
+Name: res/drawable-xhdpi-v4/widget_prev_btn_n.png
+SHA-256-Digest: Bom8aC46RYEVi2SINWkz2R9F8PqgRwebo0Ep7L2fVZE=
+
+Name: org/apache/commons/codec/language/bm/ash_approx_polish.txt
+SHA-256-Digest: X1ZifVDU7w48jHYiXT5y/ZXIyQrmKdZdMvIC95LVkSo=
+
+Name: res/layout/life_card.xml
+SHA-256-Digest: PihS9ulxYfobpukjU4fRhqwSrupGCKe3DtlWiakduI0=
+
+Name: assets/bank/hxyh.png
+SHA-256-Digest: 2o8bMOjz8neDsm9cJc5gAopQEdYG68uYWurdkaOqxSA=
+
+Name: res/drawable/action_button_today_10.xml
+SHA-256-Digest: AVc0O1N8ITZQqNpW1gHsc12IdyPjlk5+K9I85/Qw6as=
+
+Name: org/apache/commons/codec/language/bm/gen_exact_dutch.txt
+SHA-256-Digest: 1U8m+Absg6NL6qAzy9EQqSBPhTBFv5BQowUBRrUuxQs=
+
+Name: res/color/list_secondary_text_light.xml
+SHA-256-Digest: hMja2cgwGR4fXtbFEnTYP9oYNwfmF6SEOqdI4fx6y70=
+
+Name: res/drawable-xxxhdpi-v4/icon_share_p.png
+SHA-256-Digest: eYyLK8+/DNG4ZbXXNdCfTW6wyFb8yUhGkGMG9tDiVTg=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_p_1.png
+SHA-256-Digest: q7uMuX6MZ6/XTWr+xm4v6FOAlh4wbIGoJQ4KZDStEIQ=
+
+Name: res/drawable-xhdpi-v4/calname_unselected_holo_light.9.png
+SHA-256-Digest: s426QN7wAJgakr9Hct/NlKQdW6Lw77sUQElNxchWayY=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_n_17.png
+SHA-256-Digest: f/kqXowWbLNMbCh9LkaiU7HyNYQNK91H1CQvRX6Vuss=
+
+Name: res/drawable-xxhdpi-v4/morning_bg.png
+SHA-256-Digest: svUwUSJIgFqYAOu0eK128LdfBGyVJXe21IPEU5I2ZfI=
+
+Name: res/layout/guide_card.xml
+SHA-256-Digest: uPeyh5avHmu8m/65S+Qf9RKPUzt/Vb2KSyWm9F4aSqs=
+
+Name: res/layout/webview_layout.xml
+SHA-256-Digest: prHArYM0WpoA+SNkESIed7/ME+VEiyDQZM2FtZavsJ4=
+
+Name: res/drawable-xxxhdpi-v4/tag_bg.9.png
+SHA-256-Digest: /ElMT/GwZyPeg5HUnrz5fhpYWmP5+hXIV4UFE0VXfZU=
+
+Name: org/apache/commons/codec/language/bm/sep_approx_hebrew.txt
+SHA-256-Digest: 1U8m+Absg6NL6qAzy9EQqSBPhTBFv5BQowUBRrUuxQs=
+
+Name: res/drawable-xxhdpi-v4/button_rect_bg_n.9.png
+SHA-256-Digest: Uwqx+EuPriz7h4pI2A0F9gaOu2QUrD0xDNnNQbJqcq0=
+
+Name: res/layout/electricity_info_header.xml
+SHA-256-Digest: adcI3mrEs9XnYj2yowIHt1EqTLo/PqipuzdJXJWaY2s=
+
+Name: org/apache/commons/codec/language/bm/gen_approx_turkish.txt
+SHA-256-Digest: 5SsSolD6WT+ZyooG4CsYoJFRih5rZv1Jbnin2ziIzEM=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_p_27.png
+SHA-256-Digest: S01dP0DMLPLDBte2npXeoOaoU5Fn2DZcyEfwTO3AM40=
+
+Name: assets/weather/icon_sunny.png
+SHA-256-Digest: PDGYxJH8SVDenu9YMYjN0HKK+M7emsYlPSxO/DCXVtk=
+
+Name: res/drawable-xhdpi-v4/icon_tab_day_selected.png
+SHA-256-Digest: 4I0g/JkY8hzcPN3VkAk8reIvSuJhU+G800b/ZluDrEo=
+
+Name: res/drawable-xxhdpi-v4/holiday_detail_default.png
+SHA-256-Digest: FwaJs9cq0ducXG27jjDTxQ8Pz52sDEGhUPcb055GsKE=
+
+Name: res/drawable-xhdpi-v4/btn_bg_single_normal_light.9.png
+SHA-256-Digest: 5q5mNJVeqDsTZJXqGg0+v0vyYAdt7xbyk3C2tfvAy00=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_p_1.png
+SHA-256-Digest: jlHqU5lPkJhzLBQWcuEKto099vDBsLSkPM56jZqSf3w=
+
+Name: res/layout/spring_service_item.xml
+SHA-256-Digest: B3TDjqpKrpiQ6UihyZFTGoUzHKxkHrYeCJ0AbBgynlo=
+
+Name: org/apache/commons/codec/language/bm/ash_approx_any.txt
+SHA-256-Digest: rWx14OULUfgH1zo9PvRqb2ZqiRy0lTzDV6XTBeYeMKs=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_p_6.png
+SHA-256-Digest: 2eMjjJr3H1Bwx9nIBgJ1Wzo54UKpoAqsdAjceU73u8o=
+
+Name: res/layout/horoscope_card.xml
+SHA-256-Digest: YKo+n1h6rJPQHA0Llah61bF37vtEAfgEzchR7hRJNJQ=
+
+Name: org/apache/commons/codec/language/bm/gen_approx_english.txt
+SHA-256-Digest: U3Ob0nhoKSM4YG73of0gm2JT016U16SvsDF2lJjWDWQ=
+
+Name: res/layout/train_info_header.xml
+SHA-256-Digest: BTAZbkaOEwQWS7VJIzmWjjeZriG12gOwCR8ZmdwONoc=
+
+Name: assets/drawable-xhdpi/get_code_button_highlighted.9.png
+SHA-256-Digest: zjXJqTqDXRoKhdfFE5td8uzl6AVeopHROOcWXj1ig2Y=
+
+Name: res/drawable-xhdpi-v4/action_bar_back_pressed_dark.png
+SHA-256-Digest: nMrhVhEbzeTHAIuuD28M/Dc2n1y7OLW7lH0qs89EmBk=
+
+Name: res/drawable/widget_month_header_bg_dark.xml
+SHA-256-Digest: 7rYokWOK5yw/K7oAMlXL/0VO2BUN76KCsWUkEbKaaYU=
+
+Name: res/drawable-xxhdpi-v4/calname_bottom_unselected_pressed_holo_li
+ ght.9.png
+SHA-256-Digest: OvsPXjyKOmUM8DxnoPFjaEjqN+0lUT4PX09joFmvIus=
+
+Name: res/drawable/action_button_today_6.xml
+SHA-256-Digest: 4lQR5rlkoqDseaS9Gf5SOVQaikuIbg55inJ/AFrpy4A=
+
+Name: res/drawable/red_point.xml
+SHA-256-Digest: qSOcIT0dbvWJ/UgtIMDugOIjq6gCPB2NdLrG/i+oV9s=
+
+Name: res/drawable-xhdpi-v4/icon_settings_n.png
+SHA-256-Digest: 92mStfvnTpq05rtBTQuZf/GjDUJ6qxBf0MVUE4JNCRc=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_p_15.png
+SHA-256-Digest: dmiiihHtscc0aYhyeRn+XAY0JzSw/tTC41Mps+lMybQ=
+
+Name: res/drawable/widget_month_item_selector_not_today.xml
+SHA-256-Digest: K5558mmzGosgut7NXnTjSRctvlblHaZNwzDrm/cpqc0=
+
+Name: org/apache/commons/codec/language/bm/sep_approx_portuguese.txt
+SHA-256-Digest: IdYyJ5dyromDgyIgUFvPDG+1APT/reD5kIMG0BhxDxM=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_n_28.png
+SHA-256-Digest: tj6mu+M/zeZaGFuXuX4bCHZsIPux3MJATrZcoRsGDJI=
+
+Name: res/drawable/normal_clickable_view_bg.xml
+SHA-256-Digest: ZIT6F3zIr31BVXQhiXLo0zaHCQYbhHWiU6fBOLbHgtE=
+
+Name: res/drawable-xhdpi-v4/travel_tower.png
+SHA-256-Digest: zTPho8GMAUHWBqf6X5ui72b0Vl2qzy7KWVJCXEUjQq4=
+
+Name: res/drawable-xxhdpi-v4/ic_gas_bill.png
+SHA-256-Digest: bvpmAZvjdCOrO4sratTVP9ImVe4/HyLZFcikKN3lbqM=
+
+Name: res/drawable/aqi_bg.xml
+SHA-256-Digest: qDrZzgAePLtUIyEZNfEumtVU5WDvjYjOr4qK4yeKbI4=
+
+Name: res/layout/custom_repeat_week_group.xml
+SHA-256-Digest: 0uEgMqqmZQk0v659xN+seN2g1fa/CuTupSzrWbQg+9s=
+
+Name: org/apache/commons/codec/language/bm/gen_approx_greeklatin.txt
+SHA-256-Digest: 3/oALTl/hRNK8DUMwvp18e3f11oqGL5aV2HjyAeB8S4=
+
+Name: org/apache/commons/codec/language/bm/gen_rules_dutch.txt
+SHA-256-Digest: mSHnXbvJQtJXKoZgsJeTKWOehwf/qbsd5rfRp6mVXCs=
+
+Name: res/drawable-xhdpi-v4/calname_bottom_select_underselect_pressed_
+ holo_light.9.png
+SHA-256-Digest: mG5+7Y0E0Rsqb+YFR5ERC51TuhTF2XWU4mfGLFrSOjo=
+
+Name: res/drawable-xxhdpi-v4/ic_contact_picture.png
+SHA-256-Digest: TOoy4GdwQM5hF04YynDdTR5lixbK+d5QjZwwxqLMArs=
+
+Name: res/drawable/image_with_border_bg.xml
+SHA-256-Digest: ApZ7gztwDNqZ+67M/PhPdJjDNLESFTcfm1pUQHipL3c=
+
+Name: res/layout/all_in_one_guide_layout.xml
+SHA-256-Digest: lo3mpcWemCiP+WbCGIxjO9oQmBIl8OFR4GObO+QsIHM=
+
+Name: res/drawable-xxhdpi-v4/event_btn_p.png
+SHA-256-Digest: 56ybhG0aSpU7YZkspR2tvwBSm9C3QvC6VOc4Nn3WnMY=
+
+Name: assets/bank/zdyh.png
+SHA-256-Digest: ccqWGW0b3PWIvc3v/Ywm/C8DkAtG/fy+T4pLmSGWX4A=
+
+Name: res/drawable-xxhdpi-v4/event_icon_credit.png
+SHA-256-Digest: tOf4GGjKF6Qf5nhMRQq3Zm+LVfVCxNfzVhGKIfc7uag=
+
+Name: res/layout/activity_edit_event.xml
+SHA-256-Digest: bw2JETwav4yg1Nre9JwhPZbyxbsC8pLyyY6fxbvXbZM=
+
+Name: org/apache/commons/codec/language/bm/ash_rules_german.txt
+SHA-256-Digest: ALCkuvJ/90+ZLzn/h133tpTv5yGPIoc0aVtLCBdXV1g=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_p_3.png
+SHA-256-Digest: 8upO5CQXHeeNn5sv5MMtfxF+kr04ZDbxOzmf0TXoyjw=
+
+Name: res/drawable-xxhdpi-v4/homepage_guide_bg_n.9.png
+SHA-256-Digest: py0KOgtYmH9KJf3fyGVZ01ItYYrdCQTtbxvYIPUT/GU=
+
+Name: res/drawable-xxxhdpi-v4/tab_bg_first_normal_light.9.png
+SHA-256-Digest: YDlG2siFBucym/1clhr8kj2lvtGjfiWmy8q+wy0X4RI=
+
+Name: res/drawable-xxhdpi-v4/calname_bottom_select_underunselected_hol
+ o_light.9.png
+SHA-256-Digest: YabYvQ/wL5tu4PS64PCUPyFYQcRSvZVEBsJ5T8VHnvc=
+
+Name: res/raw/third_party_config.json
+SHA-256-Digest: 1aPnEYJTT6dTATKRr9pOSzvBn4n5SwHvKcYjtfORkt8=
+
+Name: org/apache/commons/codec/language/bm/sep_rules_hebrew.txt
+SHA-256-Digest: VFkZ7uyu5zAf8Ur+aciPrwJ381aMFUAyviBNP/DZ2mg=
+
+Name: res/drawable-xxxhdpi-v4/homepage_guide_bg_p.9.png
+SHA-256-Digest: q4ckouiHM6BA2IhgCuFxUyPN8cY24ya5tt3lqPUgY4w=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_n_13.png
+SHA-256-Digest: ADrE8X1jhMv/o9RihlOWFprFWX/AjlEyLLLKqtSbn10=
+
+Name: res/drawable-xhdpi-v4/calname_bottom_select_underselect_holo_lig
+ ht.9.png
+SHA-256-Digest: zexj1TjuMTxgBQgNCqEIDAp73N8fgyAEIN2r+Cno7go=
+
+Name: res/drawable-xxxhdpi-v4/ic_address.png
+SHA-256-Digest: /XAL3Ckl/t8o6mEnCteHrzYeMLwcq0NZYCttbPye/qo=
+
+Name: res/drawable/spring_calendar_hint_bg.xml
+SHA-256-Digest: d4XPqSWEBF6hahUwszctUyedH9j8GcCyvDmncBGtdLM=
+
+Name: res/drawable/btn_bg_blue_small_hollow.xml
+SHA-256-Digest: ZNKnFHL+ORf5Pt/f1DRv2NQ5C2ajsgzAS+oVYFH0/Y8=
+
+Name: assets/bank/glyh.png
+SHA-256-Digest: VwDI1vheSY+01m/eP803rlBLIbv7WwFp22MM1zpjfSE=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_n_31.png
+SHA-256-Digest: /APVmK1SQjQeE56QJZkjTEzZVR1B0QpS6Yf+k5TwsKc=
+
+Name: res/drawable-xxhdpi-v4/ic_alarm_white.png
+SHA-256-Digest: t86HYLitQyAirceg/hTaFAl5+N0BHE5M+CyOHEji0hM=
+
+Name: res/drawable/calname_bottom_unselected.xml
+SHA-256-Digest: rcrCl/lOhtXLReCAppzXbPSmouma6zagRxhf+8HaBuU=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_p_9.png
+SHA-256-Digest: +lK/fUpQo6jeWdo4LOQld3CNdA7d3NL1fwHCpXLNeCI=
+
+Name: org/apache/commons/codec/language/bm/ash_approx_english.txt
+SHA-256-Digest: U3Ob0nhoKSM4YG73of0gm2JT016U16SvsDF2lJjWDWQ=
+
+Name: res/drawable-xxxhdpi-v4/birthday_btn_p.png
+SHA-256-Digest: bCdatstCxRj15rcEUTBY7s2PyMga5s0WsAdqD/+iVps=
+
+Name: res/drawable-xxxhdpi-v4/ic_credit.png
+SHA-256-Digest: rxPBInh5VIgVyI50k5V+6fnE8MJHvSXO64rsVauknHE=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_n_15.png
+SHA-256-Digest: DhoTVyWE7wSh7Mq4oQvqYfyC4iY9tmcqsOt2zu0hw84=
+
+Name: res/drawable-xxhdpi-v4/birthday_btn_p.png
+SHA-256-Digest: s4ZTN5vwRVuj+xzGH0eb0IfxGGuPyqXLDbY//9nxVWg=
+
+Name: lib/x86_64/libweibosdkcore.so
+SHA-256-Digest: IkPdiz1OlIeTHSUf5GzFGrxaGLRTKZ1koSE7U+ClQhQ=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_p_1.png
+SHA-256-Digest: kXEH99CP9Cc0Kkx25wk1teZ0eYAelcW051Zuyft419I=
+
+Name: res/drawable/action_button_today_22.xml
+SHA-256-Digest: BXe6jRmnWJVK+oBitQFjm2HUTo//qyaTA4JvbfXQndE=
+
+Name: res/drawable/homepage_new_event_bg_n.xml
+SHA-256-Digest: ZNwasLKRGBtjD85AV3kpSh0qir1SegYq1xQXh9KKYNk=
+
+Name: res/drawable-xxxhdpi-v4/icon_flight_state.png
+SHA-256-Digest: ZSxL4Tvv3UN8FB7erWqggCIpP31oZjXu9dPpgD+1fIU=
+
+Name: res/drawable-xxxhdpi-v4/no_event_hint.png
+SHA-256-Digest: x1o5f4yZHDmHHrcMgrj+JbHcfFeuO/ZuodYjgicr5xg=
+
+Name: res/drawable-xxhdpi-v4/guide_card_icon.png
+SHA-256-Digest: qCY29zM2yDFBJdwiJjWirrpkmHbKv8KooHX9L1ztR0M=
+
+Name: res/mipmap-xxxhdpi-v4/ic_launcher_calendar.png
+SHA-256-Digest: GGseD+jd6Rd7FGpE9VlEm7yWDPmkOH/lwP8NYFgJyMw=
+
+Name: res/drawable-xhdpi-v4/ic_full_banner_ad_close_n.png
+SHA-256-Digest: wVl9X/izYl6gha0JXke/xerqlpARNBaBjk0PxHeTRMg=
+
+Name: res/drawable/huangli_yi_bg.xml
+SHA-256-Digest: 3MB//vO3xcV1lJjfaR9wV8mWrp9muSGugzKBViOQMMw=
+
+Name: res/xml/agenda_widget_info.xml
+SHA-256-Digest: zsBbXUUcRQ6SxlEQtA5ScjbCzvbRH09eqSqlxZ7ycnk=
+
+Name: res/drawable-xxhdpi-v4/ic_repeat_dark.png
+SHA-256-Digest: G+kDrQHBJ19vwk/CbymELwtmjdu+cP9X//btkGJyWm8=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_n_12.png
+SHA-256-Digest: 4iX9tzNH3qM6jzeiUfjmXAZi6L4SYp4HBFphI78M5Is=
+
+Name: res/drawable-xhdpi-v4/travel_car.png
+SHA-256-Digest: Xlf3cNx7/42KfGmQMZ/WT/JtjYtsOPf5fJv5ODUPDEY=
+
+Name: res/drawable/action_button_today_1.xml
+SHA-256-Digest: h7IAe9Vway3ZVxRXCZnekjdvdhl2tH579prlL1aTJpU=
+
+Name: res/drawable-xxxhdpi-v4/ic_repeat_dark.png
+SHA-256-Digest: MTLHB0hUeYNmR8Ucvdfgz6QivEheRrx5BUrN48Kq6i4=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_p_24.png
+SHA-256-Digest: +GOxOdxJ43zFgNSTwXJlOejkDtMzoGwgagEQJGFJhXs=
+
+Name: org/apache/commons/codec/language/dmrules.txt
+SHA-256-Digest: IIHTrMHFtfxtYZ9x/YnpsAIZ8/hqlj7dKXHd7RE5PA0=
+
+Name: res/drawable-xxxhdpi-v4/tab_bg_single_selected_light.9.png
+SHA-256-Digest: fMPsxvzWpUHC/g+qaFVmStfVmTSRXvjlfoUqmiqLZ1k=
+
+Name: res/drawable-xxhdpi-v4/stat_notify_calendar_multiple.png
+SHA-256-Digest: zkWqlOp9TCPwkaPawDlWBwyFUnnIVDlp0ZeE+0lm65M=
+
+Name: assets/drawable-xhdpi/weibosdk_navigationbar_background.9.png
+SHA-256-Digest: w6AnJe3q1/sQq8hXxC1mh7TZwQF+MsvvXA01YYDu4UE=
+
+Name: res/mipmap-xxhdpi-v4/ic_launcher_calendar.png
+SHA-256-Digest: 1Bd/0LaQLuL7eew7x6xe5YIuaSysEO/KPNsN/JltSzQ=
+
+Name: assets/drawable-xhdpi/weibosdk_empty_failed.png
+SHA-256-Digest: znEAGrHeCdYLZL4El1u2w3BweukoqY9Y0cCy/xSnv9U=
+
+Name: res/drawable-xxhdpi-v4/btn_bg_blue_small_p.9.png
+SHA-256-Digest: YAOpHsUHYl+Uoh6kGYC+c83E9fttmlBmAiCWsfnp4tM=
+
+Name: res/drawable-xxhdpi-v4/event_icon_countdown.png
+SHA-256-Digest: ItPo8RscCcB/X7rClSgEVGIzfUm67acFZ/7R7tNJRDY=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_p_16.png
+SHA-256-Digest: BvLd08BlyVDLU2fJY12fC8hM81o4Fd2cxakq2J9mbHI=
+
+Name: assets/animals/monkey.png
+SHA-256-Digest: NP4xOMFdfi3eZ2MzWuTsB42hYVvbVkyl4AttC4stJmM=
+
+Name: res/drawable-xhdpi-v4/travel_feichangzhun.png
+SHA-256-Digest: cLOO8tlx33lIGe1YiNwNz+lwO5Vwp9FuI4yLNk1mYiw=
+
+Name: assets/drawable-mdpi/weibosdk_notification_icon.png
+SHA-256-Digest: pMFzr8CtBO9/fAzffYzWF4rgulAB1kXBnsCMoSzyrqI=
+
+Name: res/drawable-xhdpi-v4/holiday_detail_cover.png
+SHA-256-Digest: TVvRxP28Oaem0riamznCTz0a/LOIEBf+LYiW8f+LjL4=
+
+Name: res/drawable-xxxhdpi-v4/tab_bg_last_pressed_light.9.png
+SHA-256-Digest: UKjYqb6962QJl4wQLgK9NelOdtzz4WsXqmXP02XZ75M=
+
+Name: res/layout/app_card.xml
+SHA-256-Digest: 9yu9ck81QWYJYMqjLnfQ+PBOgz81yxrUg0f47oqkVNA=
+
+Name: res/drawable-xxxhdpi-v4/btn_radio_off_light.png
+SHA-256-Digest: fv9I9RFmBflgzB+/VECLufdWfkTU2Tz7XtJ+L7nAXX4=
+
+Name: res/drawable-xxxhdpi-v4/event_btn_p.png
+SHA-256-Digest: 3p1g46O9NJkwsESAfQNXlEymVigfXeb4vqm+VOVEo88=
+
+Name: res/layout/summary_card.xml
+SHA-256-Digest: np/csX0sDbOVOk3NRGXEAb6PDEAGR9KFKE8feQjXj/Q=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_n_27.png
+SHA-256-Digest: aW/YcH9TnHSXGakdgiI/4UjBPZ7/gqFUBFArXUJ9MqQ=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_n_2.png
+SHA-256-Digest: opOhgl3Y2vSWtHypBRdQ3cGRl70R1tzvm9PDAmAIn7k=
+
+Name: res/layout/custom_repeat_activity.xml
+SHA-256-Digest: WlDPoXpQ8pxsAbzdZheMvPNkd0fPxb+TIdMd2i63Aww=
+
+Name: res/layout/limit_detail_number_item.xml
+SHA-256-Digest: b2oWsHlMDqFF9iU7MOQT8OC30DbH9Ux4gLrOrf+NMoc=
+
+Name: res/drawable-xxhdpi-v4/anniversary_btn_n.png
+SHA-256-Digest: g1vX4JEUtAgbNnln5HHh+keFoDmeUQKPOF+MaW2u9WA=
+
+Name: res/layout/homepage_today_for_anim_container.xml
+SHA-256-Digest: rx3dCeMCy7wl+9V0/Zv0tgbwBq7pIFrwO7KzNSH5XXM=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_n_1.png
+SHA-256-Digest: cOIgxb5zQ45y5A6Yk5riRi5zdadiwGP/koyttA3FIl4=
+
+Name: res/drawable-xxxhdpi-v4/action_bar_stack_bg_light.9.png
+SHA-256-Digest: G/cSpxZixlZfmpfOZwqaMqIeB7fnYyJdpW7/oZ7QN/A=
+
+Name: assets/bank/fdyh.png
+SHA-256-Digest: 5ueo+NttXVS3U5Z3d14Tt/G/v3vTzCxSBYPVlZrqdQw=
+
+Name: res/layout/news_card_item.xml
+SHA-256-Digest: zuyWlBoDxJpO9jGeYg78ScvL50YiM9mT0MRLJDvWp/A=
+
+Name: assets/bank/xtyh.png
+SHA-256-Digest: VSbRQgnyivO194Q2PIkSeMWooa69q6Bs+jY1KUCeuOM=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_n_6.png
+SHA-256-Digest: Mb5tP09HvAGOpQfSQk/B9TdmZnqBHLriLhuowVu/W70=
+
+Name: res/layout/fragment_edit_anniversary.xml
+SHA-256-Digest: zWk7fWFR4Xxpzq3Uspg76KUSjltcA7qtFdTYZ/O6miU=
+
+Name: res/drawable-xhdpi-v4/fortune_caiwei.png
+SHA-256-Digest: /tlLa2xRY8gr6IL7pdaNteEmLPi5GkXniNLXQvtkszQ=
+
+Name: res/layout/app_download_ad_card.xml
+SHA-256-Digest: 4We5Qp5Tt1WuHfUe53ZfIawCLMVD4yGyYAb0B7x+gS4=
+
+Name: res/drawable-xxhdpi-v4/expandable_group_background_p.9.png
+SHA-256-Digest: LJLwyhTGeMMyBxHoW78RFvFqAEJxEH8vFRBT2xUMYss=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_n_28.png
+SHA-256-Digest: x4po/AZA6UHLZAqsvg3R9ec1ya6o8I8p8JkJVyaQezo=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_p_19.png
+SHA-256-Digest: pidjDmlgYUtFomSTpW0728fCGIwaSQgOskL+W6XCAq0=
+
+Name: res/drawable-xxxhdpi-v4/travel_flight_new.png
+SHA-256-Digest: x42yIuywiXVS6VUm/9OPL9rQj2wIK7s97Q54FcyZBVo=
+
+Name: res/drawable/widget_day_bg.xml
+SHA-256-Digest: nuRgYUvsSuvZhE/JvGvcKW4WPFhn4IkVXBEsCWw21OQ=
+
+Name: res/drawable-xxhdpi-v4/ic_alert_past.png
+SHA-256-Digest: fnET8hq51utuSHNBdOMIC4IuR0rJ8dmC3U/7ET+lq9g=
+
+Name: res/drawable-xxhdpi-v4/ic_aqi_gas_mask.png
+SHA-256-Digest: FQ4jniSMjJSTpHRLUPg7RMHexcLFOZCEmsFC6pDBNxo=
+
+Name: res/drawable-xhdpi-v4/morning_bg.png
+SHA-256-Digest: QCzVxKoJ547HTx6rPGWvDQhQ3b0DSwQLJr69SUy1h34=
+
+Name: res/layout/subscribe_group.xml
+SHA-256-Digest: VEa0btd8pP0n7wgwzrjcmOPDOiGgrK5oEs3b3EBpaWI=
+
+Name: assets/bank/jyncsyyh.png
+SHA-256-Digest: G/Vki33GpzXStWbP2ol/8+YDX1hXG2DQlBj97a2nIlU=
+
+Name: res/drawable-xxxhdpi-v4/huangli_detail_bg.png
+SHA-256-Digest: Mzo2y2/NFT/sgH1qIIoR+oV2omUQbHEBLkkCXXvF1h4=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_p_15.png
+SHA-256-Digest: 96HQ+0/OXb/+Ad8PbTlSNfe8zoDB0PtQzLdkuIDQdeY=
+
+Name: org/apache/commons/codec/language/bm/ash_approx_german.txt
+SHA-256-Digest: z8fB70EgmvibZ2ukahgwYLk97cqx59cw9iU/SPWvDqk=
+
+Name: org/apache/commons/codec/language/bm/gen_approx_german.txt
+SHA-256-Digest: QzD0Pgh3WdNhawLrNiB0rtlGmMtNT4SKbljyUyxbCus=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_n_8.png
+SHA-256-Digest: bmbio1zV96vyWk/Bwxz+ls1sM73sA6zbhH+Gohm6A2A=
+
+Name: res/drawable-xxxhdpi-v4/list_without_divider_bg_p.9.png
+SHA-256-Digest: bkJIXdjg3MbAvR/XRTgiTdjEs36xjJmR6B+Tr9SZh8E=
+
+Name: assets/bank/cxyh.png
+SHA-256-Digest: OTx1gGCh6aEUMobpmPM88rWO7XL8dUFriwnowBqk+D4=
+
+Name: assets/drawable-hdpi/weibosdk_notification_icon.png
+SHA-256-Digest: 0l/6aHtZUmA+Qk1V6gUCfncdPaH6KtJF26GyJjGSrm8=
+
+Name: org/apache/commons/codec/language/bm/ash_rules_hungarian.txt
+SHA-256-Digest: okevMKxHy6qHzJRY/jOp+hAUJNd1ZcfKAStOi5I6Np0=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_n_20.png
+SHA-256-Digest: RGy971Bx+LUaW3BzXlYYTasaWRG0aG5jhNhJpb+PtVM=
+
+Name: res/drawable-xxxhdpi-v4/medal_bronze.png
+SHA-256-Digest: 6I21zTle2kCdarOOqt3+BY5uWfw38Gf+6upIO+o0taA=
+
+Name: res/drawable/action_bar_back_dark.xml
+SHA-256-Digest: 0fxjqOxIOhY2zSZFXgtbGi6KpJZNrg0yirPwFrYGU4k=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_p_2.png
+SHA-256-Digest: NVsCEevfKyCd3jdbBK+XWEKmZedV9mPdAg24kNDs8Pg=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_p_7.png
+SHA-256-Digest: 8djzgv1j9tkqnsKpSiYcCEv+HB+Vum0iQhqYb/5Umd8=
+
+Name: res/drawable-xxhdpi-v4/night_bg.png
+SHA-256-Digest: x8BgF2SZC5fvExFPmVoNyywWzVyBChEuBwmK3F+nDSk=
+
+Name: res/layout/picker_dialog_switcher.xml
+SHA-256-Digest: Z7Ajjz4vt0GhNVWnKGKlYk8iHCujw4outM/LvZgrgSE=
+
+Name: assets/other/train_detail_header_bg.jpg
+SHA-256-Digest: GTUBzy5wlzMVmqg75m22j7GLsA+o21LP+FszaapkA4E=
+
+Name: res/drawable-xhdpi-v4/btn_bg_single_normal_blue_light.9.png
+SHA-256-Digest: 843KsflBRBkddLMO3izYRFVHqlkcVVtbVOPEI+ZMS6c=
+
+Name: res/drawable/rounded_image_with_border_bg.xml
+SHA-256-Digest: XOpcAsOeV2pmX3zdhU+yqsz0vDQ4IRiPygmtMIFEjiw=
+
+Name: res/layout/homepage_tab_item_layer.xml
+SHA-256-Digest: nSVZgxUZZDfwSjbsM3bc94dH3EUbJnY486mJr0geh1Q=
+
+Name: res/drawable-xhdpi-v4/fortune_taohua.png
+SHA-256-Digest: nZ8hjcaI1euDduipABqKqSbVYzTq3sQWzDg7v1GEGlA=
+
+Name: res/layout/agenda_list_footer.xml
+SHA-256-Digest: oQYdV5NgVUuYIbUUgIMhF0yqzGf7towfOmAg7Xe0rJ0=
+
+Name: org/apache/commons/codec/language/bm/sep_exact_french.txt
+SHA-256-Digest: ndy3mHXDpJJZ6Y+vmEM8fYwp42je3qcVXJ/3FxAWhX0=
+
+Name: res/drawable-xhdpi-v4/calname_bottom_unselected_pressed_holo_lig
+ ht.9.png
+SHA-256-Digest: OvsPXjyKOmUM8DxnoPFjaEjqN+0lUT4PX09joFmvIus=
+
+Name: org/apache/commons/codec/language/bm/ash_approx_hebrew.txt
+SHA-256-Digest: 1U8m+Absg6NL6qAzy9EQqSBPhTBFv5BQowUBRrUuxQs=
+
+Name: res/drawable-xxhdpi-v4/calname_unselected_underselect_holo_light
+ .9.png
+SHA-256-Digest: Nym0261F94WiCz+6SjxihgRqbNE7+jR4MKxB39aDmh4=
+
+Name: assets/bank/gsyh.png
+SHA-256-Digest: oSkI9Opf826DXSaB9hjTF9j/udwg8nkHZByrFmD1Mvo=
+
+Name: assets/bank/jsyh.png
+SHA-256-Digest: iZoLF1IYvI/DCW/f/DZQh+sY8YNKgLmjLvmLACk4rHc=
+
+Name: res/layout/mini_calendar_item.xml
+SHA-256-Digest: JbhuzOcsREXt4VfP0sWw28qpsixP+tXzKLJxlXwEv4g=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_n_30.png
+SHA-256-Digest: pWhUnDelrTBSWlafvBaSE2FzYMD3wjHLlS8YBrhoH6A=
+
+Name: res/drawable-xhdpi-v4/action_bar_back_n.png
+SHA-256-Digest: BImp0GwNhjDumdXeWwGNxeSeFS7qIN2kplSdAHoDwKk=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_p_8.png
+SHA-256-Digest: z+E6FEiFFa8N5PMh0L3bdDVf/tbwNfeE2QPGzWIVA6A=
+
+Name: res/layout/alert_activity.xml
+SHA-256-Digest: +XkF2qxfyuYq+ZT2QGG2C9TKqoG6Z777Kme6+UdYRIg=
+
+Name: org/apache/commons/codec/language/bm/ash_exact_russian.txt
+SHA-256-Digest: NL+lCVEfdRemKDMMynxeUUZKtO75U4NAVPaE0C4R/8c=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_p_10.png
+SHA-256-Digest: rKb7M2C0Du12fSHplnNUmQ8AVxzbPmsRiYH68n75nEQ=
+
+Name: res/layout/match_card_layout.xml
+SHA-256-Digest: iAVzU3PHCbmFWwYmWzUVBVyielH5tyloqeSzZomos44=
+
+Name: assets/drawable/sdk_weibo_logo.png
+SHA-256-Digest: g5MLMft12BofB3U1MvZ8Wy0I9fNBMR5hFmab8KCXLGU=
+
+Name: res/drawable/list_item_font_secondary.xml
+SHA-256-Digest: 1xhS8XfODl+QAhTRcrxWeO23P5/PCgdRzyFhFkBEpo0=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_n_30.png
+SHA-256-Digest: iIxqoGijJPY9Dw9RTLlYbIlIWYHhvzYdovErdGn839M=
+
+Name: res/layout/holiday_service_item_vertical.xml
+SHA-256-Digest: 3SPO4SS8uAm+wNGxYw9P7APfPElZ2/yGtPhSiAVkjeU=
+
+Name: res/drawable/calname_select_underselect.xml
+SHA-256-Digest: vfTu0q2MkANZhCg3LU4EwhoDjEBb1tq7ArifYG7gP0U=
+
+Name: res/drawable-xxhdpi-v4/btn_bg_single_normal_light.9.png
+SHA-256-Digest: ZGCA1zS3WBUd+pOBtlgkUIVLugTxrGABS4mMZWiVp5Q=
+
+Name: res/drawable-xxhdpi-v4/icon_month_arrow.png
+SHA-256-Digest: iDRl2TQ5z7yKc5Y/txsIY/Hi74BMH6fIqDMfYC68Hyo=
+
+Name: res/layout/date_calculate.xml
+SHA-256-Digest: QeJik6r/oQ3WJFW1tIPB5NnG4Tk47zpifqOEzb6GEb8=
+
+Name: res/drawable-xhdpi-v4/chip_background_selected.9.png
+SHA-256-Digest: s/qUh6voITzy6fKR5k0r/5xpJPBQOYukjNmaNCznH7M=
+
+Name: res/drawable-xxxhdpi-v4/loading.9.png
+SHA-256-Digest: IscigF73Ln74MySAIKCwI0AQNvIliqHcoKLmREI1wzM=
+
+Name: assets/bank/fjhxyh.png
+SHA-256-Digest: Vcvkfl9hYbEgGEDJTo6CnLkqBRRHADdKxLyd4/5fO9Q=
+
+Name: res/drawable-xxxhdpi-v4/list_with_divider_bg_p.9.png
+SHA-256-Digest: 7l0FEU1C1RnlKEfcNtsxtX5L4li40kOFtDtXnLB6334=
+
+Name: assets/drawable-xhdpi/timeline_icon_add_friends.png
+SHA-256-Digest: 9SVxTjNhfbZVWKi8/g8iQYgWUjR6K9/wYZ2wtsLWyJc=
+
+Name: res/drawable-xhdpi-v4/ic_train.png
+SHA-256-Digest: DzJLiA1Yn1h8ysoRO4nt33VwN/1MkEm5hq7xTw5fgPI=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_n_19.png
+SHA-256-Digest: M5Q0xOHsFublY8XKnJnRapsZmuuuDyh7WnRh7dRfDJ8=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_p_31.png
+SHA-256-Digest: LeopvxwG+TIn7Ts5aHxXco8fdLQPJjj8rtgebHg140w=
+
+Name: res/drawable/ad_spread_bg.xml
+SHA-256-Digest: Y6UnesyAlh7PjzuxuoqI7/p3ue0wYWSJp479oluMd+o=
+
+Name: res/drawable/miui_calendar_spinner_checker_bg.xml
+SHA-256-Digest: Ec6lgodOe+jt8itzbqT/+XkObJ+HQsQvHelED9R7Pco=
+
+Name: res/layout/month_view_item6.xml
+SHA-256-Digest: iUOhLjHFt+dqrcRDurduLrymtOd+P0AoZUaJMdNKOHI=
+
+Name: res/drawable-xxhdpi-v4/calname_unselected_underselect_pressed_ho
+ lo_light.9.png
+SHA-256-Digest: XnAN8ul1AzYfT8iT+MQ/72Z1qyVeixe3Dec7g622x5A=
+
+Name: assets/weather/icon_pm_dirt.png
+SHA-256-Digest: fRGWLm9GRy/ivnzwetg4aHEDy9ognzVVjv/wKhrKVFQ=
+
+Name: org/apache/commons/codec/language/bm/sep_approx_italian.txt
+SHA-256-Digest: thZdvaPZcrXFSyGRQJosBKw1/H26Cr9d3zya4T+amKA=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_n_11.png
+SHA-256-Digest: o4l+sO03egfwnnyZi+8Q4XzhTa/7NU1ESxCKQYA8VvA=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_p_25.png
+SHA-256-Digest: Drie7cI6Elhv+NUG9B8eRay/Vagu88qGtZhIrnvbLtQ=
+
+Name: res/layout/month_view_widget_day_header.xml
+SHA-256-Digest: UbpY9fNR5pFzuUrIOUkugOJ9n5uP62DQ3GbSmQHE/rA=
+
+Name: res/layout/widget_item.xml
+SHA-256-Digest: zstNbxL0EVBFAPoyFXgjvqiBJ5fPEHcQXswyc5dmaD0=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_n_16.png
+SHA-256-Digest: RRsq6PO+pG47a7ZSl22/CXmVi4oZ6qjO+JPyXuZqUwY=
+
+Name: res/xml/user_experience_preferences.xml
+SHA-256-Digest: fsTscJDJiZmdXDiwiRj1R5wIwN7FaovmaWHlCr8rZZE=
+
+Name: res/drawable-xhdpi-v4/ic_movie.png
+SHA-256-Digest: Vf1qJaBqZUZ4Ua8dnsaJElKorqDRmM4Lq0rRRvkPo+s=
+
+Name: res/drawable/action_button_today_23.xml
+SHA-256-Digest: X7MTBm4Jd6MDUqMsScqFsJmMKYpOaAnzL0lOKevBrZM=
+
+Name: res/drawable/actionbar_button_data_bg.xml
+SHA-256-Digest: cjChxJvSFhvGjOfO7xPxI1ioyZ8MW6vcY2/YqmZc//0=
+
+Name: res/layout/edit_event_title_view.xml
+SHA-256-Digest: cEGVt+sRaAQ0YklmnE5I1z9fz9kj8hqSE6TEHcFodaM=
+
+Name: res/drawable-xhdpi-v4/list_with_divider_bg_n.9.png
+SHA-256-Digest: k3ADPNUSZoxHyppLz095v6hE4ciwws437A6H3EVcYDU=
+
+Name: res/drawable/birthday_btn.xml
+SHA-256-Digest: /vWskv9J9K7jeBZoNsjYXg4AUyOt0SDAQE/D2EtKeus=
+
+Name: res/drawable-xxhdpi-v4/reminder.png
+SHA-256-Digest: cQJTD/dXwa9GMLqOLmG3rQi05hyeF073dXQz1oI1dQw=
+
+Name: res/drawable-xhdpi-v4/swipe_up_guide_bg.9.png
+SHA-256-Digest: STrD4Jhob7SP6ENa6lxoszjgBN8wviQwwPQe50ZZquo=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_n_7.png
+SHA-256-Digest: 7idd0S6puwIR6AJUc8xJoToB4+GqIiXmeHP6CcZMd78=
+
+Name: assets/bank/ljyh.png
+SHA-256-Digest: H2ABwQcl3zFEA/GHHi139x1eg/AUlndEOxR7E4Urc/Y=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_p_3.png
+SHA-256-Digest: pS/mpkPdaFcFNG5V4e2zBzSr7Td3wwLfzCpKvNMPjoI=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_p_17.png
+SHA-256-Digest: E9DDNSld04FVqGbiGTH4enJcjL5ERRVtbRTaHUFvSQk=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_n_26.png
+SHA-256-Digest: FDSlslY+Qq8pvvK9Pq087FhlAgUROtmZEqOLrgjCuro=
+
+Name: assets/bank/wlmqssyyh.png
+SHA-256-Digest: h4VLRcYbOh8oRsiUWspZlhIc5isPVaAN/bMtzec/0Wo=
+
+Name: assets/countryCodeTw.txt
+SHA-256-Digest: 34pLbOFb3ehNPoYYAhWp7Pjz6JTSabynRq62nKHkg3E=
+
+Name: res/raw/in_call_alarm.ogg
+SHA-256-Digest: ZqcBzg9ewfaS+u+0ViBdw4P2dF46lY5EyqiA8msBt5c=
+
+Name: res/drawable-xhdpi-v4/event_item_bg_first_n.9.png
+SHA-256-Digest: AQ268I0vjMwifrlsQKD8qHvCZc2xPPe1FMJjoeKAs/E=
+
+Name: res/drawable-xhdpi-v4/widget_prev_btn_p.png
+SHA-256-Digest: /wrBn4X5sZtUaDDzWIDuTtEq/WoInUYqcBXHgM2vhp4=
+
+Name: res/drawable/widget_list_bg.xml
+SHA-256-Digest: lEkZUGtznnQnwUq3NH3UEH3i0mXSRyP+dMIT84YV2MI=
+
+Name: res/drawable-xhdpi-v4/ic_amount.png
+SHA-256-Digest: /uwflwBl1g/ZPaRbNUA35T6JyetQrFOxgUvsZL46BrY=
+
+Name: res/drawable-xxxhdpi-v4/ic_close.png
+SHA-256-Digest: 1ZcLhfAb36CuqH/eynWy1bETNertHEZlsTLNqeIxiKI=
+
+Name: res/xml/preference_features.xml
+SHA-256-Digest: o6IZycH+vy4k6iwxTj00zwF/fyT584AoB8MDYSHBs2Y=
+
+Name: res/drawable-xhdpi-v4/no_event_hint.png
+SHA-256-Digest: 9sQ53Ng71gn5+7rCE1AjceeikxHbZMEOG5OHGJFnDGM=
+
+Name: res/drawable-xhdpi-v4/icon_tab_week_unselected.png
+SHA-256-Digest: 1Sm9hUD5ibZsaSZi0DL02sv5ven/s2LkFflUrtofTjY=
+
+Name: res/anim/scroll_up_in.xml
+SHA-256-Digest: 9EvL+Qv5NWq99hXCld9l5MBa6TxqyHkSEoKb/RAGApY=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_n_1.png
+SHA-256-Digest: YEQaB+1sshyYR/eFz5ytwJDMl2P6FmlyOh96Ud4f7EU=
+
+Name: res/drawable-xxhdpi-v4/more.png
+SHA-256-Digest: SvoHHyEFF/RrvPw/p5gH7QU69Db+EXw3Z9yXau6x+eI=
+
+Name: assets/weather/icon_fog.png
+SHA-256-Digest: kvPteXbSnARnFqyWalOyVUzjdHqYeI5Qvc1LqPXU98A=
+
+Name: org/apache/commons/codec/language/bm/ash_exact_hungarian.txt
+SHA-256-Digest: Jl2TtTDy8LOytgKv2m6RI3DAsBwG30ophxGfYyC/+0Q=
+
+Name: res/drawable-xhdpi-v4/anniversary_btn_n.png
+SHA-256-Digest: Vop5MvCzcPTGdpdlcMmJh2ChfRPooSQATokMrer2UBI=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_n_21.png
+SHA-256-Digest: SHL2vB2MljXyMujLOEJRSErvQlF7mzQyyIQhgylN+2U=
+
+Name: res/layout/life_item.xml
+SHA-256-Digest: E4aEraQRTyJNN/Kb8bQ0BY+j7mmNFGrr7p3NM4RyrPc=
+
+Name: res/drawable-xxhdpi-v4/ic_repeat_white.png
+SHA-256-Digest: Vy6mcj8QXjy7pWk2dxa8SG+W4BnqLSOjmCYF3II59j0=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_n_14.png
+SHA-256-Digest: lBipw5+m3HA6WL1aHyftCdMjME4oGXhxSsIYR7BN/Gc=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_p_8.png
+SHA-256-Digest: nM2XwkYnliyZYJxX6rcznyUITvUYOzh5YbjHQzAzZ5E=
+
+Name: assets/animals/horse.png
+SHA-256-Digest: eK66qLKPUDLvX9rXH/wwZo7LsILWHZIdUPWI0UrJu+8=
+
+Name: assets/drawable-ldpi/ic_com_sina_weibo_sdk_close.png
+SHA-256-Digest: O1sBUyKAn9tUET72sny6l/KG+ml3sVU+yhWguttLkVM=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_n_7.png
+SHA-256-Digest: XgDFgG4Is4eKu+DM4/elTio0uYzmvcxKR7V69DhwcIo=
+
+Name: res/drawable/widget_month_header_bg_light.xml
+SHA-256-Digest: oPZng3GSPTJKjSdBZffXgoW27zsY2w97+tOIF718FrI=
+
+Name: mistats_version
+SHA-256-Digest: hqwtLljIyzHbZCsWavlIAxHzBSqUqiVET9vGLrT0dbg=
+
+Name: res/drawable-xxxhdpi-v4/travel_train.png
+SHA-256-Digest: d39ZStsxH/1D0+ObrBL26Z3d61Mm90M5/+XPCFSVfCU=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_n_29.png
+SHA-256-Digest: dCPCG709Y0isEHxq/Dy3f+4YXoqGRJTHf4Ho921aSag=
+
+Name: assets/bank/ahsncxys.png
+SHA-256-Digest: 9l7wTZ01c8ChTgCbDZj8E/yBWtR7qVhH+smq54SC4qQ=
+
+Name: res/drawable-xxhdpi-v4/card_bg_first_n.9.png
+SHA-256-Digest: TW+2jTNLG2OwPCFeDVuW9nTHaZ3vMryuozeAzzqWhjM=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_p_2.png
+SHA-256-Digest: AsT9PiA0+zj+gIgGDZT1GekGaq2DVRcCXmrErq4hK00=
+
+Name: res/drawable-xxxhdpi-v4/tab_bg_middle_pressed_light.9.png
+SHA-256-Digest: 6Tc7pLDq+S+/K2Oii+wEIGDw7FQem3+Oa14X0dQD7ew=
+
+Name: res/layout/video_card_item.xml
+SHA-256-Digest: ptRif4obiIGXjmuBsEX2YoK241hWW3Mta6c/Bp2/M6c=
+
+Name: res/drawable-xxxhdpi-v4/travel_tower.png
+SHA-256-Digest: quP6IC+4HmrSjY2r/9hYySzmPVtGAfn7nAQ5nV+Qpl0=
+
+Name: assets/drawable-hdpi/common_button_white.9.png
+SHA-256-Digest: swhGD4wnkrk+zYATpn7RmxEbLipy88kEBMSa08MjcvA=
+
+Name: org/apache/commons/codec/language/bm/ash_approx_cyrillic.txt
+SHA-256-Digest: opkX6kwAvdIW2zHTYgXvOCnQ+3aSbRifzYJg03ANTFc=
+
+Name: org/apache/commons/codec/language/bm/sep_rules_portuguese.txt
+SHA-256-Digest: ih4GdV66guQN6Avuzcq8Adig6aVH8eq7NTRuUmvPkLI=
+
+Name: res/drawable/event_item_bg_last.xml
+SHA-256-Digest: CWIcwTGYkaxgFEzjZF8h17Zy9LK58WNWXo0IO/0cMno=
+
+Name: res/drawable-xxxhdpi-v4/action_bar_back_pressed_light.png
+SHA-256-Digest: VpUqcAEDdyTegimWY3lGTi64I9n7cHrf2yYTtTa4Hlk=
+
+Name: res/drawable/list_item_font_primary.xml
+SHA-256-Digest: mjZmPW+4vpscEBHI8Al092+OLdPrUvv8M3wAStObp6w=
+
+Name: res/drawable-xhdpi-v4/card_bg_central_n.9.png
+SHA-256-Digest: LMNd6RUszNpjp3CNPt9vfIAXFxRIi1X7KD7s/TUv/mg=
+
+Name: res/drawable-xxhdpi-v4/icon_tab_week_selected.png
+SHA-256-Digest: nkHffOhsMm6ZmsXStUqtSjla3lGdQU7sXKQ9gv5rElw=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_p_6.png
+SHA-256-Digest: uf7zLn+PuHAb6fey6Kg3wmxqqYKOiyxhoNfwepzrAGo=
+
+Name: org/apache/commons/codec/language/bm/ash_exact_french.txt
+SHA-256-Digest: Jl2TtTDy8LOytgKv2m6RI3DAsBwG30ophxGfYyC/+0Q=
+
+Name: org/apache/commons/codec/language/bm/gen_approx_polish.txt
+SHA-256-Digest: 0GI0PwMw4SHGhOPmlD93dYVceOllsEOoOaTbqHM21Ng=
+
+Name: res/drawable-mdpi-v4/more.png
+SHA-256-Digest: 230iNfqr+8HgGPYm0RH7z5Wc1xdir93Dl9hCM1rLX74=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_p_21.png
+SHA-256-Digest: tv0NOYfWDWFOTx5Ze8M+JZeSMUIrFzUqVf9vITkNiyU=
+
+Name: res/layout/spring_service_card.xml
+SHA-256-Digest: 6+bNN1Yw+a5gqPwjeGVIt5orDXWEwnxj4KRb+hfcEE4=
+
+Name: res/drawable-xxhdpi-v4/btn_bg_blue_small_n.9.png
+SHA-256-Digest: X6pgwzGRG+uRrSk/AaedfJAOOYBI3AXk8W17PRMT3Jg=
+
+Name: res/drawable-xxxhdpi-v4/card_bg_central_n.9.png
+SHA-256-Digest: K0iu5vUBnBlTSaoaG0LIdPSU3V5c4kNzT3sogvxK6I0=
+
+Name: assets/drawable-xhdpi/login_country_background.9.png
+SHA-256-Digest: e7c+mpGIglAun/hkN/HL67f2Qh8T8qLMoZA/Y+MosQM=
+
+Name: org/apache/commons/codec/language/bm/ash_rules_any.txt
+SHA-256-Digest: vbYMOQGrBX9MlLOEswKgvdemASrAfPTtuHvTe5KD0Xs=
+
+Name: res/drawable-xhdpi-v4/ic_full_banner_ad_close_p.png
+SHA-256-Digest: g4/r9t9vfJw/MRVsOsszYSWAY4UoHsYy76UqOHs+zNw=
+
+Name: res/drawable-xxxhdpi-v4/ic_interval.png
+SHA-256-Digest: e1+qNuxADALo23eF/AXgGWQuHCXf9rfX1AN2DBbf/5E=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_n_6.png
+SHA-256-Digest: GBBnspagFhwNGj/d2w+59osXGND70WhKVkmRZAvsgOE=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_p_14.png
+SHA-256-Digest: Jbu1zCQKicnAytmfd1tZpZwEPALf/zI5dVYmlIWIt4M=
+
+Name: res/drawable-xhdpi-v4/ic_address.png
+SHA-256-Digest: unj9GmfF4VNgu6a/KGeB5rz2vDd++SPa0qzITaMgZis=
+
+Name: res/drawable-xxxhdpi-v4/event_icon_train.png
+SHA-256-Digest: uu0sO2n66X+1qpcFCBNIJYqKacLDBc0puPmbojAJcSk=
+
+Name: res/drawable-xxxhdpi-v4/ic_huangli_ji.png
+SHA-256-Digest: jVTQzzSadvOyUI0wgRbk1ypmqKNpgxKH6v+rCRLOy9w=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_p_26.png
+SHA-256-Digest: x56dVd57PzN1aW9jpgTdQWnT863mRfq3CVHe5ujP/JA=
+
+Name: res/layout/activity_date_calculate_result.xml
+SHA-256-Digest: zq1cgFDfze1TZ+jLkWp05oX5RFpacNIzVs5D3OOGnbQ=
+
+Name: org/apache/commons/codec/language/bm/ash_exact_romanian.txt
+SHA-256-Digest: Jl2TtTDy8LOytgKv2m6RI3DAsBwG30ophxGfYyC/+0Q=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_n_14.png
+SHA-256-Digest: T1ZGldSUd3E1ibIAMx1UwMi6Vr+aUqSeewlZKR21las=
+
+Name: res/drawable-xhdpi-v4/ic_aqi_skull.png
+SHA-256-Digest: 0kKO2ra8ZB00M/WNE5Ijisydz8mNvMv8JoT98/0x0SA=
+
+Name: res/drawable-xxhdpi-v4/ic_person.png
+SHA-256-Digest: G4vG8DKA12JBDSySyBGmXwwa/z8VndPolJG0+xwl0Zw=
+
+Name: res/layout/event_info.xml
+SHA-256-Digest: v5yCV+OYe+zjsWtyWnvaOw89M6eYAGeeXyfGxghWv/U=
+
+Name: res/layout/limit_detail_activity.xml
+SHA-256-Digest: aB3bweZe4WAvKpnOINkoShNDd4O0hB9QvpRSma1a7gw=
+
+Name: res/drawable/ad_install_button_bg_d.xml
+SHA-256-Digest: Wh3PvM0D/YVm2fE3f5kntITFoypUD+oI9Qk1kI5D34M=
+
+Name: res/layout/month_view_item5.xml
+SHA-256-Digest: 0LLOrmZqfDXj2bS/fqFvMQr6XXbkMqMNCpAbxfapp6M=
+
+Name: assets/bank/yzyh.png
+SHA-256-Digest: FmiKZYz1xzQraSZDp4i7bJZWb7wJdhSvrdFVLIHcXSQ=
+
+Name: res/drawable-xxxhdpi-v4/preference_category_background_no_title.
+ 9.png
+SHA-256-Digest: 6dyFRXUUdlAKn8mUwKjkM37Jzu9Dzl9l5CeA2ZvzVg8=
+
+Name: res/drawable/list_with_divider_bg.xml
+SHA-256-Digest: lHzkITmSFkhLia1Sul4OygO6A8gpSGYEwG3bToHtc6k=
+
+Name: res/layout/time_picker_dialog.xml
+SHA-256-Digest: 0cyzVEuqSaBTn9J/4stn3cg5kidtqVid83l5VZ+SFC0=
+
+Name: res/drawable-xhdpi-v4/ic_movie_cinema.png
+SHA-256-Digest: 1V7GaYEaa4pQ1yNQh/jYADZyPKLR4MxmYYhAY1eXqQI=
+
+Name: res/drawable-xhdpi-v4/btn_radio_on_light.png
+SHA-256-Digest: ZVNM/K3984uX/GSxRwh9U972rUX/3I7QLujl1rzIOuc=
+
+Name: org/apache/commons/codec/language/bm/gen_approx_portuguese.txt
+SHA-256-Digest: 5SsSolD6WT+ZyooG4CsYoJFRih5rZv1Jbnin2ziIzEM=
+
+Name: res/drawable-xxhdpi-v4/expandable_group_background_n.9.png
+SHA-256-Digest: p3EvetJ3JZXEo3CodKAkqAp/ZxswPe2qgASMqT8dki8=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_p_30.png
+SHA-256-Digest: fs05IXW6hs1hOTwoBn71v5MzZfQvvol6KulCoaJOH/o=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_p_7.png
+SHA-256-Digest: LmGBkifTLO13BplwfItaePAMfbzV0xFfgP6V+O6rATg=
+
+Name: res/drawable-xxxhdpi-v4/subscribe_button_n.9.png
+SHA-256-Digest: LZ3gy+eUi71OYf8O33zEwIymsQtIbFoQnv3obbOg7Cg=
+
+Name: assets/bank/payh.png
+SHA-256-Digest: pY8UjvdFlIEyG1n9Ler88rqjUu9sAcfzYNLxKIycFvk=
+
+Name: res/color/repeat_table_item_text.xml
+SHA-256-Digest: SForCoKJx9vRlJz8a23qDFo8a0T2AuHliUqDjxQe58Q=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_p_3.png
+SHA-256-Digest: 6mll/0X8AARb1wIrI4kmkDEAy3gM7P3EARjI2Nv5wfY=
+
+Name: res/layout/three_images_with_install_ad_card.xml
+SHA-256-Digest: AG3F+geLeEd61F5bS7RelKnqOHp0gRh8kQtWt3tEfF0=
+
+Name: org/apache/commons/codec/language/bm/gen_approx_cyrillic.txt
+SHA-256-Digest: +adQ1IFW2Ojh2UyO002/WWwk7+lFEj1ugIrwad7iWZo=
+
+Name: res/drawable-xxhdpi-v4/ic_huangli_yi.png
+SHA-256-Digest: fV8Y+z1JxOYTdC7j3i1laqmK1Oni/sJk1INBazMNJC0=
+
+Name: res/drawable-xxxhdpi-v4/birthday_btn_n.png
+SHA-256-Digest: ciZnNb1oA4SMUiUe7w2uk7386EDPBJoFtkzdQ+EGdpw=
+
+Name: res/layout/subscribe_channel_activity.xml
+SHA-256-Digest: wOwHwK623pmnPvj2Mkg26wgiOa0RYD3BrKf2cQNpXkA=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_p_11.png
+SHA-256-Digest: e+BlFuD184id6mo7+7zBsmV1Dgv5w+Na07HBgcNmAw4=
+
+Name: org/apache/commons/codec/language/bm/gen_rules_any.txt
+SHA-256-Digest: 0j1XaCmCHt194T9nNOynRqdn3W1WWkzRjjPZc23w0Kw=
+
+Name: res/drawable-xxxhdpi-v4/icon_tab_week_unselected.png
+SHA-256-Digest: bEP141FPM271mw4cmQxTIct1IID7QpJxcbLzD/kOgD4=
+
+Name: res/drawable/widget_new_event.xml
+SHA-256-Digest: J3QgKvF8TmIVMSZC16Em1p18oS3NOVa3Y/0FYdhMkZU=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_p_17.png
+SHA-256-Digest: VpmuRKacWSz9Crq38RQa1ljLZ5x/1XhA6YfgGzpJPAA=
+
+Name: assets/bank/jxyh.png
+SHA-256-Digest: Kxw57EmAMjJS1M/lmrB3SDUi3eC0ZgLgXgWbBv9QpPw=
+
+Name: res/drawable-xxhdpi-v4/countdown_btn_p.png
+SHA-256-Digest: A91kT31jDdlW0jqkT/0JEjXK273b9XRpkw5rL8G+CuQ=
+
+Name: res/drawable-xhdpi-v4/action_bar_back_normal_dark.png
+SHA-256-Digest: +y/zSB0qWTQZjoP0Yw2QiBHCXZ/zjoWS6curNZ7wka4=
+
+Name: res/layout/shift_settings.xml
+SHA-256-Digest: mBpmSVfGmunAqyVCG9UEiyEaTljqeaJOla4XJ/QxfVg=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_p_4.png
+SHA-256-Digest: QOAXHKRZ9EPm7BLwpbyRaRJC3xXkOFkhUC8A0v7p27o=
+
+Name: org/apache/commons/codec/language/bm/gen_exact_hungarian.txt
+SHA-256-Digest: 1U8m+Absg6NL6qAzy9EQqSBPhTBFv5BQowUBRrUuxQs=
+
+Name: res/drawable-xxxhdpi-v4/tab_bg_middle_normal_light.9.png
+SHA-256-Digest: hFP55KDWtDiSezqGBcB8Lp7R3B6JWDZx9gTuGDzMoHA=
+
+Name: res/layout/widget_all_day_item.xml
+SHA-256-Digest: lkVcqTNsCJuN6UTxq1gPVOzY7s2UYEv0eWAX4+YL4eI=
+
+Name: assets/horoscope/leo.jpg
+SHA-256-Digest: YUiNVxrhoZJZPIRhh1+Z2Nqn0y9a3n0dk+UqZL5PNPY=
+
+Name: res/drawable-xxhdpi-v4/widget_month_bg_white.9.png
+SHA-256-Digest: hhkoq7m0bBXkuzxvGz71HW94y0BWvIONCov9CiOzOmk=
+
+Name: res/drawable-xxxhdpi-v4/event_btn_n.png
+SHA-256-Digest: yQNY01shGc5coGs7PZyzH40zpDLU50bDcW61h/jjbTo=
+
+Name: res/layout/agenda_group_item.xml
+SHA-256-Digest: VoSpnyuYVknyjWWZ4wCQWujtUiwxv5DfMh24QuU0UHA=
+
+Name: res/drawable/action_button_today_3.xml
+SHA-256-Digest: 7UtHl6+rFl8bpX5ujN7f56YQ6VRaVqlt9gU/V1ArGNY=
+
+Name: res/drawable/widget_day_header_bg2.xml
+SHA-256-Digest: Nsa67T2CkuGkk0ndQRdEFeuWIrFDVUMy7+XntX34+gk=
+
+Name: res/drawable-xxxhdpi-v4/button_rect_bg_p.9.png
+SHA-256-Digest: Z7TuF0VV5tlK61sL2aKtDucTLAUbtARrAArAvQO3wmE=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_p_18.png
+SHA-256-Digest: 9sUTKptItKhnETp9YzeWnJ/q4kDsq57eh1m4mIW/dNo=
+
+Name: res/drawable/action_button_today_21.xml
+SHA-256-Digest: x9Pzvj4AA0xDRzRonEJBH6QEFi4+G1KrgBdtx20LljA=
+
+Name: assets/drawable-hdpi/weibosdk_common_button_alpha.9.png
+SHA-256-Digest: 6xMvtMBl1bUxxyR74NPbTLUQEyCWUSOEtrhxn0rjTn8=
+
+Name: res/drawable-xxxhdpi-v4/icon_month_arrow.png
+SHA-256-Digest: rH+2ziuNDnzk4G9njYBc3u7oHu9M/2DboGGg6zppRKM=
+
+Name: res/layout/recommend_card.xml
+SHA-256-Digest: YcMpenYii8U9K2LDPk7A21cWxW33zn2uCApJOwKeGLI=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_p_31.png
+SHA-256-Digest: BuLrYAdQ5swa5d49JWefTi7UuNjMGAtMwnawfWvhQZM=
+
+Name: res/drawable-xxxhdpi-v4/month_suffix.png
+SHA-256-Digest: NWd14liWczgKZwK+KecfXlUmKiqkV8TV5FiPzDDUMKM=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_n_22.png
+SHA-256-Digest: 0MkAPdjFOlIgWNhfWxVX1HaZnyrWzEMz31UBIKD+r10=
+
+Name: org/apache/commons/codec/language/bm/ash_exact_hebrew.txt
+SHA-256-Digest: 1U8m+Absg6NL6qAzy9EQqSBPhTBFv5BQowUBRrUuxQs=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_n_2.png
+SHA-256-Digest: OMg1WXDlswGldJwxtCmRtLERIyfxQJI2m3u15SzrNZI=
+
+Name: org/apache/commons/codec/language/bm/ash_rules_french.txt
+SHA-256-Digest: I09LHurOpsgUr0SUwVV5nCE4fys85hxH8PXpDpWSgCo=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_n_4.png
+SHA-256-Digest: Azk4mbrTw6zt67l9Um/ZzPfbKOfXqQgEZR0PLY9Ev9c=
+
+Name: res/drawable-xxxhdpi-v4/btn_bg_blue_small_p.9.png
+SHA-256-Digest: pXKp8XCXzI/Gh+PKuRn2fQdXzoEpubAUgSZ1noM7lA4=
+
+Name: res/layout/account_item.xml
+SHA-256-Digest: EEtFSI1Ot3liTnGif/bnUofXBR7ixAXngaBIvY5RCkY=
+
+Name: res/layout/horoscope_list_item.xml
+SHA-256-Digest: GQHJpR07I8GSZFqa+Rf3fDIq11jcJqU1xs/97+RV1CY=
+
+Name: res/drawable-xxhdpi-v4/icon_settings_p.png
+SHA-256-Digest: 2W+gxX1nhIJy/ljX7KDu5sbDrEb7csyp8qBBvnzXojY=
+
+Name: res/drawable-xxhdpi-v4/action_bar_stack_bg_light.9.png
+SHA-256-Digest: 5Vn8+2O9XMmRnOb6VqN0tVIOM30hmIKgxkAZX3x6oNg=
+
+Name: res/layout/olympic_rank_header_layout.xml
+SHA-256-Digest: CZCds8AtTBDmnrSQG2WzBWO3Q6x478yxZJkhhCIkgdo=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_p_1.png
+SHA-256-Digest: SEVdjw/db7mwclDkW76ykykpoADkhi+8WXg2le5F0OU=
+
+Name: org/apache/commons/codec/language/bm/gen_rules_czech.txt
+SHA-256-Digest: hN6eFSQSzWEpNAWQNyVx/tsUh2BUtd87gqKjZWT81hk=
+
+Name: res/layout/card_group_title.xml
+SHA-256-Digest: ZiB/Z1O99Soe1Qwe1mRXTZTWpsxRces1JGOTev3IKX0=
+
+Name: res/layout/event_info_account_item.xml
+SHA-256-Digest: DPS5kDzigv4Yl4GBlj8FEmtdOgZmvoRwoWdOSeXtldA=
+
+Name: res/drawable-xxhdpi-v4/edit_text_search.png
+SHA-256-Digest: GLoDtLRJMC/3d54+hatMEBCrkcK+IwixY0xwbWoSAuQ=
+
+Name: res/drawable-xxxhdpi-v4/btn_radio_on_light.png
+SHA-256-Digest: k7fWJBjlvDchWAQ+Fq2e6xHsG+trvEUO1QuqZy1bME4=
+
+Name: org/apache/commons/codec/language/bm/sep_exact_approx_common.txt
+SHA-256-Digest: Iy9ZdQ+d7c8Lwq8ZTRah9DSlagrOBBX+Z5JLc8fiKjI=
+
+Name: res/drawable/button_rect_bg.xml
+SHA-256-Digest: 0DCf8R0E3DASVa4QpV4cVc2iApjG38FKJKyjim6f/J4=
+
+Name: assets/bank/dgncsyyh.png
+SHA-256-Digest: 5y5VXY4B5mDxbC6YXNur5n64WGVE3b6JewGOOGNioUw=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_n_15.png
+SHA-256-Digest: fGjO4ojxonXtnu1lQIjUcVQ1/9B/LX4QCuKfCsPfO1I=
+
+Name: res/drawable-xxhdpi-v4/event_btn_n.png
+SHA-256-Digest: Jgz9cfcf89uHbdrbCZ5kM9BrotpY+gitwI9PK1op0w4=
+
+Name: org/apache/commons/codec/language/bm/ash_lang.txt
+SHA-256-Digest: dJUMHaAgEr/87RcHNC/FUF/dqeYrVVxnmBYiQMQqToE=
+
+Name: res/drawable/widget_prev_btn.xml
+SHA-256-Digest: epWjK4FT5EReAWqfLbpAiBqLBmUfPae9IAeLsGzbQpg=
+
+Name: res/layout/sms_info_fragment.xml
+SHA-256-Digest: fGcfIB2lZxigb2yKkg1kSLygPQqMvRFAxv8o9BaiE8M=
+
+Name: res/drawable-xhdpi-v4/more.png
+SHA-256-Digest: uhqH3GJqjz31ZDIkmd6HY0eRFVF1zKr4mbVwyHcTgv4=
+
+Name: res/layout/agenda_event_item_part_event_row.xml
+SHA-256-Digest: kXJnOgFZGoj1p+s4JfGbTocAz493+9oLX1KejK8BeKM=
+
+Name: res/drawable-xxhdpi-v4/widget_month_preview.png
+SHA-256-Digest: jQ2bOdzPpIr2PPlrmp1HQI+9q0V9VnebI8+Fi1Y5G1k=
+
+Name: assets/drawable-hdpi/weibosdk_navigationbar_background.9.png
+SHA-256-Digest: oVy6sBtjvnpLfgrDml/n8k2Sy2sFrX4+K+6m2mkBnK8=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_n_29.png
+SHA-256-Digest: EAuNviNHvaRjI2ORmM5i4uYtaN4gQb0WxzCjIc6f9MM=
+
+Name: res/drawable-xxxhdpi-v4/morning_bg.png
+SHA-256-Digest: bCL0q6LLKxP4TvP51Un/duRigMR12Bc0Ddo1M8M25/s=
+
+Name: assets/drawable-xxhdpi/get_code_button_highlighted.9.png
+SHA-256-Digest: R5k6tlwa2hr32Bv97okp+FC+GdMuJRbMoINS6zMmmDw=
+
+Name: assets/bank/shyh.png
+SHA-256-Digest: VghRXSjHIeiNGEVw8XwLQLPb8lXX8njL18BDHxhHE94=
+
+Name: res/drawable-xhdpi-v4/stat_notify_calendar.png
+SHA-256-Digest: PHNfHux7kyuWPDfIidX1Hb+tvelvap2Yx2uevBfXEzo=
+
+Name: res/drawable-xxhdpi-v4/icon_share_n.png
+SHA-256-Digest: wUDay+R7hh3yx0/QEseRZLTEe5Qep7SeH7rxrGp7a3Q=
+
+Name: res/drawable-xxhdpi-v4/calname_bottom_unselected_underselect_pre
+ ssed_holo_light.9.png
+SHA-256-Digest: d43Nwhlo7aREE4M+k+I03ig69Z9cX5eDtEMd2WC7YaI=
+
+Name: org/apache/commons/codec/language/bm/ash_rules_hebrew.txt
+SHA-256-Digest: HjaCi9kKByG2UT9vaH6sUD3IwaN4JK5ubY1JY0RiAZQ=
+
+Name: res/drawable-xxhdpi-v4/icon_tab_agenda_selected.png
+SHA-256-Digest: wX3bRrcMtb/O7+0WyFY4NrGKOfn9/LAyoWisaX7TdGk=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_n_13.png
+SHA-256-Digest: MdQmXFEKNF2Q+YcZOEKQy7VUbLUmKmmXxp/3i5iZ3ks=
+
+Name: res/drawable/countdown_btn.xml
+SHA-256-Digest: xlpSi0oY6KlVissjGRqgia1+SI5nl75Fh1dXCE+h+gA=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_p_27.png
+SHA-256-Digest: T6JnGvOAumguUQN+MYKmXM5p+OdxpfrblnvvSxu0GnU=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_n_1.png
+SHA-256-Digest: BMUPEXVQ+OAqAgDQZGqxtkYiPfycJeU142jUp0uFAZs=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_p_5.png
+SHA-256-Digest: T4vf43LyT/6d0+jIxZsNijSKYRUlc7dc0d1AhXkOJjM=
+
+Name: res/layout/immersion_popup_simple_item.xml
+SHA-256-Digest: iNABhSsW5lAyhq+oP91LYBd8FEtMvtI65G08v5J76/M=
+
+Name: res/raw/flight_company_config.json
+SHA-256-Digest: yPUXKCtzrss5m+SF5dgB33hn7ziFG1BUSdTLzY4qlsw=
+
+Name: res/drawable-xhdpi-v4/button_rect_bg_p.9.png
+SHA-256-Digest: ooQ9t/8/QNOKoIQi17yCsBZYuSJxtzQPxxg40unnuHc=
+
+Name: res/drawable-xxxhdpi-v4/action_bar_back_normal_light.png
+SHA-256-Digest: bcyr5Y/SSre9qyGbQo4x9uo0Kz+qTVZ+0lE1vtdgPgo=
+
+Name: res/layout/month_view_item4.xml
+SHA-256-Digest: q5cED3HdQ777xVoEI/IwQb7gKJFmEIGajwBZr9FJsXM=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_n_5.png
+SHA-256-Digest: vsy8r2ue8SWhRRsvP0cQD3JbsxK5fgttA3s0a0Df4AU=
+
+Name: res/drawable-xxxhdpi-v4/ic_change.png
+SHA-256-Digest: 6WbkJ2LB1MLJgE0ebnUJQZdYyntno2s4kRbPaWE9AQ8=
+
+Name: res/drawable-xxxhdpi-v4/button_rect_bg_n.9.png
+SHA-256-Digest: shSQYpX23Cg4TdwlD3mCSd1iuILIKddd6KXibWy/lXY=
+
+Name: res/drawable-xxxhdpi-v4/fortune_caiwei.png
+SHA-256-Digest: JjJodj2zdTJjn1/nhGwPW76bxs0pn8bNmkC6w2HLAGI=
+
+Name: res/drawable/share_button_light.xml
+SHA-256-Digest: 6rNM09C7VLrhJJt06Lnq1smce/pVMAeNF3yxztjbyzM=
+
+Name: res/drawable-xxhdpi-v4/icon_tab_month_selected.png
+SHA-256-Digest: awDTnNIiFFlQHo+bkYieg3WzIBEM0DGPZUDp/FgeX3U=
+
+Name: res/drawable-xxhdpi-v4/calname_bottom_select_underunselected_pre
+ ssed_holo_light.9.png
+SHA-256-Digest: B+1GbdpTkf521ob9Iv1dQuijY+wmqxIkfnvUaGFDFIU=
+
+Name: lib/x86/libweibosdkcore.so
+SHA-256-Digest: L5QTEx1kN0BJqS0Wzg82V1W8w2hLZHG1CRCXq/0XE30=
+
+Name: res/drawable-xxxhdpi-v4/load_fail.9.png
+SHA-256-Digest: 4rVGmXvazWJ5tTduN40EIQEkHzsp/bJeW1Arc43WpiY=
+
+Name: res/drawable-xxxhdpi-v4/tab_bg_middle_selected_light.9.png
+SHA-256-Digest: 6Tc7pLDq+S+/K2Oii+wEIGDw7FQem3+Oa14X0dQD7ew=
+
+Name: assets/drawable-xhdpi/weibosdk_common_button_alpha_highlighted.9
+ .png
+SHA-256-Digest: kije0McRI1eEaGiIpp6opVV5D3wrUW+eFIDL/m8Rgas=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_p_6.png
+SHA-256-Digest: oVBOY/cnTNGFAb5wRJiUBiFfDQRvJrLzqlGp5rFQr78=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_p_19.png
+SHA-256-Digest: aQ4WYjsJDpf8onhXFUa/9hcDUwzIbp/IR3C0JCXBw/I=
+
+Name: assets/animals/mouse.png
+SHA-256-Digest: Vhb70I2eBQRAPZ2tChwCgVTiq25jZlahdwaXdPjylo0=
+
+Name: res/layout/immersion_popup_red_point_item.xml
+SHA-256-Digest: oms4qH//vIHNDLFcdvIqZ1Nv3pj/cfAMOlY/Xgznwq0=
+
+Name: res/drawable-xhdpi-v4/event_icon_credit.png
+SHA-256-Digest: mktjYNjR1W+OXblr7uIi17AuX5oBc/Lcc5BiUsXw6ss=
+
+Name: res/drawable-xxhdpi-v4/ic_aqi_skull.png
+SHA-256-Digest: L+ngPz/tGH7LmjjfzCt8ZHxKN5MzyeR5vKHEbzW8+dQ=
+
+Name: res/layout/app_card_item.xml
+SHA-256-Digest: LgMvyHjInfZUQt4jbZP/FdmGfFcpezUgV9e8LkBbOgo=
+
+Name: res/drawable-xhdpi-v4/ic_cost.png
+SHA-256-Digest: 4tty6SP02pnrKKyOZKPPY0Jmkwxf3z1dcp/jNDSjfSY=
+
+Name: res/drawable-xxxhdpi-v4/event_icon_credit.png
+SHA-256-Digest: 4LBfuq/697S99qEK4w4hZNf0yVXNALtuu+mRtcdzw/U=
+
+Name: res/drawable/action_button_today_2.xml
+SHA-256-Digest: yxK3F2toleuQun9vdU0yxd+NQSXDNcSfaXHvL1MmYp4=
+
+Name: res/drawable-xxxhdpi-v4/list_without_divider_bg_n.9.png
+SHA-256-Digest: f9MPKLoAfDWPF+07VH3MnkrrEzKoIFqw24HXoWet4Lk=
+
+Name: res/drawable/date_calculate_btn.xml
+SHA-256-Digest: UXnrnX5XiwP/FrP24A5p5J+K1zHAfNWOMU7VtnLcqnY=
+
+Name: res/drawable-xhdpi-v4/action_bar_back_p.png
+SHA-256-Digest: tKYHIjreaWLygPpmf1fdaVSj5VEoJvgLulvlaO2iYDs=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_p_12.png
+SHA-256-Digest: /2EoImjz5xd69zBkOHc6IiMm4AMfOwv3Duo4Ct/YcmA=
+
+Name: res/drawable/ic_collapse_holo_light.xml
+SHA-256-Digest: 3ogoj7/ZH/flXRGI/PgA8h/QZe6kH02xwBhRa+NrGbk=
+
+Name: res/drawable-xhdpi-v4/birthday_btn_n.png
+SHA-256-Digest: FnikSn6Maixqkc56yPHJQLOupr5gO4KqWANaxgVo0O4=
+
+Name: res/drawable-xhdpi-v4/force_touch_new_event.png
+SHA-256-Digest: 0W3HJuVNhvJoVgC+xougLmpu+pi1/NHETERsvsK2Xh0=
+
+Name: res/drawable-xxxhdpi-v4/btn_bg_blue_small_n.9.png
+SHA-256-Digest: uyD2fz8V4u0pm0uCutXU4fKeb0HJdWlCQ3qkL7+QvoY=
+
+Name: res/drawable/event_btn.xml
+SHA-256-Digest: 0UggOqpZ0IDWQAP245JRg65210kPfBDCgkCFz9FDK7g=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_p_2.png
+SHA-256-Digest: LV98H5N22+h4/wVsVVYVUcOHX4YALQYnWDKhqz7HtKY=
+
+Name: org/apache/commons/codec/language/bm/ash_approx_french.txt
+SHA-256-Digest: GWUOSraWeLuEkCiQDkwuhn91IpxER6D8v1pb1rO9acM=
+
+Name: res/drawable/huangli_yi_shape.xml
+SHA-256-Digest: B4G9NG3yBbyfpgxWHjQo3ou3aclAWN5SjF+Tc+2amWA=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_p_20.png
+SHA-256-Digest: L/xtAPjq3scEHIslVDNiQUO0EwJvONkZvwtTJBFesro=
+
+Name: res/drawable-mdpi-v4/chip_background_selected.9.png
+SHA-256-Digest: kHThiuAW40gfY5jvZA6b2BhBIq9QmJfnBa+RKVugh7E=
+
+Name: res/drawable-xhdpi-v4/btn_radio_off_light.png
+SHA-256-Digest: pW28sDlU6CMv+XHL5y+t47f1zY8yqFXYjgAS79IHaFI=
+
+Name: res/menu/contact_birthday_action_menu.xml
+SHA-256-Digest: bzJUZXF7WfQdRcFgneP35SRLKk7tu2+Z7Kz2cuxuTwo=
+
+Name: res/layout/detail_list_header.xml
+SHA-256-Digest: 9+h6oRCoUhR61OBHzfzvGRz85gmuGci3pukbY/aCKew=
+
+Name: assets/horoscope/aries.jpg
+SHA-256-Digest: wG+t3/AS4d5fU9nrpx6FK+mxmFpIRTbn186L6F0Zh1A=
+
+Name: res/drawable-xhdpi-v4/calname_select_underunselected_holo_light.
+ 9.png
+SHA-256-Digest: tfuuqQlbVBr/CuAz7FRtR9vu51tyiE7Aw3jUJzIMOYA=
+
+Name: assets/bank/qhsncxys.png
+SHA-256-Digest: 9MObeUH6PMQtFbQWNmkuIHyd3xw+b/z6EgJn4SE17Q0=
+
+Name: res/drawable/action_button_today_20.xml
+SHA-256-Digest: TbrlUPwqJrgCCHwCoJSmCM34SgYlFlI7r2aSeOmSRQo=
+
+Name: res/layout/information_card.xml
+SHA-256-Digest: DOb4mJ02pt0NqAo28BgEM26e27OhBfHiIrE5E5FHWAg=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_n_23.png
+SHA-256-Digest: X+ObpM2z9MJgWY60sPBzJ5pQD6GgtN2MEVRtXJO/V+c=
+
+Name: res/drawable-xxhdpi-v4/anniversary_btn_p.png
+SHA-256-Digest: hDK0D85ckhtL9ssDqM1hs101xCCXzjk0AkrCh4T9OoE=
+
+Name: res/drawable-xxxhdpi-v4/subscribe_button_p.9.png
+SHA-256-Digest: LOO5Yr0C17D0oa1AFgsjBRejt3B6rmfEEGfqy0dOup0=
+
+Name: assets/bg/countdown_bg.jpg
+SHA-256-Digest: hu3wjbgULgo9Yjum6qU6zOxFXB6g8GpteFYJ3A++76Y=
+
+Name: res/drawable-xxhdpi-v4/icon_tab_agenda_unselected.png
+SHA-256-Digest: lg0OZTYR5fzKvQPHSXsXlxNhI0I2Stwl1LiQdIhsngc=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_p_5.png
+SHA-256-Digest: JIXa12oBRB081CIx1UcO7fDDNJSIpYVkQzfWo/rsdrw=
+
+Name: res/drawable-xxhdpi-v4/travel_flight_new.png
+SHA-256-Digest: 030bZYuwMYJXK2vyPR5kCymCClrN9hxJHS5qkPK3C/c=
+
+Name: assets/drawable-xxhdpi/login_country_background.9.png
+SHA-256-Digest: iFGltDqQpwwe47ZvTuojW32bAxBqRz4Jjntr/bOpFHw=
+
+Name: res/drawable-xxhdpi-v4/load_fail.9.png
+SHA-256-Digest: 4+2BW8TeQ2qeVKhkcOY6HkNO2xjGF6Sv6lgDPVb1K8s=
+
+Name: res/drawable-xhdpi-v4/button_rect_bg_n.9.png
+SHA-256-Digest: MvshUDMWX3w3/hREOO0ym6Z93C5NEC4Vrj6U70xY5gw=
+
+Name: res/drawable-xxxhdpi-v4/ic_train.png
+SHA-256-Digest: 89retDQTa3Ur63n7E3W0qBsvdWZ1toFkiUy6gBvc7Vk=
+
+Name: res/drawable-xhdpi-v4/icon_share_n.png
+SHA-256-Digest: fSlIvQHc1ZSluFnIEekpX1XkI0u9EnQSyRjUbPsKiOw=
+
+Name: res/drawable-xxxhdpi-v4/tab_bg_first_selected_light.9.png
+SHA-256-Digest: 3/0JqQ3Ds9ak99iwsp2g5nM7aF0OVhbXZGDzXNil54A=
+
+Name: res/drawable-xxhdpi-v4/ic_electricity_bill.png
+SHA-256-Digest: 3LTFQLTRhWEFLAV7qXyzEYU0w3tewoFEYDDlKK/4d3w=
+
+Name: res/drawable-xxxhdpi-v4/holiday_detail_default.png
+SHA-256-Digest: gWsNeq0ZCpgi63URCN7ST2P416weARDCkanGIEOEdJ0=
+
+Name: res/drawable-xhdpi-v4/panel_month_event_holo_light.9.png
+SHA-256-Digest: 0N0voEPDBdLMTeZfQ9U6dnQ/tO4aPUe4QQUOpmattIc=
+
+Name: res/drawable-xxhdpi-v4/miui_ic_menu_today_n_5.png
+SHA-256-Digest: RmRZ2bA85h3C99dUkBuqjCTr6/ky63DYJPDUrlL6j3I=
+
+Name: res/drawable-xxhdpi-v4/fortune_rating_off.png
+SHA-256-Digest: 2daogZ78uZzw6H95ffx4nuLDZ0JzRYXpWP5mZ2Finjk=
+
+Name: res/drawable/tab_bg_light.xml
+SHA-256-Digest: /klGrVZqMsYJrNd4u6scmaCg5IsHDNc2thoWSmoM7gg=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_n_28.png
+SHA-256-Digest: /MLeBVmLLQu7z+kqppe7Y0fai+kataqw5fWYBs0WxB0=
+
+Name: res/drawable-large-xxhdpi-v4/miui_ic_menu_today_n_19.png
+SHA-256-Digest: ajwlMWFke7KYlE3+ENVWUMh0NaK1UE0Tl+pS6JT2TBo=
+
+Name: res/layout/event_info_label.xml
+SHA-256-Digest: E7OFIw4a+PwZ1ZtlazjFpEFlIugiJNmQvIpKtxUTE5o=
+
+Name: res/drawable-xxxhdpi-v4/miui_ic_menu_today_n_16.png
+SHA-256-Digest: N3iS5NlmoSDSuRJ0Dp5YUxZv9TM9nGLfhtLPWe3Aupg=
+
+Name: assets/pinyinindex
+SHA-256-Digest: PdoHHfJtjuokoyiFjv2cKe4fcmXob6PcD7CTHgws8q0=
+
+Name: com/sina/weibo/sdk/net/cacert_cn.cer
+SHA-256-Digest: CcY+sjf7vy3L+22/dVxNXqvX4e6bKTM1F2l7Ln+YDAo=
+
+Name: res/drawable-xhdpi-v4/miui_ic_menu_today_p_16.png
+SHA-256-Digest: MMz0TNBH7pDPM8IHW8KfmfIYz67Nv270qQXdNZLVjh8=
+

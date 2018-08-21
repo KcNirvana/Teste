@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="@drawable/list_with_divider_bg_n" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/olympic_rank_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@id/rank" android:layout_width="@dimen/olympic_rank_rank_and_name_width" android:text="@string/olympic_rank" style="@style/OlympicRankHeaderTextStyle" />
+    <View android:layout_height="fill_parent" style="@style/LiteVerticalDividerStyle" />
+    <LinearLayout android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/gold" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/medal_gold" android:layout_weight="1.0" />
+        <ImageView android:id="@id/silver" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/medal_silver" android:layout_weight="1.0" />
+        <ImageView android:id="@id/bronze" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/medal_bronze" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:layout_height="fill_parent" style="@style/LiteVerticalDividerStyle" />
+    <TextView android:id="@id/total" android:layout_width="@dimen/olympic_rank_total_width" android:text="@string/olympic_total" style="@style/OlympicRankHeaderTextStyle" />
+</LinearLayout>

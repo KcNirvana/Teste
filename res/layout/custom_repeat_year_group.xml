@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_marginLeft="@dimen/repeat_page_margin_h" android:text="@string/repeat_label_choose_month" style="@style/RepeatLabelItemStyle" />
+    <TableLayout style="@style/RepeatTableStyle">
+        <TableRow>
+            <Button android:id="@id/month1" style="@style/RepeatYearTableItemStyle" />
+            <Button android:id="@id/month2" style="@style/RepeatYearTableItemStyle" />
+            <Button android:id="@id/month3" style="@style/RepeatYearTableItemStyle" />
+            <Button android:id="@id/month4" style="@style/RepeatYearTableItemStyle" />
+        </TableRow>
+        <TableRow>
+            <Button android:id="@id/month5" style="@style/RepeatYearTableItemStyle" />
+            <Button android:id="@id/month6" style="@style/RepeatYearTableItemStyle" />
+            <Button android:id="@id/month7" style="@style/RepeatYearTableItemStyle" />
+            <Button android:id="@id/month8" style="@style/RepeatYearTableItemStyle" />
+        </TableRow>
+        <TableRow>
+            <Button android:id="@id/month9" style="@style/RepeatYearTableItemStyle" />
+            <Button android:id="@id/month10" style="@style/RepeatYearTableItemStyle" />
+            <Button android:id="@id/month11" style="@style/RepeatYearTableItemStyle" />
+            <Button android:id="@id/month12" style="@style/RepeatYearTableItemStyle" />
+        </TableRow>
+    </TableLayout>
+    <LinearLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_marginLeft="@dimen/repeat_page_margin_h" android:layout_marginTop="@dimen/repeat_week_label_margin_top" android:text="@string/repeat_label_choose_week" style="@style/RepeatLabelItemStyle" />
+        <include layout="@layout/custom_repeat_line_divider" />
+        <LinearLayout android:id="@id/week_row" style="@style/eventInfoListItemStyle">
+            <TextView android:id="@id/year_week_text" android:layout_width="0.0dip" android:text="@string/repeat_label_week" android:layout_weight="1.0" style="@style/eventInfoListItemPrimaryTextStyle" />
+            <miui.widget.SlidingButton android:layout_gravity="center_vertical" android:id="@id/week_sliding" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/TripleLineListItemLayoutStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/double_line_list_primary_text_size" android:textColor="@color/card_title_text_color" android:id="@id/primary" style="@style/TextStyle" />
+        <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small_margin">
+            <TextView android:textSize="@dimen/rating_text_size" android:textColor="@color/book_rating_text_color" android:id="@id/source" style="@style/TextStyle" />
+            <View android:id="@id/vertical_divider" android:layout_height="10.0dip" android:layout_marginLeft="@dimen/small_margin" android:layout_marginRight="@dimen/small_margin" style="@style/VerticalDividerStyle" />
+            <TextView android:textSize="@dimen/rating_text_size" android:textColor="@color/book_rating_text_color" android:id="@id/date" style="@style/RatingTextStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.miui.calendar.view.OnlineImageView android:id="@id/image" android:layout_width="@dimen/information_image_width" android:layout_height="@dimen/information_image_height" android:layout_marginLeft="@dimen/card_normal_margin" style="@style/ImageWithBorderStyle" />
+</LinearLayout>

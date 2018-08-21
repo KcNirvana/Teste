@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@android:id/content" android:paddingTop="@dimen/widget_all_day_padding_v" android:paddingBottom="@dimen/widget_all_day_padding_v" android:layout_width="fill_parent" android:layout_height="@dimen/widget_all_day_height" android:paddingStart="@dimen/widget_all_day_padding_h" android:paddingEnd="@dimen/widget_all_day_padding_h"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/widget_row" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/agenda_item_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    <TextView android:textSize="@dimen/widget_all_day_text" android:textColor="@color/widget_day_header_text" android:ellipsize="marquee" android:gravity="start|center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="@dimen/widget_all_day_height" android:singleLine="true" android:paddingStart="@dimen/widget_agenda_page_padding" style="?android:attr/textAppearanceMediumInverse" />
+</FrameLayout>

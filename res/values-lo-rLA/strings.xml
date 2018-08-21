@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="copy_email">ສຳເນົາທີ່ຢູ່ອີເມວ</string>
+    <string name="copy_number">ສຳເນົາເບີໂທລະສັບ</string>
+    <string name="done">ກັບຄືນ</string>
+    <string name="more_string">+%1$s</string>
+</resources>

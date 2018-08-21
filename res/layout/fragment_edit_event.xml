@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/edit_event" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/loading_message" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/loading" android:layout_weight="1.0" style="?android:attr/textAppearanceLarge" />
+    <com.miui.calendar.view.BetterScrollView android:id="@id/scroll_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_weight="2.0" android:animateLayoutChanges="true">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:layout_gravity="center|top" android:id="@id/event_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="1.0dip" android:layout_marginTop="1.0dip" android:layout_marginRight="1.0dip" android:layout_marginBottom="1.0dip" />
+            <LinearLayout android:layout_gravity="center|top" android:orientation="vertical" android:id="@id/two_pane" android:paddingBottom="@dimen/edit_event_view_footer_height" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include layout="@layout/home_time_text_view" />
+                    <include layout="@layout/edit_event_card_divider" />
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/edit_event_title_height" style="@style/eventInfoListItemStyle">
+                        <EditText android:id="@id/title" android:hint="@string/hint_what" style="@style/LargeEditTextStyle" />
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/all_day_row" style="@style/eventInfoListItemStyle">
+                        <TextView android:id="@id/is_all_day_label" android:clickable="false" android:text="@string/edit_event_all_day_label" style="@style/eventInfoListItemPrimaryTextSwitchStyle" />
+                        <miui.widget.SlidingButton android:id="@id/is_all_day" android:contentDescription="@string/accessibility_all_day" style="@style/eventInfoListItemSecondarySwitchStyle" />
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/when_row" style="@style/eventInfoListItemStyle">
+                        <TextView android:id="@id/when_label" android:text="@string/when_label" style="@style/eventInfoListItemPrimaryTextStyle" />
+                        <TextView android:id="@id/when" style="@style/eventInfoListItemSecondaryViewStyle" />
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/from_row" style="@style/eventInfoListItemStyle">
+                        <TextView android:id="@id/from_label" android:text="@string/edit_event_from_label" style="@style/eventInfoListItemPrimaryTextStyle" />
+                        <TextView android:id="@id/start_date" android:contentDescription="@string/accessibility_pick_start_date" android:layout_marginStart="0.0dip" style="@style/eventInfoListItemSecondaryDateTextStyle" />
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/from_row_home_tz" style="@style/eventInfoListItemStyle">
+                        <TextView android:id="@id/start_date_home_tz" style="@style/eventInfoListItemPrimaryTextStyle" />
+                        <TextView android:id="@id/start_time_home_tz" style="@style/eventInfoListItemSecondaryDateTextStyle" />
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/to_row" style="@style/eventInfoListItemStyle">
+                        <TextView android:id="@id/to_label" android:text="@string/edit_event_to_label" style="@style/eventInfoListItemPrimaryTextStyle" />
+                        <TextView android:id="@id/end_date" android:contentDescription="@string/accessibility_pick_start_date" android:layout_marginStart="0.0dip" style="@style/eventInfoListItemSecondaryDateTextStyle" />
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/to_row_home_tz" style="@style/eventInfoListItemStyle">
+                        <TextView android:id="@id/end_date_home_tz" style="@style/eventInfoListItemPrimaryTextStyle" />
+                        <TextView android:id="@id/end_time_home_tz" style="@style/eventInfoListItemSecondaryDateTextStyle" />
+                    </LinearLayout>
+                    <include layout="@layout/edit_event_card_divider" />
+                    <LinearLayout android:id="@id/reminders_row" android:focusable="true" style="@style/eventInfoListItemStyle">
+                        <TextView android:text="@string/event_info_reminders_label" style="@style/eventInfoListItemPrimaryTextStyle" />
+                        <TextView android:id="@id/reminders" style="@style/eventInfoListItemSecondaryTextStyle" />
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/repeats_row" android:focusable="true" style="@style/eventInfoListItemStyle">
+                        <TextView android:text="@string/repeats_label" style="@style/eventInfoListItemPrimaryTextStyle" />
+                        <Spinner android:id="@id/repeats" android:prompt="@string/repeats_label" android:contentDescription="@string/accessibility_repeats" style="@style/eventInfoListItemRepeatSpinnerStyle" />
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/repeats_end_row" android:focusable="true" android:visibility="gone" style="@style/eventInfoListItemStyle">
+                        <TextView android:text="@string/repeat_end_label" style="@style/eventInfoListItemPrimaryTextStyle" />
+                        <Spinner android:id="@id/repeats_end" android:prompt="@string/repeat_end_label" android:contentDescription="@string/repeat_end_label" style="@style/eventInfoListItemSecondarySpinnerStyle" />
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/calendar_selector_group" android:focusable="true" style="@style/eventInfoListItemStyle">
+                        <TextView android:text="@string/event_account" style="@style/eventInfoListItemPrimaryTextStyle" />
+                        <Spinner android:id="@id/calendars_spinner" android:prompt="@string/edit_event_calendar_label" style="@style/eventInfoListItemSecondarySpinnerStyle" />
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/calendar_group" android:focusable="true" style="@style/eventInfoListItemStyle">
+                        <TextView android:id="@id/calendar_textview" android:text="@string/event_account" style="@style/eventInfoListItemPrimaryTextStyle" />
+                        <TextView android:id="@id/calendar_textview_secondary" style="@style/eventInfoListItemSecondaryViewStyle" />
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/timezone_textview_row" android:focusable="true" style="@style/eventInfoListItemStyle">
+                        <TextView android:text="@string/time_zone" style="@style/eventInfoListItemPrimaryTextStyle" />
+                        <TextView android:id="@id/timezone_textView" style="@style/eventInfoListItemSecondarySpinnerStyle" />
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/timezone_button_row" style="@style/eventInfoListItemStyle">
+                        <TextView android:text="@string/time_zone" style="@style/eventInfoListItemPrimaryTextStyle" />
+                        <Button android:id="@id/timezone_button" android:contentDescription="@string/accessibility_pick_time_zone" style="@style/eventInfoListItemSecondaryTimezoneButtonStyle" />
+                    </LinearLayout>
+                    <View style="@style/EditEventSeparator" />
+                </LinearLayout>
+                <include layout="@layout/edit_event_card_divider" />
+                <LinearLayout android:orientation="vertical" android:id="@id/attendees_group" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include android:id="@id/response_row" layout="@layout/event_response_container" />
+                    <LinearLayout android:id="@id/organizer_row" android:focusable="true" style="@style/eventInfoListItemStyle">
+                        <TextView android:id="@id/organizer_label" android:text="@string/view_event_organizer_label" style="@style/eventInfoListItemPrimaryTextStyle" />
+                        <TextView android:id="@id/organizer" style="@style/eventInfoListItemSecondaryTextStyle" />
+                        <View style="@style/EditEventSeparator" />
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/attendees_row" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/edit_event_title_height" style="@style/eventInfoListItemStyle">
+                        <com.android.ex.chips.RecipientEditTextView android:ellipsize="end" android:id="@id/attendees" android:hint="@string/hint_attendees" android:maxLines="1" android:inputType="textCapWords|textEmailAddress" style="@style/LargeEditTextStyle" />
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/location_row" android:layout_width="fill_parent" android:layout_height="@dimen/edit_event_title_height" style="@style/eventInfoListItemStyle">
+                        <EditText android:id="@id/location" android:hint="@string/hint_where" style="@style/LargeEditTextStyle" />
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/description_row" style="@style/eventInfoListItemStyle">
+                        <EditText android:id="@id/description" android:layout_height="wrap_content" android:hint="@string/hint_description" android:inputType="textMultiLine" style="@style/LargeEditTextStyle" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </com.miui.calendar.view.BetterScrollView>
+</LinearLayout>

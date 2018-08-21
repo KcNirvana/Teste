@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="copy_email">کپی آدرس ایمیل</string>
+    <string name="copy_number">کپی شماره تلفن</string>
+    <string name="done">بازگشت</string>
+    <string name="more_string">+%1$s</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:autoMirrored="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/btn_radio_on_light" android:state_activated="true" />
+    <item android:drawable="@drawable/btn_radio_off_light" />
+</selector>

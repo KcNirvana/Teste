@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:id="@id/root_view" android:background="@drawable/list_with_divider_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/olympic_match_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="left" android:orientation="vertical" android:layout_width="@dimen/olympic_match_category_width" android:layout_height="wrap_content">
+        <TextView android:ellipsize="end" android:gravity="left" android:id="@id/match_category" android:singleLine="true" style="@style/OlympicMatchItemTextStyle" />
+        <TextView android:gravity="left" android:id="@id/match_time" style="@style/OlympicMatchItemTextStyle" />
+    </LinearLayout>
+    <View android:layout_height="@dimen/olympic_match_divider_height" style="@style/VerticalDividerStyle" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:ellipsize="end" android:id="@id/match_name" android:paddingLeft="@dimen/normal_margin" android:paddingRight="@dimen/normal_margin" android:maxLines="3" style="@style/OlympicMatchItemTextStyle" />
+        <TextView android:id="@id/match_detail" android:paddingLeft="@dimen/normal_margin" android:paddingRight="@dimen/normal_margin" style="@style/OlympicMatchItemTextStyle" />
+    </LinearLayout>
+    <View android:layout_height="@dimen/olympic_match_divider_height" style="@style/VerticalDividerStyle" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="@dimen/olympic_match_info_width" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/player_root" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:layout_width="@dimen/olympic_match_country_width" android:layout_height="wrap_content">
+                <com.miui.calendar.view.OnlineImageView android:id="@id/player_flag" android:layout_width="@dimen/olympic_rank_flag_width" android:layout_height="@dimen/olympic_rank_flag_height" style="@style/ImageWithBorderStyle" />
+            </LinearLayout>
+            <TextView android:gravity="center|left" android:id="@id/player_names" android:layout_width="fill_parent" android:maxLines="3" style="@style/OlympicMatchItemTextStyle" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/vs_root" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="@dimen/olympic_match_country_width" android:layout_height="wrap_content">
+                <com.miui.calendar.view.OnlineImageView android:id="@id/vs_flag_left" android:layout_width="@dimen/olympic_rank_flag_width" android:layout_height="@dimen/olympic_rank_flag_height" style="@style/ImageWithBorderStyle" />
+                <TextView android:ellipsize="end" android:id="@id/vs_name_left" android:singleLine="true" style="@style/OlympicMatchItemTextStyle" />
+            </LinearLayout>
+            <TextView android:text="@string/olympic_vs" android:layout_weight="1.0" style="@style/OlympicMatchItemTextStyle" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="@dimen/olympic_match_country_width" android:layout_height="wrap_content">
+                <com.miui.calendar.view.OnlineImageView android:id="@id/vs_flag_right" android:layout_width="@dimen/olympic_rank_flag_width" android:layout_height="@dimen/olympic_rank_flag_height" style="@style/ImageWithBorderStyle" />
+                <TextView android:ellipsize="end" android:id="@id/vs_name_right" android:singleLine="true" style="@style/OlympicMatchItemTextStyle" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="@dimen/olympic_match_button_width" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <Button android:id="@id/btn_remind" style="@style/NormalButtonStyle" />
+        <TextView android:textColor="@color/match_state_ing_color" android:id="@id/live_text" style="@style/NormalRemindTextStyle" />
+        <TextView android:textColor="@color/match_state_end_color" android:id="@id/game_over" style="@style/NormalRemindTextStyle" />
+    </LinearLayout>
+</LinearLayout>

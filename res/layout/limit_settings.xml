@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/card_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:id="@id/city_root" android:background="@drawable/list_without_divider_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="52.0dip">
+            <TextView android:textSize="@dimen/single_line_list_primary_text_size" android:textColor="@color/list_primary_text_color" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/limit_city_label" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/single_line_list_primary_text_size" android:textColor="@color/list_primary_text_color" android:layout_gravity="center_vertical" android:id="@id/city" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableRight="@miui:drawable/arrow_right" android:drawablePadding="8.0dip" />
+        </LinearLayout>
+        <View android:background="@color/motion_container_bg_color" android:layout_width="fill_parent" android:layout_height="@dimen/card_divider_height" />
+        <LinearLayout android:gravity="center_vertical" android:id="@id/reminder_switch_root" android:background="@drawable/list_with_divider_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="52.0dip">
+            <TextView android:textSize="@dimen/single_line_list_primary_text_size" android:textColor="@color/list_primary_text_color" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/limit_reminder_switch_label" android:layout_weight="1.0" />
+            <miui.widget.SlidingButton android:id="@id/reminder_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@id/reminder_time_root" android:background="@drawable/list_with_divider_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="52.0dip">
+            <TextView android:textSize="@dimen/single_line_list_primary_text_size" android:textColor="@color/list_primary_text_color" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/limit_reminder_time_label" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/single_line_list_primary_text_size" android:textColor="@color/list_primary_text_color" android:layout_gravity="center_vertical" android:id="@id/reminder_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableRight="@miui:drawable/arrow_right" android:drawablePadding="8.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@id/car_number_root" android:background="@drawable/list_without_divider_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="52.0dip">
+            <TextView android:textSize="@dimen/single_line_list_primary_text_size" android:textColor="@color/list_primary_text_color" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/limit_card_number_label" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/single_line_list_primary_text_size" android:textColor="@color/list_primary_text_color" android:layout_gravity="center_vertical" android:id="@id/car_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableRight="@miui:drawable/arrow_right" android:drawablePadding="8.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/list_secondary_text_size" android:textColor="@color/list_secondary_text_color" android:id="@id/tips" android:paddingLeft="@dimen/card_item_left_right_padding" android:paddingRight="@dimen/card_item_left_right_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_margin" android:text="@string/limit_setting_tips" />
+</LinearLayout>

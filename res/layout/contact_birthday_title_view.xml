@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/title_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/action_cancel" android:text="@string/discard_label" android:layout_weight="0.0" android:layout_marginStart="@dimen/edit_event_title_button_margin" style="@miui:style/Widget.ActionMode.Button" />
+    <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/action_bar_tab_text_size" android:gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/import_birthday" style="@miui:style/TextAppearance.Widget.ActionMode.Title" />
+    </LinearLayout>
+    <Button android:id="@id/action_select_all" android:text="@miui:string/select_all" android:layout_weight="0.0" android:layout_marginEnd="@dimen/edit_event_title_button_margin" style="@miui:style/Widget.ActionMode.Button.Default" />
+</LinearLayout>

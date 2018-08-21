@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/CardLayoutStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/content_root1" android:background="@drawable/normal_clickable_view_bg" android:paddingTop="@dimen/card_normal_margin" android:paddingBottom="@dimen/card_normal_margin" style="@style/CardContentLayoutStyle">
+        <com.miui.calendar.view.OnlineImageView android:id="@id/icon" android:layout_width="@dimen/spring_service_icon_width" android:layout_height="@dimen/spring_service_icon_height" android:layout_marginRight="@dimen/card_normal_margin" style="@style/ImageStyle" />
+        <TextView android:textSize="@dimen/list_secondary_text_size" android:textColor="@color/card_title_text_color" android:id="@id/title" android:layout_width="0.0dip" android:layout_weight="1.0" style="@style/TextStyle" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/JumpArrowImageStyle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/content_root2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:id="@id/item1" android:background="@drawable/normal_clickable_view_bg" android:paddingTop="@dimen/card_normal_margin" android:paddingBottom="@dimen/card_normal_margin" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/CardContentLayoutStyle">
+            <com.miui.calendar.view.OnlineImageView android:id="@id/icon1" android:layout_width="@dimen/spring_service_icon_width" android:layout_height="@dimen/spring_service_icon_height" style="@style/ImageStyle" />
+            <TextView android:textSize="@dimen/list_secondary_text_size" android:textColor="@color/card_title_text_color" android:id="@id/title1" android:layout_marginLeft="@dimen/card_normal_margin" style="@style/TextStyle" />
+        </LinearLayout>
+        <View android:layout_height="fill_parent" android:layout_marginTop="@dimen/card_normal_margin" android:layout_marginBottom="@dimen/card_normal_margin" style="@style/VerticalDividerStyle" />
+        <LinearLayout android:gravity="center" android:id="@id/item2" android:background="@drawable/normal_clickable_view_bg" android:paddingTop="@dimen/card_normal_margin" android:paddingBottom="@dimen/card_normal_margin" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/CardContentLayoutStyle">
+            <com.miui.calendar.view.OnlineImageView android:id="@id/icon2" android:layout_width="@dimen/spring_service_icon_width" android:layout_height="@dimen/spring_service_icon_height" style="@style/ImageStyle" />
+            <TextView android:textSize="@dimen/list_secondary_text_size" android:textColor="@color/card_title_text_color" android:id="@id/title2" android:layout_marginLeft="@dimen/card_normal_margin" style="@style/TextStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.miui.calendar.view.DynamicLinearLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

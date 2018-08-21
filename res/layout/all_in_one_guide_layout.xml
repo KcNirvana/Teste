@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/single_line_list_primary_text_size" android:textColor="@color/homepage_guide_text_color" android:gravity="center" android:id="@id/guide" android:background="@drawable/homepage_guide_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/card_normal_margin" android:paddingEnd="@dimen/card_normal_margin" />
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/event_info_list_item" android:background="@color/month_event_selected" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="@null" style="@style/eventInfoItemViewLastStyle">
+        <TextView android:id="@id/text1" android:text="@string/edit_event_calendar_label" style="@style/eventInfoItemViewTextStyle" />
+        <Spinner android:id="@id/text2" style="@style/eventInfoItemViewSpinnerStyle" />
+    </LinearLayout>
+    <include layout="@layout/divider_view" />
+</LinearLayout>

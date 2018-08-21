@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:id="@id/menu_root" android:paddingTop="@dimen/agenda_menu_padding_top_bottom" android:paddingBottom="@dimen/agenda_menu_padding_top_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:paddingStart="@dimen/menu_padding_left" android:paddingEnd="@dimen/menu_padding_right" android:layout_alignParentEnd="true">
+            <TextView android:textSize="@dimen/double_line_list_primary_text_size" android:textColor="@color/today_text_color" android:gravity="center" android:id="@id/today" android:background="@drawable/homepage_today_bg" android:visibility="invisible" android:layout_width="@dimen/homepage_menu_size" android:layout_height="@dimen/homepage_menu_size" android:text="@string/homepage_today" android:layout_marginEnd="@dimen/large_margin" />
+            <ImageView android:id="@id/new_event" android:background="@drawable/homepage_new_event_bg" android:layout_width="@dimen/homepage_menu_size" android:layout_height="@dimen/homepage_menu_size" android:src="@miui:drawable/action_button_new_dark" android:scaleType="center" />
+        </LinearLayout>
+    </RelativeLayout>
+</merge>

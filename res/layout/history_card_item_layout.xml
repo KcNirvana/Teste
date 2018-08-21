@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/root" android:background="@drawable/normal_clickable_view_bg" android:paddingTop="@dimen/normal_margin" android:paddingBottom="@dimen/normal_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/card_item_height" android:paddingStart="@dimen/card_item_left_right_padding" android:paddingEnd="@dimen/card_item_left_right_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.miui.calendar.view.OnlineImageView android:id="@id/image" android:layout_width="@dimen/news_image_width" android:layout_height="@dimen/news_image_height" android:layout_marginRight="@dimen/normal_margin" style="@style/ImageWithBorderStyle" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/title" android:maxLines="2" android:singleLine="false" style="@style/DoubleLineListPrimaryTextStyle" />
+        <TextView android:textSize="@dimen/history_date_text_size" android:textColor="@color/holiday_detail_item_date_color" android:layout_gravity="center_vertical" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/history_date_margin_top" />
+    </LinearLayout>
+</LinearLayout>

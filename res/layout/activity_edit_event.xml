@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/event_button_container" android:background="@miui:drawable/preference_item_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="0.0dip" android:paddingEnd="0.0dip">
+        <RadioGroup android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/edit_event_tab_height">
+            <RadioButton android:id="@id/event_btn" android:checked="true" android:text="@string/edit_event_tab_event" android:drawableTop="@drawable/event_btn" style="@style/edit_event_tab_style" />
+            <RadioButton android:id="@id/birthday_btn" android:text="@string/edit_event_tab_birthday" android:drawableTop="@drawable/birthday_btn" style="@style/edit_event_tab_style" />
+            <RadioButton android:id="@id/anniversary_btn" android:text="@string/edit_event_tab_anniversary" android:drawableTop="@drawable/anniversary_btn" style="@style/edit_event_tab_style" />
+            <RadioButton android:id="@id/countdown_btn" android:text="@string/edit_event_tab_countdown" android:drawableTop="@drawable/countdown_btn" style="@style/edit_event_tab_style" />
+        </RadioGroup>
+    </LinearLayout>
+    <FrameLayout android:id="@id/main_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" />
+    <View android:id="@id/bottom_divider" android:background="@color/miui_separator_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<misearch
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <items>
+        <item>
+            <id>0</id>
+            <title>app_label</title>
+            <intent_action>android.intent.action.MAIN</intent_action>
+            <class>com.android.calendar.homepage.AllInOneActivity</class>
+            <keywords>search_calendar</keywords>
+            <description>description_calendar</description>
+        </item>
+        <item>
+            <id>1</id>
+            <title>app_label</title>
+            <intent_action>android.intent.action.MAIN</intent_action>
+            <class>com.android.calendar.event.EditEventActivity</class>
+            <keywords>search_calendar_edit_event</keywords>
+            <description>description_calendar_edit_event</description>
+        </item>
+        <item>
+            <id>3</id>
+            <title>app_label</title>
+            <intent_action>android.intent.action.MAIN</intent_action>
+            <class>com.miui.calendar.huangli.HuangLiDetailActivity</class>
+            <keywords>search_calendar_huangli</keywords>
+            <description>description_calendar_huangli</description>
+        </item>
+    </items>
+</misearch>

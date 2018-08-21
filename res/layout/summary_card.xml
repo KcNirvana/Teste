@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/CardLayoutStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/root" android:background="@drawable/normal_clickable_view_bg" style="@style/CardContentLayoutStyle">
+        <LinearLayout android:id="@id/title_layout" android:background="@null" style="@style/DoubleLineListItemLayoutStyle">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:id="@id/lunar_day" style="@style/DoubleLineListPrimaryTextStyle" />
+                <TextView android:textColor="@color/holiday_text_color" android:id="@id/holiday" style="@style/DoubleLineListSecondaryTextStyle" />
+            </LinearLayout>
+            <ImageView android:id="@id/banner" android:visibility="gone" android:layout_width="@dimen/summary_card_banner_image_width" android:layout_height="@dimen/summary_card_banner_image_height" android:layout_marginLeft="@dimen/normal_margin" android:scaleType="fitXY" />
+        </LinearLayout>
+        <View android:id="@id/divider" style="@style/DividerStyle" />
+        <LinearLayout android:gravity="center_vertical" android:id="@id/huang_li_yi_ji_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/huang_li_layout_height">
+            <TextView android:textSize="@dimen/list_secondary_text_size" android:textColor="@color/almanac_good_type_text_color" android:id="@id/huang_li_yi_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/huangli_good_type" />
+            <TextView android:textSize="@dimen/list_secondary_text_size" android:textColor="@color/huang_li_yi_text_color" android:ellipsize="end" android:id="@id/huang_li_yi" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/small_margin" android:singleLine="true" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/list_secondary_text_size" android:textColor="@color/huangli_ji_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/small_margin" android:text="@string/huangli_bad_type" />
+            <TextView android:textSize="@dimen/list_secondary_text_size" android:textColor="@color/huang_li_yi_text_color" android:id="@id/huang_li_ji" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/small_margin" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/banner_divider" android:visibility="gone" android:layout_marginStart="@dimen/card_large_left_margin" android:layout_marginEnd="@dimen/card_large_left_margin" style="@style/DividerStyle" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/banner_root" android:background="@drawable/normal_clickable_end_item_bg" android:paddingTop="@dimen/small_margin" android:paddingBottom="@dimen/small_margin" android:visibility="gone" android:minHeight="@dimen/card_title_height" style="@style/CardContentLayoutStyle">
+        <com.miui.calendar.view.OnlineImageView android:id="@id/banner_icon" android:layout_width="@dimen/card_banner_icon_size" android:layout_height="@dimen/card_banner_icon_size" android:layout_marginRight="@dimen/small_margin" style="@style/ImageStyle" />
+        <LinearLayout android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/single_line_list_primary_text_size" android:textColor="@color/list_secondary_text_color" android:ellipsize="end" android:id="@id/banner_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="@dimen/recommend_tag_text_size" android:ellipsize="none" android:id="@id/banner_custom_tag" android:background="@drawable/text_chain_custom_tag_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:singleLine="true" />
+        </LinearLayout>
+        <TextView android:id="@id/banner_ad_tag" android:visibility="gone" android:singleLine="true" android:layout_marginStart="5.0dip" style="@style/TextChainAdSpreadTextStyle" />
+        <ImageButton android:id="@id/banner_close" android:layout_marginLeft="@dimen/small_margin" style="@style/SmallImageAdCloseImageButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/agenda_widget_no_events" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="@dimen/widget_list_item_height2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@id/no_events" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/gadget_no_events" style="@style/WidgetDayPrimaryText" />
+</LinearLayout>

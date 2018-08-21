@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root" style="@style/CardLayoutStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/title_container" style="@style/CardTitleLayoutStyle">
+        <TextView android:id="@id/primary_title" style="@style/CardTitleTextStyle" />
+        <View android:id="@id/title_divider" android:layout_marginStart="@dimen/card_item_left_right_padding" style="@style/DividerStyle" />
+    </LinearLayout>
+    <com.miui.calendar.view.DynamicLinearLayout android:id="@id/list_container" style="@style/DynamicContainerStyle" />
+    <include layout="@layout/holiday_card_buttons" />
+</LinearLayout>

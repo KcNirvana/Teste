@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/CardLayoutStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/card_group_title" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/content" android:background="@drawable/normal_clickable_end_item_bg" android:paddingTop="@dimen/card_normal_margin" android:paddingBottom="@dimen/card_normal_margin" style="@style/CardContentLayoutStyle">
+        <ImageView android:id="@id/weather_icon" android:layout_width="@dimen/group_card_icon_size" android:layout_height="@dimen/group_card_icon_size" android:scaleType="fitXY" android:layout_marginEnd="@dimen/group_card_icon_margin_end" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/current_temperature" style="@style/DoubleLineListPrimaryTextStyle" />
+                <TextView android:id="@id/weather_type" android:layout_marginStart="6.669983dip" android:layout_marginEnd="6.669983dip" style="@style/DoubleLineListPrimaryTextStyle" />
+                <TextView android:textSize="9.0sp" android:gravity="center" android:id="@id/aqi_level_simple_desc" android:background="@drawable/aqi_bg" android:layout_width="24.0dip" android:layout_height="15.0dip" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:id="@id/other_info_root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip">
+                <TextView android:textSize="@dimen/list_secondary_text_size" android:textColor="@color/list_secondary_text_color" android:id="@id/temperature_range" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+                <View android:layout_height="@dimen/normal_margin" android:layout_marginStart="5.3299866dip" android:layout_marginEnd="5.3299866dip" style="@style/VerticalDividerStyle" />
+                <TextView android:textSize="@dimen/list_secondary_text_size" android:textColor="@color/list_secondary_text_color" android:ellipsize="end" android:id="@id/location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:id="@id/no_data_hint_root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip">
+                <TextView android:textSize="@dimen/card_title_text_size" android:textColor="@color/list_primary_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/weather_card_no_data_hint" />
+                <ImageView android:layout_marginLeft="@dimen/small_margin" style="@style/JumpArrowImageStyle" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/bottom_divider" style="@style/CardBottomDividerStyle" />
+</LinearLayout>

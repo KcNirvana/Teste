@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/divider1" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/widget_page_margin_lr" android:layout_marginTop="@dimen/widget_month_day_header_margin_top" android:layout_marginRight="@dimen/widget_page_margin_lr" android:src="@color/widget_line_divider_light" />
+    <LinearLayout android:id="@id/day_header" style="@style/WidgetMonthViewDayHeader">
+        <TextView android:id="@id/detail" style="@style/WidgetMonthViewDayHeaderDetail" />
+        <TextView android:id="@id/weather" style="@style/WidgetMonthViewDayHeaderWeather" />
+    </LinearLayout>
+    <ImageView android:id="@id/divider2" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/widget_page_margin_lr" android:layout_marginRight="@dimen/widget_page_margin_lr" android:src="@color/widget_line_divider_light" />
+</LinearLayout>

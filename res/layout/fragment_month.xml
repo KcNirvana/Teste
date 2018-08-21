@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.calendar.view.MonthMotionContainer android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:orientation="horizontal" android:id="@id/month_container" android:background="@color/motion_container_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/week_switcher_root" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ViewSwitcher android:id="@id/week_switcher" android:layout_width="fill_parent" android:layout_height="@dimen/month_week_height5_with_bottom_padding" />
+            <View android:id="@id/week_switcher_divider" android:background="@color/calendar_grid_line_inner_horizontal_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        </LinearLayout>
+        <com.miui.calendar.view.InfiniteViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="@dimen/month_pager_height" />
+    </FrameLayout>
+    <com.miui.calendar.view.VerticalMotionFrameLayout android:id="@id/motion_container" android:paddingTop="@dimen/month_list_padding_top" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/list" android:background="@color/motion_container_bg_color" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@android:color/transparent" />
+    </com.miui.calendar.view.VerticalMotionFrameLayout>
+    <TextView android:textSize="@dimen/swipe_up_hint_text_size" android:textColor="@color/swipe_up_guide_hint" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/local_guide" android:background="@drawable/swipe_up_guide_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/swipe_up_hint_margin_bottom" android:drawableLeft="@drawable/swipe_up_guide_hint" android:drawablePadding="@dimen/swipe_up_hint_drawable_padding" />
+    <ImageView android:layout_gravity="bottom|center" android:id="@id/remote_guide" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/swipe_up_hint_height" android:layout_marginBottom="@dimen/swipe_up_hint_margin_bottom" />
+    <View android:layout_gravity="bottom" android:id="@id/bottom_divider" android:background="@color/event_list_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</com.miui.calendar.view.MonthMotionContainer>

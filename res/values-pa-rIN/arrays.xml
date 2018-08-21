@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="aquarius_info">
+        <item>aquarius</item>
+        <item>ਕੁੰਭ</item>
+        <item>1/20 - 2/18</item>
+    </string-array>
+    <string-array name="aries_info">
+        <item>ਮੇਖ</item>
+        <item>ਮੇਖ</item>
+        <item>3/21 - 4/19</item>
+    </string-array>
+    <string-array name="bundesliga">
+        <item>2</item>
+        <item>Bundesliga</item>
+    </string-array>
+    <string-array name="cancer_info">
+        <item>ਕਰਕ</item>
+        <item>ਕਰਕ</item>
+        <item>6/22 - 7/22</item>
+    </string-array>
+    <string-array name="capricorn_info">
+        <item>capricorn</item>
+        <item>ਮਕਰ</item>
+        <item>12/22 - 1/19</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>ਸਿਰਫ਼ ਇਹ ਈਵੈਂਟ</item>
+        <item>ਇਸ ਸੀਰੀਜ਼ ਦੇ ਸਾਰੇ ਈਵੈਂਟ</item>
+    </string-array>
+    <string-array name="date_calculate_spinner">
+        <item>ਅੱਗੇ ਨੂੰ</item>
+        <item>ਪਿਛਲੇ</item>
+    </string-array>
+    <string-array name="default_reminder_labels">
+        <item>"ਈਵੈਂਟ ਦੇ ਸਮੇਂ 'ਤੇ"</item>
+        <item>5 ਮਿੰਟ ਪਹਿਲਾਂ</item>
+        <item>10 ਮਿੰਟ ਪਹਿਲਾਂ</item>
+        <item>15 ਮਿੰਟ ਪਹਿਲਾਂ</item>
+        <item>30 ਮਿੰਟ ਪਹਿਲਾਂ</item>
+        <item>1 ਘੰਟਾ ਪਹਿਲਾਂ</item>
+        <item>1 ਦਿਨ ਪਹਿਲਾਂ</item>
+        <item>2 ਦਿਨ ਪਹਿਲਾਂ</item>
+        <item>1 ਹਫ਼ਤਾ ਪਹਿਲਾਂ</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>ਸਿਰਫ਼ ਇਹ ਈਵੈਂਟ</item>
+        <item>ਇਹ ਅਤੇ ਭਵਿੱਖ ਦੇ ਈਵੈਂਟ</item>
+        <item>ਸਾਰੇ ਈਵੈਂਟ</item>
+    </string-array>
+    <string-array name="english_premium_league">
+        <item>4</item>
+        <item>@string/english_premium_league</item>
+    </string-array>
+    <string-array name="gemini_info">
+        <item>ਮਿਥੁਨ</item>
+        <item>ਮਿਥੁਨ</item>
+        <item>5/21 - 6/21</item>
+    </string-array>
+    <string-array name="la_liga">
+        <item>3</item>
+        <item>La Liga</item>
+    </string-array>
+    <string-array name="leo_info">
+        <item>ਸਿੰਘ</item>
+        <item>ਸਿੰਘ</item>
+        <item>7/23 - 8/22</item>
+    </string-array>
+    <string-array name="libra_info">
+        <item>ਤੁਲਾ</item>
+        <item>ਤੁਲਾ</item>
+        <item>9/23 - 10/23</item>
+    </string-array>
+    <string-array name="ligue_1">
+        <item>5</item>
+        <item>ਲੀਗ 1</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>ਪਹਿਲਾ</item>
+        <item>ਦੂਜਾ</item>
+        <item>ਤੀਜਾ</item>
+        <item>ਚੌਥਾ</item>
+        <item>ਅਖੀਰਲਾ</item>
+    </string-array>
+    <string-array name="pisces_info">
+        <item>pisces</item>
+        <item>ਮੀਨ</item>
+        <item>2/19 - 3/20</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>ਹਮੇਸ਼ਾ</item>
+        <item>ਸਿਰਫ਼ ਉਦੋਂ ਜਦੋਂ ਰਿੰਗਰ ਮੌਨ ਹੋਵੇ</item>
+        <item>ਕਦੇ ਵੀ ਨਹੀਂ</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>ਖੇਤਰ ਡਿਫ਼ੌਲਟ</item>
+        <item>ਸ਼ਨਿੱਚਰਵਾਰ</item>
+        <item>ਐਤਵਾਰ</item>
+        <item>ਸੋਮਵਾਰ</item>
+    </string-array>
+    <string-array name="repeat_choose_day">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+    <string-array name="repeat_choose_end">
+        <item>ਕਦੇ ਵੀ ਨਹੀਂ</item>
+        <item>ਸਮਾਂ</item>
+        <item>ਗਿਣਤੀ</item>
+    </string-array>
+    <string-array name="repeat_choose_month">
+        <item>ਜਨ</item>
+        <item>ਫਰ</item>
+        <item>ਮਾਰ</item>
+        <item>ਅਪ੍ਰੈ</item>
+        <item>ਮਈ</item>
+        <item>ਜੂਨ</item>
+        <item>ਜੁਲਾ</item>
+        <item>ਅਗ</item>
+        <item>ਸਤੰ</item>
+        <item>ਅਕਤੂ</item>
+        <item>ਨਵੰ</item>
+        <item>ਦਸੰ</item>
+    </string-array>
+    <string-array name="repeat_choose_week_left">
+        <item>ਪਹਿਲਾ</item>
+        <item>ਦੂਜਾ</item>
+        <item>ਤੀਜਾ</item>
+        <item>ਚੌਥਾ</item>
+        <item>ਆਖਰੀ</item>
+    </string-array>
+    <string-array name="repeat_choose_week_right">
+        <item>ਸੋਮ - ਸ਼ੁੱਕਰ</item>
+        <item>ਹਫ਼ਤੇ ਦੇ ਆਖਰੀ ਦਿਨ</item>
+        <item>ਪੂਰਾ ਹਫ਼ਤਾ</item>
+    </string-array>
+    <string-array name="repeat_choose_weekday">
+        <item>ਸੋਮ</item>
+        <item>ਮੰਗਲ</item>
+        <item>ਬੁੱਧ</item>
+        <item>ਵੀਰ</item>
+        <item>ਸ਼ੁੱਕਰ</item>
+        <item>ਸ਼ਨਿੱਚਰ</item>
+        <item>ਐਤ</item>
+    </string-array>
+    <string-array name="repeat_countdown">
+        <item>ਕਦੇ ਵੀ ਨਹੀਂ</item>
+        <item>ਮਹੀਨੇਵਾਰ</item>
+        <item>ਸਾਲਾਨਾ</item>
+    </string-array>
+    <string-array name="repeat_frequency_spinner">
+        <item>ਦਿਨ</item>
+        <item>ਹਫ਼ਤਾ</item>
+        <item>ਮਹੀਨਾ</item>
+        <item>ਸਾਲ</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>ਕੋਈ ਜਵਾਬ ਨਹੀਂ</item>
+        <item>ਹਾਂ</item>
+        <item>ਹੋ ਸਕਦਾ ਹੈ</item>
+        <item>ਨਹੀਂ</item>
+    </string-array>
+    <string-array name="sagittarius_info">
+        <item>ਧਨੂੰ</item>
+        <item>ਧਨੂੰ</item>
+        <item>11/23 - 12/21</item>
+    </string-array>
+    <string-array name="scorpio_info">
+        <item>ਬ੍ਰਿਸ਼ਚਕ</item>
+        <item>ਬ੍ਰਿਸ਼ਚਕ</item>
+        <item>10/24 - 11/22</item>
+    </string-array>
+    <string-array name="serie_a">
+        <item>1</item>
+        <item>ਕਰਮ A</item>
+    </string-array>
+    <string-array name="taurus_info">
+        <item>ਬ੍ਰਿਸ਼ਭ</item>
+        <item>ਬ੍ਰਿਸ਼ਭ</item>
+        <item>4/20 - 5/20</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>ਮਾਰਸ਼ਲ ਆਈਲੈਂਡ</item>
+        <item>ਮਿਡਵੇ ਆਈਲੈਂਡ</item>
+        <item>ਹਵਾਈ</item>
+        <item>ਅਲਾਸਕਾ</item>
+        <item>ਪੈਸੀਫ਼ਿਕ ਸਮਾਂ</item>
+        <item>ਟਿਜੁਆਨਾ</item>
+        <item>ਐਰੀਜ਼ੋਨਾ</item>
+        <item>ਚਿਹੁਆਹੁਆ</item>
+        <item>ਮਾਉਨਟੇਨ ਸਮਾਂ</item>
+        <item>ਮੱਧ ਅਮਰੀਕਾ</item>
+        <item>ਕੇਂਦਰੀ ਸਮਾਂ</item>
+        <item>ਮੈਕਸਿਕੋ ਸਿਟੀ</item>
+        <item>ਸਾਸਕੇਚੇਵਾਨ</item>
+        <item>ਬੋਗੋਟਾ</item>
+        <item>ਪੂਰਬੀ ਸਮਾਂ</item>
+        <item>ਵੇਨੇਜ਼ੂਏਲਾ</item>
+        <item>ਅਟਲਾਂਟਿਕ ਸਮਾਂ (ਬਾਰਬਾਡੋਜ਼)</item>
+        <item>ਅਟਲਾਂਟਿਕ ਸਮਾਂ (ਕਨੇਡਾ)</item>
+        <item>ਮਨਾਓਸ</item>
+        <item>ਸੈਂਟਿਆਗੋ</item>
+        <item>ਨਿਊਫ਼ਾਊਂਡਲੈਂਡ</item>
+        <item>ਬ੍ਰਾਜ਼ੀਲੀਆ</item>
+        <item>ਬਿਉਨਜ਼ ਆਇਰਜ਼</item>
+        <item>ਗ੍ਰੀਨਲੈਂਡ</item>
+        <item>ਮੋਂਟੇਵਿਡੀਓ</item>
+        <item>ਮੱਧ-ਅਟਲਾਂਟਿਕ</item>
+        <item>ਅਜ਼ੋਰਸ</item>
+        <item>ਕੇਪ ਵਰਦੇ</item>
+        <item>ਕੈਸਾਬਲਾਂਕਾ</item>
+        <item>ਲੰਡਨ, ਡਬਲਿਨ</item>
+        <item>ਐਮਸਟਰਡਮ, ਬਰਲਿਨ</item>
+        <item>ਬੈਲਗ੍ਰੇਡ</item>
+        <item>ਬ੍ਰਸੇਲਜ਼</item>
+        <item>ਸਾਰਾਜੇਵੋ</item>
+        <item>ਵਿੰਡਹੋਕ</item>
+        <item>ਪੱ. ਅਫ਼ਰੀਕਾ ਸਮਾਂ</item>
+        <item>ਅੰਮਾਨ, ਜੋਰਡਨ</item>
+        <item>ਏਥੇਨਸ, ਇਸਤਾਨਬੁੱਲ</item>
+        <item>ਬੇਰੁਤ, ਲੇਬਨਾਨ</item>
+        <item>ਕਾਇਰੋ</item>
+        <item>ਹੈਲਸਿੰਕੀ</item>
+        <item>ਜੇਰੂਸਲਮ</item>
+        <item>ਮਿਸਕ</item>
+        <item>ਹਰਾਰੇ</item>
+        <item>ਬਗਦਾਦ</item>
+        <item>ਮਾਸਕੋ</item>
+        <item>ਕੁਵੈਤ</item>
+        <item>ਨੈਰੋਬੀ</item>
+        <item>ਤੇਹਰਾਨ</item>
+        <item>ਬਾਕੂ</item>
+        <item>ਟਬੀਲੀਸੀ</item>
+        <item>ਯੇਰੇਵਾਨ</item>
+        <item>ਦੁਬਈ</item>
+        <item>ਕਾਬਲ</item>
+        <item>ਇਸਲਾਮਾਬਾਦ ਕਰਾਚੀ</item>
+        <item>ਯੁਰਾਲਸਕ</item>
+        <item>ਯੇਕਾਟਰਿੰਗਬਰਗ</item>
+        <item>ਕੋਲਕਾਤਾ</item>
+        <item>ਸ਼੍ਰੀ ਲੰਕਾ</item>
+        <item>ਕਾਠਮੰਡੂ</item>
+        <item>ਅਸਤਾਨਾ</item>
+        <item>ਯਾਂਗੂਨ</item>
+        <item>ਕਰਾਸਨੋਯਾਰਸਕ</item>
+        <item>ਬੈਂਕਾਕ</item>
+        <item>ਬੀਜਿੰਗ</item>
+        <item>ਹੌਂਗ ਕੌਂਗ</item>
+        <item>ਮਕਾਓ</item>
+        <item>ਸਿੰਗਾਪੁਰ</item>
+        <item>ਇਰਕੁਤਸਕ</item>
+        <item>ਕੁਆਲਾ ਲੰਪੂਰ</item>
+        <item>ਪਰਥ</item>
+        <item>ਤਾਈਪੇਈ</item>
+        <item>ਸਿਓਲ</item>
+        <item>ਟੋਕੀਓ, ਓਸਾਕਾ</item>
+        <item>ਯਾਕੁਤਸਕ</item>
+        <item>ਏਡੀਲੇਡ</item>
+        <item>ਡਾਰਵਿਨ</item>
+        <item>ਬ੍ਰਿਸਬੇਨ</item>
+        <item>ਹੋਬਾਰਟ</item>
+        <item>ਸਿਡਨੀ, ਕੈਨਬੇਰਾ</item>
+        <item>ਵਲਾਦੀਵੋਸਤੋਕ</item>
+        <item>ਗੁਆਮ</item>
+        <item>ਮੈਗਾਡਨ</item>
+        <item>ਆਕਲੈਂਡ</item>
+        <item>ਫ਼ੀਜ਼ੀ</item>
+        <item>ਟੋਂਗਾ</item>
+    </string-array>
+    <string-array name="travel_reminder_minutes_labels">
+        <item>3 ਘੰਟੇ ਪਹਿਲਾਂ</item>
+        <item>4 ਘੰਟੇ ਪਹਿਲਾਂ</item>
+        <item>5 ਘੰਟੇ ਪਹਿਲਾਂ</item>
+        <item>6 ਘੰਟੇ ਪਹਿਲਾਂ</item>
+        <item>1 ਦਿਨ ਪਹਿਲਾਂ</item>
+    </string-array>
+    <string-array name="virgo_info">
+        <item>ਕੰਨਿਆ</item>
+        <item>ਕੰਨਿਆ</item>
+        <item>8/23 - 9/22</item>
+    </string-array>
+    <string-array name="week_header_name">
+        <item>ਐਤ</item>
+        <item>ਸੋਮ</item>
+        <item>ਮੰਗਲ</item>
+        <item>ਬੁੱਧ</item>
+        <item>ਵੀਰ</item>
+        <item>ਸ਼ੁੱਕਰ</item>
+        <item>ਸ਼ਨੀ</item>
+    </string-array>
+    <string-array name="widget_style_list">
+        <item>ਪਾਰਦਰਸ਼ੀ</item>
+        <item>ਚਿੱਟਾ ਬੈਕਗ੍ਰਾਉਂਡ</item>
+    </string-array>
+</resources>

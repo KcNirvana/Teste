@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="aquarius_info">
+        <item>aquarius</item>
+        <item>কুম্ভ</item>
+        <item>20/1 - 18/2</item>
+    </string-array>
+    <string-array name="aries_info">
+        <item>মেষ</item>
+        <item>মেষ</item>
+        <item>21/3 - 19/4</item>
+    </string-array>
+    <string-array name="bundesliga">
+        <item>2</item>
+        <item>Bundesliga</item>
+    </string-array>
+    <string-array name="cancer_info">
+        <item>কৰ্কট</item>
+        <item>কৰ্কট</item>
+        <item>22/6 - 22/7</item>
+    </string-array>
+    <string-array name="capricorn_info">
+        <item>capricorn</item>
+        <item>মকর</item>
+        <item>22/12 - 19/1</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>শুধু এই ইভেন্ট</item>
+        <item>এই সিরিজের সব কটা ইভেন্ট</item>
+    </string-array>
+    <string-array name="date_calculate_spinner">
+        <item>ফরোয়ার্ড করুন</item>
+        <item>ব্যাকওয়ার্ড</item>
+    </string-array>
+    <string-array name="default_reminder_labels">
+        <item>ইভেন্টের সময়ে</item>
+        <item>৫ মিনিট আগে</item>
+        <item>১০ মিনিট আগে</item>
+        <item>১৫ মিনিট আগে</item>
+        <item>৩০ মিনিট আগে</item>
+        <item>১ ঘণ্টা আগে</item>
+        <item>১ দিন আগে</item>
+        <item>২ দিন আগে</item>
+        <item>১ সপ্তাহ আগে</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>শুধু এই ইভেন্ট</item>
+        <item>এটা এবং ভবিষ্যৎের ইভেন্ট</item>
+        <item>সব ইভেন্ট</item>
+    </string-array>
+    <string-array name="english_premium_league">
+        <item>4</item>
+        <item>@string/english_premium_league</item>
+    </string-array>
+    <string-array name="gemini_info">
+        <item>মিথুন</item>
+        <item>মিথুন</item>
+        <item>21/5 - 21/6</item>
+    </string-array>
+    <string-array name="la_liga">
+        <item>3</item>
+        <item>La Liga</item>
+    </string-array>
+    <string-array name="leo_info">
+        <item>সিংহ</item>
+        <item>সিংহ</item>
+        <item>23/7 - 22/8</item>
+    </string-array>
+    <string-array name="libra_info">
+        <item>তুলা</item>
+        <item>তুলা</item>
+        <item>23/9 - 23/10</item>
+    </string-array>
+    <string-array name="ligue_1">
+        <item>5</item>
+        <item>Ligue 1</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>প্রথম</item>
+        <item>দ্বিতীয়</item>
+        <item>তৃতীয়</item>
+        <item>চতুর্থ</item>
+        <item>শেষ</item>
+    </string-array>
+    <string-array name="pisces_info">
+        <item>pisces</item>
+        <item>মীন</item>
+        <item>19/2 - 20/3</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>সবসময়</item>
+        <item>শুধু যখন রিঙ্গার বন্ধ করা থাকে</item>
+        <item>কখনই নয়</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>ডিফল্ট অঞ্চল</item>
+        <item>শনিবার</item>
+        <item>রবিবার</item>
+        <item>সোমবার</item>
+    </string-array>
+    <string-array name="repeat_choose_day">
+        <item>১ লা</item>
+        <item>২ শরা</item>
+        <item>৩ শরা</item>
+        <item>৪ ঠা</item>
+        <item>৫ ই</item>
+        <item>৬ ই</item>
+        <item>৭ ই</item>
+        <item>৮ ই</item>
+        <item>৯ ই</item>
+        <item>১০ ই</item>
+        <item>১১ ই</item>
+        <item>১২ ই</item>
+        <item>১৩ ই</item>
+        <item>১৪ ই</item>
+        <item>১৫ ই</item>
+        <item>১৬ ই</item>
+        <item>১৭ ই</item>
+        <item>১৮ ই</item>
+        <item>১৯ শে</item>
+        <item>২০ শে</item>
+        <item>২১ শে</item>
+        <item>২২ শে</item>
+        <item>২৩ শে</item>
+        <item>২৪ শে</item>
+        <item>২৫ শে</item>
+        <item>২৬ শে</item>
+        <item>২৭ শে</item>
+        <item>২৮ শে</item>
+        <item>২৯ শে</item>
+        <item>৩০ শে</item>
+        <item>৩১ শে</item>
+    </string-array>
+    <string-array name="repeat_choose_end">
+        <item>কখোনই নয়</item>
+        <item>সময়</item>
+        <item>গণনা</item>
+    </string-array>
+    <string-array name="repeat_choose_month">
+        <item>জানুয়ারী</item>
+        <item>ফেব্রুয়ারী</item>
+        <item>মার্চ</item>
+        <item>এপ্রিল</item>
+        <item>মে</item>
+        <item>জুন</item>
+        <item>জুলাই</item>
+        <item>অগাস্ট</item>
+        <item>সেপ্টেম্বর</item>
+        <item>অক্টোবর</item>
+        <item>নভেম্বর</item>
+        <item>ডিসেম্বর</item>
+    </string-array>
+    <string-array name="repeat_choose_week_left">
+        <item>প্রথম</item>
+        <item>দ্বিতীয়</item>
+        <item>তৃতীয়</item>
+        <item>চতুর্থ</item>
+        <item>গত</item>
+    </string-array>
+    <string-array name="repeat_choose_week_right">
+        <item>সোম - শুক্র</item>
+        <item>সপাহান্তে</item>
+        <item>পুরো সপ্তাহ</item>
+    </string-array>
+    <string-array name="repeat_choose_weekday">
+        <item>সোম</item>
+        <item>মঙ্গল</item>
+        <item>বুধ</item>
+        <item>বৃহস্পতি</item>
+        <item>শুক্র</item>
+        <item>শনি</item>
+        <item>রবি</item>
+    </string-array>
+    <string-array name="repeat_countdown">
+        <item>কখনই নয়</item>
+        <item>মাসিক</item>
+        <item>বার্ষিক</item>
+    </string-array>
+    <string-array name="repeat_frequency_spinner">
+        <item>দিন</item>
+        <item>সপ্তাহ</item>
+        <item>মাস</item>
+        <item>বছর</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>কোনো প্রতিক্রিয়া নেই</item>
+        <item>হ্যাঁ</item>
+        <item>হয়তো</item>
+        <item>না</item>
+    </string-array>
+    <string-array name="sagittarius_info">
+        <item>ধনু</item>
+        <item>ধনু</item>
+        <item>23/11 - 21/12</item>
+    </string-array>
+    <string-array name="scorpio_info">
+        <item>বৃশ্চিক</item>
+        <item>বৃশ্চিক</item>
+        <item>24/10 - 22/11</item>
+    </string-array>
+    <string-array name="serie_a">
+        <item>1</item>
+        <item>Serie A</item>
+    </string-array>
+    <string-array name="taurus_info">
+        <item>বৃষ</item>
+        <item>বৃষ</item>
+        <item>20/4 - 20/5</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>মার্শাল দ্বিপপুঞ্জ</item>
+        <item>মিডওয়ে দ্বীপ</item>
+        <item>হাওয়াই</item>
+        <item>আলাস্কা</item>
+        <item>প্যাসিফিক সময়</item>
+        <item>তিজুয়ানা</item>
+        <item>অ্যারিজোনা</item>
+        <item>চিহুয়াহুয়া</item>
+        <item>মাউনটেন ভিউ</item>
+        <item>মধ্য আমেরিকা</item>
+        <item>কেন্দ্রীয় সময়</item>
+        <item>মেক্সিকো সিটি</item>
+        <item>সাস্কাচুয়ান</item>
+        <item>বোগোটা</item>
+        <item>পূর্ব সময়</item>
+        <item>ভেনেজুয়েলা</item>
+        <item>অতলান্তিক সময় (বার্বাডোস)</item>
+        <item>অতলান্তিক সময় (কান্নাডা)</item>
+        <item>মানাউস</item>
+        <item>স্যান্টিয়াগো</item>
+        <item>নিউফাউন্ডল্যান্ড</item>
+        <item>ব্রাসিলিয়া</item>
+        <item>বুয়েনোস আইরেস</item>
+        <item>গ্রীনল্যান্ড</item>
+        <item>মন্টেভিডিও</item>
+        <item>মধ্য-অতলান্তিক</item>
+        <item>অ্যাজোরেস</item>
+        <item>কেপ ভার্দ</item>
+        <item>কাসাব্লাঙ্কা</item>
+        <item>লন্ডন</item>
+        <item>অ্যামস্টারডাম, বার্লিন</item>
+        <item>বেলগ্রেড</item>
+        <item>ব্রাসেল্‌স</item>
+        <item>সারাজেভো</item>
+        <item>উইন্ডহোক</item>
+        <item>প. আফ্ৰিকা সময়</item>
+        <item>অম্মান, জৰ্ডান</item>
+        <item>এথেন্স, ইস্তানবুল</item>
+        <item>বেইরুট, লেবানন</item>
+        <item>কাইরো</item>
+        <item>হেলসিনকি</item>
+        <item>জেরুজালেম</item>
+        <item>মিনস্ক</item>
+        <item>হারারে</item>
+        <item>বাগদাদ</item>
+        <item>মস্কো</item>
+        <item>কুয়েত</item>
+        <item>নাইরোবি</item>
+        <item>তেহেরান</item>
+        <item>বাকু</item>
+        <item>তিবিলিস</item>
+        <item>ইয়েরেভান</item>
+        <item>দুবাই</item>
+        <item>কাবুল</item>
+        <item>ইসলামাবাদ,করাচি</item>
+        <item>উরাল্স্ক</item>
+        <item>ইয়াকটেরিনবার্গ</item>
+        <item>কলকাতা</item>
+        <item>শ্ৰীলংকা</item>
+        <item>কাঠমাণ্ডু</item>
+        <item>আস্তানা</item>
+        <item>ইয়ংগান</item>
+        <item>ক্রাসোনয়ার্ক্স</item>
+        <item>ব্যাংকক</item>
+        <item>বেইজিং</item>
+        <item>হংকং</item>
+        <item>মাকাও</item>
+        <item>সিঙ্গাপুর</item>
+        <item>ইরকুটস্ক</item>
+        <item>কুয়ালালাম্পুর</item>
+        <item>পার্থ</item>
+        <item>তাইপেই</item>
+        <item>সিউল</item>
+        <item>টোকিও, ওসাকা</item>
+        <item>ইয়াকুট্স</item>
+        <item>এডিলেইড</item>
+        <item>ডারউইন</item>
+        <item>ব্রিসবেন</item>
+        <item>হবার্ট</item>
+        <item>সিডনি.ক্যানবেরা</item>
+        <item>ভ্লাদিভস্টক</item>
+        <item>গুয়াম</item>
+        <item>মাগাদান</item>
+        <item>অকল্যান্ড</item>
+        <item>ফিজি</item>
+        <item>টোঙ্গা</item>
+    </string-array>
+    <string-array name="travel_reminder_minutes_labels">
+        <item>৩ ঘণ্টা আগে</item>
+        <item>৪ ঘণ্টা আগে</item>
+        <item>৫ ঘণ্টা আগে</item>
+        <item>৬ ঘণ্টা আগে</item>
+        <item>১ দিন আগে</item>
+    </string-array>
+    <string-array name="virgo_info">
+        <item>কণ্যা</item>
+        <item>কণ্যা</item>
+        <item>23/8 - 22/9</item>
+    </string-array>
+    <string-array name="week_header_name">
+        <item>রবি</item>
+        <item>সোম</item>
+        <item>মঙ্গল</item>
+        <item>বুধ</item>
+        <item>বৃহস্পতি</item>
+        <item>শুক্র</item>
+        <item>শনি</item>
+    </string-array>
+    <string-array name="widget_style_list">
+        <item>স্বচ্ছ</item>
+        <item>সাদা ব্যাকগ্রাউন্ড</item>
+    </string-array>
+</resources>

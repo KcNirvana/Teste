@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/group_title_root" style="@style/CardTitleLayoutStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/group_title" style="@style/CardTitleTextStyle" />
+    <View android:id="@id/divider" android:layout_marginStart="@dimen/card_item_left_right_padding" android:layout_marginEnd="0.0dip" style="@style/CardTitleDividerStyle" />
+</LinearLayout>

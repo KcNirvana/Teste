@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/CardLayoutStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/title_root" style="@style/CardTitleLayoutStyle">
+        <TextView android:id="@id/title" android:layout_width="0.0dip" android:layout_weight="1.0" style="@style/CardTitleTextStyle" />
+        <TextView android:id="@id/change" android:background="@drawable/normal_clickable_top_right_bg" android:layout_width="wrap_content" android:text="@string/card_title_change" android:paddingEnd="@dimen/card_item_left_right_padding" style="@style/CardTitleTextStyle" />
+    </LinearLayout>
+    <View android:id="@id/title_bottom_divider" style="@style/CardTitleDividerStyle" />
+    <LinearLayout android:orientation="vertical" android:id="@id/content_root" android:background="@drawable/normal_clickable_end_item_bg" style="@style/CardContentLayoutStyle">
+        <com.miui.calendar.view.JustifyTextView android:textSize="13.329987dip" android:textColor="@color/list_primary_text_color" android:id="@id/primary" android:layout_marginTop="10.329987dip" android:lineSpacingExtra="@dimen/small_margin" style="@style/TextStyle" />
+        <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="11.669983dip" android:layout_marginBottom="11.669983dip">
+            <ImageView android:src="@drawable/ic_joke" style="@style/ImageStyle" />
+            <View android:layout_height="10.0dip" android:layout_marginLeft="@dimen/small_margin" style="@style/VerticalDividerStyle" />
+            <TextView android:textSize="@dimen/joke_rating_text_size" android:textColor="@color/joke_rating_text_color" android:id="@id/icon_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginBottom="1.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/divider" style="@style/CardBottomDividerStyle" />
+    <TextView android:id="@id/more" style="@style/CardMoreTextStyle" />
+</LinearLayout>

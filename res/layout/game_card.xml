@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/CardLayoutStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/title_root" android:background="@null" style="@style/CardTitleWithoutRightPaddingLayoutStyle">
+        <TextView android:id="@id/title" style="@style/CardPrimaryTitleTextStyle" />
+        <LinearLayout android:gravity="center" android:id="@id/more_layout" android:background="@drawable/normal_clickable_view_bg" style="@style/CardContentLayoutStyle">
+            <TextView android:id="@id/more_text" style="@style/ListSecondaryTextStyle" />
+            <ImageView android:layout_marginLeft="@dimen/small_margin" style="@style/JumpArrowImageStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/image_container" style="@style/CardContentLayoutStyle">
+        <com.miui.calendar.view.OnlineImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="@dimen/game_image_height" android:scaleType="fitXY" />
+        <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:id="@id/progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateOnly="true" />
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/container" android:paddingTop="@dimen/normal_margin" android:paddingBottom="@dimen/card_normal_margin" android:weightSum="2.0" style="@style/CardContentLayoutStyle">
+        <LinearLayout android:gravity="center_vertical" android:id="@id/game2" android:background="@drawable/normal_clickable_view_bg" android:paddingLeft="@dimen/small_margin" android:paddingRight="@dimen/card_normal_margin" android:layout_width="0.0dip" android:layout_height="fill_parent" android:minHeight="60.0dip" android:layout_weight="1.0">
+            <com.miui.calendar.view.OnlineImageView android:id="@id/icon2" android:layout_width="@dimen/app_icon_width" android:layout_height="@dimen/app_icon_height" android:scaleType="fitXY" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/small_margin">
+                <TextView android:textSize="@dimen/game_card_type_text_size" android:textColor="#ff0b83f2" android:ellipsize="end" android:id="@id/type2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+                <TextView android:textSize="@dimen/double_line_list_primary_text_size" android:textColor="#e5000000" android:ellipsize="end" android:id="@id/primary2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:singleLine="true" />
+                <TextView android:textSize="10.0sp" android:textColor="#99000000" android:ellipsize="end" android:id="@id/secondary2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:layout_height="fill_parent" style="@style/VerticalDividerStyle" />
+        <LinearLayout android:gravity="center_vertical" android:id="@id/game3" android:background="@drawable/normal_clickable_view_bg" android:paddingLeft="@dimen/card_normal_margin" android:paddingRight="@dimen/small_margin" android:layout_width="0.0dip" android:layout_height="fill_parent" android:minHeight="60.0dip" android:layout_weight="1.0">
+            <com.miui.calendar.view.OnlineImageView android:id="@id/icon3" android:layout_width="@dimen/app_icon_width" android:layout_height="@dimen/app_icon_height" android:scaleType="fitXY" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/small_margin">
+                <TextView android:textSize="@dimen/game_card_type_text_size" android:textColor="#ffff542c" android:ellipsize="end" android:id="@id/type3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+                <TextView android:textSize="@dimen/double_line_list_primary_text_size" android:textColor="#e5000000" android:ellipsize="end" android:id="@id/primary3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:singleLine="true" />
+                <TextView android:textSize="10.0sp" android:textColor="#99000000" android:ellipsize="end" android:id="@id/secondary3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

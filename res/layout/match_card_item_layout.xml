@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:id="@id/root_view" android:background="@drawable/normal_clickable_view_bg" android:paddingTop="@dimen/banner_padding" android:paddingBottom="@dimen/banner_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="71.0dip" android:paddingStart="@dimen/card_item_left_right_padding" android:paddingEnd="@dimen/card_item_left_right_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="50.0dip" android:layout_height="wrap_content">
+        <Button android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="0.0dip" android:minWidth="0.0dip" android:text="@string/match_ed" style="@style/NormalButtonStyle" />
+        <TextView android:textSize="@dimen/today_detail_primary_text_size" android:textColor="@color/normal_button_text_color" android:ellipsize="end" android:id="@id/match_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+        <TextView android:textSize="@dimen/today_detail_primary_text_size" android:textColor="@color/normal_button_text_color" android:id="@id/match_time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/today_detail_primary_text_size" android:textColor="@color/match_state_end_color" android:id="@id/match_status" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/today_detail_primary_text_size" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="0.0dip" android:text="@string/alert_reminder_expired" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/middle_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/center_layout" android:layout_width="70.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/agenda_item_day_padding_left" android:layout_marginRight="@dimen/agenda_item_day_padding_left" android:layout_centerInParent="true">
+            <TextView android:textSize="@dimen/today_detail_primary_text_size" android:textColor="@color/match_state_end_color" android:gravity="center" android:id="@id/game_round" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="@dimen/match_score_text" android:gravity="center" android:id="@id/game_score" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/center_layout" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/today_detail_summary_text_size" android:id="@id/standard_view" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="0.0dip" android:text="@string/event_info_title" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            <com.miui.calendar.view.OnlineImageView android:id="@id/team_visit_logo" android:layout_width="@dimen/match_icon_size" android:layout_height="@dimen/match_icon_size" android:scaleType="fitXY" android:layout_alignTop="@id/standard_view" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/today_detail_summary_text_size" android:textColor="@color/month_num_focused" android:gravity="center_horizontal" android:id="@id/team_visit_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/agenda_item_day_padding_left" android:maxLines="2" android:layout_below="@id/team_visit_logo" android:layout_alignLeft="@id/standard_view" android:layout_alignRight="@id/standard_view" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/center_layout" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/today_detail_summary_text_size" android:id="@id/standard_view_left" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="0.0dip" android:text="@string/event_info_title" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            <com.miui.calendar.view.OnlineImageView android:id="@id/team_home_logo" android:layout_width="@dimen/match_icon_size" android:layout_height="@dimen/match_icon_size" android:scaleType="centerCrop" android:layout_alignTop="@id/standard_view_left" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/today_detail_summary_text_size" android:textColor="@color/month_num_focused" android:gravity="center_horizontal" android:id="@id/team_home_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/agenda_item_day_padding_left" android:maxLines="2" android:layout_below="@id/team_home_logo" android:layout_alignLeft="@id/standard_view_left" android:layout_alignRight="@id/standard_view_left" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="5.0dip">
+        <Button android:id="@id/btn_remind" style="@style/NormalButtonStyle" />
+        <TextView android:textColor="@color/match_state_ing_color" android:id="@id/live_text" style="@style/NormalRemindTextStyle" />
+        <TextView android:textColor="@color/match_state_end_color" android:id="@id/game_over" style="@style/NormalRemindTextStyle" />
+    </LinearLayout>
+</LinearLayout>

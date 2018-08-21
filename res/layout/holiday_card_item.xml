@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/root_list" android:paddingStart="@dimen/card_item_left_right_padding" android:paddingEnd="@dimen/card_item_left_right_padding" style="@style/DoubleLineListItemLayoutStyle">
+        <com.miui.calendar.view.OnlineImageView android:id="@id/holiday_image" android:layout_width="@dimen/group_card_icon_size" android:layout_height="@dimen/group_card_icon_size" android:layout_marginEnd="@dimen/group_card_icon_margin_end" style="@style/ImageStyle" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:id="@id/primary" style="@style/DoubleLineListPrimaryTextStyle" />
+            <TextView android:id="@id/secondary" style="@style/ListSecondaryTextStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/root_image" android:layout_width="fill_parent" android:layout_height="@dimen/holiday_large_image_height" android:paddingStart="@dimen/card_item_left_right_padding" android:paddingEnd="@dimen/card_item_left_right_padding">
+        <com.miui.calendar.view.OnlineImageView android:id="@id/banner" android:paddingLeft="@dimen/card_left_right_margin" android:paddingRight="@dimen/card_left_right_margin" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateOnly="true" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/root_des" android:paddingTop="@dimen/card_normal_margin" android:paddingBottom="@dimen/page_margin_medium" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/card_item_left_right_padding" android:paddingEnd="@dimen/card_item_left_right_padding">
+        <TextView android:ellipsize="end" android:id="@id/des_detail" android:layout_width="fill_parent" android:lines="2" style="@style/ListSecondaryTextStyle" />
+    </LinearLayout>
+</LinearLayout>

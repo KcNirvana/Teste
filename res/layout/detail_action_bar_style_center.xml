@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/action_bar" android:paddingTop="@dimen/status_bar_height" android:layout_width="fill_parent" android:layout_height="@dimen/normal_action_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/title_root" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/miui_text_color_inverse" android:ellipsize="end" android:id="@id/sub_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/card_description_text_color" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/action_bar_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:alpha="0.0" android:paddingStart="45.0dip" />
+    <View android:layout_gravity="bottom" android:id="@id/action_bar_divider" android:alpha="0.0" style="@style/DividerStyle" />
+    <ImageView android:layout_gravity="start|center" android:id="@id/icon_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@miui:drawable/action_bar_back_dark" android:paddingStart="5.0dip" />
+    <ImageButton android:layout_gravity="end|center" android:id="@id/action_bar_more_menu_view" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@miui:drawable/action_mode_immersion_more_dark" android:paddingEnd="@dimen/small_margin" />
+</FrameLayout>

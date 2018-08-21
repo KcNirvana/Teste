@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="widget_month_content_height">246.0dip</dimen>
+    <dimen name="widget_month_week_height4">61.5dip</dimen>
+    <dimen name="widget_month_week_height5">49.19998dip</dimen>
+    <dimen name="widget_month_week_height6">41.0dip</dimen>
+</resources>

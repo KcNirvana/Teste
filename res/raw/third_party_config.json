@@ -1,0 +1,10 @@
+{
+  "whiteList": [
+    {
+      "packageName": "com.miui.calendardebug",
+      "allowInsert": true,
+      "allowInsertDirectly": true,
+      "repeatLimit": 5
+    }
+  ]
+}

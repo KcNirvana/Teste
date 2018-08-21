@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/CardLayoutStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/title_root" style="@style/CardTitleLayoutStyle">
+        <TextView android:id="@id/title" android:layout_width="0.0dip" android:layout_weight="1.0" style="@style/CardTitleTextStyle" />
+        <TextView android:id="@id/edit_reminder" android:background="@drawable/normal_clickable_top_right_bg" android:text="@string/shift_card_edit_reminder" style="@style/TitleChangeTextStyle" />
+    </LinearLayout>
+    <View android:id="@id/title_bottom_divider" style="@style/CardTitleDividerStyle" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/content_root" android:background="@drawable/normal_clickable_end_item_bg" android:paddingTop="@dimen/card_normal_margin" android:paddingBottom="@dimen/card_normal_margin" style="@style/CardContentLayoutStyle">
+        <ImageView android:id="@id/icon" android:layout_width="@dimen/group_card_icon_size" android:layout_height="@dimen/group_card_icon_size" android:layout_marginRight="@dimen/card_normal_margin" style="@style/ImageStyle" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/shift_type" style="@style/DoubleLineListPrimaryTextStyle" />
+            <LinearLayout android:gravity="center_vertical" android:id="@id/reminder_root" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/reminder_time" style="@style/DoubleLineListSecondaryTextStyle" />
+                <View android:id="@id/divider" android:layout_height="10.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="1.0dip" android:layout_marginRight="5.0dip" style="@style/VerticalDividerStyle" />
+                <TextView android:id="@id/reminder_day" style="@style/DoubleLineListSecondaryTextStyle" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@id/button_root" android:background="@color/divider_bg" android:paddingTop="1.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/card_title_height">
+        <TextView android:id="@id/left_button" android:background="@drawable/non_transparent_clickable_view_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/ButtonStyle" />
+        <TextView android:id="@id/right_button" android:background="@drawable/non_transparent_clickable_view_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="1.0px" android:layout_weight="1.0" style="@style/ButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

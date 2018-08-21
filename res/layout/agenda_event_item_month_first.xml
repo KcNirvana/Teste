@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/month_divider" android:background="@color/motion_container_bg_color" android:layout_width="fill_parent" android:layout_height="3.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/item_root" android:background="@drawable/card_bg_first_n" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/card_left_right_margin" android:layout_marginEnd="@dimen/card_left_right_margin">
+        <include layout="@layout/agenda_event_item_part_month_header" />
+        <include layout="@layout/agenda_event_item_part_event_row" />
+        <include layout="@layout/agenda_event_item_part_divider" />
+    </LinearLayout>
+</LinearLayout>

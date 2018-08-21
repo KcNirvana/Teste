@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="copy_email">העתק כתובת דוא\"ל</string>
+    <string name="copy_number">העתק מספר טלפון</string>
+    <string name="done">חזור</string>
+    <string name="more_string">+%1$s</string>
+</resources>

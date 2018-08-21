@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:animateLayoutChanges="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:id="@id/frequency_row" style="@style/eventInfoListItemStyle">
+                <TextView android:text="@string/repeat_label_frequency" style="@style/eventInfoListItemPrimaryTextStyle" />
+                <Spinner android:id="@id/frequency_spinner" android:prompt="@string/repeats_label" android:contentDescription="@string/accessibility_repeats" style="@style/eventInfoListItemSecondarySpinnerStyle" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/interval_row" style="@style/eventInfoListItemStyle">
+                <TextView android:text="@string/repeat_label_interval" style="@style/eventInfoListItemPrimaryTextStyle" />
+                <Spinner android:id="@id/interval_spinner" android:prompt="@string/repeats_label" android:contentDescription="@string/accessibility_repeats" style="@style/eventInfoListItemSecondarySpinnerStyle" />
+            </LinearLayout>
+            <TextView android:id="@id/repeat_prompt" android:layout_marginLeft="@dimen/repeat_page_margin_h" android:layout_marginTop="@dimen/repeat_prompt_margin_top" android:layout_marginRight="@dimen/repeat_page_margin_h" style="@style/RepeatPromptItemStyle" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/repeat_choose_label_margin_top" android:layout_marginBottom="@dimen/repeat_choose_label_margin_bottom">
+                <include android:id="@id/week_group" android:visibility="gone" layout="@layout/custom_repeat_week_group" />
+                <include android:id="@id/month_group" android:visibility="gone" layout="@layout/custom_repeat_month_group" />
+                <include android:id="@id/year_group" android:visibility="gone" layout="@layout/custom_repeat_year_group" />
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

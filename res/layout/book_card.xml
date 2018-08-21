@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/CardLayoutStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/title_root" style="@style/CardTitleLayoutStyle">
+        <TextView android:id="@id/title" android:layout_width="0.0dip" android:layout_weight="1.0" style="@style/CardTitleTextStyle" />
+        <TextView android:id="@id/change" android:background="@drawable/normal_clickable_top_right_bg" android:layout_width="wrap_content" android:text="@string/card_title_change" android:paddingEnd="@dimen/card_item_left_right_padding" style="@style/CardTitleTextStyle" />
+    </LinearLayout>
+    <View android:id="@id/title_bottom_divider" style="@style/CardTitleDividerStyle" />
+    <com.miui.calendar.view.DynamicLinearLayout android:id="@id/container" style="@style/DynamicContainerStyle" />
+    <View android:id="@id/divider" style="@style/CardBottomDividerStyle" />
+    <TextView android:id="@id/more" style="@style/CardMoreTextStyle" />
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/card_bg_color" style="@style/dateCalculateListItemStyle">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/date_calculate_result_title_height">
+            <TextView android:textSize="@dimen/date_calculate_result_title_text" android:textColor="#e6000000" android:gravity="start|center" android:id="@id/start_date" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/eventInfoListItemPrimaryTextStyle" />
+            <TextView android:textSize="@dimen/date_calculate_result_title_text" android:textColor="#e6000000" android:gravity="end|center" android:id="@id/end_date" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/eventInfoListItemPrimaryTextStyle" />
+        </LinearLayout>
+        <View style="@style/DividerStyle" />
+        <LinearLayout android:orientation="vertical" android:id="@id/date_interval_result_view" android:background="@null" style="@style/dateCalculateListItemStyle">
+            <TextView android:textSize="@dimen/date_calculate_result_solar_text_size" android:textColor="#ff12a0f2" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/date_interval" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/solar_text_margin_top" />
+            <TextView android:textSize="@dimen/date_calculate_result_lunar_text_size" android:textColor="#e6000000" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/work_day" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/lunar_text_margin_top" android:layout_marginBottom="@dimen/work_day_margin_bottom" />
+        </LinearLayout>
+        <View android:id="@id/divider" style="@style/DividerStyle" />
+    </LinearLayout>
+    <TextView android:id="@id/add_countdown_btn" android:layout_width="fill_parent" android:layout_height="@dimen/date_event_btn_height" android:text="@string/add_countdown" style="@style/dateCalculateEventButtonStyle" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory>
+        <CheckBoxPreference android:title="@string/pref_title_no_remind" android:key="preference_no_reminder" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="category_select_reminders" />
+    <PreferenceCategory android:key="category_allday_reminder_time">
+        <Preference android:title="@string/pref_reminder_time" android:key="preference_allday_reminder_time" />
+    </PreferenceCategory>
+</PreferenceScreen>

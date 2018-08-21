@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:exitFadeDuration="@miui:integer/button_exit_fade_duration"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/btn_bg_blue_small_hollow_p" />
+    <item android:drawable="@drawable/btn_bg_blue_small_hollow_n" />
+</selector>

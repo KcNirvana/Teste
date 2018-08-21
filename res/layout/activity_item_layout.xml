@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/row" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/month_event_selected" android:paddingLeft="@dimen/page_margin_medium" android:paddingTop="@dimen/today_event_row_paddingTB" android:paddingRight="@dimen/page_margin_medium" android:paddingBottom="@dimen/today_event_row_paddingTB" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/line_height_double">
+        <com.miui.calendar.view.OnlineImageView android:id="@id/activity_image" android:layout_width="@dimen/birthday_image_width" android:layout_height="@dimen/birthday_image_height" android:scaleType="fitXY" />
+        <TextView android:id="@id/activity_text" android:paddingLeft="@dimen/marketing_activity_text_padding_left" android:layout_weight="1.0" android:textIsSelectable="false" style="@style/eventInfoSubTextStyle" />
+        <ImageView android:gravity="right" android:background="@miui:drawable/arrow_right" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:id="@id/divider_image" android:background="#ffdfdfdf" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/action_bar_title_month_margin_left" android:layout_marginRight="@dimen/action_bar_title_month_margin_left" />
+</LinearLayout>

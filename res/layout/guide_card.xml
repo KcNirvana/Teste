@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root" style="@style/CardLayoutStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/title_root" style="@style/CardTitleLayoutStyle">
+        <TextView android:id="@id/title" android:layout_width="0.0dip" android:layout_weight="1.0" style="@style/CardTitleTextStyle" />
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/close" android:src="@drawable/ic_close2" android:layout_marginEnd="@dimen/card_item_left_right_padding" style="@style/CloseImageButtonStyle" />
+    </LinearLayout>
+    <View android:id="@id/title_bottom_divider" style="@style/CardTitleDividerStyle" />
+    <LinearLayout android:gravity="center_vertical" android:background="@drawable/normal_clickable_end_item_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="60.0dip" style="@style/CardContentLayoutStyle">
+        <com.miui.calendar.view.OnlineImageView android:layout_gravity="center_vertical" android:id="@id/icon" android:layout_width="@dimen/group_card_icon_size" android:layout_height="@dimen/group_card_icon_size" style="@style/ImageStyle" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/small_margin">
+            <TextView android:id="@id/primary" style="@style/DoubleLineListPrimaryTextStyle" />
+            <TextView android:id="@id/secondary" style="@style/DoubleLineListSecondaryTextStyle" />
+        </LinearLayout>
+        <Button android:id="@id/import_birthday" android:text="@string/guide_card_import" style="@style/NormalButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

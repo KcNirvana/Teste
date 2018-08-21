@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/CardLayoutStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/title_root" style="@style/CardTitleLayoutStyle">
+        <TextView android:id="@id/title" android:layout_width="0.0dip" android:layout_weight="1.0" style="@style/CardTitleTextStyle" />
+        <TextView android:id="@id/change" android:background="@drawable/normal_clickable_top_right_bg" android:layout_width="wrap_content" android:text="@string/card_title_change" android:paddingEnd="@dimen/card_item_left_right_padding" style="@style/CardTitleTextStyle" />
+    </LinearLayout>
+    <View android:id="@id/title_bottom_divider" style="@style/CardTitleDividerStyle" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/content_root" android:background="@drawable/normal_clickable_view_bg" android:paddingTop="@dimen/card_normal_margin" android:paddingBottom="@dimen/large_margin" android:layout_marginStart="@dimen/card_left_right_margin" android:layout_marginEnd="@dimen/card_left_right_margin" style="@style/CardContentLayoutStyle">
+        <com.miui.calendar.view.OnlineImageView android:id="@id/image" android:layout_width="@dimen/food_image_width" android:layout_height="@dimen/food_image_height" style="@style/RoundedImageWithBorderStyle" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/normal_margin">
+            <TextView android:textSize="@dimen/double_line_list_primary_text_size" android:textColor="@color/triple_line_list_primary_text_color" android:ellipsize="end" android:id="@id/primary" android:singleLine="true" style="@style/TextStyle" />
+            <TextView android:textSize="@dimen/single_line_list_primary_text_size" android:textColor="@color/list_secondary_text_color" android:ellipsize="end" android:id="@id/desc" android:layout_marginTop="-1.5dip" android:singleLine="true" style="@style/TextStyle" />
+            <TextView android:textSize="@dimen/single_line_list_primary_text_size" android:textColor="@color/list_secondary_text_color" android:ellipsize="end" android:id="@id/ingredient" android:layout_marginTop="-1.5dip" android:singleLine="true" style="@style/TextStyle" />
+            <TextView android:textSize="@dimen/single_line_list_primary_text_size" android:textColor="@color/list_secondary_text_color" android:ellipsize="end" android:id="@id/step" android:layout_marginTop="-1.5dip" android:singleLine="true" style="@style/TextStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/divider" style="@style/CardBottomDividerStyle" />
+    <TextView android:id="@id/more" style="@style/CardMoreTextStyle" />
+</LinearLayout>

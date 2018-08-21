@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/root" style="@style/DynamicItemLayoutStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="@dimen/group_card_icon_size" android:layout_height="@dimen/group_card_icon_size" android:layout_marginEnd="@dimen/group_card_icon_margin_end" style="@style/ImageStyle" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:id="@id/primary" style="@style/DoubleLineListPrimaryTextStyle" />
+        <TextView android:id="@id/secondary" style="@style/DoubleLineListSecondaryTextStyle" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="@miui:style/Widget.ListView.Item.Immersion"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@miui:style/Widget.ListView.Item.Immersion" android:textSize="@miui:dimen/button_text_size" android:layout_gravity="center_vertical" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/red_point" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginTop="3.0dip" android:src="@drawable/red_point" android:layout_toRightOf="@id/title" android:layout_alignTop="@id/title" />
+</RelativeLayout>

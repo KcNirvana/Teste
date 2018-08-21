@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="15.0sp" android:gravity="center" android:id="@id/no_data_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/no_contact_birthday_hint" />
+    <RelativeLayout android:id="@id/progress" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateOnly="true" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

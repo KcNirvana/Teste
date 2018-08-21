@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="aquarius_info">
+        <item>aquarius</item>
+        <item>ಕುಂಭ</item>
+        <item>1/20 - 2/18</item>
+    </string-array>
+    <string-array name="aries_info">
+        <item>ಮೇಷ</item>
+        <item>ಮೇಷ</item>
+        <item>3/21 - 4/19</item>
+    </string-array>
+    <string-array name="bundesliga">
+        <item>2</item>
+        <item>Bundesliga</item>
+    </string-array>
+    <string-array name="cancer_info">
+        <item>ಕಟಕ</item>
+        <item>ಕಟಕ</item>
+        <item>6/22 - 7/22</item>
+    </string-array>
+    <string-array name="capricorn_info">
+        <item>capricorn</item>
+        <item>ಮಕರ</item>
+        <item>12/22 - 1/19</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>ಈ ಈವೆಂಟ್ ಮಾತ್ರ</item>
+        <item>ಈ ಸೀರಿಸ್‌ನ ಎಲ್ಲಾ ಈವೆಂಟ್‌ಗಳು</item>
+    </string-array>
+    <string-array name="date_calculate_spinner">
+        <item>ಫಾರ್ವರ್ಡ್‌ಗಳು</item>
+        <item>ಬ್ಯಾಕ್‌ವರ್ಡ್‌ಗಳು</item>
+    </string-array>
+    <string-array name="default_reminder_labels">
+        <item>ಪ್ರತಿ ಬಾರಿಯೂ</item>
+        <item>5 ನಿಮಿಷಗಳ ಮೊದಲು</item>
+        <item>10 ನಿಮಿಷಗಳ ಮೊದಲು</item>
+        <item>15 ನಿಮಿಷಗಳ ಮೊದಲು</item>
+        <item>30 ನಿಮಿಷಗಳ ಮೊದಲು</item>
+        <item>1 ಗಂಟೆ ಮೊದಲು</item>
+        <item>1 ದಿನ ಮೊದಲು</item>
+        <item>2 ದಿನಗಳ ಮೊದಲು</item>
+        <item>1 ವಾರ ಮೊದಲು</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>ಈ ಈವೆಂಟ್‌‍ ಮಾತ್ರ</item>
+        <item>ಇದು ಮತ್ತು ಭವಿಷ್ಯದ ಈವೆಂಟ್‌ಗಳು</item>
+        <item>ಎಲ್ಲಾ ಈವೆಂಟ್‌ಗಳು</item>
+    </string-array>
+    <string-array name="english_premium_league">
+        <item>4</item>
+        <item>@string/english_premium_league</item>
+    </string-array>
+    <string-array name="gemini_info">
+        <item>ಮಿಥುನ</item>
+        <item>ಮಿಥುನ</item>
+        <item>5/21 - 6/21</item>
+    </string-array>
+    <string-array name="la_liga">
+        <item>3</item>
+        <item>La Liga</item>
+    </string-array>
+    <string-array name="leo_info">
+        <item>ಸಿಂಹ</item>
+        <item>ಸಿಂಹ</item>
+        <item>7/23 - 8/22</item>
+    </string-array>
+    <string-array name="libra_info">
+        <item>ತುಲಾ</item>
+        <item>ತುಲಾ</item>
+        <item>9/23 - 10/23</item>
+    </string-array>
+    <string-array name="ligue_1">
+        <item>5</item>
+        <item>Ligue 1</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>ಮೊದಲನೇ</item>
+        <item>ಎರಡನೇ</item>
+        <item>ಮೂರನೇ</item>
+        <item>ನಾಲ್ಕನೇ</item>
+        <item>ಕೊನೆಯ</item>
+    </string-array>
+    <string-array name="pisces_info">
+        <item>pisces</item>
+        <item>ಮೀನ</item>
+        <item>2/19 - 3/20</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>ಯಾವಾಗಲೂ</item>
+        <item>ರಿಂಗರ್‌ ನಿಶ್ಯಬ್ಧಗೊಂಡಿರುವಾಗ ಮಾತ್ರ</item>
+        <item>ಯಾವಾಗಲೂ ಬೇಡ</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>ಪ್ರದೇಶ ಡೀಫಾಲ್ಟ್</item>
+        <item>ಶನಿವಾರ</item>
+        <item>ರವಿವಾರ</item>
+        <item>ಸೋಮವಾರ</item>
+    </string-array>
+    <string-array name="repeat_choose_day">
+        <item>1ನೇ</item>
+        <item>2ನೇ</item>
+        <item>3ನೇ</item>
+        <item>4ನೇ</item>
+        <item>5ನೇ</item>
+        <item>6ನೇ</item>
+        <item>7ನೇ</item>
+        <item>8ನೇ</item>
+        <item>9ನೇ</item>
+        <item>10ನೇ</item>
+        <item>11ನೇ</item>
+        <item>12ನೇ</item>
+        <item>13ನೇ</item>
+        <item>14ನೇ</item>
+        <item>15ನೇ</item>
+        <item>16ನೇ</item>
+        <item>17ನೇ</item>
+        <item>18ನೇ</item>
+        <item>19ನೇ</item>
+        <item>20ನೇ</item>
+        <item>21ನೇ</item>
+        <item>22ನೇ</item>
+        <item>23ನೇ</item>
+        <item>24ನೇ</item>
+        <item>25ನೇ</item>
+        <item>26ನೇ</item>
+        <item>27ನೇ</item>
+        <item>28ನೇ</item>
+        <item>29ನೇ</item>
+        <item>30ನೇ</item>
+        <item>31ನೇ</item>
+    </string-array>
+    <string-array name="repeat_choose_end">
+        <item>ಯಾವತ್ತೂ ಬೇಡ</item>
+        <item>ಸಮಯ</item>
+        <item>ಎಣಿಕೆ</item>
+    </string-array>
+    <string-array name="repeat_choose_month">
+        <item>ಜನವರಿ</item>
+        <item>ಫೆಬ್ರವರಿ</item>
+        <item>ಮಾರ್ಚ್</item>
+        <item>ಏಪ್ರಿಲ್‌</item>
+        <item>ಮೇ</item>
+        <item>ಜೂನ್</item>
+        <item>ಜುಲೈ</item>
+        <item>ಆಗಸ್ಟ್</item>
+        <item>ಸೆಪ್ಟೆಂಬರ್</item>
+        <item>ಅಕ್ಟೋಬರ್</item>
+        <item>ನವೆಂಬರ್</item>
+        <item>ಡಿಸೆಂಬರ್</item>
+    </string-array>
+    <string-array name="repeat_choose_week_left">
+        <item>ಮೊದಲನೇ</item>
+        <item>ಸೆಕೆಂಡ್‌</item>
+        <item>ಮೂರನೇ</item>
+        <item>ನಾಲ್ಕನೇ</item>
+        <item>ಕೊನೆಯ</item>
+    </string-array>
+    <string-array name="repeat_choose_week_right">
+        <item>ಸೋಮ - ಶುಕ್ರ</item>
+        <item>ವಾರಾಂತ್ಯ</item>
+        <item>ಇಡೀ ವಾರ</item>
+    </string-array>
+    <string-array name="repeat_choose_weekday">
+        <item>ಸೋಮ</item>
+        <item>ಮಂಗಳ</item>
+        <item>ಬುಧ</item>
+        <item>ಗುರು</item>
+        <item>ಶುಕ್ರ</item>
+        <item>ಶನಿ</item>
+        <item>ಭಾನು</item>
+    </string-array>
+    <string-array name="repeat_countdown">
+        <item>ಎಂದಿಗೂ ಇಲ್ಲ</item>
+        <item>ಮಾಸಿಕ</item>
+        <item>ವಾರ್ಷಿಕ</item>
+    </string-array>
+    <string-array name="repeat_frequency_spinner">
+        <item>ದಿನ</item>
+        <item>ವಾರ</item>
+        <item>ತಿಂಗಳು</item>
+        <item>ವರ್ಷ</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>ಪ್ರತಿಕ್ರಿಯೆ ಇಲ್ಲ</item>
+        <item>ಸರಿ</item>
+        <item>ಬಹುಶಃ</item>
+        <item>ಬೇಡ</item>
+    </string-array>
+    <string-array name="sagittarius_info">
+        <item>ಧನು</item>
+        <item>ಧನು</item>
+        <item>11/23 - 12/21</item>
+    </string-array>
+    <string-array name="scorpio_info">
+        <item>ವೃಶ್ಚಿಕ</item>
+        <item>ವೃಶ್ಚಿಕ</item>
+        <item>10/24 - 11/22</item>
+    </string-array>
+    <string-array name="serie_a">
+        <item>1</item>
+        <item>Serie A</item>
+    </string-array>
+    <string-array name="taurus_info">
+        <item>ವೃಷಭ</item>
+        <item>ವೃಷಭ</item>
+        <item>4/20 - 5/20</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>ಮಾರ್ಷಲ್ ದ್ವೀಪಗಳು</item>
+        <item>ಮಿಡ್ವೇ ದ್ವೀಪ</item>
+        <item>ಹವಾಯಿ</item>
+        <item>ಅಲಾಸ್ಕಾ</item>
+        <item>ಪೆಸಿಫಿಕ್ ಸಮಯ</item>
+        <item>ಟಿವಾನ</item>
+        <item>ಅರಿಝೋನಾ</item>
+        <item>ಚಿವಾವಾ</item>
+        <item>ಮೌಂಟೇನ್ ಸಮಯ</item>
+        <item>ಮಧ್ಯ ಅಮೇರಿಕಾ</item>
+        <item>ಮಧ್ಯ ಸಮಯ</item>
+        <item>ಮೆಕ್ಸಿಕೋ ಸಿಟಿ</item>
+        <item>ಸಾಸ್ಕಾಚೆವನ್</item>
+        <item>Bogotá</item>
+        <item>ಪೂರ್ವ ಸಮಯ</item>
+        <item>ವೆನೆಜುವೆಲಾ</item>
+        <item>ಅಟ್ಲಾಂಟಿಕ್ ಸಮಯ (ಬಾರ್ಬಡೋಸ್)</item>
+        <item>ಅಟ್ಲಾಂಟಿಕ್ ಸಮಯ (ಕೆನಡಾ)</item>
+        <item>ಮನಾಸ್</item>
+        <item>ಸ್ಯಾಂಟಿಯಾಗೋ</item>
+        <item>ನ್ಯೂಫೌಂಡ್‌ಲ್ಯಾಂಡ್‌</item>
+        <item>ಬ್ರೆಸಿಲಿಯ</item>
+        <item>ಬ್ಯೂನಸ್ ಏರರ್ಸ್</item>
+        <item>ಗ್ರೀನ್ಲ್ಯಾಂಡ್</item>
+        <item>ಮಾಂಟವಿಡೀಯೋ</item>
+        <item>ಮಿಡ್ ಅಟ್ಲಾಂಟಿಕ್</item>
+        <item>ಅಜೋರ್ಸ್</item>
+        <item>Cape Verde</item>
+        <item>ಕ್ಯಾಸಬ್ಲ್ಯಾಂಕ</item>
+        <item>ಲಂಡನ್, ಡಬ್ಲಿನ್</item>
+        <item>ಆಮ್‌ಸ್ಟರ್‌ಡ್ಯಾಮ್‌, ಬರ್ಲಿನ್</item>
+        <item>ಬೆಲ್‌ಗ್ರೇಡ್</item>
+        <item>ಬ್ರುಸೆಲ್ಸ್‌</item>
+        <item>ಸಾರೆಜೀವೊ</item>
+        <item>ವಿಂಡ್‌ಹೋಕ್‌</item>
+        <item>ಪಶ್ಚಿಮ ಆಫ್ರಿಕಾ ಸಮಯ</item>
+        <item>ಅಮ್ಮಾನ್, ಜೋರ್ಡಾನ್</item>
+        <item>ಅಥೆನ್ಸ್, ಇಸ್ತಾಂಬುಲ್</item>
+        <item>ಬೈರುತ್, ಲೆಬನಾನ್</item>
+        <item>ಕೈರೋ</item>
+        <item>ಹೆಲ್ಸಿಂಕಿ</item>
+        <item>ಜೆರುಸಲೇಮ್‌</item>
+        <item>ಮಿನಸ್ಕ್‌</item>
+        <item>ಹರಾರೆ</item>
+        <item>ಬಾಗ್ದಾದ್</item>
+        <item>ಮಾಸ್ಕೋ</item>
+        <item>ಕುವೈತ್‌</item>
+        <item>ನೈರೋಬಿ</item>
+        <item>ಟೆಹ್ರಾನ್</item>
+        <item>ಬಾಕು</item>
+        <item>ಟಿಬಿಲಿಸಿ</item>
+        <item>ಯರೆವಾನ್</item>
+        <item>ದುಬೈ</item>
+        <item>ಕಾಬೂಲ್</item>
+        <item>ಇಸ್ಲಾಮಾಬಾದ್, ಕಾರಾಚಿ</item>
+        <item>ಉರಲ್ಸ್</item>
+        <item>ಯೆಕಟೇನ್ಬರ್ಗ್</item>
+        <item>ಕಲ್ಕತ್ತಾ</item>
+        <item>ಶ್ರೀಲಂಕಾ</item>
+        <item>ಕಠ್ಮಂಡು</item>
+        <item>ಅಸ್ತಾನಾ</item>
+        <item>ರಂಗೂನ್</item>
+        <item>ಕ್ರಾಸ್ನೊಯಾರ್ಸ್ಕ್</item>
+        <item>ಬ್ಯಾಂಕಾಕ್‌</item>
+        <item>ಬೀಜಿಂಗ್‌</item>
+        <item>ಹಾಂಗ್‌ ಕಾಂಗ್‌</item>
+        <item>Macao</item>
+        <item>Singapore</item>
+        <item>Irkutsk</item>
+        <item>Kuala Lumpur</item>
+        <item>Perth</item>
+        <item>Taipei</item>
+        <item>Seoul</item>
+        <item>Tokyo, Osaka</item>
+        <item>Yakutsk</item>
+        <item>Adelaide</item>
+        <item>Darwin</item>
+        <item>Brisbane</item>
+        <item>Hobart</item>
+        <item>Sydney, Canberra</item>
+        <item>Vladivostok</item>
+        <item>Guam</item>
+        <item>Magadan</item>
+        <item>Auckland</item>
+        <item>Fiji</item>
+        <item>Tonga</item>
+    </string-array>
+    <string-array name="travel_reminder_minutes_labels">
+        <item>3 ಗಂಟೆಗಳ ಮೊದಲು</item>
+        <item>4 ಗಂಟೆಗಳ ಮೊದಲು</item>
+        <item>5 ಗಂಟೆಗಳ ಮೊದಲು</item>
+        <item>6 ಗಂಟೆಗಳ ಮೊದಲು</item>
+        <item>1 ದಿನ ಮೊದಲು</item>
+    </string-array>
+    <string-array name="virgo_info">
+        <item>ಕನ್ಯಾ</item>
+        <item>ಕನ್ಯಾ</item>
+        <item>8/23 - 9/22</item>
+    </string-array>
+    <string-array name="week_header_name">
+        <item>ಭಾನು</item>
+        <item>ಸೋಮ</item>
+        <item>ಮಂಗಳ</item>
+        <item>ಬುಧ</item>
+        <item>ಗುರು</item>
+        <item>ಶುಕ್ರ</item>
+        <item>ಶನಿ</item>
+    </string-array>
+    <string-array name="widget_style_list">
+        <item>ಪಾರದರ್ಶಕತೆ</item>
+        <item>ಬಿಳಿ ಹಿನ್ನೆಲೆ</item>
+    </string-array>
+</resources>

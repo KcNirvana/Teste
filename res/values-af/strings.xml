@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="copy_email">Kopieer e-posadres</string>
+    <string name="copy_number">Kopieer foonnommer</string>
+    <string name="done">Terugkeer</string>
+    <string name="more_string">+%1$s</string>
+</resources>
