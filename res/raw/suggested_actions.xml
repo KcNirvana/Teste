@@ -19,19 +19,8 @@
 
     <action android:category="com.android.settings.suggested.category.EMAIL" />
 
-    <action android:category="com.android.settings.suggested.category.PAYMENT" />
-
-    <action android:category="com.android.settings.suggested.category.PARTNER_ACCOUNT"
-        android:isRepeatable="true" />
-
     <action android:category="com.android.settings.suggested.category.PAI" />
 
-    <action android:category="com.android.settings.suggested.category.HOTWORD" />
-
-    <action android:category="com.android.settings.suggested.category.DEFAULT"
-        android:isRepeatable="true" />
-
-    <action android:category="com.android.settings.suggested.category.DEFAULT_SETUP_WIZARD_ONLY"
-        android:isRepeatable="true" />
+    <action android:category="com.android.settings.suggested.category.LOCK_SCREEN_REDACTION" />
 
 </array>

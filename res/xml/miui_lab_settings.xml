@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/miui_lab_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@string/miui_lab_features" android:key="miui_lab_features">
+        <miui.preference.ValuePreference android:icon="@drawable/ic_enable_gallery_search" android:title="@string/miui_lab_gallery_search_title" android:key="miui_lab_gallery_search" android:summary="@string/miui_lab_gallery_search_desc" />
+        <CheckBoxPreference android:icon="@drawable/ic_ai_preloading" android:title="@string/miui_lab_ai_preload_title" android:key="miui_lab_ai_preload" android:summary="@string/miui_lab_ai_preload_desc" />
+        <miui.preference.ValuePreference android:icon="@drawable/ic_drive_mode" android:title="@string/miui_lab_drive_mode_title" android:key="miui_lab_drive_mode" android:summary="@string/miui_lab_drive_mode_desc" />
+        <miui.preference.ValuePreference android:icon="@drawable/ic_super_resolution" android:title="@string/miui_lab_super_resolution_title" android:key="miui_lab_super_resolution" android:summary="@string/miui_lab_super_resolution_desc" android:fragment="com.android.settings.superresolution.SuperResolutionSettings" />
+    </PreferenceCategory>
+</PreferenceScreen>

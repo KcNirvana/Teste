@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/privacy_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@string/system_backup_section_title" android:key="local_backup_category" />
+    <PreferenceScreen android:title="@string/flash_drive_backup_restore" android:key="flash_drive_backup" android:summary="@string/flash_drive_backup_restore_summary">
+        <intent android:targetPackage="com.miui.backup" android:targetClass="com.miui.backup.ui.UsbHomeActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/local_backup_section_title" android:key="local_backup" android:summary="@string/local_backup_section_summary">
+        <intent android:targetPackage="com.miui.backup" android:action="android.intent.action.MAIN" android:targetClass="com.miui.backup.BackupActivity" />
+    </PreferenceScreen>
+    <miui.preference.ValuePreference android:title="@string/local_auto_backup_section_title" android:key="local_auto_backup">
+        <intent android:targetPackage="com.miui.backup" android:targetClass="com.miui.backup.auto.AutoBackupActivity" />
+    </miui.preference.ValuePreference>
+    <PreferenceCategory android:title="@string/cloud_backup_section_title" android:key="cloud_backup_category" />
+    <PreferenceScreen android:title="@string/cloud_restore_section_title" android:key="cloud_restore" android:summary="@string/cloud_restore_section_summary">
+        <intent android:targetPackage="com.miui.cloudbackup" android:action="com.miui.cloudbackup.restore" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/cloud_backup_settings_section_title" android:key="cloud_backup_settings">
+        <intent android:targetPackage="com.miui.cloudbackup" android:action="com.miui.cloudbackup.settings" />
+    </PreferenceScreen>
+    <PreferenceCategory android:title="@string/google_backup_section_title" android:key="backup_category">
+        <PreferenceScreen android:persistent="false" android:title="@string/backup_data_title" android:key="backup_data" android:fragment="com.android.settings.backup.ToggleBackupSettingFragment" />
+        <PreferenceScreen android:persistent="false" android:title="@string/backup_configure_account_title" android:key="configure_account" android:summary="@string/backup_configure_account_default_summary">
+            <intent android:action="dummy" />
+        </PreferenceScreen>
+        <CheckBoxPreference android:persistent="false" android:title="@string/auto_restore_title" android:key="auto_restore" android:summary="@string/auto_restore_summary" />
+    </PreferenceCategory>
+    <PreferenceScreen android:persistent="false" android:key="data_management" />
+    <PreferenceCategory android:title="@string/personal_data_section_title" />
+    <PreferenceScreen android:title="@string/master_clear_title" android:summary="@string/master_clear_summary" android:fragment="com.android.settings.MiuiMasterClear" />
+    <com.android.settings.RestrictedPreference android:title="@string/reset_network_title" android:key="network_reset" android:fragment="com.android.settings.ResetNetwork" settings:userRestriction="no_network_reset" settings:useAdminDisabledSummary="true" settings:keywords="@string/keywords_network_reset" style="?android:attr/preferenceScreenStyle" />
+    <Preference android:persistent="false" android:enabled="false" android:title="@string/backup_inactive_title" android:selectable="false" android:key="backup_inactive" />
+    <PreferenceScreen android:title="@string/collect_diagnostics_title" android:key="collect_diagnostics" android:summary="@string/collect_diagnostics_summary">
+        <intent android:targetPackage="com.tmobile.pr.mytmobile" android:action="com.metrics.tmobile.SUMMARY" android:targetClass="com.tmobile.pr.mytmobile.iqtoggle.ui.OptInSummary" />
+    </PreferenceScreen>
+</PreferenceScreen>

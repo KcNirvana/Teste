@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@miui:style/Widget.ListView.Item.DoubleLine"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@miui:style/TextAppearance.PreferenceList" android:id="@id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textAppearance="@miui:style/TextAppearance.List.Secondary.Preference" android:id="@id/text2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

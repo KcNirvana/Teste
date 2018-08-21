@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="20.0dip" style="@miui:style/Widget.PreferenceItem">
+        <LinearLayout android:gravity="center_vertical" android:id="@id/l_signal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.5999756dip" android:layout_centerVertical="true">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/signal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wifi_signal" />
+        </LinearLayout>
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/l_apinfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.199982dip" android:layout_marginRight="5.0dip" android:layout_centerVertical="true" android:layout_toEndOf="@id/l_signal">
+            <FrameLayout android:gravity="center" android:id="@id/l_title" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <CheckedTextView android:textAppearance="@miui:style/TextAppearance.PreferenceList" android:ellipsize="middle" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                <ImageView android:gravity="center" android:layout_gravity="end|center" android:id="@id/wifi_band" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/band_wifi_5g" android:contentDescription="@null" />
+            </FrameLayout>
+            <TextView android:textAppearance="@miui:style/TextAppearance.List.Secondary.Preference" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="10" android:layout_below="@id/l_title" android:layout_alignLeft="@id/title" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="@miui:dimen/preference_widget_width" android:layout_marginEnd="10.0dip" />
+</LinearLayout>

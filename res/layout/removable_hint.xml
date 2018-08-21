@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:background="@drawable/settings_notify_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" style="@miui:style/Widget.PreferenceItem">
+        <TextView android:textAppearance="@miui:style/TextAppearance.PreferenceList" android:textSize="@dimen/hint_size" android:textColor="@color/settings_notify_fg" android:ellipsize="end" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+    </RelativeLayout>
+    <ImageView android:gravity="center" android:layout_gravity="end|center" android:id="@id/close_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/close_icon" android:layout_marginStart="@miui:dimen/preference_item_padding_inner" />
+</LinearLayout>

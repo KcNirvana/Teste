@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/reset_network_category">
+        <Preference android:title="@string/reset_network_wifi" style="?android:attr/preferenceInformationStyle" />
+        <Preference android:title="@string/reset_network_data" style="?android:attr/preferenceInformationStyle" />
+        <Preference android:title="@string/reset_network_bluetooth" style="?android:attr/preferenceInformationStyle" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/choose_a_card_to_reset" android:key="subscription_chooser" />
+</PreferenceScreen>

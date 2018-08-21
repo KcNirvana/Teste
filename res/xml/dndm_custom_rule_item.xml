@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@miui:style/TextAppearance.PreferenceList" android:id="@android:id/title" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/delete_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@miui:dimen/preference_item_padding_inner" android:src="@miui:drawable/btn_inline_delete_light" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

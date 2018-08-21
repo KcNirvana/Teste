@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="@miui:drawable/preference_item_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/preference_icon_minWidth">
+        <ImageView android:gravity="center" android:layout_gravity="center" android:id="@android:id/icon" android:paddingRight="@miui:dimen/preference_item_padding_inner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@miui:dimen/preference_item_padding_inner" android:layout_marginBottom="@miui:dimen/preference_item_padding_inner" android:scaleType="fitCenter" android:adjustViewBounds="true" android:maxHeight="26.699982dip" android:minWidth="26.699982dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:textAppearance="@miui:style/TextAppearance.PreferenceList" android:ellipsize="end" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+        <TextView android:textAppearance="@miui:style/TextAppearance.List.Secondary" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="10" android:layout_below="@android:id/title" android:layout_alignStart="@android:id/title" />
+    </LinearLayout>
+    <TextView android:textAppearance="@miui:style/TextAppearance.List.Secondary" android:ellipsize="marquee" android:gravity="end" android:id="@id/value_right" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="10" />
+    <ImageView android:gravity="center" android:layout_gravity="end|center" android:id="@id/arrow_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@miui:drawable/arrow_right" />
+</LinearLayout>

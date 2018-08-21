@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/dirac_eq_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/title_view" layout="@layout/equalizer_title_bar" />
+    <TextView android:textStyle="bold" android:ellipsize="end" android:gravity="start|center" android:id="@id/effect_type" android:background="@drawable/eq_config_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/eq_effect_type_margin_top" android:singleLine="true" android:textAlignment="viewStart" android:paddingStart="@dimen/effect_type_paddingstart" android:paddingEnd="@dimen/effect_type_paddingend" android:layout_marginStart="@dimen/effect_type_margin" android:layout_marginEnd="@dimen/effect_type_margin" />
+    <view android:id="@id/surface" android:background="@drawable/setting_eq_curve_bg" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/surface_margintop" android:layout_marginStart="11.0dip" android:layout_marginEnd="11.0dip" miui:curve_color="@color/dirac_equalizer_curve" miui:curve_shadow_color="@color/dirac_equalizer_curve_shadow" miui:curve_shadow_radius="8.0" class="com.android.settings.EqualizerView"
+      xmlns:miui="http://schemas.android.com/apk/res/com.android.settings" />
+    <LinearLayout android:gravity="end|center" android:paddingTop="@dimen/eq_seekbar_container_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/eq_first_seekbar_padding_left" android:paddingEnd="10.0dip">
+        <view android:id="@id/progress_eq0" style="@style/Widget.SeekBar.Equalizer" class="com.android.settings.view.VerticalSeekBar" />
+        <view android:id="@id/progress_eq1" style="@style/Widget.SeekBar.Equalizer" class="com.android.settings.view.VerticalSeekBar" />
+        <view android:id="@id/progress_eq2" style="@style/Widget.SeekBar.Equalizer" class="com.android.settings.view.VerticalSeekBar" />
+        <view android:id="@id/progress_eq3" style="@style/Widget.SeekBar.Equalizer" class="com.android.settings.view.VerticalSeekBar" />
+        <view android:id="@id/progress_eq4" style="@style/Widget.SeekBar.Equalizer" class="com.android.settings.view.VerticalSeekBar" />
+        <view android:id="@id/progress_eq5" style="@style/Widget.SeekBar.Equalizer" class="com.android.settings.view.VerticalSeekBar" />
+        <view android:id="@id/progress_eq6" style="@style/Widget.SeekBar.Equalizer" class="com.android.settings.view.VerticalSeekBar" />
+    </LinearLayout>
+</LinearLayout>

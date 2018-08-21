@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/pvc_add_account_top_layout" android:background="@color/relative_medium_aquamarin" android:layout_width="fill_parent" android:layout_height="@dimen/top_account_actionBar">
+        <RelativeLayout android:id="@id/top_actionBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/back_button_alight_top">
+            <TextView android:id="@id/pvc_add_account_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableStart="@miui:drawable/action_bar_back_dark" android:paddingStart="@dimen/back_button_margin_start" />
+            <TextView android:textColor="@color/unlock_text_dark" android:id="@id/pvc_add_account_title_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/privacy_password_add_account_setting" android:layout_centerInParent="true" style="@miui:style/TextAppearance.WindowTitle" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/pvc_icon" android:layout_width="65.0dip" android:layout_height="65.0dip" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/account_info_text_color" android:id="@id/pvc_account_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/account_info_text_color" android:gravity="center" android:id="@id/pvc_add_account_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="27.0dip" android:text="@string/privacy_password_add_account_info" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+        <TextView android:textColor="@color/account_exit_info_text_color" android:gravity="center" android:id="@id/pvc_exit_account_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="@string/privacy_password_exit_account_info" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" android.textSize="12sp" />
+    </LinearLayout>
+    <include layout="@layout/privacy_password_choose_lock_pattern_button" />
+</LinearLayout>

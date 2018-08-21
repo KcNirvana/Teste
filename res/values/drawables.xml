@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item type="drawable" name="APKTOOL_DUMMY_8">false</item>
-    <item type="drawable" name="APKTOOL_DUMMY_9">false</item>
-    <item type="drawable" name="APKTOOL_DUMMY_1f">false</item>
-    <item type="drawable" name="APKTOOL_DUMMY_21">false</item>
-    <item type="drawable" name="APKTOOL_DUMMY_22">false</item>
-    <item type="drawable" name="APKTOOL_DUMMY_24">false</item>
+    <item type="drawable" name="notification_template_icon_bg">#3333b5e5</item>
+    <item type="drawable" name="notification_template_icon_low_bg">#0cffffff</item>
+    <item type="drawable" name="fp_enrollment_header_landscape">#ff009688</item>
 </resources>

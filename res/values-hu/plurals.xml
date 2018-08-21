@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="firewall_item_summary">
+        <item quantity="other">%s alkalmazás kapcsolata korlátozva</item>
+        <item quantity="one">%s alkalmazás kapcsolata korlátozva</item>
+    </plurals>
+    <plurals name="bg_network_allow_count">
+        <item quantity="other">%d alkalmazás kapcsolódhat a hálózatra a háttérben</item>
+        <item quantity="one">%d alkalmazás kapcsolódhat a hálózatra a háttérben</item>
+    </plurals>
+    <plurals name="bg_network_restrict_count">
+        <item quantity="other">%d alkalmazás nem csatlakozhat a hálózatra a háttérben</item>
+        <item quantity="one">%d alkalmazás nem csatlakozhat a hálózatra a háttérben</item>
+    </plurals>
+    <plurals name="status_bar_settings_disabled_header_title">
+        <item quantity="other">%d alkalmazás értesítései kikapcsolva</item>
+        <item quantity="one">%d alkalmazás értesítései kikapcsolva</item>
+    </plurals>
+    <plurals name="status_bar_settings_enabled_header_title">
+        <item quantity="other">%d alkalmazás értesítései bekapcsolva</item>
+        <item quantity="one">%d alkalmazás értesítései bekapcsolva</item>
+    </plurals>
+    <plurals name="settings_toggle_position_divider_page">
+        <item quantity="other">%1$d kapcsoló fog megjelenni az értesítási panelen</item>
+        <item quantity="one">%1$d kapcsoló fog megjelenni az értesítási panelen</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">%1$d lépésre van a fejlesztői beállítások bekapcsolásához.</item>
+        <item quantity="one">Már csak %1$d lépésre van a fejlesztői beállítások bekapcsolásához.</item>
+    </plurals>
+    <plurals name="dlg_remove_locales_title">
+        <item quantity="other">Eltávolítja a kiválasztott nyelveket?</item>
+        <item quantity="one">Eltávolítja a kiválasztott nyelvet?</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">%1$d ujjlenyomat beállítása</item>
+        <item quantity="one">%1$d ujjlenyomat beállítása</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">A jelszónak tartalmaznia kell legalább %d betűt</item>
+        <item quantity="one">A jelszónak tartalmaznia kell legalább 1 betűt</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">A jelszónak tartalmaznia kell legalább %d kisbetűt</item>
+        <item quantity="one">A jelszónak tartalmaznia kell legalább 1 kisbetűt</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">A jelszónak tartalmaznia kell legalább %d nagybetűt</item>
+        <item quantity="one">A jelszónak tartalmaznia kell legalább 1 nagybetűt</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">A jelszónak tartalmaznia kell legalább %d számot</item>
+        <item quantity="one">A jelszónak tartalmaznia kell legalább 1 számot</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">A jelszónak tartalmaznia kell legalább %d speciális karaktert</item>
+        <item quantity="one">A jelszónak tartalmaznia kell legalább 1 speciális karaktert</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">A jelszónak tartalmaznia kell legalább %d nem betű karaktert</item>
+        <item quantity="one">A jelszónak tartalmaznia kell legalább 1 nem betű karaktert</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">Helytelen PIN kód a SIM kártyához; még %d próbálkozása van.</item>
+        <item quantity="one">Helytelen PIN kód a SIM kártyához; még %d próbálkozása van, mielőtt fel kellene vennie a kapcsolatot szolgáltatójával az eszköz feloldásához.</item>
+    </plurals>
+    <plurals name="uri_permissions_text">
+        <item quantity="other">%d elem</item>
+        <item quantity="one">1 elem</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_extremely_short_delay">
+        <item quantity="other">Extrém rövid késleltetés (%1$d ms)</item>
+        <item quantity="one">Extrém rövid késleltetés (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_very_short_delay">
+        <item quantity="other">Nagyon rövid késleltetés (%1$d ms)</item>
+        <item quantity="one">Nagyon rövid késleltetés (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_short_delay">
+        <item quantity="other">Rövid késleltetés (%1$d ms)</item>
+        <item quantity="one">Rövid késleltetés (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_long_delay">
+        <item quantity="other">Hosszú késleltetés (%1$d ms)</item>
+        <item quantity="one">Hosszú késleltetés (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_very_long_delay">
+        <item quantity="other">Nagyon hosszú késleltetés (%1$d ms)</item>
+        <item quantity="one">Nagyon hosszú késleltetés (%1$d ms)</item>
+    </plurals>
+    <plurals name="print_settings_title">
+        <item quantity="other">%d nyomtatási feladat</item>
+        <item quantity="one">1 nyomtatási feladat</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_dialog_title">
+        <item quantity="other">Trust or remove certificates</item>
+        <item quantity="one">Trust or remove certificate</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message_device_owner">
+        <item quantity="other">"%s has installed certificate authorities on your device, which may allow them to monitor your device network activity, including emails, apps, and secure websites.
+
+For more information about these certificates, contact your admin."</item>
+        <item quantity="one">"%s has installed a certificate authority on your device, which may allow them to monitor your device network activity, including emails, apps, and secure websites.
+
+For more information about this certificate, contact your admin."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message">
+        <item quantity="other">"%s has installed certificate authorities for your work profile, which may allow them to monitor work network activity, including emails, apps, and secure websites.
+
+For more information about these certificates, contact your admin."</item>
+        <item quantity="one">"%s has installed a certificate authority for your work profile, which may allow them to monitor work network activity, including emails, apps, and secure websites.
+
+For more information about this certificate, contact your admin."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_settings_button">
+        <item quantity="other">Tanúsítványok ellenőrzése</item>
+        <item quantity="one">Tanúsítvány ellenőrzése</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d alkalmazás olvashatja az értesítéseket</item>
+        <item quantity="one">%d alkalmazás olvashatja az értesítéseket</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">Csak riasztások %1$d percen át (eddig: %2$s)</item>
+        <item quantity="one">Csak riasztások egy percen át, eddig: %2$s</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">Csak riasztások %1$d órán át, eddig: %2$s</item>
+        <item quantity="one">Csak riasztások egy órán át, eddig: %2$s</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">%d engedély megadva</item>
+        <item quantity="one">%d engedély megadva</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">%1$d/%2$d engedély megadva</item>
+        <item quantity="one">%1$d/%2$d engedély megadva</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d további engedély</item>
+        <item quantity="one">%d további engedély</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary">
+        <item quantity="other">%d alkalmazás tudja megnyitni a támogatott linkjeit</item>
+        <item quantity="zero">Egyetlen alkalmazás sem tudja megnyitni a támogatott linkjeit</item>
+        <item quantity="one">Egy alkalmazás tudja megnyitni a támogatott linkjeit</item>
+    </plurals>
+    <plurals name="high_power_count">
+        <item quantity="other">%d alkalmazás hagyhatja figyelmen kívül az akkumulátor optimalizálást</item>
+        <item quantity="one">1 alkalmazás hagyhatja figyelmen kívül az akkumulátor optimalizálást</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">%1$d alkalmazás használta a memóriát az elmúlt %2$s során</item>
+        <item quantity="one">1 alkalmazás használta a memóriát az elmúlt %2$s során</item>
+    </plurals>
+    <plurals name="notification_summary">
+        <item quantity="other">%d apps blocked from sending</item>
+        <item quantity="one">%d app blocked from sending</item>
+    </plurals>
+    <plurals name="data_saver_unrestricted_summary">
+        <item quantity="other">%1$d apps allowed to use unrestricted data when Data Saver is on</item>
+        <item quantity="one">1 app allowed to use unrestricted data when Data Saver is on</item>
+    </plurals>
+    <plurals name="virus_scan_app_find_risk">
+        <item quantity="other">%d kockázat található</item>
+        <item quantity="one">%d kockázat található</item>
+    </plurals>
+    <plurals name="auto_startup_count">
+        <item quantity="other">%d alkalmazás indítása engedélyezve</item>
+        <item quantity="one">%d alkalmazás indítása engedélyezve</item>
+    </plurals>
+    <plurals name="lockpassword_pin_fixed_length">
+        <item quantity="other">PIN kódnak %d számjegyűnek kell lennie</item>
+        <item quantity="one">PIN kódnak %d számjegyűnek kell lennie</item>
+    </plurals>
+    <plurals name="wifi_share_count">
+        <item quantity="other">Megosztva %d hálózat</item>
+        <item quantity="one">Megosztva %d hálózat</item>
+    </plurals>
+    <plurals name="connected_devices_number">
+        <item quantity="other">%d eszköz</item>
+        <item quantity="one">%d eszköz</item>
+    </plurals>
+    <plurals name="free_wifi_connected_count">
+        <item quantity="other">%1$d felhasználó csatlakozva</item>
+        <item quantity="one">%1$d felhasználó csatlakozva</item>
+    </plurals>
+    <plurals name="show_pho_countdown">
+        <item quantity="other">%1$d lépésre van attól, hogy belépjen a telefon információ alkalmazásba.</item>
+        <item quantity="one">Már csak egy lépésre van attól, hogy belépjen a telefon információ alkalmazásba.</item>
+    </plurals>
+    <plurals name="show_cit_countdown">
+        <item quantity="other">%1$d lépésre van attól, hogy belépjen a hardverteszt alkalmazásba</item>
+        <item quantity="one">Már csak egy lépésre van attól, hogy belépjen a hardverteszt alkalmazásba.</item>
+    </plurals>
+    <plurals name="show_rep_countdown">
+        <item quantity="other">%1$d lépésre van, hogy belépjen a hibajelentés alkalmazásba.</item>
+        <item quantity="one">Már csak egy lépésre van, hogy belépjen a hibajelentés alkalmazásba.</item>
+    </plurals>
+    <plurals name="auto_disable_screenbuttons_enabled_header_title">
+        <item quantity="other">Mindig tiltsa %d alkalmazáshoz</item>
+        <item quantity="one">Mindig tiltsa 1 alkalmazáshoz</item>
+    </plurals>
+    <plurals name="auto_disable_screenbuttons_disabled_header_title">
+        <item quantity="other">Soha ne tiltsa %d alkalmazáshoz</item>
+        <item quantity="one">Soha ne tiltsa 1 alkalmazáshoz</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_short">
+        <item quantity="other">A PIN kódnak %d zámjegyűnek kell lennie</item>
+        <item quantity="one">A PIN kódnak %d számjegyűnek kell lennie</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_long">
+        <item quantity="other">A PIN kód legfeljebb %d számjegyet tartalmazhat</item>
+        <item quantity="one">A PIN kód legfeljebb %d számjegyet tartalmazhat</item>
+    </plurals>
+    <plurals name="lockpattern_recording_incorrect_too_short">
+        <item quantity="other">Kössön össze legalább %d pontot. Próbálja újra.</item>
+        <item quantity="one">Kössön össze legalább %d pontot. Próbálja újra.</item>
+    </plurals>
+    <plurals name="lockpattern_too_many_failed_confirmation_attempts">
+        <item quantity="other">Túl sok helytelen próbálkozás. Próbálja újra %d másodperc múlva.</item>
+        <item quantity="one">Túl sok helytelen próbálkozás. Próbálja újra %d másodperc múlva.</item>
+    </plurals>
+    <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
+        <item quantity="other">Várjon %d másodpercet és próbálja újra.</item>
+        <item quantity="one">Várjon %d másodpercet és próbálja újra.</item>
+    </plurals>
+    <plurals name="print_jobs_summary">
+        <item quantity="other">%1$d nyomtatási feladat</item>
+        <item quantity="one">1 nyomtatási feladat</item>
+    </plurals>
+    <plurals name="manage_condition_providers_summary_nonzero">
+        <item quantity="other">%d alkalmazás biztosít feltételeket</item>
+        <item quantity="one">%d alkalmazás biztosít feltételeket</item>
+    </plurals>
+</resources>
