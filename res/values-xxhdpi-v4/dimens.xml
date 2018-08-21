@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="cal_typing_line_margin_top">74.32999dip</dimen>
-    <dimen name="button_fun_size">29.0dip</dimen>
-    <dimen name="button_normal_size">26.0dip</dimen>
-    <dimen name="display_text_size">51.0dip</dimen>
-    <dimen name="display_history_margin_result">11.0dip</dimen>
-    <dimen name="history_display_off_set">17.0dip</dimen>
-    <dimen name="history_text_size">26.0dip</dimen>
-    <dimen name="screen_display_margin_bottom">36.0dip</dimen>
-    <dimen name="screen_text_margin_border">26.0dip</dimen>
-    <dimen name="cal_typing_line_margin_bottom">210.0dip</dimen>
-    <dimen name="suffix_number_input_text_size">15.0sp</dimen>
-    <dimen name="title_menu_margin_left">14.5dip</dimen>
-    <dimen name="button_scien_fun_size">16.0dip</dimen>
-    <dimen name="screen_top_history_margin_top">27.0dip</dimen>
-    <dimen name="button_fun_scientific_size">24.0dip</dimen>
-    <dimen name="button_normal_scientific_pad_size">20.0dip</dimen>
-    <dimen name="screen_switch_btn_margin_border">27.0dip</dimen>
+    <dimen name="page_padding_horizontal">26.0dip</dimen>
+    <dimen name="page_padding_horizontal_end">7.5dip</dimen>
+    <dimen name="checkbox_margin_start">21.5dip</dimen>
+    <dimen name="next_button_padding_vertical">16.699982dip</dimen>
+    <dimen name="loading_cancel_button_padding_vertical">30.0dip</dimen>
+    <dimen name="language_logo_title_size">15.0sp</dimen>
+    <dimen name="title_layout_height">313.4453dip</dimen>
+    <dimen name="title_height">174.0dip</dimen>
+    <dimen name="disc_padding_top">16.669983dip</dimen>
+    <dimen name="logo_title_size">18.0sp</dimen>
+    <dimen name="logo_videoview_margin_top">159.6dip</dimen>
+    <dimen name="next_button_margin_bottom">98.0dip</dimen>
+    <dimen name="start_up_logo_margin_top">52.299988dip</dimen>
+    <dimen name="slogan_margin_top">6.6999817dip</dimen>
 </resources>

@@ -1,33 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="mortgage_repayment">
-        <item>원리금균등상환</item>
-        <item>원금균등상환</item>
+    <string-array name="special_locale_names_global">
+        <item>중국어 간체</item>
+        <item>중국어 번체(대만)</item>
+        <item>중국어 번체(홍콩)</item>
+        <item>스페인어 (미국)</item>
+        <item>포르투갈어 (브라질)</item>
     </string-array>
-    <string-array name="operatorDescs">
-        <item>왼쪽 괄호</item>
-        <item>오른쪽 괄호</item>
-        <item>계승</item>
-        <item>자연로그</item>
-        <item>로그</item>
-        <item>제곱근</item>
-        <item>나누기</item>
-        <item>곱하기</item>
-        <item>플러스</item>
-        <item>마이너스</item>
-        <item>포인트</item>
-        <item>전원</item>
-        <item>탄젠트</item>
-        <item>사인</item>
-        <item>코사인</item>
-        <item>파이</item>
-        <item>등호</item>
-    </string-array>
-    <string-array name="unit_data_order_currency_">
-        <item>USD</item>
-        <item>EUR</item>
-        <item>HKD</item>
-        <item>JPY</item>
-        <item>CNY</item>
+    <string-array name="organized_inputmethod_list_international_kr">
+        <item>com.google.android.inputmethod.korean/.KoreanIme</item>
+        <item>com.touchtype.swiftkey/com.touchtype.KeyboardService</item>
+        <item>com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME</item>
     </string-array>
 </resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="end" android:id="@id/show_qr_view" android:layout_width="@dimen/qr_entrance_dimen" android:layout_height="@dimen/qr_entrance_dimen" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/start_up_logo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/logo_videoview_margin_top">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/logo_congratulation" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/img_miui" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/start_up_logo_margin_top" android:src="@drawable/logo_startup" android:contentDescription="@string/content_description_miui_version" />
+        <TextView android:textSize="@dimen/start_up_slogan_text_size" android:textColor="@color/slogan_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/slogan_margin_top" android:text="@string/start_up_slogan" />
+    </LinearLayout>
+    <Button android:layout_gravity="bottom|center" android:id="@id/next" android:background="@drawable/icon_btn_next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/next_button_margin_bottom" android:contentDescription="@string/content_description_start" />
+</FrameLayout>

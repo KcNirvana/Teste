@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/color_complete_bar" />
+    <corners android:topLeftRadius="@dimen/congratulation_swipe_bar_corner" android:topRightRadius="@dimen/congratulation_swipe_bar_corner" android:bottomLeftRadius="@dimen/congratulation_swipe_bar_corner" android:bottomRightRadius="@dimen/congratulation_swipe_bar_corner" />
+</shape>

@@ -1,42 +1,26 @@
 !!brut.androlib.meta.MetaInfo
-apkFileName: Calculator.apk
+apkFileName: Provision.apk
 compressionType: false
 doNotCompress:
 - dex
 - arsc
-- assets/default_data/average_salaries
-- json
-- assets/default_data/mortgage_rate
-- assets/default_data/pay_base
-- assets/default_data/tax_datas
-- assets/default_data/units_currency
-- assets/default_data/units_length
-- assets/default_data/units_square
-- assets/default_data/units_temperature
-- assets/default_data/units_time
-- assets/default_data/units_velocity
-- assets/default_data/units_volume
-- assets/default_data/units_weight
-- so
 - xml
-- res/raw-mcc9998-mnc9999/xiaomi_static_config
-- res/raw/xiaomi_static_config
-isFrameworkApk: false
+isFrameworkApk: true
 packageInfo:
-  forcedPackageId: '127'
+  forcedPackageId: '9'
   renameManifestPackage: null
 sdkInfo:
   minSdkVersion: '16'
-  targetSdkVersion: '24'
+  targetSdkVersion: '25'
 sharedLibrary: false
-unknownFiles:
-  mistats_version: '8'
+unknownFiles: {}
 usesFramework:
   ids:
   - 1
   - 16
+  - 18
   tag: null
 version: 2.3.1
 versionInfo:
-  versionCode: '124'
-  versionName: 10.0.24
+  versionCode: '25'
+  versionName: 7.1.2

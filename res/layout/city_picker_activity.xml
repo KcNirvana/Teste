@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ListView android:id="@id/lst_cities" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <ProgressBar android:layout_gravity="center" android:id="@id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-    <miui.widget.AlphabetFastIndexer android:layout_gravity="right" android:id="@id/alphabet_indexer" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="fill_parent" />
-</FrameLayout>

@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="button_fun_size">29.0dip</dimen>
-    <dimen name="button_normal_size">26.0dip</dimen>
-    <dimen name="display_text_size">41.0dip</dimen>
-    <dimen name="display_history_margin_result">0.0dip</dimen>
-    <dimen name="history_display_off_set">10.0dip</dimen>
-    <dimen name="history_text_size">16.0dip</dimen>
-    <dimen name="screen_display_margin_bottom">25.0dip</dimen>
-    <dimen name="screen_text_margin_border">27.0dip</dimen>
-    <dimen name="suffix_number_input_text_size">15.5sp</dimen>
-    <dimen name="title_menu_margin_left">18.0dip</dimen>
-    <dimen name="button_scien_fun_size">16.0dip</dimen>
-    <dimen name="screen_top_history_margin_top">31.0dip</dimen>
-    <dimen name="button_fun_scientific_size">24.0dip</dimen>
-    <dimen name="button_normal_scientific_pad_size">20.0dip</dimen>
-    <dimen name="screen_switch_btn_margin_border">27.0dip</dimen>
+    <dimen name="page_padding_horizontal">27.0dip</dimen>
+    <dimen name="checkbox_margin_start">21.5dip</dimen>
+    <dimen name="next_button_padding_vertical">12.5dip</dimen>
+    <dimen name="loading_cancel_button_padding_vertical">22.5dip</dimen>
+    <dimen name="language_logo_title_size">13.0sp</dimen>
+    <dimen name="title_layout_height">287.0dip</dimen>
+    <dimen name="title_height">158.0dip</dimen>
+    <dimen name="disc_padding_top">8.25dip</dimen>
+    <dimen name="logo_title_size">17.0sp</dimen>
+    <dimen name="language_list_item_title">14.0sp</dimen>
+    <dimen name="language_title_desp_margin_left">50.0dip</dimen>
+    <dimen name="navigation_picker_video_width">127.0dip</dimen>
+    <dimen name="navigation_picker_video_height">254.0dip</dimen>
 </resources>

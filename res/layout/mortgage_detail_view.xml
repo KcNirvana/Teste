@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:paddingBottom="@dimen/result_mortgage_detail_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.miui.calculator.mortgage.MortgageDetailView android:id="@id/mortgage_detail_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-</LinearLayout>

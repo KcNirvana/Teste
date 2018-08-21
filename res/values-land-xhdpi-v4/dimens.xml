@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="button_fun_size">31.0dip</dimen>
-    <dimen name="button_normal_size">28.5dip</dimen>
-    <dimen name="display_text_size">35.0dip</dimen>
-    <dimen name="button_scien_fun_size">20.0dip</dimen>
-    <dimen name="screen_top_history_margin_top">24.0dip</dimen>
-</resources>

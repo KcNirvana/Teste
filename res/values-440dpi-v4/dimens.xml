@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="page_padding_horizontal">23.0dip</dimen>
+    <dimen name="logo_videoview_margin_top">174.19998dip</dimen>
+    <dimen name="other_setting_value_right_max_width">81.79999dip</dimen>
+    <dimen name="navigation_picker_video_width">144.0dip</dimen>
+    <dimen name="navigation_picker_video_height">288.0dip</dimen>
+    <dimen name="complete_title_margin_top">47.69998dip</dimen>
+</resources>

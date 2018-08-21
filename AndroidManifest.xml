@@ -1,70 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.miui.calculator" platformBuildVersionCode="24" platformBuildVersionName="7.0">
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" package="com.android.provision" platformBuildVersionCode="25" platformBuildVersionName="7.1.2">
+    <original-package android:name="com.android.provision"/>
+    <permission android:name="android.provision.permission.SEND_PROVISION_COMPLETE_BROADCAST" android:protectionLevel="signatureOrSystem"/>
+    <protected-broadcast android:name="android.provision.action.PROVISION_START"/>
+    <protected-broadcast android:name="android.provision.action.PROVISION_COMPLETE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
-    <uses-permission android:name="android.permission.GET_TASKS"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="com.xiaomi.market.sdk.UPDATE"/>
-    <compatible-screens>
-        <screen android:screenDensity="xxhdpi" android:screenSize="small"/>
-        <screen android:screenDensity="xxhdpi" android:screenSize="normal"/>
-        <screen android:screenDensity="xxhdpi" android:screenSize="large"/>
-        <screen android:screenDensity="xxhdpi" android:screenSize="xlarge"/>
-    </compatible-screens>
-    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-    <application android:icon="@drawable/app_icon" android:label="@string/app_name" android:name="com.miui.calculator.CalculatorApplication" android:supportsRtl="true">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="miui.os.permisson.INIT_MIUI_ENVIRONMENT"/>
+    <uses-permission android:name="android.provision.permission.SEND_PROVISION_COMPLETE_BROADCAST"/>
+    <uses-permission android:name="miui.permission.USE_INTERNAL_GENERAL_API"/>
+    <uses-permission android:name="android.permission.SHUTDOWN"/>
+    <application android:label="@string/app_name" android:name="ProvisionApplication" android:supportsRtl="true" android:theme="@style/Theme">
+        <uses-library android:name="miui-stat.jar"/>
+        <meta-data android:name="notch.config" android:value="portrait"/>
         <meta-data android:name="android.max_aspect" android:value="2.2"/>
-        <meta-data android:name="app_description_title" android:resource="@string/description_title"/>
-        <meta-data android:name="app_description_content" android:resource="@string/description_content"/>
-        <meta-data android:name="mi_stat_channel" android:value="miui"/>
-        <activity android:exported="true" android:label="@string/app_name" android:name="com.miui.calculator.cal.CalculatorActivity" android:screenOrientation="portrait" android:theme="@style/Calculator.Theme.Light.Simple" android:windowSoftInputMode="stateAlwaysHidden">
-            <intent-filter>
+        <activity android:configChanges="locale|fontScale|keyboardHidden|layoutDirection|mcc|mnc" android:excludeFromRecents="true" android:name=".activities.DefaultActivity" android:screenOrientation="portrait">
+            <intent-filter android:priority="1000">
                 <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-                <category android:name="android.intent.category.APP_CALCULATOR"/>
-                <category android:name="miui.intent.category.SYSAPP_TOOL"/>
-            </intent-filter>
-            <intent-filter>
-                <category android:name="android.intent.category.DEFAULT"/>
-                <data android:host="com.miui.calculator" android:path="/home" android:scheme="calculator"/>
-            </intent-filter>
-            <intent-filter>
-                <action android:name="mi.quicksearch.intent.action.RETRIEVE"/>
+                <category android:name="android.intent.category.HOME"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
-            <meta-data android:name="mi.quicksearch.hints" android:resource="@xml/mi_quicksearch_hints"/>
-            <intent-filter>
-                <action android:name="android.intent.action.SEARCH"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-            </intent-filter>
-            <meta-data android:name="functionindex" android:resource="@xml/functionindex"/>
         </activity>
-        <activity android:exported="true" android:label="@string/app_name" android:name="com.miui.calculator.cal.CalculatorTabActivity" android:screenOrientation="portrait" android:theme="@style/Calculator.Theme.Light.Translucent" android:windowSoftInputMode="stateAlwaysHidden"/>
-        <activity android:exported="true" android:label="@string/app_name" android:name="com.miui.calculator.cal.DefaultCalculatorActivity" android:screenOrientation="portrait" android:theme="@style/Calculator.Theme.Light.Translucent" android:windowSoftInputMode="stateAlwaysHidden"/>
-        <activity android:exported="true" android:label="@string/app_name" android:name="com.miui.calculator.cal.AllInOneCalculatorActivity" android:screenOrientation="portrait" android:theme="@style/Calculator_Theme_Light_Animation" android:windowSoftInputMode="stateAlwaysHidden"/>
-        <activity android:label="@string/mortgage_details" android:name="com.miui.calculator.mortgage.MortgageDetailActivity" android:screenOrientation="portrait" android:theme="@style/Calculator.Theme.Light"/>
-        <activity android:label="@string/tax_individual_income_tax_result" android:name="com.miui.calculator.tax.ResultActivity" android:screenOrientation="portrait" android:theme="@style/Calculator.Theme.Light.ActionBar"/>
-        <activity android:label="@string/tax_city_picker" android:name="com.miui.calculator.tax.CityPickerActivity" android:screenOrientation="portrait" android:theme="@style/Calculator.Theme.Light.ActionBar"/>
-        <activity android:exported="true" android:label="@string/wf_word_figure" android:name="com.miui.calculator.wordfigure.WordFigureActivity" android:screenOrientation="portrait" android:theme="@style/Calculator.Theme.Light.Translucent"/>
-        <activity android:exported="true" android:label="@string/convertion_unit" android:name="com.miui.calculator.convert.ConvertActivity" android:screenOrientation="portrait" android:theme="@style/Calculator.Theme.Light.Translucent"/>
-        <activity android:exported="true" android:label="@string/convert_currency" android:name="com.miui.calculator.convert.CurrencyActivity" android:screenOrientation="portrait" android:theme="@style/Calculator.Theme.Light.Translucent"/>
-        <activity android:exported="true" android:label="@string/item_title_relationship" android:name="com.miui.calculator.relationship.RelationshipActivity" android:screenOrientation="portrait" android:theme="@style/Calculator.Theme.Light.Translucent"/>
-        <activity android:exported="true" android:name="com.miui.calculator.cal.CalSettingsActivity" android:screenOrientation="portrait" android:theme="@style/Calculator.Theme.Light"/>
-        <receiver android:name="com.xiaomi.market.sdk.DownloadCompleteReceiver">
+        <activity android:configChanges="locale|fontScale|keyboardHidden|layoutDirection|mcc|mnc" android:excludeFromRecents="true" android:name=".activities.LanguagePickerActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="locale|fontScale|keyboardHidden|layoutDirection|mcc|mnc" android:excludeFromRecents="true" android:name=".activities.InputMethodActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="locale|fontScale|keyboardHidden|layoutDirection|mcc|mnc" android:excludeFromRecents="true" android:exported="true" android:name=".activities.SimCardDetectionActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="locale|fontScale|keyboardHidden|layoutDirection|mcc|mnc" android:excludeFromRecents="true" android:name=".activities.MultiSimSettingsActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="locale|fontScale|keyboardHidden|layoutDirection|mcc|mnc" android:excludeFromRecents="true" android:name=".activities.OtherSettingsActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="locale|fontScale|keyboardHidden|layoutDirection|mcc|mnc" android:excludeFromRecents="true" android:name=".activities.CMTermsActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="locale|fontScale|keyboardHidden|layoutDirection|mcc|mnc" android:excludeFromRecents="true" android:name=".activities.CongratulationActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="locale|fontScale|keyboardHidden|layoutDirection|mcc|mnc" android:excludeFromRecents="true" android:name=".activities.InputMethodLicenseActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="locale|fontScale|keyboardHidden|layoutDirection|mcc|mnc" android:excludeFromRecents="true" android:name=".activities.TermsActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="locale|fontScale|keyboardHidden|layoutDirection|mcc|mnc" android:excludeFromRecents="true" android:launchMode="singleInstance" android:name=".activities.NavigationModePickerActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="locale|fontScale|keyboardHidden|layoutDirection|mcc|mnc" android:excludeFromRecents="true" android:name=".activities.LocalePickerActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="locale|fontScale|keyboardHidden|layoutDirection|mcc|mnc" android:excludeFromRecents="true" android:name=".activities.PageLayoutActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="locale|fontScale|keyboardHidden|layoutDirection|mcc|mnc" android:excludeFromRecents="true" android:name=".activities.GoogleAccountActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="locale|fontScale|keyboardHidden|layoutDirection|mcc|mnc" android:excludeFromRecents="true" android:name=".activities.FingerprintActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="locale|fontScale|keyboardHidden|layoutDirection|mcc|mnc" android:excludeFromRecents="true" android:name=".activities.VoiceAssistActivity" android:screenOrientation="portrait"/>
+        <receiver android:name="com.android.provision.TimeReceiver">
             <intent-filter>
-                <action android:name="android.intent.action.DOWNLOAD_COMPLETE"/>
-            </intent-filter>
-        </receiver>
-        <provider android:authorities="your_package_name.selfupdate.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="android.support.v4.content.FileProvider">
-            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
-        </provider>
-        <receiver android:exported="true" android:name="com.miui.voiceassist.mvs.client.MvsClientReceiver" android:permission="com.miui.voiceassist.MVS_BROADCAST">
-            <intent-filter>
-                <action android:name="com.miui.voiceassist.mvs.client.ACTION_RESGISTER_MVS"/>
+                <action android:name="com.android.provision.activities.TimeReceiver"/>
             </intent-filter>
         </receiver>
     </application>

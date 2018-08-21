@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:miui="http://schemas.android.com/apk/res/com.android.provision">
+    <com.android.provision.widget.PrivacyCheckboxPreference android:title="@string/other_settings_location" android:key="button_location_service_key" android:summary="@string/other_settings_location_summary" android:defaultValue="true" />
+    <com.android.provision.widget.PrivacyCheckboxPreference android:title="@string/other_settings_user_experience" android:key="button_user_experience_key" android:summary="@string/other_settings_user_experience_summary" android:defaultValue="true" miui:hasHyperlink="true" />
+    <com.android.provision.widget.PrivacyCheckboxPreference android:title="@string/other_settings_upload_debug_log_title" android:key="button_upload_debug_log_key" android:summary="@string/other_settings_upload_debug_log_summary" android:defaultValue="true" />
+    <com.android.provision.widget.PrivacyCheckboxPreference android:title="@string/other_settings_auto_update" android:key="button_auto_update_key" android:summary="@string/other_settings_auto_update_summary" android:defaultValue="true" />
+    <com.android.provision.widget.PrivacyCheckboxPreference android:title="@string/other_settings_ad_enable" android:key="button_personalized_ad_key" android:summary="@string/other_settings_ad_enable_summary" android:defaultValue="true" />
+    <com.android.provision.widget.ValueListPreference android:entries="@array/other_settings_auto_update_entries" android:title="@string/other_settings_auto_update" android:key="button_global_auto_update_key" android:summary="@string/other_settings_auto_update_summary" android:dialogTitle="@string/other_settings_auto_update" android:entryValues="@array/other_settings_auto_update_entries" />
+</PreferenceScreen>

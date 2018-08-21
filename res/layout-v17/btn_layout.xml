@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/provision_margin_bottom" android:layout_marginStart="@dimen/provision_btn_margin_left_bound" android:layout_marginEnd="@dimen/provision_btn_margin_right_bound"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/lyt_btn_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentStart="true">
+        <TextView android:textColor="@drawable/btn_text_color_normal" android:id="@id/btn_back" android:text="@string/back" style="@style/ProvisionStepTextStyle" />
+        <ImageButton android:id="@id/btn_back_global" android:visibility="gone" android:src="@drawable/icon_global_back" android:contentDescription="@string/back" style="@style/ProvisionStepTextStyle" />
+    </FrameLayout>
+    <TextView android:textColor="@drawable/btn_text_color_low_light" android:id="@id/btn_skip" android:visibility="gone" android:text="@string/skip_underline" android:layout_centerHorizontal="true" style="@style/ProvisionStepTextStyle" />
+    <FrameLayout android:id="@id/lyt_btn_next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true">
+        <TextView android:textColor="@drawable/btn_text_color_high_light" android:id="@id/next" android:text="@string/next" style="@style/ProvisionStepTextStyle" />
+        <ImageButton android:id="@id/next_global" android:visibility="gone" android:src="@drawable/icon_global_next" android:contentDescription="@string/next" style="@style/ProvisionStepTextStyle" />
+    </FrameLayout>
+</RelativeLayout>

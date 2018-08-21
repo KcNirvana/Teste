@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<WizardScript xmlns:wizard="http://schemas.android.com/apk/res/com.google.android.setupwizard"
+              wizard:firstAction="miui_startup">
+
+    <!-- Preliminary setup for OEMs [CUSTOMIZABLE] -->
+    <WizardAction
+        id="miui_startup"
+        wizard:uri="intent:#Intent;action=com.android.provision.global.STARTUP;end">
+        <result wizard:action="flow_choice"/>
+    </WizardAction>
+
+    <WizardAction id="flow_choice"
+                  wizard:uri="intent:#Intent;action=com.android.setupwizard.FLOW_CHOICE;end">
+        <result wizard:name="skip"
+                wizard:resultCode="1"
+                wizard:action="setup_as_new_flow" />
+        <result wizard:action="restore_flow" />
+    </WizardAction>
+
+    <!-- Restore from an existing account or device [RECOMMENDED, CUSTOMIZABLE] -->
+    <WizardAction id="restore_flow"
+                  wizard:script="android.resource://com.android.provision/raw/wizard_script_restore_flow">
+        <result wizard:action="miui_second"/>
+    </WizardAction>
+
+    <!-- Set up as a new device [REQUIRED, CUSTOMIZABLE] -->
+    <WizardAction id="setup_as_new_flow"
+                  wizard:script="android.resource://com.android.provision/raw/wizard_script_setup_as_new_flow">
+        <result wizard:action="miui_second" />
+    </WizardAction>
+
+    <WizardAction
+        id="miui_second"
+        wizard:uri="intent:#Intent;action=com.android.provision.global.SECOND;end">
+        <result wizard:action="oem_post_setup"/>
+    </WizardAction>
+
+    <!-- OEM completion [CUSTOMIZABLE] -->
+    <WizardAction id="oem_post_setup"
+                  wizard:uri="intent:#Intent;action=com.android.setupwizard.OEM_POST_SETUP;end">
+        <result wizard:action="exit" />
+    </WizardAction>
+
+    <!-- Leave Setup Wizard [REQUIRED] -->
+    <WizardAction
+        id="exit"
+        wizard:uri="intent:#Intent;action=com.android.setupwizard.EXIT;end"/>
+
+</WizardScript>

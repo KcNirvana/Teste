@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout style="@style/CalWidget.ListItem.Result"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textAppearance="@style/CalTextAppearance.List.Primary" android:textSize="@dimen/result_list_detail_primary_summary_size" android:textColor="@color/tax_credit_detailed_list_detail_value_text_color" android:id="@id/txv_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
-    <TextView android:textAppearance="@miui:style/TextAppearance.List.Secondary" android:id="@id/txv_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-</LinearLayout>
