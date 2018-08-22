@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/v5_search_panel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@android:id/home" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@miui:drawable/action_bar_back_light" />
-    <miui.widget.ClearableEditText android:gravity="start|center" android:layout_gravity="start|center" android:id="@android:id/input" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textNoSuggestions" android:imeOptions="actionSearch" android:layout_marginStart="@dimen/stock_search_title_bar_text_margin_start">
-        <requestFocus />
-    </miui.widget.ClearableEditText>
-</LinearLayout>

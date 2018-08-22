@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<plugins>
-    <plugin key="plugin_phone_cashier" value="com.alipay.android.phone.inside.cashier.PhoneCashierPlugin" />
-    <plugin key="login_external_plugin" value="com.ali.user.mobile.external.LoginExternalPlugin" />
-    <plugin key="barcode_plugin" value="com.alipay.android.barcode.BarcodePlugin" />
-    <plugin key="report_device_location_plugin" value="com.alipay.mobile.common.deviceinfo.ReportLocationPlugin" />
-</plugins>

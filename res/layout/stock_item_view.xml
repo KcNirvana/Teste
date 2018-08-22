@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/stock_list_item" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-10.0dip" android:src="@drawable/setting_list_remove_icon" android:contentDescription="@string/list_icon_delete" />
-    <include layout="@layout/stock_info_layout" />
-    <ImageView android:id="@id/drag_handle" android:paddingLeft="10.0dip" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/icon_list_item_drag_handle" android:contentDescription="@string/list_icon_drag" />
-</LinearLayout>

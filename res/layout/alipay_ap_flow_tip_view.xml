@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.ali.user.mobile.ui.widget.APImageView android:layout_gravity="center_horizontal" android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="97.0dip" android:src="@drawable/alipay_flow_network_signals" />
-    <com.ali.user.mobile.ui.widget.APTextView android:textSize="16.0dip" android:textColor="#ff000000" android:gravity="center_horizontal" android:id="@id/tips" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/alipay_flow_network_error" />
-    <com.ali.user.mobile.ui.widget.APTextView android:textSize="14.0dip" android:textColor="#ff888888" android:gravity="center_horizontal" android:id="@id/sub_tips" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/alipay_flow_network_check" />
-    <com.ali.user.mobile.ui.widget.APButton android:textSize="16.0dip" android:textColor="@drawable/alipay_flow_tip_text_selector" android:layout_gravity="center_horizontal" android:id="@id/action" android:background="@color/alipay_transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="12.0dip" android:text="@string/alipay_tryAgain" />
-</merge>

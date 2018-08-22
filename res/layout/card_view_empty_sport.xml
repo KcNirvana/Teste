@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/empty_show" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/empty_detail" android:background="@drawable/card_regular_last" android:layout_width="fill_parent" android:layout_height="@dimen/recharge_empty_height">
-        <TextView android:id="@id/empty_tip" android:hint="@string/empty_health_card_tip" style="@style/CardEmptyTitle" />
-    </LinearLayout>
-    <TextView android:textSize="@dimen/button_text_size_n" android:gravity="center" android:id="@id/empty_btn_app" android:visibility="visible" android:text="@string/empty_health_card_btn" style="@style/CardBtn" />
-</LinearLayout>

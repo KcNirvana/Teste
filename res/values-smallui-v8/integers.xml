@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <integer name="express_title_word_len">20</integer>
-    <integer name="express_title_word_num">10</integer>
-</resources>

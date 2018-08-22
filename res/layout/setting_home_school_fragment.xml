@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="12.0sp" android:textColor="#80000000" android:gravity="start|center" android:background="@miui:drawable/preference_item_bg" android:clickable="false" android:layout_width="fill_parent" android:layout_height="32.0dip" android:text="@string/locations_preferences" android:singleLine="true" style="@miui:style/TextAppearance.Widget.List.Primary" />
-    <include android:id="@id/place_home" layout="@layout/settings_item" />
-    <include android:id="@id/place_school" layout="@layout/settings_item" />
-</LinearLayout>

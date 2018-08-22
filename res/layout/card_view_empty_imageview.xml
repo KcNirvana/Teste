@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/empty_show" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/empty_detail" android:background="@drawable/card_regular_last" android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/empty_body_height">
-        <ImageView android:id="@id/empty_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-    </LinearLayout>
-    <TextView android:id="@id/empty_btn" style="@style/CardBtn" />
-</LinearLayout>

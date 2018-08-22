@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ProgressBar android:id="@id/progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:indeterminateOnly="false" android:progressDrawable="@drawable/progressbar_determinate" />
-    <LinearLayout android:gravity="center" android:layout_gravity="top" android:orientation="vertical" android:id="@id/error_view_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/blank_page_err_info_page_padding">
-        <TextView android:textColor="@color/color_grey" android:gravity="center" android:id="@id/text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@miui:style/TextAppearance.BlankPage" />
-        <Button android:id="@id/button" android:visibility="gone" android:layout_marginTop="@dimen/retry_button_vertical_margin" style="@miui:style/Widget.Button.Rect.BlankPage" />
-    </LinearLayout>
-</merge>

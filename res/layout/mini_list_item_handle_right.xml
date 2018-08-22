@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="45.0dip" android:minHeight="45.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/drag_up" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/alipay_msp_drag_up" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/accessibilty_move_up" />
-    <ImageView android:id="@id/drag_down" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/alipay_msp_drag_down" android:layout_toLeftOf="@id/drag_up" android:layout_centerVertical="true" android:contentDescription="@string/accessibilty_move_down" />
-    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="16.0dip" android:textColor="@color/mini_text_black" android:ellipsize="end" android:id="@id/drag_text" android:paddingLeft="17.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
-</RelativeLayout>

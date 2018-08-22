@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<view android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/CardView" class="com.miui.home.launcher.assistant.ui.view.SportCardView"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include layout="@layout/card_view_group" />
-    <ViewStub android:id="@id/viewstub_content" android:layout="@layout/card_view_sport_content" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    <ViewStub android:id="@id/viewstub_empty_show" android:layout="@layout/card_view_empty_sport" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-</view>

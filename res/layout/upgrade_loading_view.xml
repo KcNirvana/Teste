@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="#70000000" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ProgressBar android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_marginTop="270.0dip" android:indeterminateDrawable="@drawable/loading_dialog_progress" />
-    <TextView android:textSize="12.599976sp" android:textColor="@color/white" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/upgrade_being" />
-</LinearLayout>

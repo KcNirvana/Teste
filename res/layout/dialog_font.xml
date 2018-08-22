@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <View android:background="@color/fav_color_line" android:layout_width="fill_parent" android:layout_height="1.0px" />
-    <include layout="@layout/view_font_size_panel" />
-    <include layout="@layout/view_brightness_panel" />
-    <include layout="@layout/view_font_background" />
-</LinearLayout>

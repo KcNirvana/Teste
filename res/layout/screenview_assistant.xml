@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.miui.home.launcher.assistant.ui.view.AssistListView android:id="@id/assist_list_view" android:focusable="false" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/smart_assistant_enter_tip" android:overScrollMode="never" />
-    <ImageView android:layout_gravity="bottom|center|left" android:id="@id/ai" android:visibility="invisible" android:layout_width="66.0dip" android:layout_height="66.66998dip" android:layout_marginLeft="3.2999878dip" android:src="@drawable/ic_ai" />
-    <ViewStub android:id="@id/expand_note_stub" android:layout="@layout/card_view_expand_noteboard" android:inflatedId="@id/expand_note" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <ViewStub android:id="@id/expand_miot_device_stub" android:layout="@layout/card_view_miot_device_expand" android:inflatedId="@id/expand_device" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <ViewStub android:id="@id/upgrade_loading" android:layout="@layout/upgrade_loading_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-</FrameLayout>

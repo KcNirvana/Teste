@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<GridView android:layout_width="fill_parent" android:layout_height="wrap_content" android:verticalSpacing="@dimen/editor_category_item_vertical_spacing" android:numColumns="4" android:layout_marginStart="@dimen/editor_category_dialog_margin_border" android:layout_marginEnd="@dimen/editor_category_dialog_margin_border"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

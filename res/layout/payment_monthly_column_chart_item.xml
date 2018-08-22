@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="@dimen/monthly_column_chart_item_width" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ProgressBar android:layout_gravity="bottom|center" android:id="@id/column_chart_progress_bar" android:layout_width="@dimen/monthly_column_chart_bar_width" android:layout_height="@dimen/monthly_column_chart_bar_height" android:layout_marginBottom="@dimen/monthly_column_chart_bar_margin_bottom" android:max="10000" style="@style/ColumnChartProgressBar" />
-    <TextView android:layout_gravity="bottom|center" android:id="@id/column_chart_value_text" android:layout_marginBottom="@dimen/monthly_column_chart_bar_margin_bottom" style="@style/MonthlyReportTextLight" />
-    <TextView android:textColor="@color/payment_monthly_report_column_chart_label" android:layout_gravity="bottom|center" android:id="@id/column_chart_label_text" android:layout_marginBottom="@dimen/monthly_column_chart_label_margin_bottom" style="@style/MonthlyReportTextDark" />
-    <View android:layout_gravity="bottom|center" android:background="#ff555555" android:layout_marginBottom="@dimen/monthly_column_chart_bar_margin_bottom" style="@style/DefaultHorizontalLine" />
-</FrameLayout>

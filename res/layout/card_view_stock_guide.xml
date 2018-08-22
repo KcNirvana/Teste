@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/stock_guide_view" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:background="@drawable/card_regular_last" android:layout_width="fill_parent" android:layout_height="@dimen/stock_guide_empty_content_height" android:src="@drawable/card_stock_empty" android:scaleType="centerInside" />
-    <TextView android:id="@id/stock_add" android:background="@drawable/card_button_single" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/stock_card_add" style="@style/StockCardButtonTextStyle" />
-</LinearLayout>

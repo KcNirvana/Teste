@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.miui.personalassistant.favorite.ui.widget.DetailTitleBar android:orientation="vertical" android:id="@id/titleBar" android:background="@drawable/shape_title_white_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/system_header_height">
-        <ImageView android:id="@id/titlebar_back" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:src="@drawable/selector_action_bar_back" android:layout_centerVertical="true" android:contentDescription="@string/btn_back" />
-        <ImageView android:id="@id/titlebar_more" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:src="@drawable/selector_action_bar_more" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/btn_more" />
-    </RelativeLayout>
-    <View android:layout_gravity="bottom" android:id="@id/detail_top_line" android:background="@color/divider" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="1.0px" />
-</com.miui.personalassistant.favorite.ui.widget.DetailTitleBar>

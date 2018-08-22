@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_express_empty" android:background="@drawable/card_regular_last" android:layout_width="fill_parent" android:layout_height="@dimen/recharge_empty_height"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/empty_tip" android:hint="@string/empty_express_tip" style="@style/CardEmptyTitle" />
-</LinearLayout>

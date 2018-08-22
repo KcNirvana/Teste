@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="express_detail_caoniao_banner_text_size">10.0sp</dimen>
-    <dimen name="express_query_hint_text_size">10.0sp</dimen>
-    <dimen name="launch_text_font">14.0sp</dimen>
-    <dimen name="launch_text_font_tip">12.0sp</dimen>
-    <dimen name="launch_title_font">15.0sp</dimen>
-</resources>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.miui.payment.ui.view.MethodView android:gravity="center_vertical" android:layout_gravity="end|center" android:orientation="horizontal" android:id="@id/method_container" android:layout_width="@dimen/editor_content_right_width" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/method_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="@dimen/editor_category_icon_margin_start" style="@style/RecordEditorTitleStyle" />
-    <ImageView android:layout_gravity="end" android:id="@id/expand_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/payment_btn_inline_expand" />
-</com.miui.payment.ui.view.MethodView>

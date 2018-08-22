@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.miui.personalassistant.ui.widget.PinnedHeaderListView android:id="@id/list_view" android:scrollbars="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="6.0dip" android:dividerHeight="6.6999817dip" />
-    <TextView android:textSize="@dimen/fav_search_tip_font" android:textColor="@color/fav_search_tip_font" android:layout_gravity="center_horizontal" android:id="@id/empty_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="169.69998dip" android:text="@string/card_book_nodata" />
-</LinearLayout>

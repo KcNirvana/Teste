@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.miui.personalassistant.favorite.ui.widget.FontSizePanel android:orientation="vertical" android:id="@id/panel_font_size" android:background="@color/font_white" android:paddingLeft="@dimen/detail_font_padding" android:paddingTop="16.299988dip" android:paddingRight="@dimen/detail_font_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/detail_font_size_height"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/level_text" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    <SeekBar android:id="@id/dialog_font_seekbar" android:paddingLeft="1.0dip" android:paddingRight="1.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_font_dialog" android:layout_marginTop="9.299988dip" android:layout_marginRight="@dimen/margin_font_dialog" android:progressDrawable="@drawable/screen_color_degree" />
-    <View android:background="@color/fav_color_line" android:layout_width="fill_parent" android:layout_height="1.0px" />
-</com.miui.personalassistant.favorite.ui.widget.FontSizePanel>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:gravity="center" android:layout_gravity="center" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/stock_data_source_logo_bg" android:contentDescription="@string/stock_title" />
-    <TextView android:gravity="center" android:id="@id/empty_view" android:background="@drawable/stock_last_item_bg_normal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/stock_search_empty" style="@style/StockListEmptyTextStyle" />
-    <TextView android:textSize="12.0sp" android:textColor="@color/setting_place" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/search_tip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:text="@string/network_tip" />
-    <android.support.v7.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-</FrameLayout>

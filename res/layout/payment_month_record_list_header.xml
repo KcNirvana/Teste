@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<miui.widget.FilterSortView android:orientation="horizontal" android:id="@id/filter_sort_view" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:miui="http://schemas.android.com/apk/res/miui">
-    <view android:textSize="@dimen/monthly_records_filter_text_size" android:id="@id/filter_tab_time" android:layout_width="0.0dip" android:layout_height="@dimen/monthly_records_filter_height" android:text="@string/month_record_list_time" android:layout_weight="1.0" miui:descending="true" class="miui.widget.FilterSortView$TabView" />
-    <view android:textSize="@dimen/monthly_records_filter_text_size" android:id="@id/filter_tab_money" android:layout_width="0.0dip" android:layout_height="@dimen/monthly_records_filter_height" android:text="@string/month_record_list_money" android:layout_weight="1.0" class="miui.widget.FilterSortView$TabView" />
-</miui.widget.FilterSortView>

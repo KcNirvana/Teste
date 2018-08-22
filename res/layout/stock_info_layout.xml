@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/StockItemNameTextStyle" />
-    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
-        <TextView android:gravity="center" android:id="@id/exchange" android:background="@drawable/icon_stock_location_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/StockItemExchangeTextStyle" />
-        <TextView android:id="@id/code" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/stock_item_code_margin_market" style="@style/StockItemCodeTextStyle" />
-    </LinearLayout>
-</LinearLayout>
