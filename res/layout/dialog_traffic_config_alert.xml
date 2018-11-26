@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="10.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <CheckBox android:id="@id/checkbox_auto_modify" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/traffic_config_alert_auto_modify" />
-</LinearLayout>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include android:id="@id/separator_bar" layout="@layout/pc_list_separator_bar" />
-    <TextView android:textSize="12.0sp" android:textColor="#7f000000" android:id="@id/header_title" android:layout_width="fill_parent" android:layout_height="33.299988dip" style="@miui:style/Widget.ListView.Item.GroupHeader" />
-</LinearLayout>

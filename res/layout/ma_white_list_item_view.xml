@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:paddingTop="@miui:dimen/preference_item_padding_inner" android:paddingBottom="@miui:dimen/preference_item_padding_inner" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@miui:style/Widget.ListView.Item"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:layout_gravity="center_vertical" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@miui:style/TextAppearance.List.Primary" />
-    <CheckBox android:layout_gravity="end|center" android:id="@id/checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-</LinearLayout>

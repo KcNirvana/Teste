@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="app_icon_margin_top">0.0dip</dimen>
-    <dimen name="applock_icon_margin_top_sc">0.0dip</dimen>
-    <dimen name="applock_password_notification">0.0dip</dimen>
-    <dimen name="main_indicator_padding">5.0dip</dimen>
-</resources>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <integer name="applock_split_screen_height_full_screen">620</integer>
-    <integer name="applock_split_screen_height_more_than_half">407</integer>
-    <integer name="applock_split_screen_height_half">305</integer>
-    <integer name="applock_split_screen_height_less_than_half">150</integer>
-</resources>

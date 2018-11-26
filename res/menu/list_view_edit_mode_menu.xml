@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:icon="@miui:drawable/action_button_remove_blacklist_light" android:id="@id/edit_mode_white" android:title="@string/menu_white" android:showAsAction="always|withText" />
-    <item android:icon="@miui:drawable/action_button_delete_light" android:id="@id/edit_mode_delete" android:title="@string/menu_remove" android:showAsAction="always|withText" />
-</menu>

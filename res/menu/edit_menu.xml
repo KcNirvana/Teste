@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:icon="@miui:drawable/action_button_edit_light" android:id="@id/edit_menu" android:title="@string/menu_edit" android:showAsAction="ifRoom" />
-</menu>

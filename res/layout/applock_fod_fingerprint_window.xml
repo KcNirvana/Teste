@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/dialog_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/fod_authentication_dialog_title" android:textColor="@color/fod_authentication_dialog_title" android:layout_gravity="center_horizontal" android:id="@id/confirm_fingerprint_view_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="110.0dip" android:text="@string/fingerprint_identify_msg" />
-    <TextView android:textSize="@dimen/fod_authentication_dialog_subtitle" android:textColor="@color/fod_authentication_dialog_title" android:layout_gravity="center_horizontal" android:id="@id/confirm_fingerprint_view_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.549988dip" android:text="@string/confirm_fingerprint_msg" style="?android:attr/textAppearanceMedium" />
-    <Space android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
-    <TextView android:textSize="@dimen/fod_authentication_dialog_shift_button" android:textColor="@color/fod_authentication_dialog_title" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/cancel_finger_authenticate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="43.599976dip" android:text="@string/fod_authentication_shift_button" android:drawablePadding="5.0dip" android:drawableEnd="@drawable/arrow_right_light" />
-</LinearLayout>

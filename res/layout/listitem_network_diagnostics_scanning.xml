@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@miui:style/Widget.ListView.Item.SingleLine"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textAppearance="@miui:style/TextAppearance.List.Primary" android:id="@id/scanning_item_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:layout_centerVertical="true" android:layout_marginStart="10.0dip" />
-    <ProgressBar android:layout_gravity="center" android:id="@id/scanning_item_waitting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" style="?android:attr/progressBarStyleSmall" />
-    <ImageView android:gravity="center" android:id="@id/scanning_item_success" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/progress_succeed" android:scaleType="centerInside" />
-</LinearLayout>
