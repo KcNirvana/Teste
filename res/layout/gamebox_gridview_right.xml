@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/box_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentRight="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/gamebox" android:paddingTop="@dimen/view_dimen_30" android:layout_width="@dimen/gb_gamelist_box_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_dimen_36" android:layout_alignParentRight="true" android:layout_marginEnd="@dimen/view_dimen_36">
+        <GridView android:gravity="center" android:id="@id/grid_view" android:layout_width="41.44998dip" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:stretchMode="columnWidth" android:numColumns="auto_fit" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

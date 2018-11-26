@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@miui:style/Widget.ListView.Item.DoubleLine"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_gravity="center" android:id="@id/auto_start_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" style="@miui:style/TextAppearance.List.Primary" />
+    <miui.widget.SlidingButton android:layout_gravity="center_vertical" android:id="@id/auto_start_sliding_button" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

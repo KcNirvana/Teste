@@ -1,0 +1,41 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: SecurityCenter.apk
+compressionType: false
+doNotCompress:
+- dex
+- arsc
+- json
+- assets/dict
+- apk
+- assets/gamebooster_gamelist
+- db
+- assets/model
+- assets/pattern
+- assets/phish
+- assets/placement_id
+- assets/rsapubkey
+- assets/safepay_imm_whitelist
+- assets/safepay_target_activity
+- assets/safepay_target_package
+- assets/videopalyer_list
+- assets/xunyou_support
+- otf
+- proto
+- xml
+- webp
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo: null
+sharedLibrary: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  - 16
+  tag: null
+version: 2.3.1
+versionInfo:
+  versionCode: '267'
+  versionName: 2.6.7

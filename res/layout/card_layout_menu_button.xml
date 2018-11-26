@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/menu_bar" android:background="@drawable/main_page_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/include_horizontal_line" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/main_card_menu_model_height">
+        <include android:id="@id/menu_item_garbage_cleanup" layout="@layout/include_menu_button" />
+        <include layout="@layout/include_vertical_line" />
+        <include android:id="@id/menu_item_network_assistants" layout="@layout/include_menu_button" />
+        <include layout="@layout/include_vertical_line" />
+        <include android:id="@id/menu_item_antispam" layout="@layout/include_menu_button" />
+    </LinearLayout>
+    <include layout="@layout/include_horizontal_line" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/main_card_menu_model_height">
+        <include android:id="@id/menu_item_power_manger" layout="@layout/include_menu_button" />
+        <include layout="@layout/include_vertical_line" />
+        <include android:id="@id/menu_item_antivirus" layout="@layout/include_menu_button" />
+        <include layout="@layout/include_vertical_line" />
+        <include android:id="@id/menu_item_license_manager" layout="@layout/include_menu_button" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/am_card_bg_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/am_list_pading_start"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="52.0dip" android:layout_marginEnd="@dimen/am_list_pading_end">
+        <TextView android:layout_gravity="center_vertical" android:id="@id/tv_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:textAlignment="viewStart" style="@style/AMItemTitleViewStyle" />
+        <TextView android:gravity="end" android:layout_gravity="center_vertical" android:id="@id/tv_summary" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:textAlignment="viewEnd" android:layout_marginEnd="10.0dip" style="@style/AMCardTitleTextViewStyle" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/am_arrow_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@miui:drawable/arrow_right" />
+    </LinearLayout>
+    <include android:id="@id/divider" layout="@layout/include_horizontal_line" />
+</LinearLayout>

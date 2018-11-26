@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.powercenter.mainui.MainActivityView android:id="@id/main_view" android:background="@color/pc_main_scan_backgound_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.miui.powercenter.quickoptimize.MainContentFrame android:id="@id/content_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/handle_bar">
+        <com.miui.powercenter.view.GradientBall android:id="@id/animation_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/pc_action_bar" android:layout_width="fill_parent" android:layout_height="@dimen/pc_action_bar_height" android:layout_marginTop="@dimen/pc_status_bar_margin_top" android:paddingStart="5.669983dip" android:paddingEnd="5.669983dip">
+            <ImageView android:id="@id/back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@miui:drawable/action_bar_back_light" android:contentDescription="@string/pc_main_activity_back" />
+            <TextView android:textSize="@dimen/pc_status_bar_title_size" android:textStyle="bold" android:textColor="@color/v_activity_main_text_antivirus" android:gravity="center" android:id="@id/text_powercenter" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/power_center_title" android:layout_weight="1.0" />
+            <Button android:id="@id/settings" android:background="@miui:drawable/icon_settings_light" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/pc_settings_title" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/v_header_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip">
+            <RelativeLayout android:id="@id/result_icon_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <TextView android:textSize="180.0px" android:textColor="@android:color/black" android:id="@id/result_risk_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="20.0dip" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="20.0sp" android:textColor="@color/v_activity_main_scan_pre" android:id="@id/risk_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:singleLine="true" android:layout_alignTop="@id/result_risk_count" android:layout_marginStart="3.0dip" android:layout_toEndOf="@id/result_risk_count" />
+            </RelativeLayout>
+            <com.miui.common.customview.ScoreTextView android:textSize="@dimen/v_score_text" android:textColor="@color/v_activity_main_number" android:id="@id/number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerInParent="true" />
+            <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/v_activity_main_scan_pre" android:id="@id/scan_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/virus_scan_process_pre" android:singleLine="true" android:layout_alignTop="@id/number" android:layout_marginStart="5.0dip" android:layout_toEndOf="@id/number" />
+            <RelativeLayout android:id="@id/scan_result_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="27.0dip" android:layout_below="@id/number">
+                <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/pc_deep_settings_item_text_color" android:id="@id/result_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="@dimen/result_function_summary_size" android:textColor="@color/pc_deep_settings_item_subtext_color" android:id="@id/result_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:singleLine="true" android:layout_below="@id/result_text" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/pc_final_scan_result" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pc_deep_scan_result_margin_top" android:layout_alignTop="@id/pc_action_bar" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip">
+            <ImageView android:id="@id/final_result_feedback_icon" android:background="@drawable/pc_scan_result_icon" android:layout_width="@dimen/pc_scan_result_image_width" android:layout_height="@dimen/pc_scan_result_image_height" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/pc_deep_scan_result_item_header_text_color" android:id="@id/final_result_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignBottom="@id/final_result_feedback_icon" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/pc_deep_scan_result_item_header_text_color" android:id="@id/final_result_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.5999756dip" android:singleLine="true" android:layout_below="@id/final_result_title" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </com.miui.powercenter.quickoptimize.MainContentFrame>
+    <ViewStub android:id="@id/content_container" android:layout="@layout/pc_content_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/pc_result_list_margin_top" android:layout_alignParentBottom="true" />
+    <com.miui.powercenter.view.MainHandleBar android:orientation="vertical" android:id="@id/handle_bar" android:background="@drawable/main_page_background" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:id="@id/abnormal_item" android:layout_width="fill_parent" android:layout_height="@dimen/pc_list_preferred_item_height" style="@miui:style/Widget.ListView.Item.DoubleLine">
+            <LinearLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/handle_title_abnormal" android:singleLine="true" style="@miui:style/TextAppearance.List.Primary" />
+            </LinearLayout>
+            <miui.widget.ProgressBar android:layout_gravity="center" android:id="@id/handle_abnormal_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:indeterminateDrawable="@drawable/progressbar_loading" style="?android:attr/progressBarStyleSmall" />
+            <ImageView android:gravity="center" android:id="@id/handle_abnormal_state" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/system_state_item" android:layout_width="fill_parent" android:layout_height="@dimen/pc_list_preferred_item_height" style="@miui:style/Widget.ListView.Item.DoubleLine">
+            <LinearLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/handle_title_system" android:singleLine="true" style="@miui:style/TextAppearance.List.Primary" />
+            </LinearLayout>
+            <miui.widget.ProgressBar android:layout_gravity="center" android:id="@id/handle_system_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:indeterminateDrawable="@drawable/progressbar_loading" style="?android:attr/progressBarStyleSmall" />
+            <ImageView android:gravity="center" android:id="@id/handle_system_state" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/handle_details_item" android:layout_width="fill_parent" android:layout_height="@dimen/pc_list_preferred_item_height" style="@miui:style/Widget.ListView.Item.DoubleLine">
+            <LinearLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/handle_title_details" android:singleLine="true" style="@miui:style/TextAppearance.List.Primary" />
+            </LinearLayout>
+            <miui.widget.ProgressBar android:layout_gravity="center" android:id="@id/handle_details_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:indeterminateDrawable="@drawable/progressbar_loading" style="?android:attr/progressBarStyleSmall" />
+            <ImageView android:gravity="center" android:id="@id/handle_details_state" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/handle_item_app" android:layout_width="fill_parent" android:layout_height="@dimen/pc_list_preferred_item_height" style="@miui:style/Widget.ListView.Item.DoubleLine">
+            <LinearLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/handle_title_app" android:singleLine="true" style="@miui:style/TextAppearance.List.Primary" />
+            </LinearLayout>
+            <miui.widget.ProgressBar android:layout_gravity="center" android:id="@id/handle_app_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:indeterminateDrawable="@drawable/progressbar_loading" style="?android:attr/progressBarStyleSmall" />
+            <ImageView android:gravity="center" android:id="@id/handle_app_state" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/list_preferred_button_height">
+            <Button android:id="@id/btn_action" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/btn_text_stop" android:layout_marginStart="@dimen/pc_button_margin" android:layout_marginEnd="@dimen/pc_button_margin" />
+        </LinearLayout>
+    </com.miui.powercenter.view.MainHandleBar>
+</com.miui.powercenter.mainui.MainActivityView>

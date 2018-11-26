@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="date_of_traffic_cmcc">
+        <item>بۇ ھەپتىكى ئېقىم</item>
+        <item>بۈگۈنكى ئېقىم</item>
+        <item>شۇ ئايدىكى ئېقىم</item>
+    </string-array>
+    <string-array name="date_of_traffic">
+        <item>تۈنۈگۈنكى ئېقىم</item>
+        <item>بۈگۈنكى ئېقىم</item>
+        <item>ئالدىنقى ئايلىق ئېقىم</item>
+        <item>بۇ ئايدىكى ئېقىم</item>
+    </string-array>
+    <string-array name="date_of_traffic_prefix_cmcc">
+        <item>بۇ ھەپتە</item>
+        <item>بۈگۈن</item>
+        <item>بۇ ئاي</item>
+    </string-array>
+    <string-array name="date_of_traffic_prefix">
+        <item>تۈنۈگۈن</item>
+        <item>بۈگۈن</item>
+        <item>ئالدىنقى ئاي</item>
+        <item>بۇ ئاي</item>
+    </string-array>
+    <string-array name="date_of_app_all">
+        <item>تۈنۈگۈنكى كۆچمە تور ئېقىمى</item>
+        <item>بۈگۈنكى كۆچمە تور ئېقىمى</item>
+        <item>ئالدىنقى ئايلىق كۆچمە تور ئېقىمى</item>
+        <item>بۇ ئايدىكى كۆچمە تور ئېقىمى</item>
+        <item>تۈنۈگۈنكىWLAN ئېقىمى</item>
+        <item>بۈگۈنكى WLAN ئېقىمى</item>
+        <item>ئالدىنقى ئايلىق WLAN ئېقىمى</item>
+        <item>بۇ ئايدىكى WLAN ئېقىمى</item>
+    </string-array>
+    <string-array name="traffic_type">
+        <item>كۆچمە تور ئېقىمى</item>
+        <item>WLAN ئېقىمى</item>
+    </string-array>
+    <string-array name="mi_service_traffic_type">
+        <item>كۆچمە تور ئېقىمى</item>
+        <item>WLAN ئېقىمى</item>
+    </string-array>
+    <string-array name="over_limit_traffic_waring_style">
+        <item>ئەسكەرتسۇن</item>
+        <item>توردىن ئۈزۈش ۋە ئەسكەرتىش</item>
+    </string-array>
+    <string-array name="roaming_network_type">
+        <item>ھەممە ئەپ تورغا ئۇلىندۇ</item>
+        <item>ئاق تىزىملىكتىكى ئەپلەرلا تورغا ئۇلىندۇ</item>
+        <item>ھەممە ئەپنىڭ تورغا ئۇلىنىشنى چەكلەش</item>
+    </string-array>
+    <string-array name="lock_mode">
+        <item>ئېكران قولۇپلانغاندىن كېيىن</item>
+        <item>ئېكران قۇلۇپلانغان ياكى ئەپتىن چېكىنگەندىن كېيىن</item>
+        <item>ئېكران قۇلۇپلانغان ياكى ئەپتىن چېكىنىپ 1 مىنۇت كېيىن</item>
+    </string-array>
+    <string-array name="sort_type">
+        <item>ئىجرا ھالىتى</item>
+        <item>ئەپ نامى</item>
+        <item>ئىشلىتىش چاستوتىسى</item>
+        <item>ساقلاش بوشلۇقى</item>
+        <item>ئورناتقان ۋاقتى</item>
+    </string-array>
+    <string-array name="sort_title">
+        <item>ئىجرا ھالىتى بويىچە تىزىش</item>
+        <item>نامى بويىچە تىزىش</item>
+        <item>ئىشلىتىش چاستوتىسى بويىچە</item>
+        <item>ئىگىلىگەن بوشلۇق بويىچە</item>
+        <item>ئورناتقان ۋاقتى بويىچە تىزىش</item>
+    </string-array>
+    <string-array name="title_app_info">
+        <item>تۈنجى ئورنىتىش مەنبەسى</item>
+        <item>تۇنجى ئورناتقان ۋاقتى</item>
+        <item>ئەڭ ئاخىرقى يېڭىلاش مەنبەسى</item>
+        <item>ئاخىرقى يېڭىلانغان ۋاقىت</item>
+    </string-array>
+    <string-array name="sms_report_type">
+        <item>كۆچمە تور ئېقىمى</item>
+        <item>سۆزلىشىش ھەققى قالدۇقى</item>
+    </string-array>
+    <string-array name="tether_limit_warn_type">
+        <item>قىزىق نۇقتا ۋە ئەسكەرتىشنى تاقاش</item>
+        <item>پەقەت ئەسكەرتسۇن</item>
+    </string-array>
+    <string-array name="traffic_package_type">
+        <item>ئايلىق يۈرۈشلۈك</item>
+        <item>كۈلۈك يۈرۈشلۈك</item>
+        <item>چەكسىز ئېقىم يۈرۈشلۈكى</item>
+    </string-array>
+    <string-array name="alarm_repeat_type">
+        <item>بىر قېتىملا</item>
+        <item>ھەر كۈنى</item>
+        <item>خىزمەت كۈنلىرى</item>
+        <item>دۈشەنبىدىن جۈمەگىچە</item>
+        <item>ئىختىيارى</item>
+    </string-array>
+    <string-array name="alarm_repeat_type_no_workdays">
+        <item>بىر قېتىملا</item>
+        <item>ھەر كۈنى</item>
+        <item>دۈشەنبىدىن جۈمەگىچە</item>
+        <item>ئىختىيارى</item>
+    </string-array>
+</resources>

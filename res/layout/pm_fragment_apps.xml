@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/apps_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/am_search_view" layout="@miui:layout/search_stub" />
+    <ListView android:id="@id/apps_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/am_search_view" style="@miui:style/Widget.ListView" />
+    <TextView android:textAppearance="@miui:style/TextAppearance.BlankPage" android:id="@id/empty_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/empty_title_perm_apps" android:drawableTop="@drawable/icon_list_empty" android:layout_centerInParent="true" />
+</RelativeLayout>

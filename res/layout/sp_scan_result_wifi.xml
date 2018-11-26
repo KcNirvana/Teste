@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.antivirus.ui.WifiResultView android:orientation="vertical" android:id="@id/wifi_status_view" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/shape_result_card_border_down" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/sp_scan_result_card_bg" android:paddingBottom="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="13.0dip" android:paddingEnd="13.0dip">
+            <LinearLayout android:id="@id/wifi_item_connection" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip">
+                <TextView android:textSize="13.0sp" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/wifi_item_title_connection" android:layout_weight="1.0" style="@miui:style/TextAppearance.List.Secondary" />
+                <ImageView android:id="@id/wifi_item_status_connection" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="4.0dip" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/wifi_item_encryption" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip">
+                <TextView android:textSize="13.0sp" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/wifi_item_title_encryption" android:layout_weight="1.0" style="@miui:style/TextAppearance.List.Secondary" />
+                <ImageView android:id="@id/wifi_item_status_encryption" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="4.0dip" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/wifi_item_fake" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip">
+                <TextView android:textSize="13.0sp" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/wifi_item_title_fake" android:layout_weight="1.0" style="@miui:style/TextAppearance.List.Secondary" />
+                <ImageView android:id="@id/wifi_item_status_fake" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="4.0dip" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/wifi_item_dns" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip">
+                <TextView android:textSize="13.0sp" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/wifi_item_title_dns" android:layout_weight="1.0" style="@miui:style/TextAppearance.List.Secondary" />
+                <ImageView android:id="@id/wifi_item_status_dns" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="4.0dip" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/wifi_item_arp_attack" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip">
+                <TextView android:textSize="13.0sp" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/wifi_item_title_arp_attack" android:layout_weight="1.0" style="@miui:style/TextAppearance.List.Secondary" />
+                <ImageView android:id="@id/wifi_item_status_arp_attack" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="4.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <View android:background="#ffefeff0" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <Button android:textColor="@color/sp_item_btn_right_color" android:id="@id/btn_optimize" android:text="@string/button_text_disconnect_now" style="@style/FunctionResultButton" />
+        </LinearLayout>
+    </LinearLayout>
+</com.miui.antivirus.ui.WifiResultView>

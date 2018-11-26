@@ -1,0 +1,45 @@
+.class public final Lcom/google/android/exoplayer2/extractor/ts/TsPayloadReader$EsInfo;
+.super Ljava/lang/Object;
+.source ""
+
+
+# instance fields
+.field public final descriptorBytes:[B
+
+.field public final dvbSubtitleInfos:Ljava/util/List;
+
+.field public final language:Ljava/lang/String;
+
+.field public final streamType:I
+
+
+# direct methods
+.method public constructor <init>(ILjava/lang/String;Ljava/util/List;[B)V
+    .locals 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput p1, p0, Lcom/google/android/exoplayer2/extractor/ts/TsPayloadReader$EsInfo;->streamType:I
+
+    iput-object p2, p0, Lcom/google/android/exoplayer2/extractor/ts/TsPayloadReader$EsInfo;->language:Ljava/lang/String;
+
+    if-eqz p3, :cond_0
+
+    invoke-static {p3}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
+
+    move-result-object v0
+
+    :goto_0
+    iput-object v0, p0, Lcom/google/android/exoplayer2/extractor/ts/TsPayloadReader$EsInfo;->dvbSubtitleInfos:Ljava/util/List;
+
+    iput-object p4, p0, Lcom/google/android/exoplayer2/extractor/ts/TsPayloadReader$EsInfo;->descriptorBytes:[B
+
+    return-void
+
+    :cond_0
+    invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
+
+    move-result-object v0
+
+    goto :goto_0
+.end method

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/card_bg_selector" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_big_title" android:layout_width="fill_parent" android:layout_height="@dimen/firstaidkit_item_big_title_height" android:paddingStart="@dimen/firstaidkit_item_padding_start" android:paddingEnd="0.0dip">
+        <TextView android:textSize="@dimen/firstaidkit_item_tv_summary_textsize" android:textColor="@color/firstaidkit_item_tv_summary_textcolor" android:id="@id/tv_big_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" />
+        <View android:background="@color/card_separate_line_bg" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/root" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@miui:style/Widget.ListView.Item.DoubleLine"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="7.0">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:ellipsize="end" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/list_item_maxwidth" android:singleLine="true" style="@miui:style/TextAppearance.List.Primary" />
+            <TextView android:id="@id/tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:paddingStart="5.0dip" style="@miui:style/TextAppearance.List.Secondary" />
+        </LinearLayout>
+        <TextView android:ellipsize="end" android:id="@id/number" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxEms="15" android:singleLine="true" style="@miui:style/TextAppearance.List.Secondary" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="3.3">
+        <TextView android:gravity="end" android:layout_gravity="end|center" android:id="@id/info" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@miui:style/TextAppearance.List.Secondary" />
+        <CheckBox android:layout_gravity="end|center" android:id="@android:id/checkbox" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="5.0dip" />
+    </FrameLayout>
+</LinearLayout>

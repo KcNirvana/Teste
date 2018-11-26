@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/shape_result_card_border_whole" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ListViewItem"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:clean="http://schemas.android.com/apk/res/com.miui.securitycenter">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ResultItem">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/result_title_text" android:layout_gravity="center_vertical" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <Button android:layout_gravity="center_vertical" android:id="@id/button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/download" android:layout_marginStart="5.0dip" style="@style/ResultButtonBlue" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/vartical_margin_pic_text">
+            <com.miui.common.customview.ResizeFrameLayout android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginRight="4.5dip" android:layout_weight="1.0" clean:ratioXY="0.66">
+                <com.miui.common.customview.AdImageView android:id="@id/img1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+            </com.miui.common.customview.ResizeFrameLayout>
+            <com.miui.common.customview.ResizeFrameLayout android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_weight="1.0" android:layout_marginStart="2.0dip" android:layout_marginEnd="2.2999878dip" clean:ratioXY="0.66">
+                <ImageView android:id="@id/img2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+            </com.miui.common.customview.ResizeFrameLayout>
+            <com.miui.common.customview.ResizeFrameLayout android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_weight="1.0" android:layout_marginStart="4.299988dip" clean:ratioXY="0.66">
+                <ImageView android:id="@id/img3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+            </com.miui.common.customview.ResizeFrameLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/vartical_margin_pic_text" android:layout_marginBottom="@dimen/adds_item_bottom_margin">
+            <TextView android:id="@id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ResultBottomTextWithRLine" />
+            <TextView android:id="@id/download_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="0.0dip" style="@style/ResultBottomText" />
+            <View android:layout_gravity="center_vertical" android:id="@id/close" android:background="@drawable/ic_close" android:layout_width="@dimen/close_size" android:layout_height="@dimen/close_size" android:layout_marginEnd="@dimen/close_right_margin" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/game_booster" android:key="pref_game_shortcut" android:summary="@string/gs_game_shortcut" />
+    <miui.preference.ValuePreference android:persistent="false" android:title="@string/gs_gamebox" android:key="pref_game_box" android:summary="@string/gs_gamebox_detail" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/gs_gamebox" android:key="pref_slip" android:summary="@string/gs_slip_gamebox_detail" />
+    <PreferenceCategory android:title="@string/net_booster" android:key="preference_category_key_net_booster">
+        <CheckBoxPreference android:icon="@drawable/s_netpriority" android:title="@string/xunyou_net_booster" android:key="pref_net_booster" android:summary="@string/xunyou_net_booster_detail" />
+        <miui.preference.ValuePreference android:persistent="false" android:key="pref_net_booster_wifi" android:summary="@string/wlan_booster" android:defaultValue="false" />
+        <CheckBoxPreference android:icon="@drawable/s_download_priority" android:title="@string/gs_game_net_priority" android:key="pref_game_net_priority" />
+        <CheckBoxPreference android:icon="@drawable/s_forbidautosync" android:title="@string/gs_forbid_autosync" android:key="pref_forbid_autosync" />
+        <CheckBoxPreference android:icon="@drawable/s_wlanchangeprotect" android:title="@string/wlan_change_protection_title" android:key="pref_wlan_change_protection" />
+        <CheckBoxPreference android:icon="@drawable/data_booster" android:title="@string/data_booster_title" android:key="pref_data_booster" android:summary="@string/data_booster_desc" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/gs_performance_mode" android:key="preference_category_key_performance_booster">
+        <CheckBoxPreference android:icon="@drawable/auto_clean" android:title="@string/gs_auto_clean_memory" android:key="pref_app_back_self_start" android:summary="@string/gs_auto_clean_memory_detail" />
+        <miui.preference.ValuePreference android:persistent="false" android:key="pref_setting_detail" android:summary="@string/gs_anto_clean_memory_whitelist" android:defaultValue="false" />
+        <CheckBoxPreference android:icon="@drawable/s_performancebooster" android:title="@string/gs_performance_mode" android:key="pref_performance_booster" android:summary="@string/gs_performance_mode_detail" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/game_anti_disturb_msg" android:key="preference_category_key_anti_disturb_msg">
+        <CheckBoxPreference android:icon="@drawable/s_handsfree" android:title="@string/gs_call_handsfree" android:key="pref_call_handsfree" />
+        <miui.preference.ValuePreference android:persistent="false" android:key="pref_call_handsfree_mute" android:summary="@string/gs_call_handsfree_mute" android:defaultValue="false" />
+        <miui.preference.ValuePreference android:icon="@drawable/s_antdisturbmsg" android:persistent="false" android:title="@string/anti_disturb_msg_title" android:key="pref_value_message_anti_disturb" android:summary="@string/anti_disturb_msg_detail" android:defaultValue="false" />
+        <CheckBoxPreference android:icon="@drawable/s_shieldkeyboard" android:title="@string/shield_keyboard_title" android:key="pref_shield_keyboard" />
+        <CheckBoxPreference android:icon="@drawable/s_forbid_autobright" android:title="@string/forbid_autobright_title" android:key="pref_forbid_auto_bright" android:summary="@string/forbid_autobright_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

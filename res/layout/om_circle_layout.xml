@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:OMCircleView="http://schemas.android.com/apk/res-auto">
+    <com.miui.optimizemanage.view.OMCircleView android:layout_gravity="center" android:id="@id/circleview1" android:layout_width="wrap_content" android:layout_height="wrap_content" OMCircleView:min_circle_radio="130.0dip" OMCircleView:ring_width="5.0dip" />
+    <com.miui.optimizemanage.view.OMCircleView android:layout_gravity="center" android:id="@id/circleview2" android:layout_width="wrap_content" android:layout_height="wrap_content" OMCircleView:min_circle_radio="120.0dip" OMCircleView:ring_width="5.0dip" />
+    <com.miui.optimizemanage.view.OMCircleView android:layout_gravity="center" android:id="@id/circleview3" android:layout_width="wrap_content" android:layout_height="wrap_content" OMCircleView:min_circle_radio="110.0dip" OMCircleView:ring_width="5.0dip" />
+</FrameLayout>

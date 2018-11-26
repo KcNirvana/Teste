@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/card_bg_middle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/column1" android:layout_width="fill_parent" android:layout_height="@dimen/nine_pices_card_item_colorful_height" android:layout_weight="1.0" android:paddingStart="@dimen/nine_pices_card_item_column_padding_start" android:paddingEnd="0.0dip">
+        <ImageView android:id="@id/iv_icon1" android:layout_width="@dimen/nine_pices_card_item_colorful_icon_width" android:layout_height="@dimen/nine_pices_card_item_colorful_icon_height" android:layout_marginTop="@dimen/nine_pices_card_item_icon_margin_top" />
+        <TextView android:textSize="@dimen/nine_pices_card_item_colorful_title_textsize" android:textColor="@color/nine_pices_card_item_colorful_title_textcolor" android:id="@id/tv_title1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nine_pices_card_item_colorful_title_margin_top" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/column2" android:layout_width="fill_parent" android:layout_height="@dimen/nine_pices_card_item_colorful_height" android:layout_weight="1.0">
+        <ImageView android:id="@id/iv_icon2" android:layout_width="@dimen/nine_pices_card_item_colorful_icon_width" android:layout_height="@dimen/nine_pices_card_item_colorful_icon_height" android:layout_marginTop="@dimen/nine_pices_card_item_icon_margin_top" />
+        <TextView android:textSize="@dimen/nine_pices_card_item_colorful_title_textsize" android:textColor="@color/nine_pices_card_item_colorful_title_textcolor" android:id="@id/tv_title2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nine_pices_card_item_colorful_title_margin_top" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/column3" android:layout_width="fill_parent" android:layout_height="@dimen/nine_pices_card_item_colorful_height" android:layout_weight="1.0" android:paddingStart="0.0dip" android:paddingEnd="@dimen/nine_pices_card_item_column_padding_end">
+        <ImageView android:id="@id/iv_icon3" android:layout_width="@dimen/nine_pices_card_item_colorful_icon_width" android:layout_height="@dimen/nine_pices_card_item_colorful_icon_height" android:layout_marginTop="@dimen/nine_pices_card_item_icon_margin_top" />
+        <TextView android:textSize="@dimen/nine_pices_card_item_colorful_title_textsize" android:textColor="@color/nine_pices_card_item_colorful_title_textcolor" android:id="@id/tv_title3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nine_pices_card_item_colorful_title_margin_top" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="47.0dip" style="@miui:style/Widget.ListView.Item.DoubleLine"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@miui:style/TextAppearance.List.Primary" android:id="@id/tv_app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/firewall_applist" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/layout_wifi_head" android:layout_width="@dimen/firewall_button_group_width_half" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+        <ImageView android:id="@id/iv_wifi_head" android:layout_width="wrap_content" android:layout_height="19.0dip" android:scaleType="center" />
+        <TextView android:textAppearance="@miui:style/TextAppearance.List.Secondary" android:textSize="10.0dip" android:id="@id/tv_wifi_head" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="3.0dip" android:text="@string/firewall_wifi" />
+    </LinearLayout>
+    <TextView android:textSize="12.0sp" android:gravity="center_horizontal" android:id="@id/tv_wifi_search_head" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/firewall_button_group_width_half" android:layout_height="wrap_content" android:text="@string/firewall_wifi" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

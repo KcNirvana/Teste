@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/title_panel" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/back" android:background="@miui:drawable/action_bar_back_light" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentStart="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toEndOf="@id/back">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/list_item_title_maxwidth" android:singleLine="true" android:layout_marginEnd="3.0dip" style="@miui:style/TextAppearance.WindowTitle" />
+            <TextView android:id="@id/count" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@miui:style/TextAppearance.WindowTitle" />
+        </LinearLayout>
+        <TextView android:textSize="11.0sp" android:id="@id/location" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@miui:style/TextAppearance.WindowTitle.Subtitle" />
+    </LinearLayout>
+</RelativeLayout>

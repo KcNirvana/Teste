@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/shape_result_card_border_whole" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_vertical" android:text="@string/power_consume_rank_title" android:paddingStart="@dimen/list_item_view_side_padding" android:paddingEnd="@dimen/list_item_view_side_padding" style="@style/DeepResultTitleStyle" />
+    <View android:background="@color/separator_line_light_gray" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <include android:id="@id/item1" android:paddingStart="@dimen/list_item_view_side_padding" android:paddingEnd="@dimen/list_item_view_side_padding" layout="@layout/pc_list_item_recent_consume_item" />
+    <include android:id="@id/item2" android:paddingStart="@dimen/list_item_view_side_padding" android:paddingEnd="@dimen/list_item_view_side_padding" layout="@layout/pc_list_item_recent_consume_item" />
+    <include android:id="@id/item3" android:paddingStart="@dimen/list_item_view_side_padding" android:paddingEnd="@dimen/list_item_view_side_padding" layout="@layout/pc_list_item_recent_consume_item" />
+    <View android:background="@color/separator_line_light_gray" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <TextView android:id="@android:id/button1" android:text="@string/btn_text_goto_power_rank" style="@style/DeepFunctionResultButton" />
+</LinearLayout>

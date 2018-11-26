@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_icon_margin_top">0.0dip</dimen>
+    <dimen name="first_use_back_button_alight_top">110.0dip</dimen>
+    <dimen name="applock_icon_margin_top">0.0dip</dimen>
+    <dimen name="applock_icon_margin_top_sc">0.0dip</dimen>
+    <dimen name="list_item_maxwidth">240.0dip</dimen>
+    <dimen name="main_indicator_padding">15.0dip</dimen>
+</resources>

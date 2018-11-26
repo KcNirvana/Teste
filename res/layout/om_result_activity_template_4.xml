@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@drawable/card_bg_selector" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_gravity="end|center|top" android:id="@id/close" android:visibility="invisible" android:layout_marginTop="6.669983dip" android:layout_marginEnd="6.669983dip" style="@style/ResultItemAdxStyle" />
+    <LinearLayout android:orientation="vertical" style="@style/ResultItemAdMarginStyle">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="top" android:id="@id/image1" android:layout_width="@dimen/om_result_icon_size" android:layout_height="@dimen/om_result_icon_size" android:scaleType="centerInside" android:layout_marginEnd="13.329987dip" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:id="@id/title" android:layout_marginEnd="51.0dip" style="@style/ResultItemAdTitleStyle" />
+                <TextView android:id="@id/summary" android:layout_marginTop="2.669983dip" style="@style/ResultItemAdSummaryStyle" />
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:layout_gravity="end" android:paddingBottom="13.329987dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:textSize="@dimen/small_result_blue_button_text_size" android:textColor="@color/app_manager_white" android:gravity="center" android:id="@id/button" android:background="@drawable/scanresult_button_blue" android:text="@string/btn_text_goto_setup" android:singleLine="true" style="@style/ResultBlueButtonStyle" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

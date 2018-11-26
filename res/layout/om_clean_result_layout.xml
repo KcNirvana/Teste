@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/clean_finish_layout" android:layout_width="fill_parent" android:layout_height="@dimen/om_result_top_height">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/clean_finish_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/om_clean_result_icon" />
+            <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff6198fb" android:layout_gravity="bottom|center" android:id="@id/clean_finish_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <TextView android:textSize="13.089996sp" android:textColor="#ff6198fb" android:layout_gravity="center_horizontal" android:id="@id/clean_memory_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.4499817dip" />
+    </LinearLayout>
+    <com.miui.common.customview.AutoPasteListView android:orientation="vertical" android:id="@id/clean_result" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" android:paddingStart="@dimen/om_result_listview_padding" android:paddingEnd="@dimen/om_result_listview_padding" />
+</RelativeLayout>

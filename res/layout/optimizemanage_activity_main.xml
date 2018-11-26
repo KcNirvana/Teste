@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root" android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/title_content" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginTop="20.0dip">
+        <FrameLayout android:id="@id/back_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="6.0dip">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@miui:drawable/action_bar_back_light" />
+        </FrameLayout>
+        <TextView android:textSize="17.0sp" android:textColor="#ff000000" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/optimize_manage_title" android:layout_weight="1.0" />
+        <FrameLayout android:id="@id/setting_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="6.0dip">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@miui:drawable/icon_settings_light" />
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/main_content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/clean_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/result_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

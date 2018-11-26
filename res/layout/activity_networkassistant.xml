@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#fff7f7f7" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.miui.networkassistant.ui.view.BackgroundView android:id="@id/main_bg_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <ScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="21.669983dip" android:layout_alignParentBottom="true" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip">
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/activity_networkassistant_bottom" />
+    </ScrollView>
+    <RelativeLayout android:id="@id/top_panel" android:paddingBottom="-8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/scroll_view" android:layout_alignParentTop="true">
+        <RelativeLayout android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_alignParentTop="true">
+            <TextView android:gravity="center_vertical" android:id="@id/back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name_na" android:contentDescription="@string/btn_back" android:drawableStart="@miui:drawable/action_bar_back_light" style="@miui:style/TextAppearance.WindowTitle" />
+            <include android:id="@id/main_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" layout="@layout/view_main_indicator" />
+            <Button android:id="@id/settings" android:background="@miui:drawable/icon_settings_light" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:contentDescription="@string/settings" android:layout_marginEnd="4.0dip" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <android.support.v4.view.ViewPager android:id="@id/main_view_pager" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/toolbar" />
+    </RelativeLayout>
+</RelativeLayout>

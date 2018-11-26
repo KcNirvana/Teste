@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/card_bg_selector" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:optimizemanage="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" style="@style/ResultItemAdMarginStyle">
+        <com.miui.optimizemanage.view.OMRoundResizeFrameLayout android:layout_width="fill_parent" android:layout_height="157.32999dip" android:layout_marginTop="13.329987dip" optimizemanage:ratioXY="0.56" optimizemanage:roundCornerRadius="5.0dip">
+            <ImageView android:id="@id/image1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+        </com.miui.optimizemanage.view.OMRoundResizeFrameLayout>
+        <TextView android:id="@id/title" android:layout_marginTop="13.329987dip" android:layout_marginEnd="51.0dip" style="@style/ResultItemAdTitleStyle" />
+        <TextView android:id="@id/summary" android:layout_marginTop="2.669983dip" style="@style/ResultItemAdSummaryStyle" />
+    </LinearLayout>
+    <TextView android:layout_gravity="end|bottom|center" android:id="@id/close" android:visibility="invisible" android:layout_marginTop="6.669983dip" android:layout_marginEnd="6.669983dip" style="@style/ResultItemAdxStyle" />
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <EditText android:textAppearance="@miui:style/TextAppearance.List.Secondary" android:textSize="14.0sp" android:id="@id/textview_input" android:layout_width="fill_parent" android:layout_height="34.0dip" android:layout_marginTop="0.5dip" android:singleLine="true" android:inputType="numberDecimal" android:layout_marginEnd="12.0dip" style="@miui:style/Widget.EditText" />
+        </LinearLayout>
+        <Spinner android:id="@id/spinner_units" android:layout_width="wrap_content" android:layout_height="35.0dip" />
+    </TableRow>
+</TableLayout>

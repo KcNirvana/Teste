@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/shape_result_card_border_whole" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_vertical" android:id="@id/header_title" android:text="@string/power_center_list_item_deep_save_title" android:paddingStart="@dimen/result_list_item_padding_start" style="@style/DeepResultTitleStyle" />
+    <include android:id="@id/line0" layout="@layout/pc_include_horizontal_line" />
+    <RelativeLayout android:id="@id/pc_bluetooth" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:paddingStart="@dimen/result_list_item_padding_start" android:paddingEnd="@dimen/result_list_item_padding_start">
+        <TextView android:textSize="@dimen/pc_deep_settings_item_text_size" android:textColor="@color/pc_deep_settings_item_text_color" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/power_center_list_item_close_bluetooth" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/pc_setting_list_item_margin_end" android:layout_alignParentStart="true" />
+        <CheckBox android:id="@id/bluetooth_check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <include android:id="@id/line1" layout="@layout/pc_include_horizontal_line" />
+    <RelativeLayout android:id="@id/pc_lock_screen" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:paddingStart="@dimen/result_list_item_padding_start" android:paddingEnd="@dimen/result_list_item_padding_start">
+        <TextView android:textSize="@dimen/pc_deep_settings_item_text_size" android:textColor="@color/pc_deep_settings_item_text_color" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/power_center_list_item_set_lockscreen_time" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/pc_setting_list_item_margin_end" android:layout_alignParentStart="true" />
+        <CheckBox android:id="@id/lock_screen_check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <include android:id="@id/line2" layout="@layout/pc_include_horizontal_line" />
+    <RelativeLayout android:id="@id/pc_auto_brightness" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:paddingStart="@dimen/result_list_item_padding_start" android:paddingEnd="@dimen/result_list_item_padding_start">
+        <TextView android:textSize="@dimen/pc_deep_settings_item_text_size" android:textColor="@color/pc_deep_settings_item_text_color" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/power_center_list_item_auto_brightness" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/pc_setting_list_item_margin_end" android:layout_alignParentStart="true" />
+        <CheckBox android:id="@id/auto_brightness_check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <include android:id="@id/line3" layout="@layout/pc_include_horizontal_line" />
+    <Button android:id="@id/button" android:text="@string/power_center_list_item_deep_save_title" android:alpha="0.9" style="@style/DeepFunctionResultButton" />
+</LinearLayout>

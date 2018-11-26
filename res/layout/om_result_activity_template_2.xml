@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/card_bg_selector" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:antivirus="http://schemas.android.com/apk/res-auto">
+    <TextView android:layout_gravity="end|center|top" android:id="@id/close" android:visibility="invisible" android:layout_marginTop="6.669983dip" android:layout_marginEnd="6.669983dip" style="@style/ResultItemAdxStyle" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.329987dip" android:layout_marginBottom="13.329987dip" android:layout_marginStart="13.329987dip" android:layout_marginEnd="13.329987dip">
+        <com.miui.antivirus.ui.RoundCornerRelativeLayout android:layout_width="111.26999dip" android:layout_height="111.26999dip" antivirus:roundCornerRadius="5.3299866dip">
+            <ImageView android:id="@id/image1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+        </com.miui.antivirus.ui.RoundCornerRelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="13.329987dip">
+            <TextView android:id="@id/title" android:layout_marginEnd="51.0dip" style="@style/ResultItemAdTitleStyle" />
+            <TextView android:id="@id/summary" android:layout_marginTop="2.669983dip" style="@style/ResultItemAdSummaryStyle" />
+            <FrameLayout android:layout_gravity="end" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <Button android:textSize="@dimen/small_result_blue_button_text_size" android:textColor="@color/app_manager_white" android:gravity="center" android:layout_gravity="bottom" android:id="@id/button" android:background="@drawable/scanresult_button_blue" android:text="@string/btn_text_goto_setup" android:singleLine="true" style="@style/ResultBlueButtonStyle" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

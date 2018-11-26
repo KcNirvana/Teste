@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/wifi_checkbox" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@miui:style/Widget.ListView.Item.SingleLine"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/s_netpriority" />
+        <LinearLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip">
+                <TextView android:textAppearance="@miui:style/TextAppearance.List.Secondary" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wlan_booster" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+        <miui.widget.SlidingButton android:layout_gravity="center_vertical" android:id="@id/sliding_button" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/wifi_detail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/wifi_checkbox"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:gravity="center_horizontal" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="53.0dip">
+            <ImageView android:layout_gravity="center_vertical" android:background="@drawable/gb_wifi_settings" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View android:background="@color/text_color_black_15" android:layout_width="fill_parent" android:layout_height="@dimen/divider" />
+        <TextView android:textSize="12.0sp" android:textColor="#73000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/wifi_optizition_tip" android:paddingStart="26.699982dip" android:paddingEnd="26.699982dip" />
+    </LinearLayout>
+</RelativeLayout>

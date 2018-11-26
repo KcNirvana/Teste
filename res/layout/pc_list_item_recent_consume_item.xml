@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/list_item_view_side_padding" android:paddingEnd="@dimen/list_item_view_side_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="@miui:dimen/list_preferred_item_height">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/icon" android:layout_width="@dimen/list_item_app_icon_size" android:layout_height="@dimen/list_item_app_icon_size" android:layout_marginRight="8.0dip" android:scaleType="centerInside" />
+        <TextView android:ellipsize="marquee" android:layout_gravity="center_vertical" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" style="@miui:style/TextAppearance.List.Primary" />
+        <TextView android:layout_gravity="center_vertical" android:id="@id/percent" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@miui:style/TextAppearance.List.Secondary" />
+    </LinearLayout>
+    <View android:id="@id/line" android:background="@color/separator_line_light_gray" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>
