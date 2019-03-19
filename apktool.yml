@@ -1,0 +1,33 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: MiuiCameraAI.apk
+compressionType: false
+doNotCompress:
+- dex
+- arsc
+- ttf
+- txt
+- xml
+- graph
+- res/raw/feature_dipper
+- res/raw/feature_jason
+- res/raw/feature_platina
+- res/raw/feature_tulip
+- res/raw/xiaomi_static_config
+isFrameworkApk: true
+packageInfo:
+  forcedPackageId: '9'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '19'
+  targetSdkVersion: '@integer/target_sdk_version'
+sharedLibrary: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  - 16
+  tag: null
+version: 2.3.1
+versionInfo:
+  versionCode: '2'
+  versionName: '2.0'
