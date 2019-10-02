@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="feed_back_home">
+        <item quantity="other">%1$d সেকেন্ডে হোম পেজে নিয়ে যাওয়া হচ্ছে…</item>
+        <item quantity="one">%1$d সেকেন্ডে হোম পেজে নিয়ে যাওয়া হচ্ছে…</item>
+    </plurals>
+    <plurals name="lv_subtitle_offset_advance_times">
+        <item quantity="other">সাবটাইটেল %.1f সেকেন্ডের আগে দেখানো হবে</item>
+        <item quantity="one">সাবটাইটেল %.1f সেকেন্ডের আগে দেখানো হবে</item>
+    </plurals>
+    <plurals name="lv_subtitle_offset_delay_times">
+        <item quantity="other">সাবটাইটেল %.1f সেকেন্ড পরে দেখা যাবে।</item>
+        <item quantity="one">সাবটাইটেল %.1f সেকেন্ড পরে দেখা যাবে।</item>
+    </plurals>
+    <plurals name="lv_subtitle_onlinesub_size_float_kb">
+        <item quantity="other">আকার: %.2fKB</item>
+        <item quantity="one">আকার: %.2fKB</item>
+    </plurals>
+    <plurals name="lv_video_count">
+        <item quantity="other">%d টি ভিডিও</item>
+        <item quantity="one">%d টি ভিডিও</item>
+    </plurals>
+    <plurals name="ovp_detail_v_video_count">
+        <item quantity="other">%dটি ভিভিও</item>
+        <item quantity="one">%dটি ভিডিও</item>
+    </plurals>
+    <plurals name="ovp_home_item_unit">
+        <item quantity="other">%dটি ভিভিও</item>
+        <item quantity="one">%dটি ভিডিও</item>
+    </plurals>
+    <plurals name="plus_edit_delete_comfire_text">
+        <item quantity="other">%s আইটেম এখনই মুছবেন?</item>
+        <item quantity="one">এই %s আইটেম এখনই মুছবেন?</item>
+    </plurals>
+    <plurals name="plus_edit_top_titletext">
+        <item quantity="other">%s টি আইটেম বেছে নেওয়া হয়েছে</item>
+        <item quantity="one">%s টি আইটেম বেছে নেওয়া হয়েছে</item>
+    </plurals>
+    <plurals name="plus_player_subtitle_online_size">
+        <item quantity="other">ফাইলের মাপ: %.2fKB</item>
+        <item quantity="one">ফাইলের মাপ: %.2fKB</item>
+    </plurals>
+    <plurals name="plus_search_result_title">
+        <item quantity="other">\"%1$s\" এর জন্য় %2$s ফলাফল</item>
+        <item quantity="one">\"%1$s\" এর জন্য় %2$s ফলাফল</item>
+    </plurals>
+    <plurals name="plus_serval_pictures">
+        <item quantity="other">%d টি ছবি</item>
+        <item quantity="one">%d টি ছবি</item>
+    </plurals>
+    <plurals name="plus_serval_videos">
+        <item quantity="other">%dটি ভিভিও</item>
+        <item quantity="one">%dটি ভিডিও</item>
+    </plurals>
+    <plurals name="subscriber">
+        <item quantity="other">%s সদস্যতা</item>
+        <item quantity="one">%s সদস্য</item>
+    </plurals>
+    <plurals name="subtitle_offset_advance_times">
+        <item quantity="other">সাবটাইটেলগুলি %.1f সেকেন্ড আগে পাঠানো হয়েছে</item>
+        <item quantity="one">সাবটাইটেলগুলি %.1f সেকেন্ড আগে পাঠানো হয়েছে</item>
+    </plurals>
+    <plurals name="subtitle_offset_delay_times">
+        <item quantity="other">%.1f সেকেন্ডের জন্য সাবটাইটেলগুলি দেরি করে দেখাবে</item>
+        <item quantity="one">%.1f সেকেন্ডের জন্য সাবটাইটেলগুলি দেরি করে দেখাবে</item>
+    </plurals>
+</resources>

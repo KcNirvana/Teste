@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/v_layout" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/d_ui_parent_padding_width_8" android:paddingEnd="@dimen/d_ui_parent_padding_width_8"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/v_icon_layout" android:background="@drawable/shape_bg_oval_stroke_c_c16" android:layout_width="@dimen/s_icon_36" android:layout_height="@dimen/s_icon_36" android:layout_marginBottom="@dimen/d_icon_padding_4">
+        <ImageView android:id="@id/v_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <TextView android:gravity="center" android:id="@id/v_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/s_menu" />
+</LinearLayout>

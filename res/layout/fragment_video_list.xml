@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.miui.video.common.feed.UIRecyclerListView android:id="@id/ui_recycler_listview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/select_menubar" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/select_menubar" android:background="#fff7f8fa" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textColor="@color/c_black" android:gravity="center" android:id="@id/select_all" android:background="@drawable/selector_edit_video_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/lv_menu_selectAll" android:maxLines="1" android:layout_weight="1.0" style="@style/c_dialog_ok" />
+        <View android:layout_gravity="center_vertical" android:id="@id/v_line" android:background="@color/c_black_10" android:layout_width="1.0px" android:layout_height="@dimen/dp_24" android:layout_weight="0.0" />
+        <TextView android:textColor="#ffff6857" android:gravity="center" android:id="@id/v_delete" android:background="@drawable/selector_edit_video_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/lv_menu_delete" android:maxLines="1" android:layout_weight="1.0" style="@style/c_dialog_cancel" />
+    </LinearLayout>
+</RelativeLayout>

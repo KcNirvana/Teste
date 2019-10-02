@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/c_white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="onTitleBarClick"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/v_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_bar_back_black" android:layout_centerVertical="true" android:layout_marginStart="@dimen/d_ui_13" android:layout_alignParentStart="true" />
+    <TextView android:textSize="@dimen/sp_16" android:textColor="@color/c_black" android:ellipsize="end" android:id="@id/v_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lv_home_settings" android:lines="1" android:layout_centerVertical="true" android:layout_marginStart="@dimen/d_ui_13" android:layout_toEndOf="@id/v_back" />
+</RelativeLayout>

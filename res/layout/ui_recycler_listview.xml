@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.miui.video.common.feed.UIRecyclerView android:id="@id/ui_recyclerview" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+    <android.support.design.widget.FloatingActionButton android:id="@id/fab" android:clickable="true" android:layout_width="@dimen/dp_75" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d_ui_10" android:src="@drawable/float_button" android:scaleType="centerCrop" android:layout_alignParentBottom="true" android:layout_marginEnd="@dimen/d_ui_10" android:layout_alignParentEnd="true" app:backgroundTint="#fff11f23" app:borderWidth="0.0dip" app:elevation="5.0dip" app:fabSize="mini" app:layout_anchor="@id/ui_recyclerview" app:layout_anchorGravity="end|bottom|center" app:pressedTranslationZ="10.0dip" app:rippleColor="@color/c_yellow" />
+    <com.miui.video.common.feed.ui.UILoadingView android:id="@id/ui_loadingview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true" />
+</RelativeLayout>

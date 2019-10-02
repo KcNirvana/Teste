@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/background_view" android:background="@color/c_black_80" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/guide_view" android:layout_width="@dimen/dp_160" android:layout_height="@dimen/dp_160" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/sp_18" android:textColor="@color/white_60_transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_11" android:text="@string/moment_guide_desc" android:layout_below="@id/guide_view" />
+    </RelativeLayout>
+    <Button android:textSize="@dimen/sp_15" android:textColor="@color/c_white" android:id="@id/button" android:background="@drawable/moment_guide_button_bg" android:layout_width="@dimen/dp_113" android:layout_height="@dimen/dp_40" android:layout_marginBottom="@dimen/dp_71" android:text="@string/have_learned" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

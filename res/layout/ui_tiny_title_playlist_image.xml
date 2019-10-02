@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.miui.video.common.feed.ui.card.UISimpleTinyImage android:id="@id/ui_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/v_bottom_layout" />
+    <RelativeLayout android:layout_width="@dimen/dp_80" android:layout_height="@dimen/dp_26" android:layout_alignTop="@id/ui_img" android:layout_alignEnd="@id/ui_img">` <ImageView android:id="@id/v_topright_logo" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitEnd" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <ImageView android:id="@id/play_icon_iv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_8" android:layout_marginBottom="@dimen/dp_5" android:layout_alignBottom="@id/ui_img" android:layout_alignStart="@id/ui_img" />
+    <RelativeLayout android:id="@id/v_bottom_layout" android:paddingTop="@dimen/h_ui_title_layout_padding_top" android:layout_width="fill_parent" android:layout_height="@dimen/h_pw_card_title_layout" android:layout_alignParentBottom="true" android:paddingEnd="@dimen/d_pw_card_padding_10">
+        <TextView android:textSize="@dimen/sp_12" android:ellipsize="end" android:id="@id/v_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:lineSpacingExtra="@dimen/h_ui_title_line_spacing_3" android:layout_alignParentStart="true" style="@style/s_pw_title" />
+    </RelativeLayout>
+</RelativeLayout>

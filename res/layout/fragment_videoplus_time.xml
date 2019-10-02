@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/c_white" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.miui.video.biz.videoplus.app.widget.FixableCoordinatorLayout android:id="@id/v_coordinator_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.design.widget.AppBarLayout android:id="@id/v_appbar_layout" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+            <android.support.design.widget.CollapsingToolbarLayout android:id="@id/v_collapsing_toolbar" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/home_poster_high" android:layout_marginBottom="@dimen/home_poster_margin_bottom" app:collapsedTitleTextAppearance="@style/tv_title1" app:expandedTitleMarginBottom="@dimen/d_ui_parent_padding_width_13" app:expandedTitleMarginStart="@dimen/d_ui_parent_padding_width_13" app:expandedTitleTextAppearance="@style/tv_title3" app:layout_scrollFlags="exitUntilCollapsed|scroll|snap" app:paddingEnd="0.0dip" app:title=" ">
+                <RelativeLayout android:id="@id/layout_poster" android:fitsSystemWindows="true" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/home_poster_high" app:layout_collapseMode="parallax">
+                    <ImageView android:id="@id/v_poster" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_plus_default_poster" android:scaleType="centerCrop" />
+                    <TextView android:textSize="@dimen/sp_19" android:textStyle="bold" android:textColor="@color/c_white" android:gravity="center" android:id="@id/v_poster_title" android:layout_width="wrap_content" android:layout_height="@dimen/global_tool_bar_high" android:layout_marginLeft="@dimen/dp_13" android:layout_marginTop="@dimen/dp_35" android:text="@string/moment_title_my_videos" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+                    <View android:id="@id/v_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                </RelativeLayout>
+            </android.support.design.widget.CollapsingToolbarLayout>
+            <RelativeLayout android:id="@id/v_indicator_container" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="@dimen/home_top_tab_indicator_high">
+                <com.miui.video.biz.videoplus.app.widget.CustomTabPageIndicator android:id="@id/v_indicator" android:fadingEdgeLength="@dimen/dp_30" android:layout_width="wrap_content" android:layout_height="@dimen/home_top_tab_indicator_high" android:layout_centerVertical="true" android:overScrollMode="never" android:requiresFadingEdge="horizontal" />
+            </RelativeLayout>
+        </android.support.design.widget.AppBarLayout>
+        <com.miui.video.biz.videoplus.app.widget.GestureViewPager android:id="@id/ui_viewpager" android:background="@color/c_transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    </com.miui.video.biz.videoplus.app.widget.FixableCoordinatorLayout>
+    <RelativeLayout android:id="@id/v_toolbar_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.miui.video.biz.videoplus.app.widget.UIToolBar android:id="@id/v_tool_bar" android:layout_width="wrap_content" android:layout_height="@dimen/global_tool_bar_high" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <com.miui.video.biz.videoplus.app.widget.UIEditTopTitleBar android:id="@id/v_edit_topbar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/global_tool_bar_high" android:layout_alignParentTop="true" />
+</RelativeLayout>

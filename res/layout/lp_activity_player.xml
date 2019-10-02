@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/lp_black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.miui.video.player.service.controller.ControllerView android:layout_gravity="center" android:id="@id/controller" android:background="@android:color/transparent" android:longClickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <SurfaceView android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    </com.miui.video.player.service.controller.ControllerView>
+</FrameLayout>

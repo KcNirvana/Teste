@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/root_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/v_img" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <FrameLayout android:id="@id/v_player_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/v_top_right_logo" android:visibility="gone" android:layout_width="70.0dip" android:layout_height="33.0dip" android:layout_marginTop="@dimen/dp_28" android:scaleType="fitCenter" android:layout_alignParentTop="true" android:layout_marginEnd="@dimen/dp_10" android:layout_alignParentEnd="true" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="190.0dip" android:src="@drawable/shape_ugc_bottom_shadow" android:scaleType="centerCrop" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:layout_width="@dimen/dp_73" android:layout_height="@dimen/dp_203" android:layout_marginBottom="@dimen/dp_70" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/dp_20" android:layout_alignParentEnd="true">
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/v_likeimg" android:layout_width="@dimen/dp_73" android:layout_height="@dimen/dp_73" app:lottie_imageAssetsFolder="images" />
+        <TextView android:textSize="@dimen/sp_10" android:textColor="@color/c_white_80" android:gravity="center" android:id="@id/v_likecount" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_3" android:layout_alignBottom="@id/v_likeimg" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/v_shareimg" android:layout_width="@dimen/dp_40" android:layout_height="@dimen/dp_40" android:layout_marginTop="@dimen/dp_7" android:src="@drawable/ic_tinyvideo_share" android:scaleType="centerCrop" android:layout_below="@id/v_likecount" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/v_deeplink_img" android:layout_width="@dimen/dp_29" android:layout_height="@dimen/dp_29" android:layout_marginTop="@dimen/dp_20" android:src="@drawable/ic_vmate" android:scaleType="centerCrop" android:layout_below="@id/v_shareimg" android:layout_centerInParent="true" />
+        <TextView android:textSize="@dimen/sp_10" android:textColor="@color/c_white_80" android:gravity="center" android:id="@id/v_deeplink_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_3" android:text="@string/share_ugc_join" android:layout_below="@id/v_deeplink_img" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/dp_40" android:layout_marginBottom="@dimen/dp_77" android:layout_alignParentBottom="true">
+        <com.miui.video.common.library.widget.CircleImageView android:id="@id/v_user_avatar" android:layout_width="@dimen/dp_20" android:layout_height="@dimen/dp_20" android:scaleType="centerCrop" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dp_20" android:layout_alignParentStart="true" app:shape_mode="circle" />
+        <TextView android:textSize="@dimen/sp_12" android:textColor="@color/c_white" android:id="@id/v_user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="7.0dip" android:layout_toEndOf="@id/v_user_avatar" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <external-files-path name="mivideo" path="mivideo/" />
+    <files-path name="mivideo" path="mivideo/" />
+    <external-path name="mivideo" path="mivideo/" />
+    <external-path name="mivideo" path="mivideo/" />
+    <external-path name="MiVideoGlobal" path="MiVideoGlobal/" />
+    <external-files-path name="video_screendir" path="video_screendir/" />
+    <files-path name="video_screendir" path="video_screendir/" />
+    <external-path name="video_screendir" path="video_screendir/" />
+    <root-path name="root_path" path="." />
+</paths>

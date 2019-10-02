@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/fl_content_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.miui.video.biz.videoplus.player.videoview.VideoPlusVideoView android:id="@id/video_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.miui.video.biz.videoplus.player.widget.PlayerImageView android:id="@id/preview_image_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="vertical" android:id="@id/volume_control_bar" android:visibility="gone" android:layout_width="@dimen/seek_bar_volume_width" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_volume_bright" android:layout_width="@dimen/dp_40" android:layout_height="@dimen/dp_40" android:src="@drawable/ic_plus_volume_control" />
+        <com.miui.video.player.service.ui.seekbar.DuoKanSeekbar android:id="@id/seek_bar_plus_volume_bright" android:background="@null" android:layout_width="@dimen/seek_bar_volume_width" android:layout_height="@dimen/seek_bar_volume_height" android:layout_marginTop="@dimen/seek_bar_volume_margin_top" android:maxHeight="@dimen/seek_bar_volume_height" android:progressDrawable="@drawable/layer_plus_volume_seekbar_progress" android:minHeight="@dimen/seek_bar_volume_height" android:thumb="@null" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" android:splitTrack="false" />
+    </LinearLayout>
+</FrameLayout>

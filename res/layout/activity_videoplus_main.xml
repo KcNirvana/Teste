@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/c_transparent" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.miui.video.biz.videoplus.app.widget.WindowInsetsFrameLayout android:id="@id/v_fragment_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@android:id/tabhost" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <com.miui.video.common.library.widget.ext.BaseTabHost android:id="@android:id/tabhost" android:background="@color/color_mainbar_color" android:layout_width="fill_parent" android:layout_height="@dimen/home_bottom_tab_indicator_high" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+        <View android:layout_gravity="top" android:background="@color/c_9" android:layout_width="fill_parent" android:layout_height="@dimen/px_1" />
+        <FrameLayout android:id="@android:id/tabcontent" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="0.0" />
+    </com.miui.video.common.library.widget.ext.BaseTabHost>
+    <com.miui.video.biz.videoplus.app.widget.UIEditBottomEventBar android:id="@id/v_edit_bottombar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/home_bottom_tab_indicator_high" android:layout_alignParentBottom="true" />
+</RelativeLayout>

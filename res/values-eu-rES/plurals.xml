@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="feed_back_home">
+        <item quantity="other">Hasierako orrira itzultzen %1$d segundo barru…</item>
+        <item quantity="one">Hasierako orrira itzultzen segundo %1$d barru…</item>
+    </plurals>
+    <plurals name="lv_subtitle_offset_advance_times">
+        <item quantity="other">Azpitituluak %.1f segundo lehenago agertuko dira</item>
+        <item quantity="one">Azpitituluak segundo %.1f lehenago agertuko dira</item>
+    </plurals>
+    <plurals name="lv_subtitle_offset_delay_times">
+        <item quantity="other">Azpitituluak %.1f segundo geroago agertuko dira</item>
+        <item quantity="one">Azpitituluak segundo %.1f geroago agertuko dira</item>
+    </plurals>
+    <plurals name="lv_subtitle_onlinesub_size_float_kb">
+        <item quantity="other">Tamaina: %.2fKB</item>
+        <item quantity="one">Tamaina: %.2fKB</item>
+    </plurals>
+    <plurals name="lv_video_count">
+        <item quantity="other">%d bideo</item>
+        <item quantity="one">%d bideo</item>
+    </plurals>
+    <plurals name="ovp_detail_v_video_count">
+        <item quantity="other">%d bideo</item>
+        <item quantity="one">%d bideo</item>
+    </plurals>
+    <plurals name="ovp_home_item_unit">
+        <item quantity="other">%d bideo</item>
+        <item quantity="one">%d bideo</item>
+    </plurals>
+    <plurals name="plus_edit_delete_comfire_text">
+        <item quantity="other">%s elementu ezabatu orain?</item>
+        <item quantity="one">Elementu %s ezabatu orain?</item>
+    </plurals>
+    <plurals name="plus_edit_top_titletext">
+        <item quantity="other">%s elementu aukeratuta</item>
+        <item quantity="one">Elementu %s aukeratuta</item>
+    </plurals>
+    <plurals name="plus_player_subtitle_online_size">
+        <item quantity="other">Fitxategiaren tamaina: %.2fKB</item>
+        <item quantity="one">Fitxategiaren tamaina: %.2fKB</item>
+    </plurals>
+    <plurals name="plus_search_result_title">
+        <item quantity="other">%2$s emaitza \"%1$s\" - rako</item>
+        <item quantity="one">Emaitza %2$s \"%1$s\" -rako</item>
+    </plurals>
+    <plurals name="plus_serval_pictures">
+        <item quantity="other">%d irudi</item>
+        <item quantity="one">%d irudi</item>
+    </plurals>
+    <plurals name="plus_serval_videos">
+        <item quantity="other">%d bideo</item>
+        <item quantity="one">%d bideo</item>
+    </plurals>
+    <plurals name="subscriber">
+        <item quantity="other">%s harpidedun</item>
+        <item quantity="one">Harpidedun %s</item>
+    </plurals>
+    <plurals name="subtitle_offset_advance_times">
+        <item quantity="other">Azpitituluak mugitzen ari dira %.1f segundo aurrera</item>
+        <item quantity="one">Azpitituluak mugitzen ari dira %.1f segundo aurrera</item>
+    </plurals>
+    <plurals name="subtitle_offset_delay_times">
+        <item quantity="other">Azpitituluak atzeratu dira %.1f segundo</item>
+        <item quantity="one">Azpitituluak atzeratu dira %.1f segundo</item>
+    </plurals>
+</resources>

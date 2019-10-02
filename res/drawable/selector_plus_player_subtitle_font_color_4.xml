@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="false">
+        <layer-list>
+            <item android:left="0.0dip" android:top="@dimen/player_font_color_padding_unchecked" android:right="0.0dip" android:bottom="@dimen/player_font_color_padding_unchecked">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/font_color_4_display" />
+                    <corners android:topLeftRadius="0.0dip" android:topRightRadius="@dimen/player_font_color_radius_unchecked" android:bottomLeftRadius="0.0dip" android:bottomRightRadius="@dimen/player_font_color_radius_unchecked" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_checked="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/font_color_4_border" />
+                    <corners android:radius="@dimen/player_font_color_border_radius" />
+                </shape>
+            </item>
+            <item android:left="@dimen/player_font_color_padding_checked" android:top="@dimen/player_font_color_padding_checked" android:right="@dimen/player_font_color_padding_checked" android:bottom="@dimen/player_font_color_padding_checked">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/font_color_4_display" />
+                    <corners android:radius="@dimen/player_font_color_radius_checked" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

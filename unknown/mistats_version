@@ -1,0 +1,6 @@
+commit 323cda84152a5ea828bfaec2b543551085f340b8
+    PrefsHelper在工作线程中执行commit，会造成读写不同步的问题，
+    将commit函数改成调用apply()，并放在主线程中执行。
+2018年 09月 25日 星期二 09:24:37 CST
+* master
+jar-version: MiStats_SDK_Client_2_2_2.jar

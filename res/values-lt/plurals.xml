@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="feed_back_home">
+        <item quantity="other">Grįžtama į pagrindinį puslapį po %1$d sekundžių…</item>
+        <item quantity="one">Grįžtama į pagrindinį puslapį po %1$d sekundės…</item>
+        <item quantity="few">Grįžtama į pagrindinį puslapį po %1$d sekundžių…</item>
+        <item quantity="many">Grįžtama į pagrindinį puslapį po %1$d sekundžių…</item>
+    </plurals>
+    <plurals name="lv_subtitle_offset_advance_times">
+        <item quantity="other">Subtitrai bus rodomi %.1f sekundžių anksčiau</item>
+        <item quantity="one">Subtitrai bus rodomi %.1f sekunde anksčiau</item>
+        <item quantity="few">Subtitrai bus rodomi %.1f sekundėmis anksčiau</item>
+        <item quantity="many">Subtitrai bus rodomi %.1f sekundėmis anksčiau</item>
+    </plurals>
+    <plurals name="lv_subtitle_offset_delay_times">
+        <item quantity="other">Subtitrai bus rodomi %.1f sekundžių vėliau</item>
+        <item quantity="one">Subtitrai bus rodomi %.1f sekunde vėliau</item>
+        <item quantity="few">Subtitrai bus rodomi %.1f sekundėmis vėliau</item>
+        <item quantity="many">Subtitrai bus rodomi %.1f sekundėmis vėliau</item>
+    </plurals>
+    <plurals name="lv_subtitle_onlinesub_size_float_kb">
+        <item quantity="other">Dydis: %.2fKB</item>
+        <item quantity="one">Dydis: %.2fKB</item>
+        <item quantity="few">Dydis: %.2fKB</item>
+        <item quantity="many">Dydis: %.2fKB</item>
+    </plurals>
+    <plurals name="lv_video_count">
+        <item quantity="other">%d vaizdo įrašų</item>
+        <item quantity="one">%d vaizdo įrašas</item>
+        <item quantity="few">%d vaizdo įrašai</item>
+        <item quantity="many">%d vaizdo įrašai</item>
+    </plurals>
+    <plurals name="ovp_detail_v_video_count">
+        <item quantity="other">%d vaizdo įrašų</item>
+        <item quantity="one">%d vaizdo įrašas</item>
+        <item quantity="few">%d vaizdo įrašai</item>
+        <item quantity="many">%d vaizdo įrašai</item>
+    </plurals>
+    <plurals name="ovp_home_item_unit">
+        <item quantity="other">%d vaizdo įrašų</item>
+        <item quantity="one">%d vaizdo įrašas</item>
+        <item quantity="few">%d vaizdo įrašai</item>
+        <item quantity="many">%d vaizdo įrašai</item>
+    </plurals>
+    <plurals name="plus_edit_delete_comfire_text">
+        <item quantity="other">Trinti %s elementų?</item>
+        <item quantity="one">Trinti %s elementą?</item>
+        <item quantity="few">Trinti %s elementus?</item>
+        <item quantity="many">Trinti %s elementus?</item>
+    </plurals>
+    <plurals name="plus_edit_top_titletext">
+        <item quantity="other">Pasirinkta %s elementų</item>
+        <item quantity="one">Pasirinktas %s elementas</item>
+        <item quantity="few">Pasirinkti %s elementai</item>
+        <item quantity="many">Pasirinkta %s elementai</item>
+    </plurals>
+    <plurals name="plus_player_subtitle_online_size">
+        <item quantity="other">Failų dydis: %.2fKB</item>
+        <item quantity="one">Failo dydis: %.2fKB</item>
+        <item quantity="few">Failų dydis: %.2fKB</item>
+        <item quantity="many">Failų dydis: %.2fKB</item>
+    </plurals>
+    <plurals name="plus_search_result_title">
+        <item quantity="other">%2$s „%1$s“ rezultatų</item>
+        <item quantity="one">%2$s „%1$s“ rezultatas</item>
+        <item quantity="few">%2$s „%1$s“ rezultatai</item>
+        <item quantity="many">%2$s „%1$s“ rezultatai</item>
+    </plurals>
+    <plurals name="plus_serval_pictures">
+        <item quantity="other">%d vaizdų</item>
+        <item quantity="one">%d vaizdas</item>
+        <item quantity="few">%d vaizdai</item>
+        <item quantity="many">%d vaizdai</item>
+    </plurals>
+    <plurals name="plus_serval_videos">
+        <item quantity="other">%d vaizdo įrašų</item>
+        <item quantity="one">%d vaizdo įrašas</item>
+        <item quantity="few">%d vaizdo įrašai</item>
+        <item quantity="many">%d vaizdo įrašai</item>
+    </plurals>
+    <plurals name="subscriber">
+        <item quantity="other">%s prenumeratorių</item>
+        <item quantity="one">%s prenumeratorius</item>
+        <item quantity="few">%s prenumeratoriai</item>
+        <item quantity="many">%s prenumeratoriai</item>
+    </plurals>
+    <plurals name="subtitle_offset_advance_times">
+        <item quantity="other">Subtitrai paslinkti %.1f sekundžių</item>
+        <item quantity="one">Subtitrai paslinkti %.1f sekundę</item>
+        <item quantity="few">Subtitrai paslinkti %.1f sekundes</item>
+        <item quantity="many">Subtitrai paslinkti %.1f sekundes</item>
+    </plurals>
+    <plurals name="subtitle_offset_delay_times">
+        <item quantity="other">Subtitrai atidėti %.1f sekundžių</item>
+        <item quantity="one">Subtitrai atidėti %.1f sekundę</item>
+        <item quantity="few">Subtitrai atidėti %.1f sekundes</item>
+        <item quantity="many">Subtitrai atidėti %.1f sekundes</item>
+    </plurals>
+</resources>

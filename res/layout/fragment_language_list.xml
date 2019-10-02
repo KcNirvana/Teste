@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/c_bg" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/titlebar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="45.0dip" android:layout_alignParentTop="true" android:layout_marginStart="@dimen/d_ui_13" android:layout_marginEnd="@dimen/d_ui_13">
+        <ImageView android:id="@id/v_back" android:padding="@dimen/dp_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_bar_back_black" android:layout_alignParentStart="true" />
+        <TextView android:textSize="@dimen/sp_16" android:textStyle="bold" android:textColor="@color/c_black" android:ellipsize="end" android:id="@id/v_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/page_title_language" android:lines="1" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dp_12" android:layout_toEndOf="@id/v_back" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/v_tips_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_27" android:layout_below="@id/titlebar" android:layout_marginStart="@dimen/d_ui_13" android:layout_marginEnd="@dimen/d_ui_13">
+        <TextView android:textSize="@dimen/sp_14" android:textColor="@color/c_white" android:gravity="center" android:id="@id/save_button" android:background="@drawable/shape_grid_language_pressed" android:layout_width="70.0dip" android:layout_height="@dimen/dp_30" android:text="@string/save" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        <TextView android:textSize="@dimen/sp_12" android:textColor="#ff616c79" android:ellipsize="end" android:gravity="left" android:id="@id/v_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/language_select_tips" android:maxLines="2" android:drawablePadding="10.0dip" android:drawableStart="@drawable/language_select_normal" android:layout_marginEnd="33.0dip" android:layout_toStartOf="@id/save_button" android:layout_alignParentStart="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/language_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dp_40" android:layout_below="@id/v_tips_layout" android:layout_marginStart="@dimen/d_ui_13" android:layout_marginEnd="@dimen/d_ui_13">
+        <View android:id="@id/language_list_head" android:background="@drawable/language_set_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dp_30" android:layout_alignParentTop="true" />
+        <com.miui.video.common.feed.UIRecyclerListView android:id="@id/ui_recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/language_list_head" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.PreferenceItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/ovp_home_navigation_item_text_size" android:textColor="@color/c_black" android:gravity="center_vertical" android:id="@id/v_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ovp_setting_clear_cache_text" android:layout_toStartOf="@id/v_icon" android:layout_alignParentStart="true" />
+    <ImageView android:id="@id/v_icon" android:layout_width="@dimen/ovp_home_navigation_item_image_w_h" android:layout_height="@dimen/ovp_home_navigation_item_image_w_h" android:src="@drawable/ovp_setting_ic_clear_cache" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

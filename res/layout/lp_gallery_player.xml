@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.miui.video.player.service.controller.ControllerView android:layout_gravity="center" android:id="@id/controller" android:background="@android:color/transparent" android:longClickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <SurfaceView android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    </com.miui.video.player.service.controller.ControllerView>
+    <ImageView android:id="@id/lp_last_frame" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+    <FrameLayout android:id="@id/ai_music_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ai_music_button_margin_bottom" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <ImageView android:layout_gravity="center" android:id="@id/ai_music_switch" android:background="@drawable/selector_ai_music" android:visibility="gone" android:layout_width="@dimen/ai_music_animation_height" android:layout_height="@dimen/ai_music_animation_height" android:scaleType="center" />
+        <ImageView android:layout_gravity="center" android:id="@id/ai_music_loading" android:background="@drawable/shape_ai_music_animation_bg_loading" android:visibility="gone" android:layout_width="@dimen/ai_music_animation_height" android:layout_height="@dimen/ai_music_animation_height" android:scaleType="center" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/music_animation" android:background="@drawable/shape_ai_music_animation_bg" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/ai_music_animation_height" android:layout_marginBottom="@dimen/ai_music_animation_margin_bottom" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <TextView android:textSize="@dimen/ai_music_animation_text_size" android:textColor="#ffffffff" android:ellipsize="none" android:gravity="center|right" android:id="@id/ai_music_text" android:paddingLeft="@dimen/ai_music_text_padding" android:focusable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/ai_music_text_margin_bottom" android:text="@string/ai_animation_music_text" android:singleLine="true" />
+    </FrameLayout>
+</RelativeLayout>

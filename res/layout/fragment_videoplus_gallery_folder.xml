@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/color_mainbar_color" android:fitsSystemWindows="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.miui.video.biz.videoplus.app.widget.UIFolderTitleBar android:id="@id/ui_title_bar" android:layout_width="fill_parent" android:layout_height="@dimen/global_tool_bar_high" android:layout_marginTop="@dimen/global_status_bar_high" />
+    <android.support.design.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ui_title_bar">
+        <android.support.design.widget.AppBarLayout android:id="@id/v_appbar_layout" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+            <android.support.design.widget.CollapsingToolbarLayout android:id="@id/v_collapsing_toolbar" android:layout_width="fill_parent" android:layout_height="@dimen/dp_37" android:minHeight="0.0dip" app:layout_scrollFlags="exitUntilCollapsed|scroll|snap" app:paddingEnd="0.0dip">
+                <com.miui.video.biz.videoplus.app.widget.UISortComView android:layout_gravity="center_vertical" android:id="@id/v_sort_com_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_50" android:layout_marginRight="@dimen/dp_50" android:layout_marginStart="@dimen/dp_50" android:layout_marginEnd="@dimen/dp_50" app:layout_collapseMode="parallax" />
+            </android.support.design.widget.CollapsingToolbarLayout>
+        </android.support.design.widget.AppBarLayout>
+        <com.miui.video.biz.videoplus.app.business.gallery.widget.UIGalleryRecyclerView android:id="@id/v_recyclerView" android:background="@color/c_white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/v_sort_com_view" android:overScrollMode="never" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    </android.support.design.widget.CoordinatorLayout>
+    <com.miui.video.biz.videoplus.app.widget.UIEditTopTitleBar android:id="@id/v_edit_topbar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/global_tool_bar_high" android:layout_alignParentTop="true" />
+</RelativeLayout>

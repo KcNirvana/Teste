@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="feed_back_home">
+        <item quantity="other">Návrat na domovskou stránku za %1$d sekund…</item>
+        <item quantity="one">Návrat na domovskou stránku za %1$d sekundu…</item>
+        <item quantity="few">Návrat na domovskou stránku za %1$d sekundy…</item>
+        <item quantity="many">Návrat na domovskou stránku za %1$d sekundy…</item>
+    </plurals>
+    <plurals name="lv_subtitle_offset_advance_times">
+        <item quantity="other">Titulky budou zobrazeny o %.1f sekund dříve</item>
+        <item quantity="one">Titulky budou zobrazeny o %.1f sekundu dříve</item>
+        <item quantity="few">Titulky budou zobrazeny o %.1f sekundy dříve</item>
+        <item quantity="many">Titulky budou zobrazeny o %.1f sekundy dříve</item>
+    </plurals>
+    <plurals name="lv_subtitle_offset_delay_times">
+        <item quantity="other">Titulky budou zobrazeny se zpožděním %.1f sekund</item>
+        <item quantity="one">Titulky budou zobrazeny se zpožděním %.1f sekunda</item>
+        <item quantity="few">Titulky budou zobrazeny se zpožděním %.1f sekundy</item>
+        <item quantity="many">Titulky budou zobrazeny se zpožděním %.1f sekundy</item>
+    </plurals>
+    <plurals name="lv_subtitle_onlinesub_size_float_kb">
+        <item quantity="other">Velikost: %.2f KB</item>
+        <item quantity="one">Velikost: %.2f KB</item>
+        <item quantity="few">Velikost: %.2f KB</item>
+        <item quantity="many">Velikost: %.2f KB</item>
+    </plurals>
+    <plurals name="lv_video_count">
+        <item quantity="other">%d videí</item>
+        <item quantity="one">%d video</item>
+        <item quantity="few">%d videa</item>
+        <item quantity="many">%d videí</item>
+    </plurals>
+    <plurals name="ovp_detail_v_video_count">
+        <item quantity="other">%d videí</item>
+        <item quantity="one">%d video</item>
+        <item quantity="few">%d videa</item>
+        <item quantity="many">%d videa</item>
+    </plurals>
+    <plurals name="ovp_home_item_unit">
+        <item quantity="other">%d videí</item>
+        <item quantity="one">%d video</item>
+        <item quantity="few">%d videa</item>
+        <item quantity="many">%d videa</item>
+    </plurals>
+    <plurals name="plus_edit_delete_comfire_text">
+        <item quantity="other">Odstranit %s položek?</item>
+        <item quantity="one">Odstranit %s položku?</item>
+        <item quantity="few">Odstranit %s položky?</item>
+        <item quantity="many">Odstranit %s položky?</item>
+    </plurals>
+    <plurals name="plus_edit_top_titletext">
+        <item quantity="other">Vybráno %s položek</item>
+        <item quantity="one">Vybrána %s položka</item>
+        <item quantity="few">Vybrány %s položky</item>
+        <item quantity="many">Vybráno %s položky</item>
+    </plurals>
+    <plurals name="plus_player_subtitle_online_size">
+        <item quantity="other">Velikost souboru: %.2f KB</item>
+        <item quantity="one">Velikost souboru: %.2f KB</item>
+        <item quantity="few">Velikost souboru: %.2f KB</item>
+        <item quantity="many">Velikost souboru: %.2f KB</item>
+    </plurals>
+    <plurals name="plus_search_result_title">
+        <item quantity="other">%2$s výsledků pro \"%1$s\"</item>
+        <item quantity="one">%2$s výsledek pro \"%1$s\"</item>
+        <item quantity="few">%2$s výsledky pro \"%1$s\"</item>
+        <item quantity="many">%2$s výsledku pro \"%1$s\"</item>
+    </plurals>
+    <plurals name="plus_serval_pictures">
+        <item quantity="other">%d obrázků</item>
+        <item quantity="one">%d obrázek</item>
+        <item quantity="few">%d obrázky</item>
+        <item quantity="many">%d obrázku</item>
+    </plurals>
+    <plurals name="plus_serval_videos">
+        <item quantity="other">%d videí</item>
+        <item quantity="one">%d video</item>
+        <item quantity="few">%d videa</item>
+        <item quantity="many">%d videa</item>
+    </plurals>
+    <plurals name="subscriber">
+        <item quantity="other">%s odběratelů</item>
+        <item quantity="one">%s odběratel</item>
+        <item quantity="few">%s odběratelé</item>
+        <item quantity="many">%s odběratele</item>
+    </plurals>
+    <plurals name="subtitle_offset_advance_times">
+        <item quantity="other">Titulky jsou o %.1f sekund napřed</item>
+        <item quantity="one">Titulky jsou o %.1f sekundu napřed</item>
+        <item quantity="few">Titulky jsou o %.1f sekundy napřed</item>
+        <item quantity="many">Titulky jsou o %.1f sekundy napřed</item>
+    </plurals>
+    <plurals name="subtitle_offset_delay_times">
+        <item quantity="other">Titulky jsou zpožděny o %.1f sekund</item>
+        <item quantity="one">Titulky jsou zpožděny o %.1f sekundu</item>
+        <item quantity="few">Titulky jsou zpožděny o %.1f sekundy</item>
+        <item quantity="many">Titulky jsou zpožděny o %.1f sekundy</item>
+    </plurals>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/dp_30" android:textColor="@color/c_white" android:gravity="center" android:id="@id/v_right_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/lv_subtitle_onlinesub_right_declare" />
+    <TextView android:textSize="@dimen/dp_18" android:textColor="@color/c_white" android:id="@id/v_right_content" android:paddingLeft="@dimen/dp_20" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/lv_subtitle_onlinesub_right_declare_content" android:layout_below="@id/v_right_title" android:paddingStart="@dimen/dp_20" />
+    <RelativeLayout android:gravity="center_horizontal" android:id="@id/btn_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_14" android:layout_alignParentBottom="true">
+        <Button android:textSize="@dimen/dp_11" android:textColor="@color/c_white" android:id="@id/v_cancel" android:background="@drawable/selector_btn_bg" android:layout_width="@dimen/dp_86" android:layout_height="@dimen/dp_30" android:text="@string/cancel" />
+        <Button android:textSize="@dimen/dp_11" android:textColor="@color/c_white" android:id="@id/v_ok" android:background="@drawable/shape_rectangle_btn_0091dc_corners_4px" android:focusable="true" android:layout_width="@dimen/dp_86" android:layout_height="@dimen/dp_30" android:text="@string/ok" android:layout_marginStart="@dimen/dp_12" android:layout_toEndOf="@id/v_cancel" />
+    </RelativeLayout>
+    <CheckBox android:textSize="@dimen/dp_12" android:textColor="@color/c_white_30" android:id="@id/v_declare_remember" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_12" android:layout_marginBottom="@dimen/dp_14" android:button="@drawable/selector_bg_getonlinesub_declare_check" android:text="@string/lv_do_not_show_this_again" android:layout_above="@id/btn_layout" android:layout_centerHorizontal="true" android:paddingStart="@dimen/dp_10" />
+    <View android:background="@color/subtitle_divider" android:layout_width="fill_parent" android:layout_height="@dimen/px_1" android:layout_above="@id/v_declare_remember" />
+</RelativeLayout>

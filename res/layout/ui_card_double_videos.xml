@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/dp_13" android:paddingTop="@dimen/d_pw_card_padding_top" android:paddingRight="@dimen/dp_13" android:paddingBottom="@dimen/d_pw_card_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dp_13" android:paddingEnd="@dimen/dp_13"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.miui.video.common.feed.ui.card.UITinyTitleImage android:id="@id/v_img_left" android:paddingRight="@dimen/d_pw_card_space_2x" android:layout_width="wrap_content" android:layout_height="@dimen/h_pw_card_wide_img" android:layout_weight="1.0" android:paddingEnd="@dimen/d_pw_card_space_2x" />
+    <com.miui.video.common.feed.ui.card.UITinyTitleImage android:id="@id/v_img_right" android:paddingLeft="@dimen/d_pw_card_space_2x" android:layout_width="wrap_content" android:layout_height="@dimen/h_pw_card_wide_img" android:layout_weight="1.0" android:paddingStart="@dimen/d_pw_card_space_2x" />
+</LinearLayout>

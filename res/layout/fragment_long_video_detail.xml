@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/c_white" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.miui.video.biz.longvideo.view.HeadVideoView android:id="@id/ui_video_view" android:background="@color/c_black" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.miui.video.common.feed.UIRecyclerListView android:id="@id/ui_recycler_list_view" android:background="@color/c_white" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

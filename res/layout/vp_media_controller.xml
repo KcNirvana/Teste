@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.miui.video.player.service.controller.VideoSlideSeekBar android:id="@id/vp_slide_seek_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/comm_vp_mc_fullscreen_bottom_slide_bar" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/dp_48" android:paddingStart="@dimen/dp_13" android:paddingEnd="@dimen/dp_13">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/vp_play_pause" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/vp_mc_pause" android:scaleType="center" android:paddingStart="@dimen/dp_12" android:paddingEnd="@dimen/dp_12" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/vp_next" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/vp_mc_next" android:scaleType="center" android:paddingStart="@dimen/dp_12" android:paddingEnd="@dimen/dp_12" />
+            <LinearLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="@dimen/dp_1" android:paddingEnd="@dimen/lp_mc_seekbar_right_margin">
+                <TextView android:textSize="@dimen/lp_text_size_36" android:textColor="@color/lp_text_white" android:id="@id/vp_current_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                <com.miui.video.player.service.ui.seekbar.DuoKanSeekbar android:id="@id/vp_progress_seekbar" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxHeight="@dimen/lp_ctrl_bottom_seekbar_height" android:progressDrawable="@drawable/vp_progressbar_v5" android:minHeight="@dimen/lp_ctrl_bottom_seekbar_height" android:thumb="@drawable/vp_seekbar_v5_thumb" android:thumbOffset="1.0dip" android:layout_weight="1.0" android:paddingStart="@dimen/dp_15" android:paddingEnd="@dimen/dp_15" />
+                <TextView android:textSize="@dimen/lp_text_size_36" android:textColor="@color/lp_text_white" android:id="@id/vp_total_time" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/vp_controller_customer_container" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <ImageView android:id="@id/vp_milink" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/lp_drawable_milink" android:scaleType="center" android:paddingStart="@dimen/dp_1" android:paddingEnd="@dimen/dp_20" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/vp_exit_fullscreen" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/selector_player_icon_fullscreen" android:scaleType="center" android:paddingStart="@dimen/dp_9" android:paddingEnd="@dimen/dp_9" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="feed_back_home">
+        <item quantity="other">%1$d வினாடியில் முகப்புப் பக்கத்திற்குச் செல்லும்…</item>
+        <item quantity="one">%1$d வினாடியில் முகப்புப் பக்கத்திற்குச் செல்லும்…</item>
+    </plurals>
+    <plurals name="lv_subtitle_offset_advance_times">
+        <item quantity="other">%.1f வினாடி முன்னதாகவே வசனங்கள் காண்பிக்கப்படும்</item>
+        <item quantity="one">%.1f வினாடி முன்னதாகவே வசனங்கள் காண்பிக்கப்படும்</item>
+    </plurals>
+    <plurals name="lv_subtitle_offset_delay_times">
+        <item quantity="other">%.1f வினாடிக்குப் பிறகு வசனங்கள் காண்பிக்கப்படும்</item>
+        <item quantity="one">%.1f வினாடிக்குப் பிறகு வசனங்கள் காண்பிக்கப்படும்</item>
+    </plurals>
+    <plurals name="lv_subtitle_onlinesub_size_float_kb">
+        <item quantity="other">அளவு: %.2fKB</item>
+        <item quantity="one">அளவு: %.2fKB</item>
+    </plurals>
+    <plurals name="lv_video_count">
+        <item quantity="other">%d வீடியோக்கள்</item>
+        <item quantity="one">%d வீடியோ</item>
+    </plurals>
+    <plurals name="ovp_detail_v_video_count">
+        <item quantity="other">%d வீடியோக்கள்</item>
+        <item quantity="one">%d வீடியோ</item>
+    </plurals>
+    <plurals name="ovp_home_item_unit">
+        <item quantity="other">%d வீடியோக்கள்</item>
+        <item quantity="one">%d வீடியோ</item>
+    </plurals>
+    <plurals name="plus_edit_delete_comfire_text">
+        <item quantity="other">இப்போது %s உருப்படிகளை நீக்கவா?</item>
+        <item quantity="one">இப்போது %s உருப்படியை நீக்கவா?</item>
+    </plurals>
+    <plurals name="plus_edit_top_titletext">
+        <item quantity="other">%s உருப்படிகள் தேர்ந்தெடுக்கப்பட்டன</item>
+        <item quantity="one">%s உருப்படி தேர்ந்தெடுக்கப்பட்டது</item>
+    </plurals>
+    <plurals name="plus_player_subtitle_online_size">
+        <item quantity="other">கோப்பு அளவு: %.2fKB</item>
+        <item quantity="one">கோப்பு அளவு: %.2fKB</item>
+    </plurals>
+    <plurals name="plus_search_result_title">
+        <item quantity="other">\"%1$s\" க்கான %2$s முடிவுகள்</item>
+        <item quantity="one">\"%1$s\" க்கான %2$s முடிவு</item>
+    </plurals>
+    <plurals name="plus_serval_pictures">
+        <item quantity="other">%d படங்கள்</item>
+        <item quantity="one">%d படம்</item>
+    </plurals>
+    <plurals name="plus_serval_videos">
+        <item quantity="other">%d வீடியோக்கள்</item>
+        <item quantity="one">%d வீடியோ</item>
+    </plurals>
+    <plurals name="subscriber">
+        <item quantity="other">%s சந்தாதாரர்கள்</item>
+        <item quantity="one">%s சந்தாதாரர்</item>
+    </plurals>
+    <plurals name="subtitle_offset_advance_times">
+        <item quantity="other">வசனங்கள் %.1f வினாடிகள் முன்னோக்கி நகர்த்தப்பட்டன</item>
+        <item quantity="one">வசனங்கள் %.1f வினாடி முன்னோக்கி நகர்த்தப்பட்டன</item>
+    </plurals>
+    <plurals name="subtitle_offset_delay_times">
+        <item quantity="other">%.1f வினாடிகளுக்கு வசனங்கள் தாமதமாகத் தெரிகின்றன</item>
+        <item quantity="one">%.1f வினாடிக்கு வசனங்கள் தாமதமாகத் தெரிகின்றன</item>
+    </plurals>
+</resources>

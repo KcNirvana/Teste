@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/v_switch" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_btn_side_switch" android:layout_centerVertical="true" />　 <View android:id="@id/v_background" android:background="@color/c_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignStart="@id/v_container" android:layout_alignEnd="@id/v_container" />
+    <LinearLayout android:orientation="vertical" android:id="@id/v_container" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toEndOf="@id/v_switch" />
+    <ImageView android:id="@id/v_side_mask" android:visibility="invisible" android:layout_width="@dimen/dp_43" android:layout_height="fill_parent" android:src="@drawable/vp_bg_side_mask" android:scaleType="fitXY" android:layout_alignStart="@id/v_switch" />
+</RelativeLayout>

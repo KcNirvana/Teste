@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/bg" android:background="@color/c_white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:layout_gravity="center" android:id="@id/view_pager_parent" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.miui.video.biz.videoplus.player.widget.VideoPlusViewPager android:layout_gravity="center" android:id="@id/viewpager" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+    </FrameLayout>
+    <com.miui.video.biz.videoplus.player.mediacontroller.PortraitController android:id="@id/portrait_media_controller" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.miui.video.biz.videoplus.player.mediacontroller.LandscapeController android:id="@id/landscape_media_controller" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

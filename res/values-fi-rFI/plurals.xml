@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lv_subtitle_offset_advance_times">
+        <item quantity="other">Tekstitykset näytetään %.1f sekuntia aiemmin</item>
+        <item quantity="one">Tekstitykset näytetään %.1f sekunti aiemmin</item>
+    </plurals>
+    <plurals name="lv_subtitle_offset_delay_times">
+        <item quantity="other">Tekstitykset näytetään %.1f sekuntia myöhemmin</item>
+        <item quantity="one">Tekstitykset näytetään %.1f sekunti myöhemmin</item>
+    </plurals>
+    <plurals name="lv_subtitle_onlinesub_size_float_kb">
+        <item quantity="other">Koko: %.2f Kt</item>
+        <item quantity="one">Koko: %.2f Kt</item>
+    </plurals>
+    <plurals name="lv_video_count">
+        <item quantity="other">%d videota</item>
+        <item quantity="one">%d video</item>
+    </plurals>
+    <plurals name="ovp_detail_v_video_count">
+        <item quantity="other">%d videota</item>
+        <item quantity="one">%d video</item>
+    </plurals>
+    <plurals name="ovp_home_item_unit">
+        <item quantity="other">%d videota</item>
+        <item quantity="one">%d video</item>
+    </plurals>
+    <plurals name="subscriber">
+        <item quantity="other"> tilaajaa</item>
+        <item quantity="one"> tilaaja</item>
+    </plurals>
+</resources>

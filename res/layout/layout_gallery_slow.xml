@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.miui.video.galleryplus.galleryvideo.widget.GallerySpeedController android:id="@id/speed_controller" android:layout_width="fill_parent" android:layout_height="@dimen/gallery_edit_speed_controller_height" android:layout_marginTop="@dimen/gallery_edit_speed_controller_margin_top" android:paddingStart="@dimen/gallery_edit_bottom_controller_padding_horizontal" android:paddingEnd="@dimen/gallery_edit_bottom_controller_padding_horizontal" />
+    <com.miui.video.galleryplus.galleryvideo.widget.GalleryProgressController android:id="@id/progress_controller" android:layout_width="fill_parent" android:layout_height="@dimen/dp_38_3" android:paddingStart="@dimen/gallery_edit_bottom_controller_padding_horizontal" android:paddingEnd="@dimen/gallery_edit_bottom_controller_padding_horizontal" />
+</LinearLayout>

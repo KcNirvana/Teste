@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="subtitle_offset_advance_times">
+        <item quantity="other">Subtítulos adelantados %.1f segundos</item>
+        <item quantity="one">Subtítulos adelantados %.1f segundo</item>
+    </plurals>
+    <plurals name="subtitle_offset_delay_times">
+        <item quantity="other">Subtítulos retrasados %.1f segundos</item>
+        <item quantity="one">Subtítulos retrasados %.1f segundo</item>
+    </plurals>
+</resources>

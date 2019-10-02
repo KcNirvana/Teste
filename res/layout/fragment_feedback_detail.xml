@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#fff7f8fa" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.miui.video.common.library.widget.UICommonTitleBar android:id="@id/v_title_bar" android:layout_width="fill_parent" android:layout_height="@dimen/dp_50" />
+    <View android:id="@id/divider" android:background="@color/c_black_10" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/v_title_bar" />
+    <com.miui.video.common.feed.UIRecyclerListView android:id="@id/ui_recycler_list_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/v_input" android:layout_below="@id/divider" />
+    <RelativeLayout android:id="@id/v_input" android:background="@color/c_white" android:layout_width="fill_parent" android:layout_height="@dimen/dp_53" android:layout_alignParentBottom="true">
+        <View android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <EditText android:textSize="@dimen/dp_12" android:textColor="@color/c_black" android:id="@id/v_input_text" android:background="@drawable/shape_feedback_input" android:layout_width="fill_parent" android:layout_height="@dimen/dp_33" android:hint="@string/feedback_detail_input_hint" android:layout_centerVertical="true" android:paddingStart="@dimen/dp_13" android:paddingEnd="@dimen/dp_13" android:layout_marginStart="@dimen/dp_16" android:layout_marginEnd="@dimen/dp_13" android:layout_toStartOf="@id/v_send" />
+        <ImageView android:id="@id/v_send" android:layout_width="@dimen/dp_20" android:layout_height="@dimen/dp_20" android:src="@drawable/ic_feedback_send" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dp_9" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

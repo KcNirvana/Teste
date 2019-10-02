@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dp_13" android:layout_marginStart="@dimen/dp_13"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/v_img_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp_10" android:layout_marginEnd="@dimen/dp_7" />
+    <RelativeLayout android:id="@id/v_middle_layout" android:paddingTop="@dimen/dp_9" android:paddingBottom="@dimen/dp_9" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="@dimen/dp_13" android:layout_weight="1.0" android:layout_marginStart="@dimen/dp_4" android:layout_marginEnd="@dimen/dp_13">
+        <EditText android:textSize="@dimen/sp_14" android:textColor="@color/c_black" android:textColorHint="@color/c_black_20" android:gravity="start|center" android:id="@id/v_edit" android:background="@drawable/ui_search_edit_shape_bg_corners_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="1" android:drawablePadding="0.0dip" android:layout_centerVertical="true" android:inputType="text" android:imeOptions="actionSearch" android:textCursorDrawable="@null" android:drawableStart="@drawable/ic_ui_search_bar_find" android:paddingEnd="@dimen/dp_32" />
+        <ImageView android:id="@id/v_icon_right" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:layout_centerVertical="true" android:layout_alignEnd="@id/v_edit" />
+        <ImageView android:id="@id/v_icon_default_right" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_ui_search_bar_clear" android:scaleType="centerInside" android:layout_centerVertical="true" android:layout_alignEnd="@id/v_edit" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/v_right_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/dp_6">
+        <RelativeLayout android:id="@id/v_container_right" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_5" android:layout_marginStart="@dimen/dp_5">
+            <ImageView android:id="@id/v_img_right_first" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_ui_search_bar_subscriber" android:scaleType="centerInside" />
+            <ImageView android:id="@id/v_img_right_new" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_author_new_red" android:scaleType="centerInside" android:layout_alignEnd="@id/v_img_right_first" />
+        </RelativeLayout>
+        <ImageView android:id="@id/v_img_right_second" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_8" android:src="@drawable/ic_ui_search_bar_history" android:scaleType="centerInside" android:layout_marginStart="@dimen/dp_8" />
+    </LinearLayout>
+</LinearLayout>

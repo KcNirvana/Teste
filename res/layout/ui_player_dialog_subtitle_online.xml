@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_size_15" android:textColor="@color/c_black" android:gravity="center_vertical" android:id="@id/iv_back" android:layout_width="wrap_content" android:layout_height="@dimen/player_more_row_height" android:text="@string/plus_player_subtitle_online" android:drawableStart="@drawable/ic_plus_back_black" android:layout_marginStart="@dimen/dp_5" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_declare_layout" android:paddingTop="@dimen/dp_20" android:paddingBottom="@dimen/dp_20" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/dp_43" android:paddingEnd="@dimen/dp_43">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/font_size_23" android:textColor="@color/c_black" android:id="@id/tv_declare_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/plus_player_subtitle_online_declare_title" />
+                    <View android:background="@color/c_black_10" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="@dimen/dp_13" android:layout_marginBottom="@dimen/dp_13" />
+                    <TextView android:textSize="@dimen/font_size_15" android:textColor="@color/c_black_40" android:id="@id/tv_declare_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/plus_player_subtitle_online_declare_content" android:lineSpacingExtra="@dimen/dp_4" />
+                </LinearLayout>
+            </FrameLayout>
+            <CheckBox android:textSize="@dimen/font_size_13_33" android:textColor="@color/c_black_40" android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:id="@id/cb_declare_remember" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_20" android:layout_marginBottom="@dimen/dp_20" android:button="@null" android:text="@string/do_not_show_again" android:drawablePadding="@dimen/dp_8" android:drawableStart="@drawable/selector_plus_player_subtitle_online_cb" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/dp_47">
+                <TextView android:textSize="@dimen/font_size_15" android:textColor="@color/c_black_40" android:gravity="center" android:id="@id/btn_cancel" android:background="@drawable/shape_plus_subtitle_online_declare_cancel" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/v_cancel" android:layout_weight="1.0" />
+                <View android:layout_width="@dimen/dp_20" android:layout_height="fill_parent" />
+                <TextView android:textSize="@dimen/font_size_15" android:textColor="@color/c_white" android:gravity="center" android:id="@id/btn_ok" android:background="@drawable/shape_plus_subtitle_online_declare_ok" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/v_ok" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_search_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <ListView android:id="@id/list_view" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="#00000000" android:cacheColorHint="@null" android:divider="@color/c_black_10" android:dividerHeight="1.0px" android:paddingStart="@dimen/dp_20" />
+                <FrameLayout android:id="@id/fl_msg_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="@dimen/font_size_13_33" android:textColor="@color/c_black_40" android:layout_gravity="center" android:id="@id/tv_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/plus_player_subtitle_online_search_empty" android:drawableTop="@drawable/ic_plus_subtitle_online_empty" android:drawablePadding="@dimen/dp_20" />
+                </FrameLayout>
+            </FrameLayout>
+            <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/dp_47" android:layout_margin="@dimen/dp_20">
+                <EditText android:textSize="@dimen/font_size_13_33" android:textColor="@color/c_black" android:ellipsize="end" android:id="@id/et_search" android:background="@drawable/shape_plus_player_subtitle_online_edit" android:focusable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="@string/plus_player_subtitle_online_search_hint" android:singleLine="true" android:layout_weight="1.0" android:textCursorDrawable="@drawable/shape_subtitle_online_edit_cursor" android:paddingStart="@dimen/dp_16.67" android:paddingEnd="@dimen/dp_16.67" />
+                <TextView android:textSize="@dimen/font_size_13_33" android:textColor="@color/c_white" android:gravity="center" android:id="@id/tv_search" android:background="@drawable/selector_plus_player_subtitle_online_btn" android:layout_width="@dimen/dp_80" android:layout_height="fill_parent" android:text="@string/v_search" />
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:id="@id/fl_loading_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="50.0dip" android:indeterminate="true" android:indeterminateDrawable="@anim/plus_rotate_loadingbar" style="?android:progressBarStyleLarge" />
+        </FrameLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/player_more_row_height">
+        <TextView android:textSize="@dimen/font_size_15" android:textColor="@color/c_black" android:gravity="center_vertical" android:id="@id/iv_back" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/plus_player_share_screen_device" android:drawableStart="@drawable/ic_plus_back_black" android:layout_marginStart="@dimen/dp_5" />
+        <ImageView android:id="@id/iv_close" android:padding="@dimen/dp_20" android:visibility="gone" android:layout_width="@dimen/player_more_row_height" android:layout_height="@dimen/player_more_row_height" android:src="@drawable/ic_plus_share_screen_close" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View android:background="@color/c_black_10" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ListView android:id="@id/list_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@color/c_black_10" android:dividerHeight="1.0px" android:paddingStart="@dimen/player_more_padding_horizontal" />
+        <FrameLayout android:id="@id/fl_empty_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/font_size_13_33" android:textColor="@color/c_black_40" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/plus_player_share_screen_no_device" android:drawableTop="@drawable/ic_plus_share_screen_no_device" android:drawablePadding="@dimen/dp_20" />
+        </FrameLayout>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/font_size_13_33" android:textColor="@color/c_white_60" android:gravity="center" android:id="@id/tv_tip" android:background="@color/c_black_80" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dp_40" />
+    <TextView android:textSize="@dimen/font_size_13_33" android:textColor="@color/color_218BFF" android:gravity="center" android:id="@id/tv_share_screen_stop" android:background="@color/color_F5F7F8" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dp_44" android:text="@string/plus_player_share_screen_stop" />
+</LinearLayout>

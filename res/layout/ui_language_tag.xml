@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textColor="@drawable/ui_selector_voice_language_txt_color" android:gravity="center" android:id="@id/v_title" android:background="@drawable/ui_selector_voice_language_bg" android:paddingLeft="@dimen/dp_17" android:paddingTop="@dimen/dp_10" android:paddingRight="@dimen/dp_17" android:paddingBottom="@dimen/dp_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:paddingStart="@dimen/dp_17" android:paddingEnd="@dimen/dp_17" style="@style/s_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

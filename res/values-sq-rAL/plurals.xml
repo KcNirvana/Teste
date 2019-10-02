@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="feed_back_home">
+        <item quantity="other">Duke u kthyer në faqen kryesore brenda %1$d sekondave…</item>
+        <item quantity="one">Duke u kthyer në faqen kryesore brenda %1$d sekondi…</item>
+    </plurals>
+    <plurals name="lv_subtitle_offset_advance_times">
+        <item quantity="other">Subtitrat do të dalin %.1f sekonda më parë</item>
+        <item quantity="one">Subtitrat do të dalin %.1f sekonde më parë</item>
+    </plurals>
+    <plurals name="lv_subtitle_offset_delay_times">
+        <item quantity="other">Subtitrat do të dalin pas %.1f sekondash</item>
+        <item quantity="one">Subtitrat do të dalin pas %.1f sekonde</item>
+    </plurals>
+    <plurals name="lv_subtitle_onlinesub_size_float_kb">
+        <item quantity="other">Masa: %.2fKB</item>
+        <item quantity="one">Masa: %.2fKB</item>
+    </plurals>
+    <plurals name="lv_video_count">
+        <item quantity="other">%d videot</item>
+        <item quantity="one">%d video</item>
+    </plurals>
+    <plurals name="ovp_detail_v_video_count">
+        <item quantity="other">%d videot</item>
+        <item quantity="one">%d video</item>
+    </plurals>
+    <plurals name="ovp_home_item_unit">
+        <item quantity="other">%d videot</item>
+        <item quantity="one">%d video</item>
+    </plurals>
+    <plurals name="plus_edit_delete_comfire_text">
+        <item quantity="other">Fshi artikujt %s tani?</item>
+        <item quantity="one">Fshi artikujt %s tani?</item>
+    </plurals>
+    <plurals name="plus_edit_top_titletext">
+        <item quantity="other">U përzgjedhën %s artikuj</item>
+        <item quantity="one">U përzgjedh %s artikull</item>
+    </plurals>
+    <plurals name="plus_player_subtitle_online_size">
+        <item quantity="other">Madhësia e skedarit: %.2fKB</item>
+        <item quantity="one">Madhësia e skedarit: %.2fKB</item>
+    </plurals>
+    <plurals name="plus_search_result_title">
+        <item quantity="other">%2$s rezultate për \"%1$s\"</item>
+        <item quantity="one">%2$s rezultat për \"%1$s\"</item>
+    </plurals>
+    <plurals name="plus_serval_pictures">
+        <item quantity="other">%d imazhe</item>
+        <item quantity="one">%d imazhë</item>
+    </plurals>
+    <plurals name="plus_serval_videos">
+        <item quantity="other">%d videot</item>
+        <item quantity="one">%d video</item>
+    </plurals>
+    <plurals name="subscriber">
+        <item quantity="other">%s abonues</item>
+        <item quantity="one">%s abonues</item>
+    </plurals>
+    <plurals name="subtitle_offset_advance_times">
+        <item quantity="other">Subtritrat zhvendosen %.1f sekonda para</item>
+        <item quantity="one">Subtritrat zhvendosen %.1f sekondë përpara</item>
+    </plurals>
+    <plurals name="subtitle_offset_delay_times">
+        <item quantity="other">Subtitrat dalin pas %.1f sekondash</item>
+        <item quantity="one">Subtitrat dalin pas %.1f sekonde</item>
+    </plurals>
+</resources>

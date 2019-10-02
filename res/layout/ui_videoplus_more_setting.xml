@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/v_setting_fullback" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/v_setting_container" android:background="@drawable/shape_feedback_bg" android:layout_width="@dimen/dp_145" android:layout_height="@dimen/dp_96" android:layout_marginTop="@dimen/dp_39" android:layout_alignParentTop="true" android:layout_marginEnd="@dimen/dp_16" android:layout_alignParentEnd="true">
+        <LinearLayout android:orientation="horizontal" android:id="@id/v_setting_set" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_plus_setting" android:scaleType="centerInside" android:layout_marginStart="@dimen/dp_16" />
+            <TextView android:gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lv_home_settings" style="@style/MoreTextStyleNoIcon" />
+        </LinearLayout>
+        <View android:background="@color/c_gray" android:layout_width="fill_parent" android:layout_height="@dimen/dp_1" android:layout_marginStart="@dimen/dp_16" android:layout_marginEnd="@dimen/dp_16" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/v_setting_feedback" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_plus_feedback" android:scaleType="centerInside" android:layout_marginStart="@dimen/dp_16" />
+            <TextView android:gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/plus_fallback" style="@style/MoreTextStyleNoIcon" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

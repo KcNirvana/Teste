@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/im_icon" android:layout_width="@dimen/dp_45" android:layout_height="@dimen/dp_45" android:src="@drawable/ic_launcher" android:scaleType="fitXY" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/sp_14" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_11" android:text="@string/vp_notify_apk_installed" android:layout_toRightOf="@id/im_icon" android:layout_centerVertical="true" />
+</RelativeLayout>

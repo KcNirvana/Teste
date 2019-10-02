@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="feed_back_home">
+        <item quantity="other">Vraćanje na početnu stranicu za %1$d sekundi…</item>
+        <item quantity="one">Vraćanje na početnu stranicu za %1$d sekundu…</item>
+        <item quantity="few">Vraćanje na početnu stranicu za %1$d sekunde…</item>
+    </plurals>
+    <plurals name="lv_subtitle_offset_advance_times">
+        <item quantity="other">Titlovi će biti prikazani %.1f sekundi ranije</item>
+        <item quantity="one">Titlovi će biti prikazani %.1f sekundu ranije</item>
+        <item quantity="few">Titlovi će biti prikazani %.1f sekunde ranije</item>
+    </plurals>
+    <plurals name="lv_subtitle_offset_delay_times">
+        <item quantity="other">Titlovi će biti prikazani sa %.1f sekundi kašnjenja</item>
+        <item quantity="one">Titlovi će biti prikazani sa %.1f sekundom kašnjenja</item>
+        <item quantity="few">Titlovi će biti prikazani sa %.1f sekunde kašnjenja</item>
+    </plurals>
+    <plurals name="lv_subtitle_onlinesub_size_float_kb">
+        <item quantity="other">Veličina: %.2fKB</item>
+        <item quantity="one">Veličina: %.2fKB</item>
+        <item quantity="few">Veličina: %.2fKB</item>
+    </plurals>
+    <plurals name="lv_video_count">
+        <item quantity="other">%d videozapisa</item>
+        <item quantity="one">%d video</item>
+        <item quantity="few">%d videozapisa</item>
+    </plurals>
+    <plurals name="ovp_detail_v_video_count">
+        <item quantity="other">%d videozapisa</item>
+        <item quantity="one">%d videozapis</item>
+        <item quantity="few">%d videzapisa</item>
+    </plurals>
+    <plurals name="ovp_home_item_unit">
+        <item quantity="other">%d videozapisa</item>
+        <item quantity="one">%d video</item>
+        <item quantity="few">%d videozapisa</item>
+    </plurals>
+    <plurals name="plus_edit_delete_comfire_text">
+        <item quantity="other">Obrisati %s stavki?</item>
+        <item quantity="one">Obrisati %s stavku?</item>
+        <item quantity="few">Obrisati %s stavke?</item>
+    </plurals>
+    <plurals name="plus_edit_top_titletext">
+        <item quantity="other">Odabrano %s stavki</item>
+        <item quantity="one">Odabrana %s stavka</item>
+        <item quantity="few">Odabrane %s stavke</item>
+    </plurals>
+    <plurals name="plus_player_subtitle_online_size">
+        <item quantity="other">Veličina fajla: %.2fKB</item>
+        <item quantity="one">Veličina fajla: %.2fKB</item>
+        <item quantity="few">Veličina fajla: %.2fKB</item>
+    </plurals>
+    <plurals name="plus_search_result_title">
+        <item quantity="other">%2$s od \"%1$s\"</item>
+        <item quantity="one">%2$s od \"%1$s\"</item>
+        <item quantity="few">%2$s od \"%1$s\"</item>
+    </plurals>
+    <plurals name="plus_serval_pictures">
+        <item quantity="other">%d slika</item>
+        <item quantity="one">%d slika</item>
+        <item quantity="few">%d slike</item>
+    </plurals>
+    <plurals name="plus_serval_videos">
+        <item quantity="other">%d videozapisa</item>
+        <item quantity="one">%d video</item>
+        <item quantity="few">%d videozapisa</item>
+    </plurals>
+    <plurals name="subscriber">
+        <item quantity="other">%s pretplatnika</item>
+        <item quantity="one">%s pretplatnik</item>
+        <item quantity="few">%s pretplatnika</item>
+    </plurals>
+    <plurals name="subtitle_offset_advance_times">
+        <item quantity="other">Titlovi su pomjereni %.1f sekundi naprijed</item>
+        <item quantity="one">Titlovi su pomjereni %.1f sekundu naprijed</item>
+        <item quantity="few">Titlovi su pomjereni %.1f sekunde naprijed</item>
+    </plurals>
+    <plurals name="subtitle_offset_delay_times">
+        <item quantity="other">Titlovi kasne %.1f sekundi</item>
+        <item quantity="one">Titlovi kasne %.1f sekundu</item>
+        <item quantity="few">Titlovi kasne %.1f sekunde</item>
+    </plurals>
+</resources>
