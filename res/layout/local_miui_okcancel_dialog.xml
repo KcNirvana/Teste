@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/shape_miui_bg_dialog" android:paddingTop="@dimen/dp_25" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dp_9.33" android:layout_centerInParent="true">
+        <TextView android:textSize="@dimen/sp_15" android:textStyle="bold" android:textColor="@color/c_black" android:gravity="center" android:id="@id/v_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_20" android:maxLines="1" android:layout_weight="0.0" />
+        <TextView android:textSize="@dimen/sp_14.67" android:textColor="@color/c_black_80" android:id="@id/v_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_36.67" android:layout_marginRight="@dimen/dp_36.67" android:layout_marginBottom="@dimen/dp_26.67" android:maxHeight="@dimen/h_dialog_max" android:layout_weight="1.0" android:lineSpacingExtra="@dimen/d_ui_4" />
+        <View android:id="@id/v_horizontal_line" android:background="@color/c_2" android:layout_width="fill_parent" android:layout_height="@dimen/px_1" android:layout_weight="0.0" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/dp_50">
+            <TextView android:textSize="@dimen/sp_14" android:textColor="@color/selector_click" android:gravity="center" android:id="@id/v_ok" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/v_ok" android:maxLines="1" android:layout_weight="1.0" />
+            <View android:id="@id/v_vertical_line" android:background="@color/c_2" android:layout_width="@dimen/px_1" android:layout_height="fill_parent" android:layout_weight="0.0" />
+            <TextView android:textSize="@dimen/sp_14" android:textColor="@color/dialog_miui_ok_color" android:gravity="center" android:id="@id/v_cancel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/v_cancel" android:maxLines="1" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

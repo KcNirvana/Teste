@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/subtitle_divider" android:layout_width="fill_parent" android:layout_height="@dimen/px_1" android:layout_marginStart="@dimen/dp_20" />
+    <TextView android:text="@string/lv_subtitle_synchronization_title" style="@style/dialog_title" />
+    <View android:background="@color/subtitle_divider" android:layout_width="fill_parent" android:layout_height="@dimen/px_1" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/subtitle_offset_height" android:layout_marginBottom="@dimen/dp_30">
+        <TextView android:id="@id/v_subtitle_offset_sub_1s" android:text="@string/lv_subtitle_offset_sub_1s" android:drawableBottom="@drawable/selector_subtitle_offset_sub_bg" style="@style/subtitle_offset_style" />
+        <TextView android:id="@id/v_subtitle_offset_sub_dot5s" android:text="@string/lv_subtitle_offset_sub_dot5s" android:drawableBottom="@drawable/selector_subtitle_offset_sub_bg" style="@style/subtitle_offset_style" />
+        <ImageButton android:layout_gravity="center" android:id="@id/v_subtitle_offset_reset" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/selector_subtitle_offset_refresh_bg" android:layout_weight="1.0" />
+        <TextView android:id="@id/v_subtitle_offset_add_dot5s" android:text="@string/lv_subtitle_offset_add_dot5s" android:drawableBottom="@drawable/selector_subtitle_offset_add_bg" style="@style/subtitle_offset_style" />
+        <TextView android:id="@id/v_subtitle_offset_add_1s" android:text="@string/lv_subtitle_offset_add_1s" android:drawableBottom="@drawable/selector_subtitle_offset_add_bg" style="@style/subtitle_offset_style" />
+    </LinearLayout>
+</LinearLayout>

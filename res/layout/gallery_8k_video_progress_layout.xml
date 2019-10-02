@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/c_black_40" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/gallery_video_time_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="@dimen/sp_16_7" android:textColor="@color/c_white" android:id="@id/gallery_video_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+        <View android:id="@id/gallery_video_time_line" android:background="@color/c_white" android:layout_width="@dimen/dp_1" android:layout_height="@dimen/dp_12.33" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dp_1_2" android:layout_marginEnd="@dimen/dp_1_2" android:layout_toEndOf="@id/gallery_video_time" />
+        <TextView android:textSize="@dimen/sp_16_7" android:textColor="@color/c_white" android:id="@id/gallery_video_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_alignTop="@id/gallery_video_time" android:layout_alignBottom="@id/gallery_video_time" android:layout_toEndOf="@id/gallery_video_time_line" />
+    </RelativeLayout>
+    <ProgressBar android:id="@id/gallery_video_progress" android:layout_width="fill_parent" android:layout_height="@dimen/dp_2" android:layout_marginTop="@dimen/dp_3.33" android:max="100" android:progressDrawable="@drawable/vertical_video_progress" android:layout_below="@id/gallery_video_time_layout" android:layout_alignStart="@id/gallery_video_time_layout" android:layout_alignEnd="@id/gallery_video_time_layout" style="?android:progressBarStyleHorizontal" />
+</RelativeLayout>

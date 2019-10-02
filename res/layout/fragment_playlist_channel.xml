@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/v_layout" android:background="@color/c_white" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:paddingBottom="@dimen/dp_13" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/sp_12" android:textColor="@color/selector_color_white_blue" android:gravity="center" android:id="@id/v_tab_new" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/dp_8" android:paddingEnd="@dimen/dp_8" />
+        <View android:layout_gravity="center_vertical" android:background="@color/c_black_20" android:layout_width="@dimen/px_1" android:layout_height="@dimen/dp_12" android:layout_marginStart="@dimen/dp_8" android:layout_marginEnd="@dimen/dp_8" />
+        <TextView android:textSize="@dimen/sp_12" android:textColor="@color/selector_color_white_blue" android:gravity="center" android:id="@id/v_tab_hot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/dp_8" android:paddingEnd="@dimen/dp_8" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/v_rl_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

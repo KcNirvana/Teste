@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="feed_back_home">
+        <item quantity="other">%1$d سیکنڈ میں ہوم صفحہ پر واپس جا رہا ہے</item>
+        <item quantity="one">%1$d سیکنڈ میں ہوم صفحہ پر واپس جا رہا ہے</item>
+    </plurals>
+    <plurals name="lv_subtitle_offset_advance_times">
+        <item quantity="other">سب ٹائٹل %.1f سیکنڈ پہلے دکھائے جائیں گے</item>
+        <item quantity="one">سب ٹائٹل %.1f سیکنڈ پہلے دکھائے جائیں گے</item>
+    </plurals>
+    <plurals name="lv_subtitle_offset_delay_times">
+        <item quantity="other">سب ٹائٹل %.1f سیکنڈ بعد دکھائے جائیں گے</item>
+        <item quantity="one">سب ٹائٹل %.1f سیکنڈ بعد دکھائے جائیں گے</item>
+    </plurals>
+    <plurals name="lv_subtitle_onlinesub_size_float_kb">
+        <item quantity="other">سائز: %.2fKB</item>
+        <item quantity="one">سائز: %.2fKB</item>
+    </plurals>
+    <plurals name="lv_video_count">
+        <item quantity="other">%d ویڈیو</item>
+        <item quantity="one">%d ویڈیو</item>
+    </plurals>
+    <plurals name="ovp_detail_v_video_count">
+        <item quantity="other">%d ویڈیو</item>
+        <item quantity="one">%d ویڈیو</item>
+    </plurals>
+    <plurals name="ovp_home_item_unit">
+        <item quantity="other">%d ویڈیو</item>
+        <item quantity="one">%d ویڈیو</item>
+    </plurals>
+    <plurals name="plus_edit_delete_comfire_text">
+        <item quantity="other">%s آئٹم ابھی حذف کریں؟</item>
+        <item quantity="one">%s آئٹم ابھی حذف کریں؟</item>
+    </plurals>
+    <plurals name="plus_edit_top_titletext">
+        <item quantity="other">%s آئٹم منتخب کیے</item>
+        <item quantity="one">%s آئٹم منتخب کیا</item>
+    </plurals>
+    <plurals name="plus_player_subtitle_online_size">
+        <item quantity="other">فائل سائز: %.2fKB</item>
+        <item quantity="one">فائل سائز: %.2fKB</item>
+    </plurals>
+    <plurals name="plus_search_result_title">
+        <item quantity="other">\"%1$s\" کے لیے %2$s نتائج</item>
+        <item quantity="one">\"%1$s\" کے لیے %2$s نتیجہ</item>
+    </plurals>
+    <plurals name="plus_serval_pictures">
+        <item quantity="other">%d تصاویر</item>
+        <item quantity="one">%d تصویر</item>
+    </plurals>
+    <plurals name="plus_serval_videos">
+        <item quantity="other">%d ویڈیو</item>
+        <item quantity="one">%d ویڈیو</item>
+    </plurals>
+    <plurals name="subscriber">
+        <item quantity="other">%s سبسکرائبر</item>
+        <item quantity="one">%s سبسکرائبر</item>
+    </plurals>
+    <plurals name="subtitle_offset_advance_times">
+        <item quantity="other">سب ٹائٹل کو %.1f سیکنڈ آگے منتقل کر دیا گیا</item>
+        <item quantity="one">سب ٹائٹل کو %.1f سیکنڈ آگے منتقل کر دیا گیا</item>
+    </plurals>
+    <plurals name="subtitle_offset_delay_times">
+        <item quantity="other">سب ٹائٹل %.1f سیکنڈ کی تاخیر سے آ رہے ہیں</item>
+        <item quantity="one">سب ٹائٹل %.1f سیکنڈ کی تاخیر سے آ رہے ہیں</item>
+    </plurals>
+</resources>

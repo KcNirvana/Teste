@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/cardview_light_background" android:layout_width="fill_parent" android:layout_height="@dimen/dp_110"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/card_ll_1" android:layout_width="@dimen/dp_82" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_1" android:layout_width="@dimen/dp_60" android:layout_height="@dimen/dp_54" />
+        <TextView android:textSize="@dimen/sp_10" android:textColor="@color/c_black_40" android:id="@id/tv_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_8" android:text="Movie" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/card_ll_2" android:layout_width="@dimen/dp_82" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_2" android:layout_width="@dimen/dp_60" android:layout_height="@dimen/dp_54" />
+        <TextView android:textSize="@dimen/sp_10" android:textColor="@color/c_black_40" android:id="@id/tv_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_8" android:text="Movie" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/card_ll_3" android:layout_width="@dimen/dp_82" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_3" android:layout_width="@dimen/dp_60" android:layout_height="@dimen/dp_54" />
+        <TextView android:textSize="@dimen/sp_10" android:textColor="@color/c_black_40" android:id="@id/tv_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_8" android:text="Movie" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/card_ll_4" android:layout_width="@dimen/dp_82" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_4" android:layout_width="@dimen/dp_60" android:layout_height="@dimen/dp_54" />
+        <TextView android:textSize="@dimen/sp_10" android:textColor="@color/c_black_40" android:id="@id/tv_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_8" android:text="Movie" />
+    </LinearLayout>
+</LinearLayout>

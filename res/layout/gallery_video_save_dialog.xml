@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/gallery_video_save_video_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dp_86_3" android:layout_marginBottom="@dimen/dp_9.33" android:paddingStart="@dimen/dp_36.67" android:paddingEnd="@dimen/dp_36.67" android:layout_marginStart="@dimen/dp_9.33" android:layout_marginEnd="@dimen/dp_9.33"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_25">
+        <TextView android:textSize="@dimen/sp_14.67" android:textColor="@color/gallery_save_dialog_text" android:id="@id/gallery_video_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gallery_video_save_video" />
+        <TextView android:textSize="@dimen/sp_14.67" android:textColor="@color/gallery_save_dialog_percent" android:id="@id/gallery_video_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <ProgressBar android:id="@id/gallery_video_progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_12" android:max="100" android:progress="50" style="@style/Widget.ProgressBar.Horizontal" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.miui.video.common.feed.ui.card.UISimpleTinyImage android:id="@id/v_tiny_img" android:background="@color/c_black" android:layout_width="fill_parent" android:layout_height="@dimen/dp_203" />
+    <RelativeLayout android:id="@id/v_player_container_wrapper" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/dp_203" android:layout_alignTop="@id/v_tiny_img" android:layout_alignBottom="@id/v_tiny_img">
+        <FrameLayout android:id="@id/v_player_container" android:background="@color/c_black" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/sp_14" android:textColor="@color/c_black" android:id="@id/v_introduction" android:paddingTop="@dimen/dp_10" android:paddingBottom="@dimen/dp_20" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:layout_below="@id/v_tiny_img" android:paddingStart="@dimen/dp_17" android:paddingEnd="@dimen/dp_17" />
+</RelativeLayout>

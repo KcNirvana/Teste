@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/submit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_23">
+        <com.miui.video.common.feed.ui.card.UIImageView android:id="@id/v_avatar" android:layout_width="@dimen/dp_33" android:layout_height="@dimen/dp_33" android:layout_marginStart="@dimen/dp_13" app:uiRound="@dimen/dp_16" app:uiType="circle" />
+        <TextView android:textSize="@dimen/sp_13.33" android:textColor="@color/c_black" android:id="@id/v_title" android:background="@drawable/shape_chat_bg" android:paddingTop="@dimen/dp_10" android:paddingBottom="@dimen/dp_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/dp_13" android:paddingEnd="@dimen/dp_13" android:layout_marginStart="@dimen/dp_10" android:layout_marginEnd="@dimen/dp_63" android:layout_toEndOf="@id/v_avatar" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/reply" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_23">
+        <com.miui.video.common.feed.ui.card.UIImageView android:id="@id/v_avatar_reply" android:layout_width="@dimen/dp_33" android:layout_height="@dimen/dp_33" android:layout_marginEnd="@dimen/dp_13" android:layout_alignParentEnd="true" app:uiType="circle" />
+        <TextView android:textSize="@dimen/sp_13.33" android:textColor="@color/c_black" android:id="@id/v_title_reply" android:background="@drawable/shape_chat_bg" android:paddingTop="@dimen/dp_10" android:paddingBottom="@dimen/dp_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/dp_13" android:paddingEnd="@dimen/dp_13" android:layout_marginStart="@dimen/dp_63" android:layout_marginEnd="@dimen/dp_10" android:layout_toStartOf="@id/v_avatar_reply" />
+    </RelativeLayout>
+</LinearLayout>

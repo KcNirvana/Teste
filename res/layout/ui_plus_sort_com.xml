@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/dp_29"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.miui.video.biz.videoplus.app.widget.UISortView android:gravity="center" android:id="@id/v_sort1" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <com.miui.video.biz.videoplus.app.widget.UISortView android:gravity="center" android:id="@id/v_sort2" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <com.miui.video.biz.videoplus.app.widget.UISortView android:gravity="center" android:id="@id/v_sort3" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+</LinearLayout>

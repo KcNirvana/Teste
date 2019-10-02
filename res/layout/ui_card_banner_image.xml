@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/v_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.miui.video.common.feed.ui.card.UITinyImage android:id="@id/v_image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/v_ad_container" android:background="@drawable/bg_auto_scroll_banner" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

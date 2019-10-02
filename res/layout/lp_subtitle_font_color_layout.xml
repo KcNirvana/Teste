@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="@string/lv_subtitle_font_color_title" style="@style/dialog_title" />
+    <View android:background="@color/subtitle_divider" android:layout_width="fill_parent" android:layout_height="@dimen/px_1" />
+    <RadioGroup android:orientation="horizontal" android:id="@id/v_color_radiogroup" android:layout_width="fill_parent" android:layout_height="@dimen/dp_52" android:layout_marginStart="@dimen/dp_20">
+        <com.miui.video.player.service.localvideoplayer.settings.views.StrokeRadioButton android:gravity="center" android:id="@id/v_color_0" android:background="@color/subtitle_color_white" android:layout_width="0.0dip" android:layout_height="fill_parent" android:button="@drawable/selector_subtitle_color_item_white_bg" android:layout_weight="1.0" />
+        <com.miui.video.player.service.localvideoplayer.settings.views.StrokeRadioButton android:gravity="center" android:id="@id/v_color_1" android:background="@color/subtitle_color_ffff00" android:layout_width="0.0dip" android:layout_height="fill_parent" android:button="@drawable/selector_subtitle_color_item_ffff00_bg" android:layout_weight="1.0" />
+        <com.miui.video.player.service.localvideoplayer.settings.views.StrokeRadioButton android:gravity="center" android:id="@id/v_color_2" android:background="@color/subtitle_color_00ff00" android:layout_width="0.0dip" android:layout_height="fill_parent" android:button="@drawable/selector_subtitle_color_item_00ff00_bg" android:layout_weight="1.0" />
+        <com.miui.video.player.service.localvideoplayer.settings.views.StrokeRadioButton android:gravity="center" android:id="@id/v_color_3" android:background="@color/subtitle_color_00ffff" android:layout_width="0.0dip" android:layout_height="fill_parent" android:button="@drawable/selector_subtitle_color_item_00ffff_bg" android:layout_weight="1.0" />
+        <com.miui.video.player.service.localvideoplayer.settings.views.StrokeRadioButton android:gravity="center" android:id="@id/v_color_4" android:background="@color/subtitle_color_ff00ff" android:layout_width="0.0dip" android:layout_height="fill_parent" android:button="@drawable/selector_subtitle_color_item_ff00ff_bg" android:layout_weight="1.0" />
+    </RadioGroup>
+</LinearLayout>

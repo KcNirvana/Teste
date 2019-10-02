@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/black_50_transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/share_container" android:paddingBottom="@dimen/preview_chooser_margin_bottom" android:layout_width="fill_parent" android:layout_height="@dimen/preview_chooser_height" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="horizontal" android:id="@id/pager_point_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <android.support.v4.view.ViewPager android:id="@id/chooser_pager" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/pager_point_layout" ViewPager:leftOffsetLimit="3" ViewPager:rightOffsetLimit="3" xmlns:ViewPager="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+    <TextView android:gravity="center_horizontal" android:id="@id/sharetips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/lv_share_tips" android:layout_above="@id/share_container" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="5.0dip" android:layout_above="@id/sharetips" android:layout_centerHorizontal="true">
+        <View android:layout_gravity="center_vertical" android:background="@color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="fill_vertical" android:id="@id/share_image" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@color/c_blue" android:scaleType="centerCrop" android:layout_weight="2.0" />
+        <View android:layout_gravity="center_vertical" android:background="@color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ImageView android:id="@id/closeButton" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/share_close" android:layout_alignParentTop="true" android:layout_marginEnd="@dimen/dp_10" android:layout_alignParentEnd="true" />
+</RelativeLayout>

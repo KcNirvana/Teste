@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/dp_6" android:paddingEnd="@dimen/dp_6"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/music_image_layout" android:layout_width="@dimen/dp_48" android:layout_height="@dimen/dp_48">
+        <ImageView android:id="@id/music_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/dp_4" />
+        <ImageView android:id="@id/music_focus" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/dp_4" android:src="@drawable/gallery_music_focus" />
+        <FrameLayout android:layout_gravity="end|bottom|center" android:id="@id/music_status_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/gallery_music_download_bg" />
+            <ImageView android:layout_gravity="center" android:id="@id/music_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/gallery_music_download" />
+        </FrameLayout>
+    </FrameLayout>
+    <TextView android:textSize="@dimen/sp_9_3" android:textColor="@drawable/selector_gallery_edit_music_desc_color" android:gravity="center" android:id="@id/music_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_4_7" android:layout_below="@id/music_image_layout" android:layout_alignStart="@id/music_image_layout" android:layout_alignEnd="@id/music_image_layout" />
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lv_subtitle_offset_advance_times">
+        <item quantity="other">Titlovi će se prikazati %.1f sek. ranije</item>
+        <item quantity="one">Titlovi će se prikazati %.1f sek. ranije</item>
+    </plurals>
+    <plurals name="lv_subtitle_offset_delay_times">
+        <item quantity="other">Titlovi će se prikazati %.1f sek. kasnije</item>
+        <item quantity="one">Titlovi će se prikazati %.1f sek. kasnije</item>
+    </plurals>
+    <plurals name="lv_subtitle_onlinesub_size_float_kb">
+        <item quantity="other">Veličina: %.2fKB</item>
+        <item quantity="one">Veličina: %.2fKB</item>
+    </plurals>
+    <plurals name="lv_video_count">
+        <item quantity="other">%d videozapisa</item>
+        <item quantity="one">%d videozapis</item>
+    </plurals>
+    <plurals name="ovp_detail_v_video_count">
+        <item quantity="other">%d videozapisa</item>
+        <item quantity="one">%d videozapis</item>
+    </plurals>
+    <plurals name="ovp_home_item_unit">
+        <item quantity="other">%d videozapisa</item>
+        <item quantity="one">%d videozapis</item>
+    </plurals>
+    <plurals name="plus_edit_delete_comfire_text">
+        <item quantity="other">Izbrisati stavke: %s?</item>
+        <item quantity="one">Izbrisati %s stavku?</item>
+    </plurals>
+    <plurals name="plus_edit_top_titletext">
+        <item quantity="other">Odabrano: %s</item>
+        <item quantity="one">Odabrano: %s</item>
+    </plurals>
+    <plurals name="plus_player_subtitle_online_size">
+        <item quantity="other">Veličina: %.2fKB</item>
+        <item quantity="one">Veličina: %.2fKB</item>
+    </plurals>
+    <plurals name="plus_search_result_title">
+        <item quantity="other">%2$s rezultata za \"%1$s\"</item>
+        <item quantity="one">%2$s rezultat za \"%1$s\"</item>
+    </plurals>
+    <plurals name="plus_serval_pictures">
+        <item quantity="other">%d slika</item>
+        <item quantity="one">%d slika</item>
+    </plurals>
+    <plurals name="plus_serval_videos">
+        <item quantity="other">%d videozapisa</item>
+        <item quantity="one">%d videozapis</item>
+    </plurals>
+</resources>

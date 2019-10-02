@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/v_root" android:background="@color/mediation_ad_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/v_content_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/v_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_ad_close_black_bg" android:scaleType="center" android:layout_marginEnd="@dimen/dp_3" android:layout_alignParentEnd="true" />
+        <ImageView android:id="@id/v_mediation_ad" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_11" android:src="@drawable/ic_ad" android:scaleType="center" android:layout_toStartOf="@id/v_close" />
+        <RelativeLayout android:id="@id/v_mediation_ad_choice_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_6" android:layout_alignParentTop="true" android:layout_marginStart="@dimen/dp_3" android:layout_alignParentStart="true" />
+        <ImageView android:id="@id/v_mediation_cover" android:layout_width="@dimen/dp_333" android:layout_height="@dimen/dp_174" android:scaleType="centerCrop" android:layout_below="@id/v_close" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:id="@id/v_mediation_media_container" android:layout_width="@dimen/dp_333" android:layout_height="@dimen/dp_174" android:layout_below="@id/v_close" android:layout_centerHorizontal="true">
+            <com.google.android.gms.ads.formats.MediaView android:id="@id/v_mediation_media" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/v_fan_media_container" android:layout_width="@dimen/dp_333" android:layout_height="@dimen/dp_174" android:layout_below="@id/v_close" android:layout_centerHorizontal="true">
+            <com.facebook.ads.MediaView android:id="@id/v_fan_media_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+        <com.miui.video.common.feed.ui.card.UIImageView android:id="@id/v_mediation_icon" android:background="@null" android:layout_width="@dimen/dp_43" android:layout_height="@dimen/dp_43" android:layout_marginTop="@dimen/dp_221" android:scaleType="centerCrop" android:layout_marginStart="@dimen/dp_13" app:uiRound="@dimen/dp_9" app:uiType="round" />
+        <com.facebook.ads.AdIconView android:gravity="center" android:id="@id/v_fan_ad_icon_view" android:layout_width="@dimen/dp_43" android:layout_height="@dimen/dp_43" android:layout_marginTop="@dimen/dp_221" android:layout_marginStart="@dimen/dp_13" />
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/v_title_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignTop="@id/v_mediation_icon" android:layout_alignBottom="@id/v_mediation_icon" android:layout_marginStart="@dimen/dp_4" android:layout_marginEnd="@dimen/dp_13" android:layout_toEndOf="@id/v_mediation_icon">
+            <TextView android:textSize="@dimen/dp_11" android:textColor="@color/c_white" android:gravity="center" android:id="@id/v_mediation_cta" android:background="@drawable/selector_bg_mediation_cta" android:layout_width="@dimen/dp_94" android:layout_height="@dimen/dp_27" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dp_7" android:layout_alignParentEnd="true" />
+            <TextView android:textSize="@dimen/dp_13" android:textColor="@color/c_black" android:ellipsize="end" android:gravity="start|center" android:id="@id/v_mediation_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_toStartOf="@id/v_mediation_cta" android:layout_alignParentStart="true" />
+            <TextView android:textSize="@dimen/dp_9" android:textColor="@color/c_black_30" android:ellipsize="end" android:gravity="start" android:id="@id/v_mediation_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_below="@id/v_mediation_title" android:layout_toStartOf="@id/v_mediation_cta" android:layout_alignParentStart="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

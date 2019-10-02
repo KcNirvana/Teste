@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.miui.video.biz.videoplus.player.widget.PlayerScrollView android:id="@id/scroll_view" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+    <com.miui.video.biz.videoplus.player.widget.EditModeMaskView android:id="@id/edit_mask_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <CheckBox android:id="@id/cb_select" android:clickable="false" android:layout_width="@dimen/dp_24" android:layout_height="@dimen/dp_24" android:layout_marginBottom="@dimen/dp_13" android:button="@drawable/selector_plus_folder_check_bg" android:layout_alignParentBottom="true" android:layout_marginEnd="@dimen/dp_13" android:layout_alignParentEnd="true" />
+    </com.miui.video.biz.videoplus.player.widget.EditModeMaskView>
+</FrameLayout>

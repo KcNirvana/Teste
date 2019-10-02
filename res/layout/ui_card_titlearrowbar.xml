@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/d_pw_card_padding_top" android:paddingTop="@dimen/d_pw_card_padding_top" android:paddingRight="@dimen/d_ui_13" android:paddingBottom="@dimen/d_pw_card_padding_bottom" android:layout_width="fill_parent" android:layout_height="@dimen/h_ui_titlebar_layout" android:layout_alignParentTop="true" android:paddingStart="@dimen/d_pw_card_padding_top" android:paddingEnd="@dimen/d_ui_13"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/title_img_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/sp_16" android:textStyle="bold" android:textColor="@color/c_white" android:gravity="start" android:layout_gravity="center_vertical" android:id="@id/v_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" android:textDirection="locale" android:layout_marginStart="@dimen/dp_7" style="@style/tv_title1" />
+    <TextView android:textSize="@dimen/sp_16" android:textColor="@color/c_highlight_title" android:gravity="start|center" android:id="@id/v_arrow" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@style/tv_title1" />
+</LinearLayout>

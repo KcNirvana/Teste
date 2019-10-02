@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/color_mainbar_color" android:fitsSystemWindows="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.miui.video.biz.videoplus.app.widget.UIFolderTitleBar android:id="@id/ui_title_bar" android:layout_width="fill_parent" android:layout_height="@dimen/global_tool_bar_high" android:layout_marginTop="@dimen/global_status_bar_high" />
+    <com.miui.video.biz.videoplus.app.widget.UIEditTopTitleBar android:id="@id/v_edit_topbar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/global_tool_bar_high" android:layout_alignParentTop="true" />
+    <View android:id="@id/devider" android:background="@color/c_black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dp_1" android:layout_below="@id/ui_title_bar" />
+    <RelativeLayout android:id="@id/v_indicator_container" android:paddingTop="@dimen/global_status_bar_high" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/devider">
+        <com.miui.video.biz.videoplus.app.widget.CustomTabPageIndicator android:id="@id/v_indicator" android:fadingEdgeLength="@dimen/dp_30" android:layout_width="fill_parent" android:layout_height="@dimen/home_top_tab_indicator_high" android:layout_alignParentTop="true" android:layout_centerVertical="true" android:overScrollMode="never" android:requiresFadingEdge="horizontal" />
+    </RelativeLayout>
+    <com.miui.video.biz.videoplus.app.widget.GestureViewPager android:id="@id/ui_viewpager" android:background="@color/c_white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/v_indicator_container" android:overScrollMode="never" />
+</RelativeLayout>

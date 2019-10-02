@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="@dimen/h_pw_card_carousel_layout" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.miui.video.common.feed.ui.UIBannerViewPager android:id="@id/v_viewpager" android:focusable="false" android:clickable="false" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="@dimen/h_pw_card_carousel_layout" android:layout_marginLeft="@dimen/h_pw_card_carousel_margin" android:layout_marginRight="@dimen/h_pw_card_carousel_margin" android:layout_marginStart="@dimen/h_pw_card_carousel_margin" android:layout_marginEnd="@dimen/h_pw_card_carousel_margin" />
+</RelativeLayout>

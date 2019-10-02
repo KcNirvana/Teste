@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lv_subtitle_offset_advance_times">
+        <item quantity="other">Субцітры будуць паказаны на %.1f секунды пазней</item>
+        <item quantity="one">Субцітры будуць паказаны на %.1f секунду пазней</item>
+        <item quantity="few">Субцітры будуць паказаны на %.1f секунды пазней</item>
+        <item quantity="many">Субцітры будуць паказаны на %.1f секунд пазней</item>
+    </plurals>
+    <plurals name="lv_subtitle_offset_delay_times">
+        <item quantity="other">Субцітры будуць паказаны на %.1f секунды пазней</item>
+        <item quantity="one">Субцітры будуць паказаны на %.1f секунду пазней</item>
+        <item quantity="few">Субцітры будуць паказаны на %.1f секунды пазней</item>
+        <item quantity="many">Субцітры будуць паказаны на %.1f секунд пазней</item>
+    </plurals>
+    <plurals name="lv_subtitle_onlinesub_size_float_kb">
+        <item quantity="other">Памер: %.2fКБ</item>
+        <item quantity="one">Памер: %.2fКБ</item>
+        <item quantity="few">Памер: %.2fКБ</item>
+        <item quantity="many">Памер: %.2fКБ</item>
+    </plurals>
+    <plurals name="lv_video_count">
+        <item quantity="other">%d відэа</item>
+        <item quantity="one">%d відэа</item>
+        <item quantity="few">%d відэа</item>
+        <item quantity="many">%d відэа</item>
+    </plurals>
+    <plurals name="ovp_detail_v_video_count">
+        <item quantity="other">%d відэа</item>
+        <item quantity="one">%d відэа</item>
+        <item quantity="few">%d відэа</item>
+        <item quantity="many">%d відэа</item>
+    </plurals>
+    <plurals name="ovp_home_item_unit">
+        <item quantity="other">%d відэа</item>
+        <item quantity="one">%d відэа</item>
+        <item quantity="few">%d відэа</item>
+        <item quantity="many">%d відэа</item>
+    </plurals>
+    <plurals name="subscriber">
+        <item quantity="other"> падпісчыкаў</item>
+        <item quantity="one"> падпісчык</item>
+        <item quantity="few"> падпісчыка</item>
+        <item quantity="many"> падпісчыкаў</item>
+    </plurals>
+</resources>

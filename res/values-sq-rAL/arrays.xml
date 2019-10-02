@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="feedback_tag_list">
+        <item>Gabim</item>
+        <item>Sugjerime</item>
+        <item>Tjetër</item>
+    </string-array>
+</resources>

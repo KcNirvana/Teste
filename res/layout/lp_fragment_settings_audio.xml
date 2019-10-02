@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="@string/lv_audio_title" style="@style/dialog_title" />
+    <View android:background="@color/subtitle_divider" android:layout_width="fill_parent" android:layout_height="@dimen/px_1" />
+    <ListView android:id="@id/content" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="#00000000" android:cacheColorHint="@null" android:divider="@color/subtitle_divider" android:dividerHeight="1.0px" android:paddingStart="@dimen/dp_20" />
+</LinearLayout>

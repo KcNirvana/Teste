@@ -1,0 +1,252 @@
+.class Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView$1;
+.super Ljava/lang/Object;
+.source "ViuVideoView.java"
+
+# interfaces
+.implements Lcom/miui/video/biz/player/online/plugin/cp/viu/util/ViuAPI$Callback;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lcom/miui/video/biz/player/online/plugin/cp/viu/util/ViuAPI$Callback<",
+        "Lcom/miui/video/biz/player/online/plugin/cp/viu/util/ViuAPI$ViuAuthToken;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;
+
+
+# direct methods
+.method constructor <init>(Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView$1;->this$0:Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onFail(Ljava/lang/Exception;)V
+    .locals 1
+
+    iget-object p1, p0, Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView$1;->this$0:Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;
+
+    invoke-static {p1}, Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;->access$000(Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;)Ljava/lang/String;
+
+    move-result-object p1
+
+    const-string v0, "mAuthTokenCallback onFail"
+
+    invoke-static {p1, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    iget-object p1, p0, Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView$1;->this$0:Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;
+
+    invoke-static {p1}, Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;->access$500(Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;)Landroid/os/Handler;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_0
+
+    iget-object p1, p0, Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView$1;->this$0:Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;
+
+    invoke-static {p1}, Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;->access$600(Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;)Ljava/lang/Runnable;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_0
+
+    iget-object p1, p0, Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView$1;->this$0:Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;
+
+    invoke-static {p1}, Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;->access$500(Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;)Landroid/os/Handler;
+
+    move-result-object p1
+
+    iget-object v0, p0, Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView$1;->this$0:Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;
+
+    invoke-static {v0}, Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;->access$600(Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;)Ljava/lang/Runnable;
+
+    move-result-object v0
+
+    invoke-virtual {p1, v0}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+
+    :cond_0
+    return-void
+.end method
+
+.method public onSuccess(Lcom/miui/video/biz/player/online/plugin/cp/viu/util/ViuAPI$ViuAuthToken;)V
+    .locals 3
+
+    iget-object v0, p0, Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView$1;->this$0:Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;
+
+    invoke-static {v0}, Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;->access$000(Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;)Ljava/lang/String;
+
+    move-result-object v0
+
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v2, "mAuthTokenCallback = "
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    if-nez p1, :cond_0
+
+    const-string v2, "null"
+
+    goto :goto_0
+
+    :cond_0
+    invoke-virtual {p1}, Lcom/miui/video/biz/player/online/plugin/cp/viu/util/ViuAPI$ViuAuthToken;->toString()Ljava/lang/String;
+
+    move-result-object v2
+
+    :goto_0
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    if-eqz p1, :cond_1
+
+    iget-object v0, p1, Lcom/miui/video/biz/player/online/plugin/cp/viu/util/ViuAPI$ViuAuthToken;->authToken:Ljava/lang/String;
+
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_1
+
+    iget-object v0, p0, Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView$1;->this$0:Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;
+
+    invoke-static {v0, p1}, Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;->access$102(Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;Lcom/miui/video/biz/player/online/plugin/cp/viu/util/ViuAPI$ViuAuthToken;)Lcom/miui/video/biz/player/online/plugin/cp/viu/util/ViuAPI$ViuAuthToken;
+
+    iget-object v0, p0, Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView$1;->this$0:Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;
+
+    invoke-static {v0}, Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;->access$100(Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;)Lcom/miui/video/biz/player/online/plugin/cp/viu/util/ViuAPI$ViuAuthToken;
+
+    move-result-object v0
+
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v1
+
+    iput-wide v1, v0, Lcom/miui/video/biz/player/online/plugin/cp/viu/util/ViuAPI$ViuAuthToken;->timestamp:J
+
+    invoke-static {}, Lcom/miui/video/biz/player/online/plugin/cp/viu/util/SingleGson;->get()Lcom/google/gson/Gson;
+
+    move-result-object v0
+
+    iget-object v1, p0, Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView$1;->this$0:Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;
+
+    invoke-static {v1}, Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;->access$100(Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;)Lcom/miui/video/biz/player/online/plugin/cp/viu/util/ViuAPI$ViuAuthToken;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Lcom/google/gson/Gson;->toJson(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v0
+
+    iget-object v1, p0, Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView$1;->this$0:Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;
+
+    invoke-static {v1}, Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;->access$200(Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;)Landroid/content/Context;
+
+    move-result-object v1
+
+    invoke-static {v1}, Landroid/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+
+    move-result-object v1
+
+    const-string v2, "viu_authtoken"
+
+    invoke-interface {v1, v2, v0}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->apply()V
+
+    iget-object v0, p0, Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView$1;->this$0:Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;
+
+    invoke-static {v0}, Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;->access$300(Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;)Ljava/lang/String;
+
+    move-result-object v0
+
+    iget-object v1, p0, Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView$1;->this$0:Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;
+
+    invoke-static {v1}, Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;->access$400(Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;)Lcom/miui/video/biz/player/online/plugin/cp/viu/util/ViuAPI$Callback;
+
+    move-result-object v1
+
+    invoke-static {v0, p1, v1}, Lcom/miui/video/biz/player/online/plugin/cp/viu/util/ViuAPI;->getPlayToken(Ljava/lang/String;Lcom/miui/video/biz/player/online/plugin/cp/viu/util/ViuAPI$ViuAuthToken;Lcom/miui/video/biz/player/online/plugin/cp/viu/util/ViuAPI$Callback;)V
+
+    goto :goto_1
+
+    :cond_1
+    iget-object p1, p0, Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView$1;->this$0:Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;
+
+    invoke-static {p1}, Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;->access$500(Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;)Landroid/os/Handler;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_2
+
+    iget-object p1, p0, Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView$1;->this$0:Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;
+
+    invoke-static {p1}, Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;->access$600(Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;)Ljava/lang/Runnable;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_2
+
+    iget-object p1, p0, Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView$1;->this$0:Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;
+
+    invoke-static {p1}, Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;->access$500(Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;)Landroid/os/Handler;
+
+    move-result-object p1
+
+    iget-object v0, p0, Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView$1;->this$0:Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;
+
+    invoke-static {v0}, Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;->access$600(Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView;)Ljava/lang/Runnable;
+
+    move-result-object v0
+
+    invoke-virtual {p1, v0}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+
+    :cond_2
+    :goto_1
+    return-void
+.end method
+
+.method public bridge synthetic onSuccess(Ljava/lang/Object;)V
+    .locals 0
+
+    check-cast p1, Lcom/miui/video/biz/player/online/plugin/cp/viu/util/ViuAPI$ViuAuthToken;
+
+    invoke-virtual {p0, p1}, Lcom/miui/video/biz/player/online/plugin/cp/viu/ViuVideoView$1;->onSuccess(Lcom/miui/video/biz/player/online/plugin/cp/viu/util/ViuAPI$ViuAuthToken;)V
+
+    return-void
+.end method

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="feedback_tag_list">
+        <item>Bug反馈,1</item>
+        <item>产品建议,2</item>
+        <item>其他反馈,0</item>
+    </string-array>
+    <string-array name="lang_detect">
+        <item>中</item>
+        <item>繁</item>
+        <item>英</item>
+        <item>韩</item>
+        <item>日</item>
+        <item>法</item>
+    </string-array>
+    <integer-array name="subtitle_font_size">
+        <item>36</item>
+        <item>48</item>
+        <item>60</item>
+    </integer-array>
+</resources>

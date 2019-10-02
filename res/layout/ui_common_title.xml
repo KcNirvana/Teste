@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/dp_50"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/v_back_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <ImageView android:layout_width="@dimen/dp_8" android:layout_height="@dimen/dp_16" android:layout_marginTop="@dimen/dp_8" android:layout_marginBottom="@dimen/dp_8" android:src="@drawable/ic_back" android:layout_marginStart="@dimen/dp_13" android:layout_marginEnd="@dimen/dp_12" />
+    </FrameLayout>
+    <android.support.v7.widget.AppCompatTextView android:textSize="@dimen/sp_16" android:textColor="@color/c_black" android:id="@id/v_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/v_back_layout" />
+    <TextView android:textSize="@dimen/sp_16" android:textColor="@color/c_blue_text_0C80FF" android:id="@id/v_right_text_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dp_13" android:layout_alignParentEnd="true" />
+    <ImageView android:id="@id/v_action_left" android:visibility="gone" android:layout_width="@dimen/dp_32" android:layout_height="@dimen/dp_32" android:src="@drawable/ic_favorite" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dp_8" android:layout_toStartOf="@id/v_action_right" />
+    <ImageView android:id="@id/v_action_right" android:visibility="gone" android:layout_width="@dimen/dp_32" android:layout_height="@dimen/dp_32" android:src="@drawable/ic_share" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dp_8" android:layout_alignParentEnd="true" />
+</RelativeLayout>

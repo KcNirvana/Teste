@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/c_white" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.miui.video.service.widget.ui.UITitleBar android:id="@id/ui_titlebar" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentTop="true" />
+    <RelativeLayout android:id="@id/v_login_container" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ui_titlebar">
+        <TextView android:textSize="14.0sp" android:textColor="@color/c_black" android:gravity="center" android:id="@id/v_txt_login" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_ui_30" android:text="@string/v_txt_login" android:maxLines="1" android:layout_alignParentTop="true" android:layout_marginStart="@dimen/d_ui_30" android:layout_marginEnd="@dimen/d_ui_30" />
+        <ImageView android:id="@id/v_button_login" android:visibility="visible" android:layout_width="@dimen/dp_140" android:layout_height="@dimen/dp_45" android:layout_marginTop="@dimen/d_ui_16" android:layout_marginBottom="@dimen/dp_45" android:src="@drawable/login_button" android:scaleType="centerInside" android:layout_below="@id/v_txt_login" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <com.miui.video.common.library.widget.indicator.TabPageIndicator android:id="@id/v_indicator" android:fadingEdgeLength="@dimen/d_tab_fadingedge_30" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_below="@id/v_login_container" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" android:overScrollMode="never" android:requiresFadingEdge="horizontal" />
+    <com.miui.video.common.library.widget.viewpager.UIViewPager android:id="@id/ui_viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/v_indicator" android:overScrollMode="never" />
+</RelativeLayout>

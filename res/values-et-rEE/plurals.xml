@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="feed_back_home">
+        <item quantity="other">Naasmine avalehele %1$d sekundi pärast…</item>
+        <item quantity="one">Naasmine avalehele %1$d sekundi pärast…</item>
+    </plurals>
+    <plurals name="lv_subtitle_offset_advance_times">
+        <item quantity="other">Subtiitrid kuvatakse %.1f sekundit varem</item>
+        <item quantity="one">Subtiitrid kuvatakse %.1f sekundit varem</item>
+    </plurals>
+    <plurals name="lv_subtitle_offset_delay_times">
+        <item quantity="other">Subtiitrid hilinevad %.1f sekundit</item>
+        <item quantity="one">Subtiitrid hilinevad %.1f sekund</item>
+    </plurals>
+    <plurals name="lv_subtitle_onlinesub_size_float_kb">
+        <item quantity="other">Suurus: %.2fKB</item>
+        <item quantity="one">Suurus: %.2fKB</item>
+    </plurals>
+    <plurals name="lv_video_count">
+        <item quantity="other">%d videot</item>
+        <item quantity="one">%d video</item>
+    </plurals>
+    <plurals name="ovp_detail_v_video_count">
+        <item quantity="other">%d videot</item>
+        <item quantity="one">%d video</item>
+    </plurals>
+    <plurals name="ovp_home_item_unit">
+        <item quantity="other">%d videot</item>
+        <item quantity="one">%d video</item>
+    </plurals>
+    <plurals name="plus_edit_delete_comfire_text">
+        <item quantity="other">Kustutada %s üksust kohe?</item>
+        <item quantity="one">Kustutada %s üksus kohe?</item>
+    </plurals>
+    <plurals name="plus_edit_top_titletext">
+        <item quantity="other">Valitud %s üksust</item>
+        <item quantity="one">Valitud %s üksus</item>
+    </plurals>
+    <plurals name="plus_player_subtitle_online_size">
+        <item quantity="other">Faili suurus: %.2fKB</item>
+        <item quantity="one">Faili suurus: %.2fKB</item>
+    </plurals>
+    <plurals name="plus_search_result_title">
+        <item quantity="other">%2$s tulemust \"%1$s\" jaoks</item>
+        <item quantity="one">%2$s tulemus \"%1$s\" jaoks</item>
+    </plurals>
+    <plurals name="plus_serval_pictures">
+        <item quantity="other">%d pilte</item>
+        <item quantity="one">%d pilt</item>
+    </plurals>
+    <plurals name="plus_serval_videos">
+        <item quantity="other">%d videot</item>
+        <item quantity="one">%d video</item>
+    </plurals>
+    <plurals name="subscriber">
+        <item quantity="other">%s tellijat</item>
+        <item quantity="one">%s tellija</item>
+    </plurals>
+    <plurals name="subtitle_offset_advance_times">
+        <item quantity="other">Subtiitreid on liigutatud %.1f sekundit edasi</item>
+        <item quantity="one">Subtiitreid on liigutatud %.1f sekund edasi</item>
+    </plurals>
+    <plurals name="subtitle_offset_delay_times">
+        <item quantity="other">Subtiitrid hilinevad %.1f sekundit</item>
+        <item quantity="one">Subtiitrid hilinevad %.1f sekund</item>
+    </plurals>
+</resources>

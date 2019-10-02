@@ -1,0 +1,24 @@
+{
+  "NAME": "ha.db",
+  "VERSION": 2,
+  "QUERIES": [
+    {
+      "ID": "create_devices_table",
+      "TYPE": 1,
+      "VERSION": 2,
+      "TEXT": "CREATE TABLE devices(did VARCHAR(50), osv VARCHAR(10), rdate VARCHAR(40), vc INTEGER, vn VARCHAR(40), tkn TEXT, uid VARCHAR(20), uname VARCHAR(200), utype VARCHAR(20), ad_id varchar(120) default NULL);"
+    },
+    {
+      "ID": "create_events_table",
+      "TYPE": 1,
+      "VERSION": 1,
+      "TEXT": "CREATE TABLE events(id INTEGER PRIMARY KEY AUTOINCREMENT, data TEXT, created_on INTEGER);"
+    },
+    {
+      "ID": "update_devices_table",
+      "TYPE": 11,
+      "VERSION": 2,
+      "TEXT": "ALTER TABLE devices add ad_id varchar(120) default NULL;"
+    }
+  ]
+}

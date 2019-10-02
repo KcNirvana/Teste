@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="0.0dip" android:layout_alignParentBottom="true">
+        <android.support.v7.widget.RecyclerView android:id="@id/v_recycler_share" android:background="#fff9fafb" android:layout_width="@dimen/dp_360" android:layout_height="@dimen/dp_107" android:layout_weight="0.0" />
+        <View android:background="#e6f9fafb" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/v_share_view_bottom" android:background="#fff9fafb" android:layout_width="@dimen/dp_360" android:layout_height="@dimen/dp_107">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/v_touping" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_16.67" android:layout_marginTop="@dimen/dp_16.67" android:layout_marginRight="@dimen/dp_3.33">
+                <ImageView android:id="@id/touping_image" android:layout_width="@dimen/s_icon_54" android:layout_height="@dimen/s_icon_54" android:src="@drawable/ic_mine_share_touping" />
+                <TextView android:textSize="@dimen/dp_10" android:id="@id/touping_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_8.5" android:text="@string/plus_player_share_screen" android:maxLines="1" style="@style/tv_title2" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/v_hide" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_16.67" android:layout_marginTop="@dimen/dp_16.67" android:layout_marginRight="@dimen/dp_3.33">
+                <ImageView android:id="@id/v_hide_image" android:layout_width="@dimen/s_icon_54" android:layout_height="@dimen/s_icon_54" android:src="@drawable/ic_plus_share_hide" />
+                <TextView android:textSize="@dimen/dp_10" android:id="@id/v_hide_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_8.5" android:text="@string/alert_dialog_download_btn_hide" android:maxLines="1" style="@style/tv_title2" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

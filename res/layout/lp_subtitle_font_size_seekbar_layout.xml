@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.miui.video.player.service.localvideoplayer.settings.subtitle.FontSizeSelectSeekBar android:id="@id/v_font_size_seekbar" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_5" android:layout_marginBottom="@dimen/dp_16" android:maxHeight="@dimen/dp_2" android:max="100" android:progressDrawable="@drawable/vp_subtitle_size_selected" android:minHeight="@dimen/dp_2" android:thumb="@drawable/subtitle_fontsize_thumb_selected" android:paddingStart="@dimen/dp_8" android:paddingEnd="@dimen/dp_8" />
+</FrameLayout>

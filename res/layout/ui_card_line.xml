@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_26" android:layout_marginStart="@dimen/dp_13" android:layout_marginEnd="@dimen/dp_13"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/sp_14" android:textColor="@color/black_40" android:id="@id/tv_line_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="aaa" android:maxLines="1" android:singleLine="true" android:layout_marginEnd="@dimen/dp_12" />
+    <ImageView android:id="@id/iv_line_icon" android:visibility="gone" android:layout_width="@dimen/dp_13" android:layout_height="@dimen/dp_13" android:layout_marginTop="@dimen/dp_3" android:layout_toEndOf="@id/tv_line_title" />
+    <TextView android:textSize="@dimen/sp_14" android:textColor="@color/c_black" android:id="@id/tv_line_detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="aaa" android:lineSpacingExtra="@dimen/dp_5" android:layout_toEndOf="@id/iv_line_icon" />
+    <TextView android:textSize="@dimen/font_size_10" android:textColor="@color/black_40" android:id="@id/tv_line_extra" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="aaa" android:layout_below="@id/tv_line_detail" android:layout_alignStart="@id/tv_line_detail" />
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/c_transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/v_subtitle_title" android:layout_width="wrap_content" android:text="@string/lv_subtitle_title" style="@style/dialog_title" />
+        <ImageView android:id="@id/v_subtitle_seek" android:layout_width="@dimen/dp_52" android:layout_height="@dimen/dp_52" android:src="@drawable/selector_subtitle_folder_bg" android:scaleType="centerInside" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        <ImageView android:id="@id/v_get_online_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_subtitle_getonlinesub_download_icon" android:layout_centerVertical="true" android:layout_toStartOf="@id/v_subtitle_seek" />
+    </RelativeLayout>
+    <View android:background="@color/subtitle_divider" android:layout_width="fill_parent" android:layout_height="@dimen/px_1" />
+    <ScrollView android:id="@id/sv_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/dp_19">
+            <com.miui.video.base.widget.ui.UIXListView android:id="@id/v_subtitle_list" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="#00000000" android:cacheColorHint="@null" android:divider="@color/subtitle_divider" android:dividerHeight="1.0px" android:paddingStart="@dimen/dp_20" />
+            <View android:id="@id/divider_up_fontsize_layout" android:background="@color/subtitle_divider" android:layout_width="fill_parent" android:layout_height="@dimen/px_1" android:layout_marginStart="@dimen/dp_20" />
+            <include layout="@layout/lp_subtitle_font_size_layout" />
+            <com.miui.video.player.service.localvideoplayer.settings.subtitle.FontColorContainer android:id="@id/v_font_color_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include layout="@layout/lp_subtitle_font_color_layout" />
+            </com.miui.video.player.service.localvideoplayer.settings.subtitle.FontColorContainer>
+            <com.miui.video.player.service.localvideoplayer.settings.subtitle.SubtitleOffsetView android:id="@id/v_subtitle_offset_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
