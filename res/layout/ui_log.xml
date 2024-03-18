@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="14.0sp" android:textColor="@color/c_black" android:gravity="center" android:id="@id/v_close" android:background="@color/c_gray" android:layout_width="fill_parent" android:layout_height="@dimen/dp_50" android:text="@string/ui_log_tip" />
-    <ScrollView android:id="@id/v_scroll" android:background="@color/c_white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/v_close">
-        <TextView android:textSize="16.0sp" android:textColor="@color/c_black" android:id="@id/v_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    </ScrollView>
-</merge>

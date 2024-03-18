@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/frame_controller_height"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <android.support.v7.widget.RecyclerView android:id="@id/frame_controller_recycler" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <View android:background="@drawable/lp_controller_center" android:layout_width="@dimen/frame_controller_center_width" android:layout_height="fill_parent" android:layout_centerInParent="true" />
-</RelativeLayout>

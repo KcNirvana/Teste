@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.miui.video.biz.videoplus.app.widget.UISquareImageView android:id="@id/v_gallery_poster" android:background="@color/color_F5F7F8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" android:layout_alignParentTop="true" app:uiBorderColor="@color/color_DDDDDD" app:uiBorderWidth="@dimen/px_1" app:uiRound="@dimen/dp_4" app:uiType="round" />
-    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_6.67" android:layout_below="@id/v_gallery_poster" android:layout_alignParentLeft="true" android:layout_alignParentStart="true">
-        <TextView android:textSize="@dimen/sp_13" android:textColor="@color/common_c_0" android:ellipsize="end" android:id="@id/v_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" style="@style/tv_title5" />
-        <TextView android:textSize="@dimen/sp_13" android:textColor="@color/common_c_0" android:id="@id/v_subtitle" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dp_6.67" android:maxLines="1" android:layout_weight="0.0" android:alpha="0.6" android:layout_marginStart="@dimen/dp_6.67" />
-    </LinearLayout>
-</RelativeLayout>

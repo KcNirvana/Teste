@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:background="@color/c_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:layout_gravity="center" android:id="@id/v_player_update" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <TextView android:textSize="@dimen/sp_15" android:textColor="@color/c_white" android:gravity="center" android:id="@id/v_player_update_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ovp_player_update_info" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/ovp_update_info_magin_start" android:layout_marginEnd="@dimen/ovp_update_info_magin_start" />
-        <TextView android:textSize="@dimen/sp_13" android:textColor="@color/c_white" android:gravity="center" android:id="@id/v_player_update_ok" android:background="@drawable/ovp_player_update_ok" android:paddingLeft="@dimen/dp_3" android:paddingRight="@dimen/dp_3" android:layout_width="@dimen/dp_100" android:layout_height="@dimen/ovp_update_btn_height" android:layout_marginTop="@dimen/ovp_update_btn_margin_top" android:minWidth="@dimen/dp_77" android:text="@string/update" android:layout_below="@id/v_player_update_info" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/dp_13" />
-    </RelativeLayout>
-</FrameLayout>

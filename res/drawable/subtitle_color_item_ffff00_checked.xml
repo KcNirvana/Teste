@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<layer-list
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:gravity="center" android:drawable="@drawable/subtitle_color_blue_stroke_bg" />
-    <item android:gravity="center" android:drawable="@drawable/subtitle_color_item_ffff00_circle" />
-</layer-list>

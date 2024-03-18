@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/sp_17" android:textColor="@color/c_white" android:gravity="center" android:id="@id/vp_resolution_item_text" android:background="@drawable/selector_bg_resolution" android:layout_width="wrap_content" android:layout_height="@dimen/dp_40" android:singleLine="true" android:paddingStart="@dimen/dp_33" android:paddingEnd="@dimen/dp_33" />
-</RelativeLayout>

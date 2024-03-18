@@ -1,5 +1,0 @@
-{
-	"poslist": [],
-	"pn": "com.miui.videoplayer",
-	"cfmd5": "2ff03d415712a4411103c1eaa6b40be8"
-}

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_30" android:layout_marginBottom="@dimen/dp_6_7" android:layout_marginStart="@dimen/dp_10" android:layout_marginEnd="@dimen/dp_13_3"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/title_img_iv" android:layout_width="@dimen/dp_13" android:layout_height="@dimen/dp_20" android:scaleType="centerCrop" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dp_8" />
-    <TextView android:textSize="@dimen/sp_18" android:textStyle="bold" android:textColor="@color/c_black" android:gravity="start" android:layout_gravity="center_vertical" android:id="@id/v_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="" android:maxLines="1" android:layout_weight="1.0" android:textDirection="locale" style="@style/tv_title1" />
-    <ImageView android:layout_gravity="center_vertical" android:id="@id/title_img_iv_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_player_auto_play" android:scaleType="centerCrop" android:layout_marginStart="@dimen/dp_10" android:layout_marginEnd="@dimen/dp_2" />
-</LinearLayout>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.miui.video.common.browser.foundation.WebViewEx android:scrollbarStyle="insideInset" android:id="@id/webView" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <com.miui.video.common.browser.feature.progressbar.WebViewProgress android:id="@id/progress_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:max="100" android:indeterminateOnly="false" android:progressDrawable="@drawable/common_webview_progressbar" android:layout_alignParentTop="true" />
-</merge>

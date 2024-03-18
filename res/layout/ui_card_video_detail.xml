@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_13" android:layout_marginBottom="@dimen/dp_8" android:layout_marginStart="@dimen/dp_13" android:layout_marginEnd="@dimen/dp_13"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/sp_16" android:textStyle="bold" android:textColor="@color/c_black" android:ellipsize="end" android:id="@id/v_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:layout_marginEnd="@dimen/dp_24" />
-    <android.support.v7.widget.AppCompatImageView android:id="@id/v_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_5" android:src="@drawable/ic_down_arrow" android:layout_marginEnd="@dimen/dp_3" android:layout_alignParentEnd="true" />
-    <TextView android:textSize="@dimen/sp_12" android:textColor="@color/c_black_30" android:ellipsize="end" android:id="@id/v_des" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_1" android:maxLines="1" android:layout_below="@id/v_title" android:lineSpacingExtra="@dimen/dp_2" android:layout_marginEnd="@dimen/dp_24" />
-</RelativeLayout>

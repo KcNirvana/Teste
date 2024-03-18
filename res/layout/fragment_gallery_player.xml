@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <View android:id="@id/frame_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <android.support.v4.view.ViewPager android:id="@id/frame_vp" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <include android:id="@id/local_top_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/local_top_bar" />
-</RelativeLayout>

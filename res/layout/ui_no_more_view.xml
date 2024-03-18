@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <View android:layout_gravity="center_vertical" android:background="@color/c_black_20" android:layout_width="@dimen/dp_40" android:layout_height="1.0px" android:layout_marginEnd="@dimen/dp_10" />
-    <TextView android:textSize="@dimen/sp_11" android:textColor="@color/c_black_20" android:layout_gravity="center_vertical" android:id="@id/v_no_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/playlist_no_more" android:lines="1" />
-    <View android:layout_gravity="center_vertical" android:background="@color/c_black_20" android:layout_width="@dimen/dp_40" android:layout_height="1.0px" android:layout_marginStart="@dimen/dp_10" />
-</LinearLayout>

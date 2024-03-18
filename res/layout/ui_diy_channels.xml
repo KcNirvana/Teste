@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="vertical" android:id="@id/v_content_container" android:background="@color/c_black_60" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/sp_15" android:textColor="@color/c_black_60" android:id="@id/v_diy_tips" android:background="@drawable/shape_edit_channel_tips" android:padding="@dimen/dp_20" android:layout_width="@dimen/dp_200" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_30" android:text="@string/diy_channels_tips" android:layout_alignParentTop="true" android:textDirection="locale" android:layout_marginEnd="@dimen/dp_17" android:layout_alignParentEnd="true" />
-</RelativeLayout>

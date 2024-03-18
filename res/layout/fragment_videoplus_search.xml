@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/color_mainbar_color" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.miui.video.biz.videoplus.app.widget.UISearchBar android:id="@id/ui_searchbar" android:paddingTop="@dimen/d_ui_parent_padding_width_10" android:paddingRight="@dimen/d_ui_parent_padding_width_13" android:paddingBottom="@dimen/d_ui_parent_padding_width_10" android:layout_width="fill_parent" android:layout_height="@dimen/global_tool_bar_high" />
-    <com.miui.video.biz.videoplus.app.business.gallery.widget.UIGalleryRecyclerView android:id="@id/v_recyclerView" android:background="@color/c_white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ui_searchbar" />
-</RelativeLayout>

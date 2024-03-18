@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/sp_14" android:textColor="@color/c_black_40" android:ellipsize="end" android:id="@id/v_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search_hot_words" android:maxLines="1" android:layout_marginStart="@dimen/dp_13" android:layout_marginEnd="@dimen/dp_13" />
-    <com.miui.video.common.feed.ui.card.UIDividerLine android:paddingTop="@dimen/dp_13_3" android:paddingBottom="@dimen/dp_16_7" android:layout_width="wrap_content" android:layout_height="fill_parent" />
-    <com.miui.video.biz.search.ui.UITagList android:id="@id/ui_tag_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-</LinearLayout>

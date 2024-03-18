@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_continue_watching_btn" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:alpha="0.9"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_replay_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
-        <ImageView android:layout_gravity="center" android:id="@id/iv_trailer_replay" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/replay_button_marginTop" android:src="@drawable/player_ic_restart" />
-        <TextView android:textSize="@dimen/restart_btn_text_size" android:textColor="@color/purchase_request_grey_shade" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_trailer_restart" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/replay_button_marginTop" android:text="Replay" android:includeFontPadding="false" />
-    </LinearLayout>
-</RelativeLayout>

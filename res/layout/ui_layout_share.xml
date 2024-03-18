@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/dp_183" android:layout_marginStart="@dimen/dp_1" android:layout_marginEnd="@dimen/dp_1"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <android.support.v4.view.ViewPager android:id="@id/v_viewPager" android:layout_width="fill_parent" android:layout_height="@dimen/dp_160" />
-    <com.miui.video.service.share.LineIndicator android:layout_gravity="center" android:id="@id/v_indicator" android:background="@color/c_white" android:layout_width="@dimen/dp_30" android:layout_height="@dimen/dp_3" android:layout_marginTop="@dimen/dp_20" />
-</LinearLayout>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.miui.video.common.feed.ui.card.UIDividerLine android:id="@id/view_divider" android:layout_width="fill_parent" android:layout_height="@dimen/px_1" />
-</LinearLayout>

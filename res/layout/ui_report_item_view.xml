@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@drawable/ui_dialog_shape_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_13" android:layout_marginEnd="@dimen/dp_13"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/v_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_20" android:maxLines="1" android:layout_marginStart="@dimen/dp_20" android:layout_marginEnd="@dimen/dp_20" />
-    <RadioGroup android:id="@id/v_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dp_20" />
-    <com.miui.video.common.library.widget.UIOkCancelBar android:id="@id/ui_ok_cancel_bar" android:layout_width="fill_parent" android:layout_height="@dimen/h_ui_actionbar" android:layout_weight="0.0" android:layout_marginStart="@dimen/px_1" android:layout_marginEnd="@dimen/px_1" />
-</LinearLayout>

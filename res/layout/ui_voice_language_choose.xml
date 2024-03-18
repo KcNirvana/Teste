@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@drawable/shape_bg_corners_voice_language_dialog" android:paddingTop="@dimen/dp_17" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/sp_13" android:textColor="@color/c_black_40" android:gravity="center_vertical" android:id="@id/v_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_17" android:layout_marginRight="@dimen/dp_17" android:text="@string/search_choose_voice_language" android:maxLines="1" android:drawablePadding="@dimen/dp_10" android:drawableStart="@drawable/ic_search_voice_gray_small" android:layout_marginStart="@dimen/dp_17" android:layout_marginEnd="@dimen/dp_17" />
-    <View android:background="@color/c_black_10" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/dp_17" android:layout_marginTop="@dimen/dp_16" android:layout_marginRight="@dimen/dp_17" android:layout_marginBottom="@dimen/dp_16" android:layout_marginStart="@dimen/dp_17" android:layout_marginEnd="@dimen/dp_17" />
-    <com.miui.video.biz.search.ui.UITagList android:id="@id/v_ui_tag_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_40" />
-    <Button android:textSize="@dimen/sp_16" android:textColor="@color/c_white" android:id="@id/ui_btn_ok" android:background="@color/c_blue_mediation" android:layout_width="fill_parent" android:layout_height="@dimen/dp_44" android:text="@string/ok" />
-</LinearLayout>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="@dimen/dp_90"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.miui.video.common.feed.ui.card.UITinyImage android:id="@id/ui_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/v_title" />
-    <TextView android:textSize="@dimen/sp_11" android:textColor="@color/c_black" android:ellipsize="end" android:id="@id/v_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_7" android:minHeight="@dimen/dp_28" android:maxLines="2" android:layout_alignParentBottom="true" android:alpha="0.4" />
-    <ProgressBar android:id="@id/v_progress" android:layout_width="fill_parent" android:layout_height="@dimen/dp_2" android:progressDrawable="@drawable/progress_video_progressbar" android:layout_alignBottom="@id/ui_img" style="@android:style/Widget.ProgressBar.Horizontal" />
-</RelativeLayout>

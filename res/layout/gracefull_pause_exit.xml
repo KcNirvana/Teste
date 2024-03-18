@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/player_initial_describtion_text_size" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_purchase_error" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:includeFontPadding="false" />
-    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_replay_button" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/purchase_request_text2_marginTop">
-        <ImageView android:id="@id/iv_replay" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/player_ic_restart" />
-        <TextView android:textSize="@dimen/restart_btn_text_size" android:textColor="@color/purchase_request_grey_shade" android:id="@id/tv_replay" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/purchase_request_marginTop_10" android:text="@string/player_replay_btn_text" android:includeFontPadding="false" />
-    </LinearLayout>
-</LinearLayout>

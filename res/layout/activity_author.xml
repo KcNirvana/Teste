@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.miui.video.service.widget.ui.UITitleBar android:id="@id/ui_title_bar" android:background="@color/c_blue_text_0C80FF" android:layout_width="fill_parent" android:layout_height="@dimen/dp_50" />
-    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <com.miui.video.common.feed.UIRecyclerListView android:id="@id/ui_recycler_list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-        <include android:id="@id/v_filter" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dp_52" layout="@layout/item_filter_author" />
-    </RelativeLayout>
-</LinearLayout>

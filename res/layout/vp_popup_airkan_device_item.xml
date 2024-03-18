@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/dp_12" android:paddingBottom="@dimen/dp_12" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/subtitle_item_textsize" android:textColor="@drawable/selector_subtitle_textcolor_enable" android:gravity="center_vertical" android:layout_gravity="start|center" android:id="@id/vp_popup_device_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textDirection="locale" />
-</LinearLayout>

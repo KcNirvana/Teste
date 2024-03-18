@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape android:shape="rectangle"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <size android:height="@dimen/global_tool_bar_high" />
-    <corners android:topLeftRadius="@dimen/dp_25" android:bottomLeftRadius="@dimen/dp_25" />
-    <gradient android:startColor="@color/color_55F5F7F8" android:endColor="@color/color_mainbar_color" android:centerColor="@color/color_F5F5F7F8" />
-</shape>

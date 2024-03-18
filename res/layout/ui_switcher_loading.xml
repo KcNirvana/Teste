@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/v_loading_layout" android:background="@color/c_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ProgressBar android:id="@id/v_progress" android:background="@color/c_bg" android:layout_width="@dimen/w_ui_loadingbar_progress" android:layout_height="@dimen/w_ui_loadingbar_progress" android:indeterminate="true" android:indeterminateDrawable="@anim/rotate_loadingbar" android:layout_centerInParent="true" style="?android:progressBarStyleSmall" />
-</RelativeLayout>

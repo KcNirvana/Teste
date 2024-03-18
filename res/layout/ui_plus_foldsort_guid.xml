@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="end" android:layout_width="fill_parent" android:layout_height="@dimen/dp_44"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textColor="@color/c_white" android:gravity="center" android:id="@id/v_icon" android:background="@drawable/ic_folder_sort_guid" android:paddingTop="@dimen/dp_4" android:layout_width="@dimen/dp_140" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dp_10" android:layout_marginRight="@dimen/dp_16.67" android:text="@string/plus_gallery_folder_switch_guid" android:layout_marginEnd="@dimen/dp_16.67" />
-</LinearLayout>

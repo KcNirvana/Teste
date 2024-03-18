@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/c_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <View android:id="@id/view_status_bar" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_alignParentTop="true" />
-    <com.miui.video.biz.ugc.widget.RefreshLayout android:id="@id/ui_ugc_viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/view_status_bar" android:overScrollMode="never" />
-    <RelativeLayout android:id="@id/v_ugc_rl_progress" android:layout_width="fill_parent" android:layout_height="@dimen/dp_52" android:layout_alignParentBottom="true">
-        <ProgressBar android:id="@id/v_ugc_progress" android:layout_width="fill_parent" android:layout_height="@dimen/dp_2" android:secondaryProgress="0" android:progressDrawable="@drawable/progress_ugcplayer_progressbar" style="@android:style/Widget.ProgressBar.Horizontal" />
-    </RelativeLayout>
-</RelativeLayout>

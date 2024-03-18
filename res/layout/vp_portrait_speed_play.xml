@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="horizontal" android:id="@id/portrait_speed_play_layout" android:background="@color/c_black_30" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_40" android:layout_marginRight="@dimen/dp_40" android:layout_centerVertical="true">
-        <TextView android:textSize="@dimen/sp_13" android:textColor="@color/c_white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/lp_speed_title" />
-        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/v_container_speeds" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_20" />
-    </LinearLayout>
-</RelativeLayout>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/item_frame_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
-    <ImageView android:layout_width="@dimen/gallery_edit_play_btn_size" android:layout_height="@dimen/gallery_edit_play_btn_size" android:src="@drawable/selector_gallery_play_small" android:layout_centerInParent="true" />
-</RelativeLayout>

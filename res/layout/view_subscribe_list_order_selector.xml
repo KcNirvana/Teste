@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@drawable/ui_subscribe_order_dialog_shape_bg" android:paddingTop="@dimen/dp_6_7" android:paddingBottom="@dimen/dp_6_7" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/sp_12" android:textColor="@color/c_blue_text_0C80FF" android:id="@id/tv_subscribe_order_update" android:padding="@dimen/dp_14" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/order_recently_updated" />
-    <TextView android:textSize="@dimen/sp_12" android:textColor="@color/c_black" android:id="@id/tv_subscribe_order_subscribe" android:padding="@dimen/dp_14" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/order_recently_subscribe" />
-    <TextView android:textSize="@dimen/sp_12" android:textColor="@color/c_black" android:id="@id/tv_subscribe_order_alphabet" android:padding="@dimen/dp_14" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/order_alphabet" />
-</LinearLayout>

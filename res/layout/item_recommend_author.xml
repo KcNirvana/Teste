@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.miui.video.common.library.widget.CircleImageView android:id="@id/iv_author_avatar" android:layout_width="@dimen/dp_96_7" android:layout_height="@dimen/dp_96_7" android:src="@drawable/ic_user_default" android:layout_centerHorizontal="true" />
-    <ImageView android:id="@id/btn_subscribe_author" android:layout_width="@dimen/dp_30" android:layout_height="@dimen/dp_30" android:layout_marginTop="@dimen/dp_81_7" android:src="@drawable/ic_subscribe" android:layout_alignTop="@id/iv_author_avatar" android:layout_centerHorizontal="true" />
-    <TextView android:textSize="@dimen/sp_12" android:textColor="@color/c_black_60" android:ellipsize="end" android:id="@id/tv_author_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_8" android:maxLines="1" android:layout_below="@id/btn_subscribe_author" android:layout_centerHorizontal="true" />
-</RelativeLayout>

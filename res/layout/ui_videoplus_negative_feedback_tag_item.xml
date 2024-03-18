@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/layout_content" android:background="@drawable/shape_plus_bg_negative_feedback_tag_normal" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/tv_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_12" android:layout_marginTop="@dimen/dp_7" android:layout_marginRight="@dimen/dp_12" android:layout_marginBottom="@dimen/dp_7" />
-</LinearLayout>
