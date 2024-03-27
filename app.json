@@ -1,0 +1,49 @@
+{
+  "id": "673de6d1-c3c6-415b-a7ca-25e003a4d816",
+  "name": "Budget Management",
+  "publisher": "A3DS",
+  "version": "21.6.20231020.37",
+  "brief": "",
+  "description": "Módulo Orçamental",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "http://a3ds.pt",
+  "contextSensitiveHelpUrl": "http://a3ds.pt",
+  "url": "http://a3ds.pt",
+  "logo": "logo.png",
+  "dependencies": [
+    { 
+      "id": "0b0a0933-50d9-4352-8803-7bf91e6c5491", 
+      "name": "SOFTSTORE Localization Pack for Portugal", 
+      "publisher": "Softstore SA", 
+      "version": "22.0.1905.9"
+    },
+    { 
+      "id": "1001061e-4378-4fe4-8706-edceddd1588b", 
+      "name": "SOFTSTORE Fixed Asset Pack for Portugal", 
+      "publisher": "Softstore SA", 
+      "version": "22.0.1905.9"
+    }
+  ],
+  "screenshots": [],
+  "platform": "21.0.54828.0",
+  "application": "21.0.0.0",
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 99999
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "runtime": "10.0",
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile",
+    "GenerateCaptions"
+  ],
+  "target": "OnPrem"
+}

@@ -1,0 +1,9 @@
+dotnet
+{
+    assembly(SoftstoreQRCoderHelper)
+    {
+        type(SoftstoreQRCoderHelper.QRCodeHelper)
+        {
+        }
+    }
+}
