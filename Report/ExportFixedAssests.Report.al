@@ -134,6 +134,7 @@ report 50021 "Export Fixed Assests"
                 TempTable.Insert();
                 EntryNo += 1;
             until FixedAsset.next = 0;
+            Window.Close();
         end;
         ExportExcel(TempTable);
     end;

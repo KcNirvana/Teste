@@ -217,8 +217,7 @@ page 50008 "Analytical Trial Balance"
         if StartDate = 0D then
             Error(Text001);
         if (NoPeriods < 1) or (NoPeriods > 12) then
-            Error(Text001);
-
+            Error(Text002);
 
         Clear(PeriodsCaption);
         PeriodsVisible(NoPeriods);

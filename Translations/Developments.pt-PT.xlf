@@ -387,6 +387,108 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Correct Defer. Purch Inv Lines - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2634750536 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Aging Report</source>
+          <target>Antiguidade Clientes</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Aging Report - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2634750536 - Method 2851454604 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Aging Report</source>
+          <target>Antiguidade Clientes</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Aging Report - Method ExportToExcel - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Page 2634750536 - Method 2851454604 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No data to export.</source>
+          <target>Sem dados para exportar</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Aging Report - Method ExportToExcel - NamedType Text002</note>
+        </trans-unit>
+        <trans-unit id="Page 2634750536 - Method 2851454604 - NamedType 95063322" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <target>Nº Cliente</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Aging Report - Method ExportToExcel - NamedType Text003</note>
+        </trans-unit>
+        <trans-unit id="Page 2634750536 - Method 2851454604 - NamedType 732759939" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Name</source>
+          <target>Nome Cliente</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Aging Report - Method ExportToExcel - NamedType Text004</note>
+        </trans-unit>
+        <trans-unit id="Page 2634750536 - Method 2851454604 - NamedType 1370456556" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pending Balance</source>
+          <target>Saldo Pendente</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Aging Report - Method ExportToExcel - NamedType Text005</note>
+        </trans-unit>
+        <trans-unit id="Page 2634750536 - Method 2851454604 - NamedType 2008153173" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Not Due Balance</source>
+          <target>Saldo Não Vencido</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Aging Report - Method ExportToExcel - NamedType Text006</note>
+        </trans-unit>
+        <trans-unit id="Page 2634750536 - Method 2345119762 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Start Date cant be empty.</source>
+          <target>Não preencheu a data de início</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Aging Report - Method GetData - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Page 2634750536 - Method 2345119762 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Analyzing Data % #1###</source>
+          <target>A calcular dados % #1###</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Aging Report - Method GetData - NamedType Text002</note>
+        </trans-unit>
+        <trans-unit id="Page 2634750536 - Control 284195533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filters</source>
+          <target>Filtros</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Aging Report - Control Filters - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2634750536 - Control 474480784 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Start Date</source>
+          <target>Data Início</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Aging Report - Control Start Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2634750536 - Control 1171137197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Name</source>
+          <target>Nome Cliente</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Aging Report - Control Customer Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2634750536 - Control 4190130733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <target>Nº Cliente</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Aging Report - Control Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2634750536 - Control 3140879801 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Not Due Balance</source>
+          <target>Saldo Não Vencido</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Aging Report - Control Not Due Balance - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2634750536 - Control 252443899 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pending Balance</source>
+          <target>Saldo Pendente</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Aging Report - Control Pending Balance - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2634750536 - Action 3398021053 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Calculate Amounts</source>
+          <target>Calcular Valores</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Aging Report - Action Calculate Amounts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2634750536 - Action 1395436244 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export To Excel</source>
+          <target>Exportar para Excel</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Aging Report - Action Export To Excel - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3805145116 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Post Purch Deferements</source>
           <target>Registar Diferimentos Compra</target>
@@ -1592,6 +1694,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report ImportPurchInvoices - Method ValidateLines - NamedType TextErrorMuiltiDocs</note>
         </trans-unit>
+        <trans-unit id="Query 4213415928 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Pending Amounts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query Customer Pending Amounts - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Query 1619427113 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>GLAmountsByDimension</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1819,6 +1926,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Sales Journal Ext - Action Post Background - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2266262807 - Control 2634750536 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4145206282">
+          <source>Customer Aging Report</source>
+          <target>Mapa Antiguidade Clientes</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesSetupPageExt - Control Customer Aging Report - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 546073539 - Field 2029804532 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4050813720">
           <source>Deferements Batch</source>
           <target>Secção Diferimentos</target>
@@ -1985,6 +2098,36 @@
           <target>Data Início Diferimento</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension PurchLineTExt - Field Deferement Start Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 19613338 - Field 524841635 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
+          <source>Aging Column 1</source>
+          <target>Intervalo Dias Vencidos 1</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Setup Ext - Field Aging Column 1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 19613338 - Field 2437931486 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
+          <source>Aging Column 2</source>
+          <target>Intervalo Dias Vencidos 2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Setup Ext - Field Aging Column 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 19613338 - Field 1800234869 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
+          <source>Aging Column 3</source>
+          <target>Intervalo Dias Vencidos 3</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Setup Ext - Field Aging Column 3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 19613338 - Field 2906719080 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
+          <source>Aging Column 4</source>
+          <target>Intervalo Dias Vencidos 4</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Setup Ext - Field Aging Column 4 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 19613338 - Field 2269022463 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
+          <source>Aging Column 5</source>
+          <target>Intervalo Dias Vencidos 5</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Setup Ext - Field Aging Column 5 - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 19613338 - Field 4245842459 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
           <source>Execute Sales Jnl Job Queue</source>
