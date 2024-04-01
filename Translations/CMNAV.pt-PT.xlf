@@ -1,0 +1,733 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="pt-PT" original="CMNAV">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 4046349136 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CM WebServices Log</source>
+		  <target>Registos WebService CM NAV</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CM WebServices Log - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4046349136 - Field 3814710307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CM Document Type</source>
+          <target>Tipo Documento CM</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CM WebServices Log - Field CM Document Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4046349136 - Field 3508599941 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CM UII</source>
+		  <target>Identificador CM</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CM WebServices Log - Field CM UII - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4046349136 - Field 2649176925 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>End Date</source>
+		  <target>Data Fim</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CM WebServices Log - Field End Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4046349136 - Field 4240670190 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>End Time</source>
+		  <target>Hora Fim</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CM WebServices Log - Field End Time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4046349136 - Field 1627640004 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry Date</source>
+		  <target>Data Entrada</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CM WebServices Log - Field Entry Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4046349136 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+		  <target>Nº Mov.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CM WebServices Log - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4046349136 - Field 3218249667 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry Time</source>
+		  <target>Hora Entrada</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CM WebServices Log - Field Entry Time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4046349136 - Field 2852966117 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error Message</source>
+          <target>Mensagem Erro</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CM WebServices Log - Field Error Message - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4046349136 - Field 1655377720 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Message Received</source>
+          <target>Mensagem Recebida</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CM WebServices Log - Field Message Received - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4046349136 - Field 2960574539 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Document No.</source>
+		  <target>Nº Documento Registado</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CM WebServices Log - Field Posted Document No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4046349136 - Field 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+		  <target>Estado</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CM WebServices Log - Field Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4046349136 - Field 1043247679 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WebService Type</source>
+          <target>Tipo WebService</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CM WebServices Log - Field WebService Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2116778627 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CM Sales Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CMSalesDocument - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2116778627 - Field 3168444338 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CMSalesDocument - Field Address - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2116778627 - Field 636392376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+		  <target>Valor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CMSalesDocument - Field Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2116778627 - Field 3038533218 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount Including VAT</source>
+		  <target>Valor C/IVA Incluído</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CMSalesDocument - Field AmountIncludingVAT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2116778627 - Field 3080589905 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Apply VAT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CMSalesDocument - Field ApplyVAT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2116778627 - Field 714791889 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>City</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CMSalesDocument - Field City - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2116778627 - Field 1059879657 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contract ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CMSalesDocument - Field ContractID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2116778627 - Field 1856816140 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Country</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CMSalesDocument - Field Country - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2116778627 - Field 1171137197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CMSalesDocument - Field Customer Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2116778627 - Field 3043784049 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CMSalesDocument - Field Customer Number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2116778627 - Field 1754546768 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CMSalesDocument - Field Customer Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2116778627 - Field 2413632110 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Discount Without VAT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CMSalesDocument - Field DiscountWithoutVAT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2116778627 - Field 2069392728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Discount With VAT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CMSalesDocument - Field DiscountWithVAT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2116778627 - Field 580412389 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CMSalesDocument - Field Document Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2116778627 - Field 486908828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CMSalesDocument - Field Document No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2116778627 - Field 458458980 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Sequence</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CMSalesDocument - Field Document Sequence - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2116778627 - Field 2363328873 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CMSalesDocument - Field Document Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2116778627 - Field 3363513018 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DropOff</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CMSalesDocument - Field DropOff - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2116778627 - Field 3524390941 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>End Customer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CMSalesDocument - Field EndCustomer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2116778627 - Field 3891454143 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CMSalesDocument - Field Location - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2116778627 - Field 534570209 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Number Plate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CMSalesDocument - Field NumberPlate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2116778627 - Field 1975373712 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pickup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CMSalesDocument - Field Pickup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2116778627 - Field 3660300303 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CMSalesDocument - Field Post Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2116778627 - Field 687415303 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>UII</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CMSalesDocument - Field UII - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2116778627 - Field 617267791 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Registration No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CMSalesDocument - Field VAT Registration No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2116778627 - Field 3373367365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CMSalesDocument - Field VAT Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2116778627 - Field 2892191201 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CMSalesDocument - Field VATAmount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2116778627 - Field 2620508953 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vies Valid</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CMSalesDocument - Field ViesValid - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2116778627 - Field 3582544635 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VIN</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CMSalesDocument - Field VIN - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2835060137 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CM Sales Document Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CMSalesDocumentLine - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2835060137 - Field 636392376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CMSalesDocumentLine - Field Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2835060137 - Field 3038533218 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount Including VAT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CMSalesDocumentLine - Field AmountIncludingVAT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2835060137 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CMSalesDocumentLine - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2835060137 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CMSalesDocumentLine - Field Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2835060137 - Field 2704404533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CMSalesDocumentLine - Field Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2835060137 - Field 2187938695 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CMSalesDocumentLine - Field Service - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2835060137 - Field 687415303 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>UII</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CMSalesDocumentLine - Field UII - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2835060137 - Field 2937233469 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit Price</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CMSalesDocumentLine - Field Unit Price - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2835060137 - Field 2892191201 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CMSalesDocumentLine - Field VATAmount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2835060137 - Field 1533461163 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Rate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CMSalesDocumentLine - Field VATRate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1012046602 - Method 1571845202 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The %1 %2 dont exist.</source>
+		  <target>%1 %2 não existe.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CMCreateSalesDocuments - Method CheckDocumentHeader - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1012046602 - Method 1571845202 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The %1 cant be empty.</source>
+		  <target>O %1 não pode estar vazio.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CMCreateSalesDocuments - Method CheckDocumentHeader - NamedType Text002</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1012046602 - Method 1571845202 - NamedType 95063322" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The header %1 is different from the total lines.</source>
+		  <target>O %1 do cabeçalho é diferente do total das linhas.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CMCreateSalesDocuments - Method CheckDocumentHeader - NamedType Text003</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1012046602 - Method 1571845202 - NamedType 732759939" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The %1 %2 for %3 dont exist.</source>
+          <target>O %1 %2 para %3 não existe.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CMCreateSalesDocuments - Method CheckDocumentHeader - NamedType Text004</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1012046602 - Method 1571845202 - NamedType 1370456556" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Theres is already a %1 with UUI %2 (%1 %3).</source>
+          <target>Já existe uma %1 com o UUI %2 (%1 %3).</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CMCreateSalesDocuments - Method CheckDocumentHeader - NamedType Text005</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1012046602 - Method 124900656 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item %1 dont exist.</source>
+		  <target>O produto %1 não existe.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CMCreateSalesDocuments - Method CheckDocumentLines - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1012046602 - Method 124900656 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 cant be zero.</source>
+		  <target>%1 não pode ser zero.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CMCreateSalesDocuments - Method CheckDocumentLines - NamedType Text002</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1268046932 - Method 3166259310 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invalid type</source>
+          <target>Tipo inválido</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CMWebservices - Method GetPostedDocumentLayout - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1268046932 - Method 3166259310 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No data</source>
+          <target>Sem dados</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CMWebservices - Method GetPostedDocumentLayout - NamedType Text002</note>
+        </trans-unit>
+        <trans-unit id="Page 4046349136 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CM WebServices Log</source>
+		  <target>Registos WebService CM NAV</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CM WebServices Log - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4046349136 - Action 1402615620 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Line</source>
+          <target>&amp;Linha</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CM WebServices Log - Action &amp;Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4046349136 - Action 1107476520 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Document</source>
+          <target>Ver Documento</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CM WebServices Log - Action Show Document - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4046349136 - Action 7554979 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Original Message</source>
+          <target>Ver Mensagem Original</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CM WebServices Log - Action Show Original Message - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1433351665 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import Invoices</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Import Invoices - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1433351665 - Action 2541491026 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ExportInvoices</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Import Invoices - Action ExportInvoices - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1433351665 - Action 3144800529 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ImportInvoices</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Import Invoices - Action ImportInvoices - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="XmlPort 713896485 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export WebServices Result</source>
+		  <target>Resultado WebService</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">XmlPort Export WebServices Result - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="XmlPort 1712407777 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import CM Sales Documents</source>
+          <target>Importar Documentos CM</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">XmlPort Import CM Sales Documents - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1390241443 - Control 2367246947 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1708100201">
+          <source>CM NAV Integration</source>
+          <target>Integração CM NAV</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesCrMemoPageExt - Control CM NAV Integration - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2181456589 - Control 2367246947 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4034894651">
+          <source>CM NAV Integration</source>
+          <target>Integração CM NAV</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesInvoicePageExt - Control CM NAV Integration - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3471433020 - Control 2367246947 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2716593954">
+          <source>CM NAV Integration</source>
+          <target>Integração CM NAV</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesPostedCrMemoPageExt - Control CM NAV Integration - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1347699566 - Control 2367246947 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2420212404">
+          <source>CM NAV Integration</source>
+          <target>Integração CM NAV</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesPostedInvoicePageExt - Control CM NAV Integration - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2266262807 - Control 2367246947 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4145206282">
+          <source>CM NAV Integration</source>
+		  <target>Integração CM NAV</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesSetupPageExt - Control CM NAV Integration - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2266262807 - Control 583812024 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4145206282">
+          <source>Dimensions</source>
+		  <target>Dimensões</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesSetupPageExt - Control CMNAVDimensions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2266262807 - Control 3918372800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4145206282">
+          <source>Templates</source>
+		  <target>Modelos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesSetupPageExt - Control CMNAVTemplates - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3963760919 - Field 1661459940 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1351594800">
+          <source>CM Bill-to Customer No.</source>
+          <target>Cliente Faturação CM</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NoSeriesTableExt - Field CM Bill-to Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3963760919 - Field 2613326890 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1351594800">
+          <source>CM Cost Center Dimension</source>
+          <target>Dimensão Centro Custo CM</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NoSeriesTableExt - Field CM Cost Center Dimension - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3963760919 - Field 2829445708 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1351594800">
+          <source>CM Force Document Date</source>
+          <target>Forçar Data Documento CM</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NoSeriesTableExt - Field CM Force Document Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3963760919 - Field 2311535044 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1351594800">
+          <source>CM Series Code</source>
+          <target>Nº Série CM</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NoSeriesTableExt - Field CM Series Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1754966381 - Field 1986077979 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+          <source>CM Contract ID</source>
+          <target>Nº Contrato</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesCrMemoHeaderTableExt - Field CM Contract ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1754966381 - Field 236761899 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+          <source>CM Document UID</source>
+          <target>Identificador CM</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesCrMemoHeaderTableExt - Field CM Document UID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1754966381 - Field 1688402984 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+          <source>CM Drop Off Date</source>
+          <target>Data Entrega</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesCrMemoHeaderTableExt - Field CM Drop Off Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1754966381 - Field 603764075 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+          <source>CM Number Plate</source>
+          <target>Matrícula</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesCrMemoHeaderTableExt - Field CM Number Plate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1754966381 - Field 2818382130 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+          <source>CM Pickup Date</source>
+          <target>Data Levantamento</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesCrMemoHeaderTableExt - Field CM Pickup Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1754966381 - Field 309408145 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+          <source>CM VIN</source>
+          <target>VIN</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesCrMemoHeaderTableExt - Field CM VIN - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1754966381 - Field 1526749091 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+          <source>CM Document</source>
+          <target>Documento CM</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesCrMemoHeaderTableExt - Field CMDocument - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3568185524 - Field 1986077979 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>CM Contract ID</source>
+		  <target>Nº Contrato</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesHeaderTableExt - Field CM Contract ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3568185524 - Field 236761899 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>CM Document UID</source>
+          <target>Identificador CM</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesHeaderTableExt - Field CM Document UID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3568185524 - Field 1688402984 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>CM Drop Off Date</source>
+		  <target>Data Entrega</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesHeaderTableExt - Field CM Drop Off Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3568185524 - Field 603764075 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>CM Number Plate</source>
+		  <target>Matrícula</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesHeaderTableExt - Field CM Number Plate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3568185524 - Field 2818382130 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>CM Pickup Date</source>
+		  <target>Data Levantamento</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesHeaderTableExt - Field CM Pickup Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3568185524 - Field 309408145 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>CM VIN</source>
+		  <target>VIN</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesHeaderTableExt - Field CM VIN - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3568185524 - Field 1526749091 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>CM Document</source>
+          <target>Documento CM</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesHeaderTableExt - Field CMDocument - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1200093443 - Field 1986077979 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>CM Contract ID</source>
+		  <target>Nº Contrato</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesInvHeaderTableExt - Field CM Contract ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1200093443 - Field 236761899 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>CM Document UID</source>
+          <target>Identificador CM</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesInvHeaderTableExt - Field CM Document UID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1200093443 - Field 1688402984 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>CM Drop Off Date</source>
+		  <target>Data Entrega</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesInvHeaderTableExt - Field CM Drop Off Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1200093443 - Field 603764075 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>CM Number Plate</source>
+		  <target>Matrícula</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesInvHeaderTableExt - Field CM Number Plate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1200093443 - Field 2818382130 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>CM Pickup Date</source>
+		  <target>Data Levantamento</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesInvHeaderTableExt - Field CM Pickup Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1200093443 - Field 309408145 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>CM VIN</source>
+		  <target>VIN</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesInvHeaderTableExt - Field CM VIN - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1200093443 - Field 1526749091 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>CM Document</source>
+          <target>Documento CM</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesInvHeaderTableExt - Field CMDocument - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3790477460 - Field 3188244948 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
+          <source>Cost Center Dimension</source>
+		  <target>Dimensão Centro Custo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesSetupTableExt - Field Cost Center Dimension - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3790477460 - Field 272837408 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
+          <source>EU Customer Template</source>
+		  <target>Modelo Cliente EU</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesSetupTableExt - Field EU Customer Template - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3790477460 - Field 281299078 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
+          <source>Generic Customer No.</source>
+          <target>Cliente Genérico</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesSetupTableExt - Field Generic Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3790477460 - Field 3872457743 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
+          <source>Location Dimension</source>
+		  <target>Dimensão Localização</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesSetupTableExt - Field Location Dimension - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3790477460 - Field 3068246630 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
+          <source>NEU Customer Template</source>
+		  <target>Modelo Cliente NEU</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesSetupTableExt - Field NEU Customer Template - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3790477460 - Field 2672726780 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
+          <source>PT Customer Template</source>
+		  <target>Modelo Cliente PT</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesSetupTableExt - Field PT Customer Template - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3814710307 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target> </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CM Document Type - EnumValue   - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3814710307 - EnumValue 4137409789 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cr. Memo</source>
+          <target>Nota Crédito</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CM Document Type - EnumValue CrMemo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3814710307 - EnumValue 821689635 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice</source>
+          <target>Fatura</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CM Document Type - EnumValue Invoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1754546768 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+		  <target> </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Customer Type - EnumValue   - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1754546768 - EnumValue 3133801257 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Company</source>
+		  <target>Empresa</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Customer Type - EnumValue Company - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1754546768 - EnumValue 741541503 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Person</source>
+		  <target>Pessoa</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Customer Type - EnumValue Person - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3373367365 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+		  <target> </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum VAT Type - EnumValue   - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3373367365 - EnumValue 3464206940 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EU</source>
+		  <target>EU</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum VAT Type - EnumValue EU - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3373367365 - EnumValue 2114019098 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>NEU</source>
+		  <target>NEU</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum VAT Type - EnumValue NEU - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3373367365 - EnumValue 1270295536 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PT</source>
+		  <target>PT</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum VAT Type - EnumValue PT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2873566883 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+		  <target> </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum WebService Status - EnumValue   - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2873566883 - EnumValue 2248886284 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error</source>
+		  <target>Erro</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum WebService Status - EnumValue Error - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2873566883 - EnumValue 2079045816 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OK</source>
+		  <target>OK</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum WebService Status - EnumValue OK - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1043247679 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum WebService Type - EnumValue   - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1043247679 - EnumValue 3633720517 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CreateSalesDocument</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum WebService Type - EnumValue CreateSalesDocument - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1043247679 - EnumValue 3166259310 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetPostedDocumentLayout</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum WebService Type - EnumValue GetPostedDocumentLayout - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 866916550 - NamedType 2977537661" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 866916550">
+          <source>Booking Code: </source>
+          <target>Código Reserva: </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension PTSSSalesInvoiceReportExt - NamedType CMContractIDLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 866916550 - NamedType 710831506" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 866916550">
+          <source>Dropoff Date: </source>
+          <target>Data Entrega: </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension PTSSSalesInvoiceReportExt - NamedType CMDropOffDateLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 866916550 - NamedType 2023039656" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 866916550">
+          <source>Pickup Date: </source>
+          <target>Data Levantamento: </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension PTSSSalesInvoiceReportExt - NamedType CMPickupDateLbl</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
