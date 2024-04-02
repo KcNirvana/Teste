@@ -1,0 +1,56 @@
+{
+  "id": "27f228fb-de1e-4b1e-98ce-6430f77f4de7",
+  "name": "Developments",
+  "publisher": "A3DS",
+  "version": "20.4.20240303.9",
+  "brief": "",
+  "description": "Desenvolvimentos",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "http://a3ds.pt",
+  "contextSensitiveHelpUrl": "http://a3ds.pt",
+  "url": "http://a3ds.pt",
+  "logo": "logo.png",
+  "dependencies": [
+    {
+      "id":  "0b0a0933-50d9-4352-8803-7bf91e6c5491",
+      "name":  "SOFTSTORE Localization Pack for Portugal",
+      "publisher":  "Softstore SA",
+      "version":  "22.4.1905.1"
+    },
+    {
+      "id":  "1001061e-4378-4fe4-8706-edceddd1588b",
+      "name":  "SOFTSTORE Fixed Asset Pack for Portugal",
+      "publisher":  "Softstore SA",
+      "version":  "22.4.1905.1"
+    },
+    {
+      "id":  "c5c7123b-0dac-4c23-bd7c-f5a0ad2cf2ab",
+      "name":  "Leasing Module",
+      "publisher":  "A3DS",
+      "version":  "20.4.20231115.10"
+    },
+    {
+      "id":  "a3c68693-6ab5-498a-b893-c63a31f46503",
+      "name":  "Intrastat",
+      "publisher":  "A3DS",
+      "version":  "20.4.20240227.4"
+    }
+  ],
+  "screenshots": [],
+  "platform": "20.0.41086.41354",
+  "application": "20.0.0.0",
+  "idRanges": [],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "runtime": "9.0",
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile",
+    "GenerateCaptions"
+  ],
+  "target": "Cloud"
+}
